@@ -1,0 +1,1 @@
+/* Sección principal de la aplicación */
