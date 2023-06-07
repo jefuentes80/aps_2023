@@ -1,4 +1,4 @@
-/* Componente de que no comer */
+/* Componente de que no comer */ /*David Enrique Santizo Zamora*/
 import { evitar_no_comer } from "./data_no_comer.js";
 
 function no_comer(){
