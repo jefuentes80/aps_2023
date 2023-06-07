@@ -1,7 +1,7 @@
 // Objeto desayunos
 let desayuno = [
     {
-        nombre: "huevos",
+        nombre: "",
         descripcion: "------",
         img: "url",
         ingredientes: {
