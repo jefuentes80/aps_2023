@@ -1,5 +1,5 @@
 /*Sección del footer*/
-/*Pablo Chávez*/
+/*Pablo Alberto Chávez López*/
 
 function llamar_footer() {
     
