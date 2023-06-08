@@ -5,8 +5,8 @@ let desayuno = [
         descripcion: "------",
         img: "url",
         ingredientes: {
-            igrediente1: "111",
-            igrediente2: "111",
+            ingrediente1: "111",
+            ingrediente2: "111",
         },
         preparacion: {
             pasa1: "- ososos",
