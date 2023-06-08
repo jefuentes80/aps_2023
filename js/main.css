@@ -1,1 +1,28 @@
-/* Diseño de la sección principal de la aplicación */
+main {
+    max-width: 48rem;
+    margin: auto;
+}
+
+.home {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-home {
+    width: 80%;
+    cursor: pointer;
+    background-color: green;
+}
+
+.box-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.item-home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
