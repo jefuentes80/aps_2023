@@ -7,6 +7,7 @@ let desayuno = [
         "más típicos y tradicionales de México.",
         img: "url",
         ingredientes: {
+<<<<<<< HEAD
             ingrediente1: "Tortillas de maíz: dos piezas.",
             ingrediente2: "2 cucharadas soperas de Frijoles refritos",
             ingrediente3: "1/4 de Cebolla blanca",
@@ -43,6 +44,10 @@ let desayuno = [
             ingrediente4: "1 Tbsp de endulzante al gusto (jarabe de arce, azúcar de coco, azúcar morena o stevia)",
             ingrediente5: "1/2 taza avena",
             ingrediente6: "OPCIONAL: Topings como frutsas, granola y semillas"
+=======
+            ingrediente1: "111",
+            ingrediente2: "111",
+>>>>>>> a567c26f397a6255cb4520a3d3bf21d1099d0ba9
         },
         preparacion: {
             pasa1: "- ososos",
