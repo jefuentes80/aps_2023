@@ -1,4 +1,4 @@
-// Objeto desayunos
+// Juan Pablo López Talé
 let desayuno = [
     {
         nombre: "huevos",
