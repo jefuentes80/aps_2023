@@ -1,18 +1,22 @@
 // Componentes principal
 //Claudia Marisol Pérez Cruz
 
-async function actualizarGato2(apii){
-    let hola2 = await fetch(apii); 
-    let datoo = await hola2.json();
+function actu(){
 
-    let ddd = document.querySelector(".desayuno")
+    /*let prueba = document.querySelector("#refaccion");*/
+ 
     
  
-        let div = document.createElement("div")
+        let div = document.querySelector("#refaccion")
+        let caja = document.createElement("section");
 
-        div.innerHTML= `
+
+
+        caja.innerHTML= `
         <div class="refaccion">
-                <div class="item"></div>    
+                <div class="item">
+                <h1>refcciones juan Pablo  marisol</h1>
+                </div>    
                 <div class="item"></div>
                 <div class="item"></div>
 
@@ -47,11 +51,9 @@ async function actualizarGato2(apii){
                 <div class="item"></div>
                 <div class="item"></div>
                 <div class="item"></div>
-        </div>
-
-        `
-        ddd.appendChild(div);
+        </div>`
+        div.appendChild(caja);
 
  }
 
-actualizarGato2(apiiUrl);
+actu();
