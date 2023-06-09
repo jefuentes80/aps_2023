@@ -1,4 +1,4 @@
-export let evitar_no_comer = [
+ let evitar_no_comer = [
     {
         img : "https://cdn.www.gob.pe/uploads/document/file/285975/standard_vaso_de_gaseosa1.jpg",
         titulo : "Gaseosas",
