@@ -9,4 +9,7 @@ function no_comer(){
         <p> ${evitar_no_comer[0].dsescripcion} </p>
     `;
     let comer_al_dom = document.querySelector(".no-consumir")
+    
+    comer_al_dom.innerHTML = no_comer
 }
+
