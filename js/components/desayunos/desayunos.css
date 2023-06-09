@@ -4,3 +4,10 @@
 }
 /* Componente irem de la página */
 
+.titulo{
+    height: 4rem;
+    background-color: rgb(154, 206, 57);
+}
+.titulo h1{
+    font-size: 3rem;
+}

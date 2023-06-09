@@ -1,8 +1,6 @@
 // Objeto desayunos 
 // Base de datos - Melissa J.
 
-// Objeto desayunos 
-// Base de datos - Melissa J.
 let desayuno = [
     {
         nombre: "Huevos Rancheros",
