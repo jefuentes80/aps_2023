@@ -8,8 +8,11 @@ function no_comer(){
         <h1> ${evitar_no_comer[0].titulo} </h1>
         <p> ${evitar_no_comer[0].dsescripcion} </p>
     `;
-    let comer_al_dom = document.querySelector(".no-consumir")
+    let comer_al_dom = document.querySelector("#no-consumir")
+
+    let div = document.createElement("section")
+    div.innerHTML = item;
     
-    comer_al_dom.innerHTML = no_comer
+    comer_al_dom.appendChild(div);
 }
 
