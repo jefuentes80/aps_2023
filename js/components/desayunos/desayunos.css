@@ -1,4 +1,13 @@
 /* Diseño componente pricipal */
-
-
+.hola{
+    background-color: rgb(255, 238, 0);
+}
 /* Componente irem de la página */
+
+.titulo{
+    height: 4rem;
+    background-color: rgb(154, 206, 57);
+}
+.titulo h1{
+    font-size: 3rem;
+}
