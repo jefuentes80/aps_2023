@@ -56,6 +56,56 @@ let desayuno = [
         }
 
     },
+    { /* K_telles*/
+        nombre: "YOGUR DE FRESA Y VAINILLA",
+        descripcion: "Yogur de fresa y vainilla hecha para 4 personas, se puede acompañar de trocitos de manzana y plátano.",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "Media taza de fresas.",
+            ingrediente2: "Media taza de marañon.",
+            ingrediente3: "1 taza y media de probiótica",
+            ingrediente4: "¼ de cucharadita de vainilla.",
+            ingrediente5: "Una pizca de sal.",
+            ingrediente6: "1 manzana",
+            ingrediente1: "1 plátano",
+            ingrediente2: "Un poco de canela",
+
+        },
+        preparacion: {
+            pasa1: "- Echa todos los ingredientes del yogur en una batidora de vaso y bate hasta obtener una crema suave.",
+            pasa2: "- Pon la mezcla en un bol de vidrio y deja reposar unas 24 horas en un lugar seco y tibio donde no dé la luz directa del sol o bien en una fermentadora. Cúbrelo con un paño de algodón limpio.",
+            pasa3: "- Pasado ese tiempo, reparte el yogur en cuatro botecitos de vidrio con tapa y guarda en la nevera hasta que lo vayas a consumir.",
+            pasa4: "- Acompañe con canela y trocitos de manzana y plátano.",
+        }
+
+    },
+    { /* K_telles*/
+    nombre: "TORTITAS DE AVENA CON PLÁTANO",
+    descripcion: "Tortillas de avena con plátano para 4 personas. (Para evitar que los plátanos se oscurezcan en contacto con el aire, rocíalos con zumo de limón.)",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "5 cucharadas de harina de avena",
+        ingrediente2: "100 gramos de fresas",
+        ingrediente3: "75 ml de leche",
+        ingrediente4: "2 cucharadas de miel",
+        ingrediente5: "½ cucharadita de levadura",
+        ingrediente6: "2 cucharadas de azúcar",
+        ingrediente7: "Canela",
+        ingrediente8: "1 huevo",
+        ingrediente9: "2 plátanos",
+        ingrediente10: "Mantequilla",
+        ingrediente11: "½ cucharadita de esencia de vainilla",
+        ingrediente12: "Sal"
+    },
+    preparacion: {
+        pasa1: "- Casca el huevo en un bol y bátelo junto con el azúcar. Añade la leche y mezcla.",
+        pasa2: "- Tamiza encima la harina con la levadura, la canela y una pizca de sal.",
+        pasa3: "- Pela los plátanos. Aplasta uno de ellos con un tenedor y añádelo al bol. Aromatiza con la vainilla. Bate hasta conseguir una crema homogénea.",
+        pasa4: "- Calienta 1 cucharada de mantequilla en una sartén antiadherente pequeña y cuaja la masa anterior en forma de tortitas. Cuécelas 2 minutos por cada lado. Retíralas y resérvalas.",
+        pasa5: "- Limpia las fresas, lávalas y córtalas con el plátano restante en rodajas.",
+        pasa6: "- Reparte las tortitas en los platos intercalando tortitas y capas de fruta. Vierte la miel por encima y sirve."
+    }
+},
 
 ]
 
