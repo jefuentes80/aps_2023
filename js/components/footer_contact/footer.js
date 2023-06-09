@@ -17,7 +17,7 @@ function llamar_footer() {
                 <li><p>Melissa Noemi Juárez Colindres</p></li>
                 <li><p>Juan Pablo Talé López</p></li>
                 <li><p>Claudia Marisol Pérez Cruz</p></li>
-                <li><p>Axel Daniel Alvarez ópez</p></li>
+                <li><p>Axel Daniel Alvarez López</p></li>
                 <li><p>Alejandra Mercedes Zitá Juárez</p></li>
                 <li><p>David Enrique Santizo Zamora</p></li>
             </ul>
