@@ -1,50 +1,58 @@
-// Crea los elementos HTML utilizando el DOM
-var h1 = document.createElement('h1');
-h1.textContent = 'Cenas Saludables';
+/// Crea los elementos HTML utilizando el DOM
+function primera_parte(){
+  let elementos =
+  `  <section class="gallery" id="Galería">
+        <div class="contenedor">
+          <h2 class="subtitulo">Cenas</h2>
+          <div class="contenedor-galeria">
+            <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/cc/af/74/ccaf74fd55e11d91fe6c50fb8d0b6f38.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/cc/af/74/ccaf74fd55e11d91fe6c50fb8d0b6f38.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/cc/af/74/ccaf74fd55e11d91fe6c50fb8d0b6f38.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/cc/af/74/ccaf74fd55e11d91fe6c50fb8d0b6f38.jpg" alt="" class="img-galeria">
+            <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" class="img-galeria">
+          </div>
+        </div>
+      </section>
+      
+      <section class="imagen-light">
+        <i class="fas fa-times close"></i>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Fes%2Ficono%2Fx-c%25C3%25ADrculo%2F174835&psig=AOvVaw3CtJFE4uvYrp6lfVeJegqD&ust=1686667536133000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICR-av8vf8CFQAAAAAdAAAAABAE" alt="" class="agregar-imagen">
+      </section>
+    `;
 
-var mainGallery = document.createElement('div');
-mainGallery.className = 'main-gallery';
+    let caja = document.getElementById("cena")
 
-// Crea los artículos y añádelos a la galería
-for (var i = 1; i <= 18; i++) {
-  var article = document.createElement('article');
-  
-  var div = document.createElement('div');
-  div.className = 'photo';
-  
-  var img = document.createElement('img');
-  img.src = 'https://i.pinimg.com/564x/dd/4a/f4/dd4af4fde554819fd5f472a06273ff69.jpg';
-  img.alt = '';
-  
-  var p = document.createElement('p');
-  p.textContent = 'Cenas saludables' + i;
-  
-  div.appendChild(img);
-  article.appendChild(div);
-  article.appendChild(p);
-  
-  mainGallery.appendChild(article);
+
+caja.innerHTML = elementos;
+
 }
 
-// Añade los elementos al documento
-document.body.appendChild(h1);
-document.body.appendChild(mainGallery);
+primera_parte();
 
-// Crea el cuadro para la vista de teléfono
-var phoneFrame = document.createElement('div');
-phoneFrame.style.width = '375px';  // Ancho de la pantalla de un iPhone
-phoneFrame.style.height = '667px'; // Alto de la pantalla de un iPhone
-phoneFrame.style.border = '1px solid black';
-phoneFrame.style.margin = '0 auto';
-phoneFrame.style.overflow = 'hidden';
+const imagenes = document.querySelectorAll('.img-galeria');
+const imagenesLight = document.querySelector('.agregar-imagen');
+const contenedorLight = document.querySelector('.imagen-light');
 
-// Envuelve el contenido principal dentro del cuadro para teléfono
-phoneFrame.appendChild(h1);
-phoneFrame.appendChild(mainGallery);
+imagenes.forEach(imagen =>{
+    imagen.addEventListener('click', ()=>{
+        aparecerImagen(imagen.getAttribute('src'))
+    
+    })
+})
 
-// Añade el cuadro para teléfono al documento
-document.body.innerHTML = '';
-document.body.appendChild(phoneFrame);
+contenedorLight.addEventListener('click', (e) =>{
+    if(e.target !== imagenesLight){
+        contenedorLight.classList.remove('show');
+        imagenesLight.classList.remove('showImage'); 
+    }
+})
 
-
-  
+const aparecerImagen = (imagen) =>{
+    imagenesLight.src = imagen;
+    contenedorLight.classList.add('show');
+    imagenesLight.classList.add('showImage');
+}
