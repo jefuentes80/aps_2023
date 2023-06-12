@@ -1,9 +1,9 @@
-/// Crea los elementos HTML utilizando el DOM
+// Crea los elementos HTML utilizando el DOM
 var h1 = document.createElement('h1');
 h1.textContent = 'Cenas Saludables';
 
 var mainGallery = document.createElement('div');
-const caja = document.getElementById("cena")
+mainGallery.className = 'main-gallery';
 
 // Crea los artículos y añádelos a la galería
 for (var i = 1; i <= 18; i++) {
@@ -29,3 +29,22 @@ for (var i = 1; i <= 18; i++) {
 // Añade los elementos al documento
 document.body.appendChild(h1);
 document.body.appendChild(mainGallery);
+
+// Crea el cuadro para la vista de teléfono
+var phoneFrame = document.createElement('div');
+phoneFrame.style.width = '375px';  // Ancho de la pantalla de un iPhone
+phoneFrame.style.height = '667px'; // Alto de la pantalla de un iPhone
+phoneFrame.style.border = '1px solid black';
+phoneFrame.style.margin = '0 auto';
+phoneFrame.style.overflow = 'hidden';
+
+// Envuelve el contenido principal dentro del cuadro para teléfono
+phoneFrame.appendChild(h1);
+phoneFrame.appendChild(mainGallery);
+
+// Añade el cuadro para teléfono al documento
+document.body.innerHTML = '';
+document.body.appendChild(phoneFrame);
+
+
+  
