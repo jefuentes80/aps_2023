@@ -22,6 +22,9 @@ function llamar_footer() {
                 <li><p>David Enrique Santizo Zamora</p></li>
             </ul>
         </div>
+        <div class="copy">
+            <h4>©Copyright</h4>
+        </div>
     </div>
     `;
 }
