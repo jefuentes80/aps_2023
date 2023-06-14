@@ -18,3 +18,8 @@
     display: block;
     padding: 1rem;
 }
+
+.copy {
+    background-color: green;
+    display: flex;
+}
