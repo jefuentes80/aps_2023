@@ -1,16 +1,4 @@
-/* Diseño componente pricipal */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: #E3E3E3;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  h1 {
+h1 {
     font-weight: normal;
     text-align: center;
     padding-top: 1em;
@@ -65,5 +53,4 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-
-/* Componente irem de la página */
+  
