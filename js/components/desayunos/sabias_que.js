@@ -12,7 +12,6 @@ export function  ola(){
       "las horas en las que se está dormido; el desayuno además precede las horas del día en las que se lleva" +
       "mayor actividad y por lo tanto, mayor gasto de energía." </p>
     `;
-    div.classList.add("pag")
     pag.appendChild(helou);
     console.log(helou)
     }
