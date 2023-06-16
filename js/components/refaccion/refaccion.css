@@ -1,4 +1,18 @@
 /* Diseño componente pricipal */
 
+.refaccion {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px; 
+    margin: 0 auto;
+  }
+  
+  .item {
+    width: 15rem;
+    height: 200px; 
+    margin: 10px;
+    margin-top: 2rem;
+    background-color: #ccc; 
+  }
 
 /* Componente irem de la página */
