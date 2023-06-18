@@ -6,22 +6,22 @@ let cenas_con_huevo = [
         descripcion: "son uno de los platos estrella de nuestra gastronomía, pero no tienen porque ser poco saludables.",
         img: "url",
         ingredientes: {
-            igrediente1: "400g de Papas",
-            igrediente2: "3 ad de Huevos",
-            igrediente3: "40g de Jamón",
-            igrediente4: "5 g de Cebollin",
-            igrediente5: "0.5 cucharadita de Cilanntro",
-            igrediente6: "0.5 cucharadita de Pimienta negra",
-            igrediente7: "10 g de Aceite de oliva ",
-            igrediente8: "Sal al gusto"
+            ingrediente1: "400g de Papas",
+            ingrediente2: "3 ad de Huevos",
+            ingrediente3: "40g de Jamón",
+            ingrediente4: "5 g de Cebollin",
+            ingrediente5: "0.5 cucharadita de Cilanntro",
+            ingrediente6: "0.5 cucharadita de Pimienta negra",
+            ingrediente7: "10 g de Aceite de oliva ",
+            ingrediente8: "Sal al gusto"
         },
         preparacion: {
-            pasa1: "- Precalentamos el horno a 200|C con aire",
-            pasa2: "- Cortamos las papas en bastoncitos muy finos, con menos de 1 cm de grosor, para que nos queden mas crujientes",
-            pasa3: "- Impregnamos las papas con las hiervas provenzales, la pimineta, un poco de sal y un chorro de aceite de oliva vinagre extra",
-            pasa4: "- En una bandeja de horno, forrada con papel vegetal, ponemos el boniato y horneamos unos 20 minutos, hasta que se vean doraditos.",
-            pasa5: "- Mientras, cocinamos los huevos a la plancha.",
-            pasa6: "- Servimos colocando un poco de rúcula en la base del plato, poniendo por encima el boniato, luego los huevos a la plancha, repartimos el jamón y espolvoreamos un poco de cebollino picado por encima."
+            paso1: "- Precalentamos el horno a 200|C con aire",
+            paso2: "- Cortamos las papas en bastoncitos muy finos, con menos de 1 cm de grosor, para que nos queden mas crujientes",
+            paso3: "- Impregnamos las papas con las hiervas provenzales, la pimineta, un poco de sal y un chorro de aceite de oliva vinagre extra",
+            paso4: "- En una bandeja de horno, forrada con papel vegetal, ponemos el boniato y horneamos unos 20 minutos, hasta que se vean doraditos.",
+            paso5: "- Mientras, cocinamos los huevos a la plancha.",
+            paso6: "- Servimos colocando un poco de rúcula en la base del plato, poniendo por encima el boniato, luego los huevos a la plancha, repartimos el jamón y espolvoreamos un poco de cebollino picado por encima."
         }
     },
     {
@@ -29,22 +29,22 @@ let cenas_con_huevo = [
             descripcion: "Para preparar este saludable sándwich vamos a usar pan de hamburguesa integral",
             img: "url",
             ingredientes: {
-                igrediente1: "4 ud de Pan de hamburguesa integral",
-                igrediente2: "5 ud de Huevo",
-                igrediente3: "8 Revanadas de Jamón de su preferencia",
-                igrediente4: "150g de queso rallado",
-                igrediente5: "8 rodajas de Queso",
-                igrediente6: "1 puñad de Hojas de lechuga",
-                igrediente7: "4cs de Mahonesa ligera",
-                igrediente8: "Sal",
-                igrediente9: "Pimienta blanca"
+                ingrediente1: "4 ud de Pan de hamburguesa integral",
+                ingrediente2: "5 ud de Huevo",
+                ingrediente3: "8 Revanadas de Jamón de su preferencia",
+                ingrediente4: "150g de queso rallado",
+                ingrediente5: "8 rodajas de Queso",
+                ingrediente6: "1 puñad de Hojas de lechuga",
+                ingrediente7: "4cs de Mahonesa ligera",
+                ingrediente8: "Sal",
+                ingrediente9: "Pimienta blanca"
             },
             preparacion: {
-                pasa1: "- Bate los huevos y salpimiente",
-                pasa2: "- Echa una gota de aceite en una sartén y prepara los huevos en revuelto dejándolos muy cremosos y no pasándote con la cocción.",
-                pasa3: "- Tuesta los panes de hamburguesa y unta las partes de abajo con 1 cucharada de mahonesa ligera.",
-                pasa4: "- Coloca 2 lonchas de pavo en cada mitad, un poco del revuelto, una loncha de queso y unas tiras de lechuga.",
-                pasa5: "- Pon las tapas de pan ¡y a comer!"
+                paso1: "- Bate los huevos y salpimiente",
+                paso2: "- Echa una gota de aceite en una sartén y prepara los huevos en revuelto dejándolos muy cremosos y no pasándote con la cocción.",
+                paso3: "- Tuesta los panes de hamburguesa y unta las partes de abajo con 1 cucharada de mahonesa ligera.",
+                paso4: "- Coloca 2 lonchas de pavo en cada mitad, un poco del revuelto, una loncha de queso y unas tiras de lechuga.",
+                paso5: "- Pon las tapas de pan ¡y a comer!"
             }
     
     },
@@ -53,41 +53,119 @@ let cenas_con_huevo = [
         descripcion: "Los huevos revueltos no son solo una opción de lo más socorrida para comidas o cenas rápidas, sino también para quienes, a la hora del desayuno, prefieren opciones saladas.",
         img: "url",
         ingredientes: {
-            igrediente1: "2 Huevos medianos (cuanto más frescos, mejor)",
-            igrediente2: "1 Aguacate",
-            igrediente3: "Cebollino",
-            igrediente4: "Sal",
-            igrediente5: "Pimienta negra",
-            igrediente6: "Aceite de oliva",
-            igrediente7: "2 rebanadas de Pan 100% integral"
+            ingrediente1: "2 Huevos medianos (cuanto más frescos, mejor)",
+            ingrediente2: "1 Aguacate",
+            ingrediente3: "Cebollino",
+            ingrediente4: "Sal",
+            ingrediente5: "Pimienta negra",
+            ingrediente6: "Aceite de oliva",
+            ingrediente7: "2 rebanadas de Pan 100% integral"
         },
         preparacion: {
-            pasa1: "-Parte el aguacate en dos de forma longitudinal. Extrae la pulpa de una de las mitades y guarda la otra mitad. Corta la pulpa el dados pequeños.",
-            pasa2: "- Pica fino un poco de cebollino y pon a tostar las rebanadas de pan.",
-            pasa3: "- Pon al fuego una sartén antiadherente una cucharada de aceite.",
-            pasa4: "- Cuando esté caliente casca los huevos sobre la sartén (no es preciso batirlos previamente).",
-            pasa5: "- Salpimenta al gusto y remueve suavemente con una cuchara de madera hasta que cuajen ligeramente u obtengas la textura deseada. Ten en cuenta que cuando apagues el fuego, el calor residual seguirá cocinando los huevos (perdiendo así cremosidad).",
-            pasa6: "- Coloca los huevos revueltos sobre las rebanadas de pan. Dispón por encima unos daditos de aguacate y poco de cebollino y riega con un chorrito de aceite de oliva.",
+            paso1: "-Parte el aguacate en dos de forma longitudinal. Extrae la pulpa de una de las mitades y guarda la otra mitad. Corta la pulpa el dados pequeños.",
+            paso2: "- Pica fino un poco de cebollino y pon a tostar las rebanadas de pan.",
+            paso3: "- Pon al fuego una sartén antiadherente una cucharada de aceite.",
+            paso4: "- Cuando esté caliente casca los huevos sobre la sartén (no es preciso batirlos previamente).",
+            paso5: "- Salpimenta al gusto y remueve suavemente con una cuchara de madera hasta que cuajen ligeramente u obtengas la textura deseada. Ten en cuenta que cuando apagues el fuego, el calor residual seguirá cocinando los huevos (perdiendo así cremosidad).",
+            paso6: "- Coloca los huevos revueltos sobre las rebanadas de pan. Dispón por encima unos daditos de aguacate y poco de cebollino y riega con un chorrito de aceite de oliva.",
         }
 
+},
+{
+    nombre: "Tortilla de espinacas y queso",
+    descripcion: "Una deliciosa y rápida opción para la cena, esta tortilla combina espinacas tiernas con queso derretido. Es sencilla de preparar y perfecta para una cena ligera y sabrosa.",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "3 huevos",
+        ingrediente2: "1 taza de espinacas frescas",
+        ingrediente3: "1/2 taza de queso rallado (preferiblemente queso cheddar)",
+        ingrediente4: "Sal",
+        ingrediente5: "Pimienta",
+        ingrediente6: "Aceite de oliva"
+    },
+    preparacion: {
+        paso1: "- En un tazón, bate los huevos. Agrega sal y pimienta al gusto.",
+        paso2: "- Lava y corta las espinacas en trozos pequeños.",
+        paso3: "- Calienta una sartén antiadherente con un poco de aceite de oliva a fuego medio.",
+        paso4: "- Agrega las espinacas a la sartén y cocínalas hasta que se marchiten ligeramente.",
+        paso5: "- Vierte los huevos batidos sobre las espinacas en la sartén.",
+        paso6: "- Espolvorea el queso rallado sobre los huevos y las espinacas.",
+        paso7: "- Cocina la tortilla a fuego medio-bajo hasta que los bordes estén firmes y el queso se haya derretido.",
+        paso8: "- Con ayuda de una espátula, da vuelta la tortilla y cocina por el otro lado hasta que esté dorada y cocida por completo.",
+        paso9: "- Retira la tortilla de la sartén y córtala en porciones. Sirve caliente y disfruta de tu cena fácil y deliciosa."
+    }
+},
+{
+    nombre: "Quesadillas de huevo y vegetales",
+    descripcion: "Las quesadillas son una opción versátil y rápida para la cena. En esta receta, rellenaremos tortillas de harina con huevos revueltos y una variedad de vegetales para obtener una cena deliciosa y nutritiva.",
+    img: "url",
+    ingredientes: {
+    ingrediente1: "4 tortillas de harina",
+    ingrediente2: "4 huevos",
+    ingrediente3: "1 pimiento rojo, cortado en juliana",
+    ingrediente4: "1 calabacín, cortado en rodajas finas",
+    ingrediente5: "1 cebolla, cortada en juliana",
+    ingrediente6: "1 taza de queso rallado (como cheddar o mozzarella)",
+    ingrediente7: "Aceite de oliva",
+    ingrediente8: "Sal",
+    ingrediente9: "Pimienta",
+    ingrediente10: "Salsa de tomate o guacamole (opcional, para servir)"
+    },
+    preparacion: {
+    paso1: "- En una sartén grande, calienta un poco de aceite de oliva a fuego medio. Agrega la cebolla, el pimiento rojo y el calabacín. Cocina hasta que las verduras estén tiernas y ligeramente doradas. Retira las verduras de la sartén y reserva.",
+    paso2: "- En un tazón, bate los huevos y sazona con sal y pimienta al gusto. En la misma sartén, vierte los huevos batidos y revuelve suavemente hasta que estén cocidos y ligeramente cremosos. Retira la sartén del fuego.",
+    paso3: "- Precalienta una sartén grande a fuego medio. Coloca una tortilla en la sartén caliente y esparce una capa de queso rallado sobre la mitad de la tortilla.",
+    paso4: "- Agrega una porción de los huevos revueltos y las verduras cocidas sobre el queso en la mitad de la tortilla. Dobla la otra mitad de la tortilla sobre el relleno, formando una quesadilla.",
+    paso5: "- Cocina la quesadilla durante unos minutos por cada lado, hasta que esté dorada y crujiente, y el queso se haya derretido por completo.",
+    paso6: "- Repite el proceso con las tortillas restantes y el relleno.",
+    paso7: "- Una vez que todas las quesadillas estén listas, sírvelas calientes y córtalas en triángulos. Puedes acompañarlas con salsa de tomate o guacamole, si lo deseas.",
+    paso8: "- ¡Disfruta de estas deliciosas quesadillas de huevo y vegetales como cena rápida y sabrosa!"
+    }
+},
+{
+    nombre: "Tortilla de champiñones y espinacas",
+    descripcion: "Una tortilla esponjosa y llena de sabor, perfecta para una cena rápida y deliciosa. En esta receta, combinaremos champiñones salteados, espinacas frescas y queso para crear una tortilla nutritiva y sabrosa.",
+    img: "url",
+    ingredientes: {
+    ingrediente1: "4 huevos",
+    ingrediente2: "1 taza de champiñones, cortados en rodajas",
+    ingrediente3: "2 tazas de espinacas frescas",
+    ingrediente4: "1/4 de taza de queso rallado (como queso cheddar o mozzarella)",
+    ingrediente5: "Aceite de oliva",
+    ingrediente6: "Sal",
+    ingrediente7: "Pimienta"
+    },
+    preparacion: {
+    paso1: "- En una sartén grande, calienta un poco de aceite de oliva a fuego medio. Agrega los champiñones y cocínalos hasta que estén dorados y tiernos. Retíralos de la sartén y reserva.",
+    paso2: "- En la misma sartén, agrega las espinacas y cocínalas hasta que se marchiten ligeramente. Retíralas de la sartén y reserva.",
+    paso3: "- En un tazón, bate los huevos y sazona con sal y pimienta al gusto.",
+    paso4: "- Agrega los champiñones salteados y las espinacas a los huevos batidos. Mezcla bien para combinar todos los ingredientes.",
+    paso5: "- Calienta un poco más de aceite de oliva en la sartén a fuego medio. Vierte la mezcla de huevos, champiñones y espinacas en la sartén.",
+    paso6: "- Cocina la tortilla a fuego medio-bajo durante unos minutos, hasta que esté casi cuajada en la parte inferior.",
+    paso7: "- Espolvorea el queso rallado sobre la tortilla y luego volteala con cuidado con la ayuda de un plato o tapa para que se cocine del otro lado.",
+    paso8: "- Cocina la tortilla durante unos minutos más, hasta que esté completamente cuajada y el queso se haya derretido.",
+    paso9: "- Retira la tortilla de la sartén y córtala en porciones. Sirve caliente y disfruta de esta deliciosa tortilla de champiñones y espinacas como cena nutritiva.",
+    paso10: "- Puedes acompañar la tortilla con una ensalada fresca o pan crujiente.",
+    paso11: "- ¡Buen provecho!"
+    }
 }
 ]
 let bebidas = [
     {
-     nombre: "AGUA DE PLÁTANO CON LECHE",
+     nombre: "Agua de platano con leche",
      descripcion: "Para preparar este saludable sándwich vamos a usar pan de hamburguesa integral",
      img: "url",
         ingredientes: {
-         igrediente1: "2 plátanos",
-         igrediente2: "1 taza y media de leche",
-          igrediente3: "3 tazas de agua",
-          igrediente4: "150g de queso rallado",
-          igrediente5: "8 rodajas de Queso",
-           igrediente6: "Canela, vainilla y azúcar al gusto",
-           igrediente7: "Un poco de hielo",
+        ingrediente1: "2 plátanos",
+        ingrediente2: "1 taza y media de leche",
+        ingrediente3: "3 tazas de agua",
+        ingrediente4: "150g de queso rallado",
+        ingrediente5: "8 rodajas de Queso",
+        ingrediente6: "Canela, vainilla y azúcar al gusto",
+        ingrediente7: "Un poco de hielo",
       },
      preparacion: {
-            pasa1: "- Licuar los ingredientes hasta conseguir una bebida homogénea. La cantidad de azúcar depende de qué tan dulce te guste el agua."
+            paso1: "- Licuar los ingredientes hasta conseguir una bebida homogénea. La cantidad de azúcar depende de qué tan dulce te guste el agua."
         }
     },
     {
@@ -95,18 +173,18 @@ let bebidas = [
             descripcion: "Tu combinación favorita en una deliciosa bebida. No dejes pasar este atole de arroz y canela. ",
             img: "url",
             ingredientes: {
-                igrediente1: "3 tazas de agua",
-                igrediente2: "3 tazas de leche",
-                igrediente3: "¾ de leche condensada",
-                igrediente4: "½ taza de arrozo",
-                igrediente5: "1 rama de canela",
-                igrediente6: "Azúcar para endulzar al gusto",
-                igrediente7: "12 frambuesas para decorar",
+                ingrediente1: "3 tazas de agua",
+                ingrediente2: "3 tazas de leche",
+                ingrediente3: "¾ de leche condensada",
+                ingrediente4: "½ taza de arrozo",
+                ingrediente5: "1 rama de canela",
+                ingrediente6: "Azúcar para endulzar al gusto",
+                ingrediente7: "12 frambuesas para decorar",
             },
             preparacion: {
-                pasa1: "- Pon en una olla a fuego medio el agua, arroz y la rama de canela. Cuando empiece a hervir, baja el fuego y cocina tapado por 10 minutos o hasta que el agua se consuma por completo.",
-                pasa2: "- Destapa y agrega el resto de los ingredientes (las leches y azúcar). Cocina a fuego medio hasta que vuelva a hervir y rectifica el dulzor.",
-                pasa3: "- Decora con las frambuesas y sirve de inmediato."
+                paso1: "- Pon en una olla a fuego medio el agua, arroz y la rama de canela. Cuando empiece a hervir, baja el fuego y cocina tapado por 10 minutos o hasta que el agua se consuma por completo.",
+                paso2: "- Destapa y agrega el resto de los ingredientes (las leches y azúcar). Cocina a fuego medio hasta que vuelva a hervir y rectifica el dulzor.",
+                paso3: "- Decora con las frambuesas y sirve de inmediato."
             }
     
     },
@@ -115,14 +193,14 @@ let bebidas = [
         descripcion: "uno de los más tradicionales de México",
         img: "url",
         ingredientes: {
-            igrediente1: "2 tazas de puré de camote",
-            igrediente2: "1 taza de piloncillo",
-            igrediente3: "⅓ taza de masa de maíz instantánea",
-            igrediente4: "5 tazas de leche"
+            ingrediente1: "2 tazas de puré de camote",
+            ingrediente2: "1 taza de piloncillo",
+            ingrediente3: "⅓ taza de masa de maíz instantánea",
+            ingrediente4: "5 tazas de leche"
         },
         preparacion: {
-            pasa1: "- Licua 4 tazas de leche con el puré de camote. Vierte la mezcla en una olla, agrega el piloncillo y cocina a fuego medio hasta que el piloncillo se haya derretido.",
-            pasa2: "- Licua la taza restante con la masa de maíz y vierte en la olla. Revuelve con una cuchara, de preferencia de madera. Mezcla hasta que espese bien."
+            paso1: "- Licua 4 tazas de leche con el puré de camote. Vierte la mezcla en una olla, agrega el piloncillo y cocina a fuego medio hasta que el piloncillo se haya derretido.",
+            paso2: "- Licua la taza restante con la masa de maíz y vierte en la olla. Revuelve con una cuchara, de preferencia de madera. Mezcla hasta que espese bien."
         }
 
 },
@@ -131,15 +209,15 @@ let bebidas = [
     descripcion: "paso a paso para una bebida muy tradiciona",
     img: "url",
     ingredientes: {
-        igrediente1: "1/2 taza de masa de maíz",
-        igrediente2: "4 1/2 tazas de agua o leche tibia",
-        igrediente3: "Rajitas de canela al gusto",
-        igrediente4: "1 cucharada de extracto de vainilla",
-        igrediente5: "2 piloncillos pequeños o azúcar al gusto o 3/4 taza de miel",
+        ingrediente1: "1/2 taza de masa de maíz",
+        ingrediente2: "4 1/2 tazas de agua o leche tibia",
+        ingrediente3: "Rajitas de canela al gusto",
+        ingrediente4: "1 cucharada de extracto de vainilla",
+        ingrediente5: "2 piloncillos pequeños o azúcar al gusto o 3/4 taza de miel",
     },
     preparacion: {
-        pasa1: "- En primer lugar, disuelve la masa o harina en ½ taza de leche tibia. En una olla, agrega el resto de la leche tibia y mezcla de harina de maíz, la canela, el extracto de vainilla y el endulzante de tu elección. Si es piloncillo, espera hasta que se disuelva y luego agrega a la masa.",
-        pasa2: "- Remueve constantemente a fuego medio hasta que todos los ingredientes se hayan mezclado y el atole se haya espesado. Adapta a tu gusto la consistencia: si está muy aguado, ponle más masa siempre diluída en un poco de agua; por otro lado, si está muy espeso, aclara con agua poco a poco.",
+        paso1: "- En primer lugar, disuelve la masa o harina en ½ taza de leche tibia. En una olla, agrega el resto de la leche tibia y mezcla de harina de maíz, la canela, el extracto de vainilla y el endulzante de tu elección. Si es piloncillo, espera hasta que se disuelva y luego agrega a la masa.",
+        paso2: "- Remueve constantemente a fuego medio hasta que todos los ingredientes se hayan mezclado y el atole se haya espesado. Adapta a tu gusto la consistencia: si está muy aguado, ponle más masa siempre diluída en un poco de agua; por otro lado, si está muy espeso, aclara con agua poco a poco.",
         paso3: "- Finalmente, sirve en jarritos o tazas de barro con piezas de pan dulce o tamales"
     }
 
@@ -149,14 +227,14 @@ let bebidas = [
     descripcion: "para endulzar tu noche",
     img: "url",
     ingredientes: {
-        igrediente1: "2 tazas de pinole",
-        igrediente2: "1 liter 1/2 de leche",
-        igrediente3: "1 raja de canela",
-        igrediente4: "1 taza de azúcar (o al gusto"
+        ingrediente1: "2 tazas de pinole",
+        ingrediente2: "1 liter 1/2 de leche",
+        ingrediente3: "1 raja de canela",
+        ingrediente4: "1 taza de azúcar (o al gusto"
     },
     preparacion: {
-        pasa1: "- En una olla vacía 1/2 litro de leche, incorpora el pinole y mueve para disolverlo; reserva.",
-        pasa2: "- En otra olla calienta el resto de leche con la canela y cuando suelte el hervor agrega la leche con pinole; baja el fuego y cocina hasta que hierva 10 minutos.",
+        paso1: "- En una olla vacía 1/2 litro de leche, incorpora el pinole y mueve para disolverlo; reserva.",
+        paso2: "- En otra olla calienta el resto de leche con la canela y cuando suelte el hervor agrega la leche con pinole; baja el fuego y cocina hasta que hierva 10 minutos.",
         paso3: "- Añade el azúcar y mueve constantemente para que se integre y no se pegue el atole. Sirve al momento"
     }
 
@@ -166,20 +244,20 @@ let bebidas = [
     descripcion: "perfecto para la cena",
     img: "url",
     ingredientes: {
-        igrediente1: "1 litro de leche",
-        igrediente2: "1 taza de avena",
-        igrediente3: "2 tazas de agua",
-        igrediente4: "1 rama de canela",
-        ingrediente5: "1 taza de azúcar (puede ser más o menos, depende de tu gusto)",
-        ingrediente6: "1 cucharada de vainilla"
+        ingrediente1: "1 litro de leche",
+        ingrediente2: "1 taza de avena",
+        ingrediente3: "2 tazas de agua",
+        ingrediente4: "1 rama de canela",
+        inngrediente5: "1 taza de azúcar (puede ser más o menos, depende de tu gusto)",
+        inngrediente6: "1 cucharada de vainilla"
     },
     preparacion: {
-        pasa1: "- En una cacerola calienta el agua, agrega la canela, deja que se infusiones 5 minutos desde que empiece a hervir.",
-        pasa2: "- Una vez que comience a hervir agrega el azúcar y mezcla hasta que se disuelva por completo.",
-        pasa2: "- Agrega en la licuadora la leche, la avena y la vainilla, muele a la perfección hasta tener una mezcla homogénea. ",
-        pasa2: "- Coloca la mezcla de la licuadora a la  olla con el agua y canela. ",
-        pasa2: "- Baja la intensidad de la flama, calienta hasta que se espese y no dejes de mezclar para evitar que se queme o pegue. ",
-        pasa2: "- Una vez que esté espeso el atole de avena y canela sirve y disfruta."
+        paso1: "- En una cacerola calienta el agua, agrega la canela, deja que se infusiones 5 minutos desde que empiece a hervir.",
+        paso2: "- Una vez que comience a hervir agrega el azúcar y mezcla hasta que se disuelva por completo.",
+        paso3: "- Agrega en la licuadora la leche, la avena y la vainilla, muele a la perfección hasta tener una mezcla homogénea. ",
+        paso4: "- Coloca la mezcla de la licuadora a la  olla con el agua y canela. ",
+        paso5: "- Baja la intensidad de la flama, calienta hasta que se espese y no dejes de mezclar para evitar que se queme o pegue. ",
+        paso6: "- Una vez que esté espeso el atole de avena y canela sirve y disfruta."
     }
 
 },
@@ -190,22 +268,22 @@ let cenas_con_frijoles = [
         descripcion: "Prepárate un clásico, fácil y muy delicioso burrito de frijoles y queso parmesano, la receta ideal para consentir a la familia y comer algo diferente.",
         img: "url",
         ingredientes: {
-            igrediente1: "1/3 taza Queso Parmesano , rallado",
-            igrediente2: "1/2 taza Frijol Bayo cocido",
-            igrediente3: " 1 cucharadita Paprika",
-            igrediente4: "1 pizca Pimienta Blanca",
-            igrediente5: "4 Tortillas de harina grande para burrito",
-            igrediente6: "20 Jitomate cherry",
-            igrediente7: "1 cucharada Aceite de Oliva",
-            igrediente8: "1/2 taza Albahaca tierna",
-            igrediente9: " Sal al gusto"
+            ingrediente1: "1/3 taza Queso Parmesano , rallado",
+            ingrediente2: "1/2 taza Frijol Bayo cocido",
+            ingrediente3: " 1 cucharadita Paprika",
+            ingrediente4: "1 pizca Pimienta Blanca",
+            ingrediente5: "4 Tortillas de harina grande para burrito",
+            ingrediente6: "20 Jitomate cherry",
+            ingrediente7: "1 cucharada Aceite de Oliva",
+            ingrediente8: "1/2 taza Albahaca tierna",
+            ingrediente9: " Sal al gusto"
         },
         preparacion: {
-            pasa1: "- TRITURA los frijoles bayos con ayuda de un pasapurés y sazona con la páprika, la pimienta y un poco de sal.",
-            pasa2: "- DISTRIBUYE el puré de frijoles sobre las tortillas y espolvorea el queso.",
-            pasa3: "- FORMA rollos y porciona cada uno en cinco partes iguales. Reserva.",
-            pasa4: "- ALIÑA los jitomates con el aceite de oliva y sazona con un poco de sal.Agrega las hojas de albahaca.",
-            pasa5: "-ENSARTA un jitomate y una hoja de albahaca en un palillo y acompaña los burritos."
+            paso1: "- TRITURA los frijoles bayos con ayuda de un pasapurés y sazona con la páprika, la pimienta y un poco de sal.",
+            paso2: "- DISTRIBUYE el puré de frijoles sobre las tortillas y espolvorea el queso.",
+            paso3: "- FORMA rollos y porciona cada uno en cinco partes iguales. Reserva.",
+            paso4: "- ALIÑA los jitomates con el aceite de oliva y sazona con un poco de sal.Agrega las hojas de albahaca.",
+            paso5: "-ENSARTA un jitomate y una hoja de albahaca en un palillo y acompaña los burritos."
         }
     },
     {
@@ -213,93 +291,93 @@ let cenas_con_frijoles = [
             descripcion: "Estos tamalitos se te van a ir como agua y puedes comer uno tras otro y saborear esa deliciosa combinación de frijoles y salsa roja.",
             img: "url",
             ingredientes: {
-                igrediente1: "1 kg de Masa de maíz",
-                igrediente2: "100 gr de Manteca de Cerdo",
-                igrediente3: "200 gr de Manteca Vegetal",
-                igrediente4: "1 pizca de Polvo para hornear",
-                igrediente5: "2 tazas Caldo de pollo",
-                igrediente6: "1 1/2 tazas de Frijoles refritos",
-                igrediente7: "12 cuadros de Hojas de plátano asados"
+                ingrediente1: "1 kg de Masa de maíz",
+                ingrediente2: "100 gr de Manteca de Cerdo",
+                ingrediente3: "200 gr de Manteca Vegetal",
+                ingrediente4: "1 pizca de Polvo para hornear",
+                ingrediente5: "2 tazas Caldo de pollo",
+                ingrediente6: "1 1/2 tazas de Frijoles refritos",
+                ingrediente7: "12 cuadros de Hojas de plátano asados"
             },
             ingredientesSalsa: {
-                igrediente1: "4 jitomatesz",
-                igrediente2: "1/4 de Cebolla",
-                igrediente3: "1 diente de Ajo",
-                igrediente4: "2 Chiles morita asados",
-                igrediente5: "150 gr de Queso Fresco",
-                igrediente6: "Sal al gusto",
-                igrediente7: "Pimienta al gusto"
+                ingrediente1: "4 jitomatesz",
+                ingrediente2: "1/4 de Cebolla",
+                ingrediente3: "1 diente de Ajo",
+                ingrediente4: "2 Chiles morita asados",
+                ingrediente5: "150 gr de Queso Fresco",
+                ingrediente6: "Sal al gusto",
+                ingrediente7: "Pimienta al gusto"
             },
             preparacion: {
-                pasa1: "- ACREMA las mantecas hasta que estén esponjosas y suaves.",
-                pasa2: "- AÑADE poco a poco la masa..",
-                pasa3: "- AÑADE el polvo para hornear y la sal. Mezcla.",
-                pasa4: "- VIERTE el caldo poco a poco hasta que tome una consistencia ligeramente aguada.",
-                pasa5: "- EXTIENDE ligeramente un poco de la mezcla al centro de cada hoja de plátano.",
-                pasa6: "- CIERRA y forma un pequeño rectángulo.",
-                pasa7: "- CUECE en baño María por 1 hora 15 minutos."
+                paso1: "- ACREMA las mantecas hasta que estén esponjosas y suaves.",
+                paso2: "- AÑADE poco a poco la masa..",
+                paso3: "- AÑADE el polvo para hornear y la sal. Mezcla.",
+                paso4: "- VIERTE el caldo poco a poco hasta que tome una consistencia ligeramente aguada.",
+                paso5: "- EXTIENDE ligeramente un poco de la mezcla al centro de cada hoja de plátano.",
+                paso6: "- CIERRA y forma un pequeño rectángulo.",
+                paso7: "- CUECE en baño María por 1 hora 15 minutos."
             },
             preparacionSalsa: {
-                pasa1: "- ASA los ingredientes y licúa. Salpimienta",
-                pasa2: "- SIRVE los tamales y acompaña con la salsa y el queso desmenuzado."
+                paso1: "- ASA los ingredientes y licúa. Salpimienta",
+                paso2: "- SIRVE los tamales y acompaña con la salsa y el queso desmenuzado."
             }
     
     
     },
     {
-        nombre: "SIRVE los tamales y acompaña con la salsa y el queso desmenuzado.",
+        nombre: "Gorditas de frijol",
         descripcion: "Si tienes antojo de gorditas, que mejor que unas de frijol negro veracruzanas. Prepáralas, ¡es súper sencillo! Seguro tienes todos los ingredientes en casa.",
         img: "url",
         ingredientes: {
-            igrediente1: " 2 tazas Frijoles negros , cocidos con hoja de aguacate",
-            igrediente2: "1 cucharada Cebolla picada",
-            igrediente3: "600 grs Masa de maíz",
-            igrediente4: "1/2 cucharadita Bicarbonato de Sodiol",
-            igrediente5: "1/4 taza Harina",
-            igrediente6: " 2 tazas Aceite",
-            igrediente7: " Sal al gusto",
-            igrediente8: "1/2 taza de queso fresco rallado",
-            igrediente9: " 1 taza Salsa Roja",
-            igrediente10: "1 taza Crema",
+            ingrediente1: " 2 tazas Frijoles negros , cocidos con hoja de aguacate",
+            ingrediente2: "1 cucharada Cebolla picada",
+            ingrediente3: "600 grs Masa de maíz",
+            ingrediente4: "1/2 cucharadita Bicarbonato de Sodiol",
+            ingrediente5: "1/4 taza Harina",
+            ingrediente6: " 2 tazas Aceite",
+            ingrediente7: " Sal al gusto",
+            ingrediente8: "1/2 taza de queso fresco rallado",
+            ingrediente9: " 1 taza Salsa Roja",
+            ingrediente10: "1 taza Crema",
         },
         preparacion: {
-            pasa1: "- ACITRONA la cebolla con una cucharada de aceite.",
-            pasa2: "- AÑADE los frijoles y machaca hasta obtener un puré. Sazona y mezcla.",
-            pasa3: "- COCINA por unos minutos hasta que los frijoles estén refritos y espesos. Enfría.",
-            pasa4: "- MEZCLA la masa, la harina, el bicarbonato y los frijoles. Rectifica sazón.",
-            pasa5: "- AMASA y haz bolitas.",
-            pasa6: "- APLANA con una máquina de tortillas o con las manos, no las dejes muy delgadas.",
-            pasa6: "- CALIENTA el resto del aceite en una sartén.",
-            pasa6: "- FRÍE las gorditas hasta que se inflen y queden doradas. Escurre en papel absorbente.",
-            pasa6: "- SIRVE y acompaña con el queso, la crema y la salsa roja.",
+            paso1: "- ACITRONA la cebolla con una cucharada de aceite.",
+            paso2: "- AÑADE los frijoles y machaca hasta obtener un puré. Sazona y mezcla.",
+            paso3: "- COCINA por unos minutos hasta que los frijoles estén refritos y espesos. Enfría.",
+            paso4: "- MEZCLA la masa, la harina, el bicarbonato y los frijoles. Rectifica sazón.",
+            paso5: "- AMASA y haz bolitas.",
+            paso6: "- APLANA con una máquina de tortillas o con las manos, no las dejes muy delgadas.",
+            paso6: "- CALIENTA el resto del aceite en una sartén.",
+            paso6: "- FRÍE las gorditas hasta que se inflen y queden doradas. Escurre en papel absorbente.",
+            paso6: "- SIRVE y acompaña con el queso, la crema y la salsa roja.",
         }
 
 }
 ]
 let cenas_complejas = [
     {
-        nombre: "ENSALADA DE ARROZ",
+        nombre: "Ensalada de arroz",
         descripcion: "La comida rápida también puede ser saludable. Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
         img: "url",
         ingredientes: {
-            igrediente1: "Arroz al gusto",
-            igrediente2: "Caldo de verduras",
-            igrediente3: "Espinacas",
-            igrediente4: "Aceitunas",
-            igrediente5: "Tomates",
-            igrediente6: "Achoas",
-            igrediente7: "Ajo",
-            igrediente8: "1 cebolla",
-            igrediente9: "Sal",
-            igrediente10: "Aceite",
-            igrediente11: "Vinagre balsámico",
+            ingrediente1: "Arroz al gusto",
+            ingrediente2: "Caldo de verduras",
+            ingrediente3: "Espinacas",
+            ingrediente4: "Aceitunas",
+            ingrediente5: "Tomates",
+            ingrediente6: "Achoas",
+            ingrediente7: "Ajo",
+            ingrediente8: "1 cebolla",
+            ingrediente9: "Sal",
+            ingrediente10: "Aceite",
+            ingrediente11: "Vinagre balsámico",
         },
         preparacion: {
-            pasa1: "- Pica el ajo y la cebolla muy finos. En una sartén con un par de cucharadas de aceite, sofríelo todo hasta que la cebolla esté transparente. Tendrás que hacerlo a fuego lento. ",
-            pasa2: "- Añade el arroz, riega con el caldo de verduras y deja cocer durante 20 minutos.",
-            pasa3: "-Escurre y sirve.",
-            pasa4: "- Lava las verduras y trocéalas al gusto.",
-            pasa5: "- Sirve la ensalada fría, aliñada con aceite, sal y vinagre balsámico."
+            paso1: "- Pica el ajo y la cebolla muy finos. En una sartén con un par de cucharadas de aceite, sofríelo todo hasta que la cebolla esté transparente. Tendrás que hacerlo a fuego lento. ",
+            paso2: "- Añade el arroz, riega con el caldo de verduras y deja cocer durante 20 minutos.",
+            paso3: "-Escurre y sirve.",
+            paso4: "- Lava las verduras y trocéalas al gusto.",
+            paso5: "- Sirve la ensalada fría, aliñada con aceite, sal y vinagre balsámico."
         }
     },
     {
@@ -307,37 +385,37 @@ let cenas_complejas = [
             descripcion: "Tiempo: 25 minutos /Fácil/Económico",
             img: "url",
             ingredientes: {
-                igrediente1: "8 rebanadas de pan de molde sin corteza",
-                igrediente2: "250g de tomate frito casero",
-                igrediente3: "150g de beicon, jamon o tocino",
-                igrediente4: "150g de queso rallado",
-                igrediente5: "8 rodajas de mozzarella",
-                igrediente6: "1/2 calabacín",
-                igrediente7: "Unas hojas de albahaca",
-                igrediente8: "Orégano",
-                igrediente9: "Aceíte de oliva extra virgen",
+                ingrediente1: "8 rebanadas de pan de molde sin corteza",
+                ingrediente2: "250g de tomate frito casero",
+                ingrediente3: "150g de beicon, jamon o tocino",
+                ingrediente4: "150g de queso rallado",
+                ingrediente5: "8 rodajas de mozzarella",
+                ingrediente6: "1/2 calabacín",
+                ingrediente7: "Unas hojas de albahaca",
+                ingrediente8: "Orégano",
+                ingrediente9: "Aceíte de oliva extra virgen",
             },
             preparacion: {
-                pasa1: "- Pica el beicon. Lava el calabacín y córtalo en láminas finas con una mandolina. ",
-                pasa2: "- Forra la placa del horno con papel sulfurizado y reparte encima las rebanadas. Úntalas con el tomate y espolvoréalas con orégano. Reparte encima el queso rallado, el beicon, el calabacín y la mozzarella.",
-                pasa3: "- Hornéalas 7 minutos en el horno precalentado a 180° C, hasta que el queso se funda. Sirve con la albahaca y un hilo de aceite.",
+                paso1: "- Pica el beicon. Lava el calabacín y córtalo en láminas finas con una mandolina. ",
+                paso2: "- Forra la placa del horno con papel sulfurizado y reparte encima las rebanadas. Úntalas con el tomate y espolvoréalas con orégano. Reparte encima el queso rallado, el beicon, el calabacín y la mozzarella.",
+                paso3: "- Hornéalas 7 minutos en el horno precalentado a 180° C, hasta que el queso se funda. Sirve con la albahaca y un hilo de aceite.",
             }
     
     },
     {
-        nombre: "ROLLOS DE LECHUGA ROMANA",
+        nombre: "Rollos de lechuga romana",
         descripcion: "Para esta receta de rollitos de lechuga rellenos utilizamos la variedad de lechuga romana, porque sus grandes hojas son las más indicadas para poder envolver los rollitos.",
         img: "url",
         ingredientes: {
-            igrediente1: "Hojas de lechuga romana (La mas grande posuble)",
-            igrediente2: "Pollo previamente cocinado",
-            igrediente3: "tiras de pimiento morrón o del piquillo",
-            igrediente4: "Cuadritos de queso",
-            igrediente5: "Jamón del su preferencia",
-            igrediente6: "Mostaza",
-            igrediente7: "Salsa mayonesa",
-            igrediente8: "Pimienta",
-            igrediente9: "Sal"
+            ingrediente1: "Hojas de lechuga romana (La mas grande posuble)",
+            ingrediente2: "Pollo previamente cocinado",
+            ingrediente3: "tiras de pimiento morrón o del piquillo",
+            ingrediente4: "Cuadritos de queso",
+            ingrediente5: "Jamón del su preferencia",
+            ingrediente6: "Mostaza",
+            ingrediente7: "Salsa mayonesa",
+            ingrediente8: "Pimienta",
+            ingrediente9: "Sal"
         },
         preparacion: {
             paso1: "- Hay que elegir las hojas más grandes de la lechuga, las del exterior, para que podamos enrollarlas mejor. Le cortamos el tallo del medio por la base para dar más flexibilidad a la hoja. Las lavamos muy bien y las secamos a conciencia. Las hojas que no vamos a usar las podemos picar finas para que formen parte del relleno. ",
@@ -348,19 +426,19 @@ let cenas_complejas = [
 
 },
 {
-    nombre: "POLLO A LA PLANCHA CON LIMA",
+    nombre: "Pollo a la plancha con lima",
     descripcion: "Ingredientes (4 personas)",
     img: "url",
     ingredientes: {
-        igrediente1: "4 filetes de pechuga de pollo",
-        igrediente2: "2 dientes de ajo",
-        igrediente3: "3 limas",
-        igrediente4: "50 g de germinados de alfalfa (opcional)",
-        igrediente5: "Unas hojas de ensalada variada",
-        igrediente6: "3 cucharadas de vinagre balsámico",
-        igrediente7: "Sal",
-        igrediente8: "2 cucharadas de aceite de oliva",
-        igrediente9: "Pimienta negra"
+        ingrediente1: "4 filetes de pechuga de pollo",
+        ingrediente2: "2 dientes de ajo",
+        ingrediente3: "3 limas",
+        ingrediente4: "50 g de germinados de alfalfa (opcional)",
+        ingrediente5: "Unas hojas de ensalada variada",
+        ingrediente6: "3 cucharadas de vinagre balsámico",
+        ingrediente7: "Sal",
+        ingrediente8: "2 cucharadas de aceite de oliva",
+        ingrediente9: "Pimienta negra"
     },
     preparacion: {
         paso1: "- Limpia las pechugas, lávalas, sécalas y córtalas en trozos. Pela los dientes de ajo y pártelos por la mitad.",
@@ -371,22 +449,22 @@ let cenas_complejas = [
 
 },
 {
-    nombre: "PARRILLADA DE VERDURAS",
+    nombre: "Parrillada de verduras",
     descripcion: "apto para cualquier persona que se esté cuidando. Ingredientes (4 personas)",
     img: "url",
     ingredientes: {
-        igrediente1: "1 berenjena",
-        igrediente2: "2 calabacines",
-        igrediente3: "1 manojo de espárragos verdes",
-        igrediente4: "1 pimiento rojo",
-        igrediente5: "2 pimientos verdes",
-        igrediente6: "150 g de champiñones",
-        igrediente7: "1 tomate maduro",
-        igrediente8: "Aceite de oliva",
-        igrediente9: "Sal",
-        igrediente9: "Vinagre de jerez",
-        igrediente9: "Pimienta",
-        igrediente9: "Cebollino"
+        ingrediente1: "1 berenjena",
+        ingrediente2: "2 calabacines",
+        ingrediente3: "1 manojo de espárragos verdes",
+        ingrediente4: "1 pimiento rojo",
+        ingrediente5: "2 pimientos verdes",
+        ingrediente6: "150 g de champiñones",
+        ingrediente7: "1 tomate maduro",
+        ingrediente8: "Aceite de oliva",
+        ingrediente9: "Sal",
+        ingrediente9: "Vinagre de jerez",
+        ingrediente9: "Pimienta",
+        ingrediente9: "Cebollino"
     },
     preparacion: {
         paso1: "- Limpiar los espárragos retirando la parte fibrosa del tallo, lavarlos y escaldarlos en una cazuela con agua salada durante 3 o 4 minutos. Escurrirlos y reservarlos.",
@@ -397,22 +475,22 @@ let cenas_complejas = [
 
 },
 {
-    nombre: "PECHUGA DE POLLO CON VERDURAS AL PESTO",
+    nombre: "Pechuga de pollo con verduras al pesto",
     descripcion: "así que te proponemos una receta de pollo a la plancha con guarnición",
     img: "url",
     ingredientes: {
-        igrediente1: "600 g de filetes de pechuga de pollo",
-        igrediente2: "1 cebolla",
-        igrediente3: "2 zanahorias",
-        igrediente4: "½ coliflor",
-        igrediente5: "½ manojo de espárragos verdes",
-        igrediente6: "Sal",
-        igrediente7: "2 tomates",
-        igrediente8: "1  limón",
-        igrediente9: "Albahaca",
-        igrediente9: "Cebollino",
-        igrediente9: "PAceite de oliva",
-        igrediente9: "Salsa al pesto preparada"
+        ingrediente1: "600 g de filetes de pechuga de pollo",
+        ingrediente2: "1 cebolla",
+        ingrediente3: "2 zanahorias",
+        ingrediente4: "½ coliflor",
+        ingrediente5: "½ manojo de espárragos verdes",
+        ingrediente6: "Sal",
+        ingrediente7: "2 tomates",
+        ingrediente8: "1  limón",
+        ingrediente9: "Albahaca",
+        ingrediente9: "Cebollino",
+        ingrediente9: "PAceite de oliva",
+        ingrediente9: "Salsa al pesto preparada"
     },
     preparacion: {
         paso1: "- Lo primero que debes hacer es limpiar los espárragos y raspar las zanahorias. Lavar ambos, con la coliflor. Separar esta última en ramitos pequeños, trocear los espárragos y partir en rodajas las zanahorias. Pelar la cebolla y cortarla en plumas..",
@@ -423,4 +501,135 @@ let cenas_complejas = [
     }
 
 },
+{
+            nombre: "Revuelto de pimientos de tres colores",
+            tiempo: "Tiempo: 20 minutos /Fácil/Económico",
+            descripcion: "La propuesta de hoy es muy colorista porque hemos utilizado pimientos verdes, rojos y amarillos, en tiras para hacer nuestro revuelto. Los huevos los batimos salpimentados con nata.",
+            img: "url",
+            ingredientes: {
+                ingrediente1: "1 pimiento rojo",
+                ingrediente2: "1 pimiento verde",
+                ingrediente3: "1 pimiento amarillo",
+                ingrediente4: "4 huevos",
+                ingrediente5: "2 dientes de ajo",
+                ingrediente6: "50 mililitros de nata líquida",
+                ingrediente7: "1 ramita de perejil",
+                ingrediente8: "Aceite de oliva",
+                ingrediente9: "Pimienta y Sal al gusto"
+            },
+            preparacion: {
+                paso1: "- Limpia los pimientos, lávalos, sécalos con papel de cocina y córtalos en tiras. Pela los ajos y córtalos en láminas. Lava el perejil y pícalo.",
+                paso2: "- Pon una sartén al fuego con 1 dl de aceite y cuando se caliente, añade el ajo y los pimientos. Tapa y sofríelos 10 o 15 minutos removiendo varias veces. Escúrrelos y salpimienta.",
+                paso3: "- Bate los huevos con la nata y una pizca de sal y pimienta. Cuájalos en una sartén antiadherente con una cucharadita de aceite a fuego muy lento, y sin dejar de remover.",
+                paso4: "- Mezcla el revuelto con los pimientos, espolvorea con el perejil y sirve enseguida."
+            }
+    
+    },
+    {
+    nombre: "Huevos tirados con frijol y alubias",
+    tiempo: "15 minutos de preparación",
+    descripcion: "Ingredientes (4 personas)",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "6 huevos",
+        ingrediente2: "1/4 de taza de crema",
+        ingrediente3: "2 cucharadas de caldo de frijol",
+        ingrediente4: "1 taza de frijoles negros enteros",
+        ingrediente5: "1 taza de alubias cocidas y escurridas",
+        ingrediente6: "Sal al gusto",
+        ingrediente7: "Aceite vegetal"
+    },
+    preparacion: {
+        paso1: "- Bate los huevos con la crema, el caldo y sal hasta que estén integrados; reserva.",
+        paso2: "- En una sartén calienta un poco de aceite y sofríe los frijoles y las alubias, cuando estén brillosos agrega la mezcla de huevo y revuelve para integrar.",
+        paso3: "- Cocina a fuego bajo, sin dejar de mover, hasta que el huevo esté cocido (hazlo con cuidado para que no se partan los frijoles y alubias)"
+    }
+
+},
+{
+    nombre: "Huevo con salchicha",
+    tiempo: "10 minutos de preparación",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "8 huevos",
+        ingrediente2: "3 salchichas de pavo finamente picadas",
+        ingrediente3: "2 zanahorias peladas y ralladas",
+        ingrediente4: "1/4 de barrita de mantequilla",
+        ingrediente5: "Sal y pimienta al gsto",
+        ingrediente6: "Aceite vegetal"
+    },
+    preparacion: {
+        paso1: "- En una sartén derrite la mantequilla y sofríe las salchichas hasta que comiencen a dorar; retira y reserva.",
+        paso2: "- En el mismo recipiente calienta un poco de aceite, agrega 2 huevos batidos y unas cuantas salchichas y zanahoria rallada; cocina a fuego medio hasta que el huevo haya cuajado (revuelto o tipo tortilla española); retira.",
+        paso3: "- Repite el procedimiento para hacer las demás porciones."
+    }
+
+},
+{
+    nombre: "Frijoles Negros con Pollo",
+    descripcion: " Una mezcla tan deliciosa como nutritiva, perfecta para consentir a la familia. Tiempo: 25 minutos /Fácil/Económico",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "(454 g) 1 Libra Pechuga De Pollo sin hueso",
+        ingrediente2: "(10 g) 1 Sobre Consomé De Pollo Maggi®",
+        ingrediente3: "(15 g) 1 Cucharada Aceite De Oliva",
+        ingrediente4: "4 Dientes Ajo cortado finamente",
+        ingrediente5: "(130 g) 1 Taza Cebolla cortada finamente",
+        ingrediente6: "(454 g) 3 Tazas Tomate cortado en dados",
+        ingrediente7: "(516 g) 3 Tazas Frijol Negro cocido",
+        ingrediente8: "(250 ml) 1 Taza Agua"
+    },
+    preparacion: {
+        paso1: "- En un tazón colocar el pollo, marinar son Consomé de Pollo MAGGI® y pimienta. Reservar ",
+        paso2: "- En una cacerola a fuego alto, añadir el aceite sofreír el ajo, la cebolla y las piezas de de pollo por 6 minutos o hasta que el pollo tome una tonalidad dorada.",
+        paso3: "- Añadir el tomate y dejar cocer a fuego medio por 10 minutos revolviendo constantemente",
+        paso4: "- Agregar los frijoles y el agua, bajar el fuego y dejar cocinar por 15 minutos revolviendo constantemente. Apagar el fuego."
+    }
+
+},
+{
+    nombre: "Receta de Enfrijoladas veganas",
+    tiempo:" tiempo 30m",
+    descripcion: " Si de recetas económicas se trata, las enfrijoladas son una muy buena opción para el día a día.",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "1 taza de frijoles cocidos",
+        ingrediente2: "1 cucharadita de aceite de oliva",
+        ingrediente3: "2 hojas de epazote",
+        ingrediente4: "1 pizca de sal al gusto",
+        ingrediente5: "2 nopales medianos",
+        ingrediente6: "2 calabacitas",
+        ingrediente7: "20 tortillas de maiz",
+        ingrediente8: "rebanadas de aguacate"
+    },
+    preparacion: {
+        paso1: "- Para hacer esta receta de enfrijoladas veganas fácil, primero prepara la salsa de frijol. Para ello, coloca en la licuadora los frijoles cocidos con su propia agua junto con un trozo de cebolla y una pizca de sal, licua por 3 minutos. ",
+        paso2: "- Calienta una cucharadita de aceite en una olla y vacía la salsa de frijol. Seguido, agrega 2 hojitas de epazote, un poco más de sal al gusto y deja cocinar hasta que hierva. Luego, reserva.",
+        paso3: "- Para el relleno, pica los nopales y la calabacita. A continuación, cocina al vapor o en agua hasta que hayan ablandado.",
+        paso4: "- En una sartén con un poco de aceite fríe ligeramente las tortillas de maíz. ¿Qué te está pareciendo esta receta de enfrijoladas veganas?",
+        paso5: "- Para armar las enfrijoladas veganas, rellena una tortilla con los vegetales y enrolla o dobla, como prefieras.",
+        paso6: "- Luego, baña con la salsa de frijol hasta cubrir. Acompaña con una rebanada de aguacate y cebolla al gusto. ¿Qué te han parecido estas enfrijoladas veganas? Déjanos en los comentarios tu opinión."
+    }
+
+},
+{
+    nombre: "Arepitas con Pollo Jugoso",
+    tiempo:" tiempo 30m",
+    descripcion: "¡Que Rico! Unas arepitas para la lonchera de los niños con Pollo Jugoso, una receta llena de sabor.",
+    img: "url",
+    ingredientes: {
+        ingrediente1: "2 tazas de agua tibia",
+        ingrediente2: "2 tazas de harina de maíz",
+        ingrediente3: "1 sobre de Jugoso al Sartén MAGGI® Ajo & Cebolla",
+        ingrediente4: "2 pechugas de pollo deshuesadas y cortadas a la mitad",
+        ingrediente5: "1 aguacates medianos majados",
+        ingrediente6: "1 taza de queso tipo cheddar rallado"
+    },
+    preparacion: {
+        paso1: "- Para las arepas, vierte el agua en un tazón y agrega la sal, revuelve hasta disolverla. Agrega la harina de maíz poco a poco y revolviendo continuamente, hasta conseguir una masa compacta de textura bien ligera (no debe quedar seca) cubre la masa con un paño húmedo y deja reposar durante 3 a 5 minutos.",
+        paso2: "- Una vez lista, separa la masa en 12 porciones aproximadas, dale forma levemente aplanado con tus manos obteniendo círculos de unos 6 cm de diámetro y unos 0,5 cm de grosor. Cuando estén listos cocina sobre una sartén idealmente de teflón a fuego medio durante 4 a 5 minutos por lado. Puedes dar otro toque de cocción en el horno para que la superficie quede levemente crocante.",
+        paso3: "- Aparte, prepara el pollo usando el Jugoso al Sartén MAGGI® Ajo & Cebolla según las indicaciones del envase. Una vez listo, córtalo en delgadas tiritas, rellena las arepas con el pollo, el aguacate molido y el queso. Repite el procedimiento con el resto de las arepas y guarda en una vasija con tapa dentro de la lonchera."
+    }
+
+}
 ]

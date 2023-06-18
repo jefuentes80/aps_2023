@@ -1,4 +1,5 @@
-/// Crea los elementos HTML utilizando el DOM
+//Crea los elementos HTML utilizando el DOM
+/*Alejandra Zita*/
 function primera_parte(){
   let elementos =
   `  <h1>Galeria de Cenas</h1>
