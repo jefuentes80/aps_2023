@@ -1,13 +1,11 @@
 /* Diseño componente pricipal */
-.hola{
-    background-color: rgb(255, 238, 0);
+.hi{
+    font-size: 6rem;
+    color: black;
 }
 /* Componente irem de la página */
 
-.titulo{
-    height: 4rem;
+.caja{
+    height: 100rem;
     background-color: rgb(154, 206, 57);
-}
-.titulo h1{
-    font-size: 3rem;
 }
