@@ -1,6 +1,10 @@
 .pie_de_pagina {
-    background-color: #f2f2f2;
+    background-color:#ee9470;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25rem;
 }
 
 .pie_de_pagina > .Titulo > h1 {
@@ -10,16 +14,53 @@
     text-align: left;
 }
 
-.pie_de_pagina > .autores > ul {
-    display: inline-flex;
+.pie_de_pagina > .names1 {
+    background-color: green;
 }
-
-.pie_de_pagina > .autores > ul > li {
+.names1 > ul {
+    display: inline-block;
+}
+.names1 > ul > li {
     display: block;
     padding: 1rem;
 }
+ul > li > p {
+    font-size: 1.5rem;
+}
+
+
+.centro {
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+}
+.div00 > img {
+    height: 8rem;
+}
+.div00 > h1 {
+    font-size: 4rem;
+}
+.div00 > h2 {
+    color: rgb(50, 41, 41);
+}
+
+
 
 .copy {
-    background-color: green;
+    color: white;
+    background-color: black;
     display: flex;
+}
+
+
+
+.pie_de_pagina > .names2 {
+    background-color: green;
+}
+.names2 > ul {
+    display: inline-block;
+}
+.names2 > ul > li {
+    display: block;
+    padding: 1rem;
 }
