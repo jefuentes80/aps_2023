@@ -1,7 +1,7 @@
 // Componente sabias que
 //KEILY BELÉN TELLES PÉREZ
 
-export function  ola(){
+export function  sabias(){
     let pag = document.querySelector("#desayuno");
     
     let helou = document.createElement("div")
