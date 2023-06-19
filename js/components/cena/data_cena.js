@@ -8,6 +8,7 @@ let cenas_con_huevo = [
         ingredientes: {
             ingrediente1: "400g de Papas",
             ingrediente2: "3 ad de Huevos",
+            img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
             ingrediente3: "40g de Jamón",
             ingrediente4: "5 g de Cebollin",
             ingrediente5: "0.5 cucharadita de Cilanntro",
@@ -25,12 +26,80 @@ let cenas_con_huevo = [
         }
     },
     {
+        nombre: "Huevos tirados con frijol y alubias",
+        tiempo: "15 minutos de preparación",
+        descripcion: "Ingredientes (4 personas)",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "6 huevos",
+            img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
+            ingrediente2: "1/4 de taza de crema",
+            ingrediente3: "2 cucharadas de caldo de frijol",
+            ingrediente4: "1 taza de frijoles negros enteros",
+            ingrediente5: "1 taza de alubias cocidas y escurridas",
+            ingrediente6: "Sal al gusto",
+            ingrediente7: "Aceite vegetal"
+        },
+        preparacion: {
+            paso1: "- Bate los huevos con la crema, el caldo y sal hasta que estén integrados; reserva.",
+            paso2: "- En una sartén calienta un poco de aceite y sofríe los frijoles y las alubias, cuando estén brillosos agrega la mezcla de huevo y revuelve para integrar.",
+            paso3: "- Cocina a fuego bajo, sin dejar de mover, hasta que el huevo esté cocido (hazlo con cuidado para que no se partan los frijoles y alubias)"
+        }
+    
+    },
+    {
+        nombre: "Huevo con salchicha",
+        tiempo: "10 minutos de preparación",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "8 huevos",
+            img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
+            ingrediente2: "3 salchichas de pavo finamente picadas",
+            ingrediente3: "2 zanahorias peladas y ralladas",
+            ingrediente4: "1/4 de barrita de mantequilla",
+            ingrediente5: "Sal y pimienta al gsto",
+            ingrediente6: "Aceite vegetal"
+        },
+        preparacion: {
+            paso1: "- En una sartén derrite la mantequilla y sofríe las salchichas hasta que comiencen a dorar; retira y reserva.",
+            paso2: "- En el mismo recipiente calienta un poco de aceite, agrega 2 huevos batidos y unas cuantas salchichas y zanahoria rallada; cocina a fuego medio hasta que el huevo haya cuajado (revuelto o tipo tortilla española); retira.",
+            paso3: "- Repite el procedimiento para hacer las demás porciones."
+        }
+    
+    },
+    {
+        nombre: "Revuelto de pimientos de tres colores",
+        tiempo: "Tiempo: 20 minutos /Fácil/Económico",
+        descripcion: "La propuesta de hoy es muy colorista porque hemos utilizado pimientos verdes, rojos y amarillos, en tiras para hacer nuestro revuelto. Los huevos los batimos salpimentados con nata.",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "1 pimiento rojo",
+            ingrediente2: "1 pimiento verde",
+            ingrediente3: "1 pimiento amarillo",
+            ingrediente4: "4 huevos",
+            img4: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
+            ingrediente5: "2 dientes de ajo",
+            ingrediente6: "50 mililitros de nata líquida",
+            ingrediente7: "1 ramita de perejil",
+            ingrediente8: "Aceite de oliva",
+            ingrediente9: "Pimienta y Sal al gusto"
+        },
+        preparacion: {
+            paso1: "- Limpia los pimientos, lávalos, sécalos con papel de cocina y córtalos en tiras. Pela los ajos y córtalos en láminas. Lava el perejil y pícalo.",
+            paso2: "- Pon una sartén al fuego con 1 dl de aceite y cuando se caliente, añade el ajo y los pimientos. Tapa y sofríelos 10 o 15 minutos removiendo varias veces. Escúrrelos y salpimienta.",
+            paso3: "- Bate los huevos con la nata y una pizca de sal y pimienta. Cuájalos en una sartén antiadherente con una cucharadita de aceite a fuego muy lento, y sin dejar de remover.",
+            paso4: "- Mezcla el revuelto con los pimientos, espolvorea con el perejil y sirve enseguida."
+        }
+
+},
+    {
             nombre: "Sándwich de huevos revueltos y Jamón",
             descripcion: "Para preparar este saludable sándwich vamos a usar pan de hamburguesa integral",
             img: "url",
             ingredientes: {
                 ingrediente1: "4 ud de Pan de hamburguesa integral",
                 ingrediente2: "5 ud de Huevo",
+                img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
                 ingrediente3: "8 Revanadas de Jamón de su preferencia",
                 ingrediente4: "150g de queso rallado",
                 ingrediente5: "8 rodajas de Queso",
@@ -54,6 +123,7 @@ let cenas_con_huevo = [
         img: "url",
         ingredientes: {
             ingrediente1: "2 Huevos medianos (cuanto más frescos, mejor)",
+            img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
             ingrediente2: "1 Aguacate",
             ingrediente3: "Cebollino",
             ingrediente4: "Sal",
@@ -77,6 +147,7 @@ let cenas_con_huevo = [
     img: "url",
     ingredientes: {
         ingrediente1: "3 huevos",
+        img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
         ingrediente2: "1 taza de espinacas frescas",
         ingrediente3: "1/2 taza de queso rallado (preferiblemente queso cheddar)",
         ingrediente4: "Sal",
@@ -102,6 +173,7 @@ let cenas_con_huevo = [
     ingredientes: {
     ingrediente1: "4 tortillas de harina",
     ingrediente2: "4 huevos",
+    img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
     ingrediente3: "1 pimiento rojo, cortado en juliana",
     ingrediente4: "1 calabacín, cortado en rodajas finas",
     ingrediente5: "1 cebolla, cortada en juliana",
@@ -128,6 +200,7 @@ let cenas_con_huevo = [
     img: "url",
     ingredientes: {
     ingrediente1: "4 huevos",
+    img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
     ingrediente2: "1 taza de champiñones, cortados en rodajas",
     ingrediente3: "2 tazas de espinacas frescas",
     ingrediente4: "1/4 de taza de queso rallado (como queso cheddar o mozzarella)",
@@ -358,19 +431,30 @@ let cenas_complejas = [
     {
         nombre: "Ensalada de arroz",
         descripcion: "La comida rápida también puede ser saludable. Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
-        img: "url",
+        img: "https://recetasdecocina.elmundo.es/wp-content/uploads/2021/07/ensalada-de-arroz.jpg",
         ingredientes: {
             ingrediente1: "Arroz al gusto",
+            img1: "https://cdn-icons-png.flaticon.com/512/1357/1357237.png",
             ingrediente2: "Caldo de verduras",
+            img2: "https://static.vecteezy.com/system/resources/previews/003/190/846/non_2x/line-icon-for-chowder-vector.jpg",
             ingrediente3: "Espinacas",
+            img3: "https://cdn-icons-png.flaticon.com/512/1135/1135403.png",            
             ingrediente4: "Aceitunas",
+            img4: "https://cdn-icons-png.flaticon.com/512/766/766130.png",
             ingrediente5: "Tomates",
+            img5: "https://cdn.icon-icons.com/icons2/38/PNG/512/tomato_food_4610.png",
             ingrediente6: "Achoas",
+            img6: "https://cdn-icons-png.flaticon.com/512/2055/2055575.png",
             ingrediente7: "Ajo",
+            img7: "https://cdn-icons-png.flaticon.com/512/2909/2909824.png",
             ingrediente8: "1 cebolla",
+            img8: "https://cdn-icons-png.flaticon.com/512/3823/3823172.png",
             ingrediente9: "Sal",
+            img9: "https://cdn-icons-png.flaticon.com/512/581/581661.png",
             ingrediente10: "Aceite",
+            img10: "https://cdn-icons-png.flaticon.com/512/123/123308.png",
             ingrediente11: "Vinagre balsámico",
+            img11: "https://cdn-icons-png.flaticon.com/512/1919/1919676.png",
         },
         preparacion: {
             paso1: "- Pica el ajo y la cebolla muy finos. En una sartén con un par de cucharadas de aceite, sofríelo todo hasta que la cebolla esté transparente. Tendrás que hacerlo a fuego lento. ",
@@ -383,17 +467,26 @@ let cenas_complejas = [
     {
             nombre: "Pizza expres de pan de molde",
             descripcion: "Tiempo: 25 minutos /Fácil/Económico",
-            img: "url",
+            img: "https://i.ytimg.com/vi/AQMePd_iDug/maxresdefault.jpg",
             ingredientes: {
                 ingrediente1: "8 rebanadas de pan de molde sin corteza",
+                img1: "",
                 ingrediente2: "250g de tomate frito casero",
+                img2: "",
                 ingrediente3: "150g de beicon, jamon o tocino",
+                img3: "",
                 ingrediente4: "150g de queso rallado",
+                img4: "",
                 ingrediente5: "8 rodajas de mozzarella",
+                img5: "",
                 ingrediente6: "1/2 calabacín",
+                img6: "",
                 ingrediente7: "Unas hojas de albahaca",
+                img7: "",
                 ingrediente8: "Orégano",
+                img8: "",
                 ingrediente9: "Aceíte de oliva extra virgen",
+                img9: "",
             },
             preparacion: {
                 paso1: "- Pica el beicon. Lava el calabacín y córtalo en láminas finas con una mandolina. ",
@@ -498,70 +591,6 @@ let cenas_complejas = [
         paso3: "- A continuación, pela los tomates, córtalos en daditos retirando las semillas y sazónalos.",
         paso4: "- Sigue limpiando los filetes de pollo. Luego toca lavarlos y secarlos, y rociarlos con el zumo del limón. Dóralos durante 2 o 3 minutos por cada lado en una plancha bien caliente con un chorrito de aceite.",
         paso4: "- Reparte el sofrito de verdura en 4 platos, añade el pollo y el tomate. Sírvelos en seguida, decorados con unas hojas de albahaca y unos tallos de cebollino, ambos lavados y secos."
-    }
-
-},
-{
-            nombre: "Revuelto de pimientos de tres colores",
-            tiempo: "Tiempo: 20 minutos /Fácil/Económico",
-            descripcion: "La propuesta de hoy es muy colorista porque hemos utilizado pimientos verdes, rojos y amarillos, en tiras para hacer nuestro revuelto. Los huevos los batimos salpimentados con nata.",
-            img: "url",
-            ingredientes: {
-                ingrediente1: "1 pimiento rojo",
-                ingrediente2: "1 pimiento verde",
-                ingrediente3: "1 pimiento amarillo",
-                ingrediente4: "4 huevos",
-                ingrediente5: "2 dientes de ajo",
-                ingrediente6: "50 mililitros de nata líquida",
-                ingrediente7: "1 ramita de perejil",
-                ingrediente8: "Aceite de oliva",
-                ingrediente9: "Pimienta y Sal al gusto"
-            },
-            preparacion: {
-                paso1: "- Limpia los pimientos, lávalos, sécalos con papel de cocina y córtalos en tiras. Pela los ajos y córtalos en láminas. Lava el perejil y pícalo.",
-                paso2: "- Pon una sartén al fuego con 1 dl de aceite y cuando se caliente, añade el ajo y los pimientos. Tapa y sofríelos 10 o 15 minutos removiendo varias veces. Escúrrelos y salpimienta.",
-                paso3: "- Bate los huevos con la nata y una pizca de sal y pimienta. Cuájalos en una sartén antiadherente con una cucharadita de aceite a fuego muy lento, y sin dejar de remover.",
-                paso4: "- Mezcla el revuelto con los pimientos, espolvorea con el perejil y sirve enseguida."
-            }
-    
-    },
-    {
-    nombre: "Huevos tirados con frijol y alubias",
-    tiempo: "15 minutos de preparación",
-    descripcion: "Ingredientes (4 personas)",
-    img: "url",
-    ingredientes: {
-        ingrediente1: "6 huevos",
-        ingrediente2: "1/4 de taza de crema",
-        ingrediente3: "2 cucharadas de caldo de frijol",
-        ingrediente4: "1 taza de frijoles negros enteros",
-        ingrediente5: "1 taza de alubias cocidas y escurridas",
-        ingrediente6: "Sal al gusto",
-        ingrediente7: "Aceite vegetal"
-    },
-    preparacion: {
-        paso1: "- Bate los huevos con la crema, el caldo y sal hasta que estén integrados; reserva.",
-        paso2: "- En una sartén calienta un poco de aceite y sofríe los frijoles y las alubias, cuando estén brillosos agrega la mezcla de huevo y revuelve para integrar.",
-        paso3: "- Cocina a fuego bajo, sin dejar de mover, hasta que el huevo esté cocido (hazlo con cuidado para que no se partan los frijoles y alubias)"
-    }
-
-},
-{
-    nombre: "Huevo con salchicha",
-    tiempo: "10 minutos de preparación",
-    img: "url",
-    ingredientes: {
-        ingrediente1: "8 huevos",
-        ingrediente2: "3 salchichas de pavo finamente picadas",
-        ingrediente3: "2 zanahorias peladas y ralladas",
-        ingrediente4: "1/4 de barrita de mantequilla",
-        ingrediente5: "Sal y pimienta al gsto",
-        ingrediente6: "Aceite vegetal"
-    },
-    preparacion: {
-        paso1: "- En una sartén derrite la mantequilla y sofríe las salchichas hasta que comiencen a dorar; retira y reserva.",
-        paso2: "- En el mismo recipiente calienta un poco de aceite, agrega 2 huevos batidos y unas cuantas salchichas y zanahoria rallada; cocina a fuego medio hasta que el huevo haya cuajado (revuelto o tipo tortilla española); retira.",
-        paso3: "- Repite el procedimiento para hacer las demás porciones."
     }
 
 },

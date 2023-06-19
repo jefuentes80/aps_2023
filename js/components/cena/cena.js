@@ -2,135 +2,109 @@
 /*Alejandra Zita*/
 function primera_parte(){
   let elementos =
-  `  <h1>Galeria de Cenas</h1>
-
-  <div class="main-gallery">
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 1</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 2</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 3</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 4 </p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 5</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>cena 6</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 7</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 8</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 9</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 10</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 11</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/57/37/4c/57374cb38802d35fe9e9825a2502ab33.jpg" alt="" />
-      </div>
-      <p>Cena 12</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 13</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/57/37/4c/57374cb38802d35fe9e9825a2502ab33.jpg" alt="" />
-      </div>
-      <p>Cena 14</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 15</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 16</p>
-    </article>
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/54/5e/d7/545ed7a75d832ea4a7faaab086ee9684.jpg" alt="" />
-      </div>
-      <p>Cena 15</p>
-    </article>
-    
-    <article>
-      <div class="photo">
-        <img src="https://i.pinimg.com/564x/fc/ec/ee/fceceee44174a2bd96d21b32d676472a.jpg" alt="" />
-      </div>
-      <p>Cena 16</p>
-    </article>
+  `<div class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(https://i.pinimg.com/564x/1f/2e/f0/1f2ef094a49cc9f540fbdb366c55c738.jpg)"></div>
+    <ul class="details">
+      <li class="author">
+     </li>
+          <
+        </ul>
+      </li>
+    </ul>
   </div>
-    `;
+  <div class="description">
+    <h1>Cena 1</h1>
+    <h2>*************************</h2>
+    <p> uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</p>
+   
+  </div>
+</div>
+
+<div class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(https://i.pinimg.com/564x/1f/2e/f0/1f2ef094a49cc9f540fbdb366c55c738.jpg)"></div>
+    <ul class="details">
+      <li class="author">
+     </li>
+          <
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Cena 2</h1>
+    <h2>***********************</h2>
+    <p> uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</p>
+   
+  </div>
+</div>
+
+<div class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(https://i.pinimg.com/564x/1f/2e/f0/1f2ef094a49cc9f540fbdb366c55c738.jpg)"></div>
+    <ul class="details">
+      <li class="author">
+     </li>
+          <
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Cena 3</h1>
+    <h2>************************</h2>
+    <p> uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</p>
+   
+  </div>
+</div>
+
+
+<div class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(https://i.pinimg.com/564x/1f/2e/f0/1f2ef094a49cc9f540fbdb366c55c738.jpg)"></div>
+    <ul class="details">
+      <li class="author">
+     </li>
+          <
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Cena 4</h1>
+    <h2>**************************</h2>
+    <p> uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</p>
+   
+  </div>
+</div>
+
+<div class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(https://i.pinimg.com/564x/1f/2e/f0/1f2ef094a49cc9f540fbdb366c55c738.jpg)"></div>
+    <ul class="details">
+      <li class="author">
+     </li>
+          <
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Cena 5</h1>
+    <h2>********************************</h2>
+    <p> uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</p>
+   
+  </div>
+</div>
+
+
+
+
+    
+    
+</nav>
+</div>`;
 
     let caja = document.getElementById("cena")
 
