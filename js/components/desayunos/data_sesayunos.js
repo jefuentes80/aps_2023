@@ -4,6 +4,7 @@
 let desayuno = [
     //SECCION DE HUEVOS ****************************************************************************************
     {
+        /*--- M. Juarez */
         nombre: "HUEVOS RANCHEROS",
         descripcion: "Los huevos rancheros son uno de los desayunos " +
         "más típicos y tradicionales de México.",
@@ -33,6 +34,7 @@ let desayuno = [
 
     },
     {
+        /*M -- Juárez*/
         nombre: "HUEVOS CON SALCHICHA",
         descripcion: "Una receta fácil de preparar con ingredientes accesibles",
         img: "url",
@@ -55,6 +57,30 @@ let desayuno = [
 
     },
     {
+        /*M. Juárez*/
+        nombre: "TORTILLA DE ESPINACA",
+        descripcion: "Una tortilla saludable y nutritiva con espinacas frescas",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "1 taza de espinacas frescas",
+            ingrediente2: "2 huevos",
+            ingrediente3: "1/4 de cebolla picada",
+            ingrediente4: "Sal al gusto",
+            ingrediente5: "Aceite de oliva"
+        },
+        preparacion: {
+            paso1: "En una sartén, calienta un poco de aceite de oliva.",
+            paso2: "Agrega la cebolla picada y cocínala hasta que esté transparente.",
+            paso3: "Añade las espinacas y cocina hasta que se marchiten.",
+            paso4: "En un tazón aparte, bate los huevos y añade sal al gusto.",
+            paso5: "Agrega los huevos batidos a la sartén con las espinacas y cocina hasta que esté cuajada.",
+            paso6: "Voltea la tortilla para cocinar por el otro lado.",
+            paso7: "Sirve la tortilla caliente. ¡Deliciosa y saludable!"
+        }
+    }, 
+    
+    {
+        /*M. Juárez*/
         nombre: "BURRITO DE HUEVO CON TOCINO",
         descripcion: "Comienza tu día con un desayuno llenador, son fáciles de hacer y con un sabor que te encantará",
         img: "url",
@@ -138,32 +164,31 @@ let desayuno = [
        }
     },
 
-    {
-        nombre: "TORTILLAS DE QUESO",
-        descripcion: "La tortilla de queso salado es la comida reconfortante más fácil que podrías hacer",
+    {//M Juárez
+        nombre: "HUEVOS AL HORNO CON ESPINACA Y QUESO",
+        descripcion: "Un desayuno sabroso y nutritivo con huevos, espinacas y queso derretido",
         img: "url",
         ingredientes: {
             ingrediente1: "2 huevos",
-            ingrediente2: "1 cucharada de mantequilla",
-            ingrediente3: "Queso Cheddar",
-            ingrediente4: "Sal y pimienta",
-            ingrediente5: "2 tortillas de harinas",
-            ingrediente6: "2 cucharaditas de mayonesa",
-            ingrediente7: "",
-            ingrediente8: "Aceite",
+            ingrediente2: "1 taza de espinacas frescas",
+            ingrediente3: "1/4 de taza de queso rallado (cheddar, mozzarella, etc.)",
+            ingrediente4: "Sal al gusto",
+            ingrediente5: "Pimienta negra al gusto",
+            ingrediente6: "Aceite de oliva"
         },
         preparacion: {
-            paso1: "- https://es.bakeitwithlove.com/cheese-omelet/  Salpimenta el bistec de res y mientras se marina fríe el tocino en una sartén sin aceite por"+
-                   " 15 minutos a fuego medio. Retira del fuego y usa el aceite que soltó para freír el bistec.",
-            paso2: "- Bate los huevos con una pizca de sal. Calienta aceite en otra sartén y cocina el huevo.",
-            paso3: "- Pica el tocino y el bistec, corta en rebanadas el aguacate y unta con mayonesa las tortillas de harina.",
-            paso4: "- Acomoda los ingredientes dentro de las tortillas de harina y dobla cada una como taco pero "+
-                   "cierra sus extremos hacia adentro. corta por la mitad, sirve y disfruta.",
+            paso1: "- Precalienta el horno a 180°C (350°F).",
+            paso2: "- En un recipiente apto para horno, coloca las espinacas y sazona con sal y pimienta al gusto.",
+            paso3: "- Haz dos huecos en las espinacas y rompe un huevo en cada hueco.",
+            paso4: "- Espolvorea el queso rallado sobre los huevos y las espinacas.",
+            paso5: "- Hornea durante aproximadamente 10-12 minutos o hasta que los huevos estén cocidos a tu gusto.",
+            paso6: "- Retira del horno y sirve los huevos al horno con espinacas y queso caliente."
         }
-
     },
+    
     //SECCIÓN DE AVENA ******************************************************************************************
     {
+        /*M. Juárez*/
         nombre: "AVENA CON MANTEQUILLA DE MANÍ",
         descripcion: "Avena durante la noche con mantequilla de maní hecha con 5 ingredientes en 5 minutos.",
         img: "url",
@@ -183,6 +208,46 @@ let desayuno = [
         }
 
     },
+    /*M. Juárez*/
+    {
+        nombre: "AVENA CON FRUTAS",
+        descripcion: "Una deliciosa combinación de avena y frutas para comenzar el día con energía",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "1/2 taza de avena",
+            ingrediente2: "1 taza de leche (puede ser vegetal)",
+            ingrediente3: "Frutas al gusto (plátano, fresas, arándanos, etc.)",
+            ingrediente4: "1 cucharadita de miel (opcional)"
+        },
+        preparacion: {
+            paso1: "En un recipiente, mezcla la avena y la leche. Deja reposar durante 5 minutos.",
+            paso2: "Agrega las frutas cortadas en trozos y mezcla bien.",
+            paso3: "Endulza con miel si lo deseas. ¡Listo para disfrutar!"
+        }
+    },
+    {
+        /*M. Juárez*/
+        nombre: "PANQUEQUES DE AVENA Y PLÁTANO",
+        descripcion: "Unos deliciosos panqueques sin harina perfectos para un desayuno nutritivo",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "1 taza de avena",
+            ingrediente2: "2 plátanos maduros",
+            ingrediente3: "2 huevos",
+            ingrediente4: "1/2 taza de leche (puede ser vegetal)",
+            ingrediente5: "Esencia de vainilla (opcional)",
+            ingrediente6: "1/2 cucharadita de canela en polvo",
+            ingrediente7: "Aceite para engrasar la sartén"
+        },
+        preparacion: {
+            paso1: "En un tazón, machaca los plátanos hasta obtener un puré.",
+            paso2: "Agrega la avena, los huevos, la leche, la esencia de vainilla y la canela. Mezcla bien todos los ingredientes.",
+            paso3: "Calienta una sartén antiadherente y engrásala con un poco de aceite.",
+            paso4: "Vierte porciones de la masa en la sartén caliente para formar los panqueques.",
+            paso5: "Cocina los panqueques hasta que se doren por ambos lados.",
+            paso6: "Sirve los panqueques calientes y acompáñalos con frutas frescas o miel. ¡Disfruta!"
+        }
+    },    
     { /* K_telles*/
     nombre: "HOT CAKES DE AVENA, MANZANA Y CANELA",
     descripcion: "Empieza tus mañanas con el desayuno más saludable, fácil y delirante: hot cakes de avena, manzana y canela.",
@@ -270,6 +335,7 @@ let desayuno = [
     },
 
     //SECCION DE YOGURT *****************************************************************************************************
+
     { /* K_telles*/
         nombre: "YOGUR DE FRESA Y VAINILLA",
         descripcion: "Yogur de fresa y vainilla hecha para 4 personas, se puede acompañar de trocitos de manzana y plátano.",
@@ -419,37 +485,103 @@ let desayuno = [
         paso2: "- Vierte el yogur encima.",
         paso3: "-  Rocía con miel y decora con arándanos, fresas y granola."
     }
-    }
-
-
-]
-
-
-let mis_comidas = [
-    {
-    nombre: "BARRAS DE CEREAL",
-    descripcion: "Aprende a preparar unas ricas Barras de "+
-    "Cereal Sin Gluten, Saludables y muy fáciles con 10 porciones.",
-    img: "url",
-    ingredientes: {
-        ingrediente1: "2 Tazas de pipocas de quínoa o arroz inflado",
-        ingrediente2: "1 Taza de manjar",
-        ingrediente3: "1 huevo",
-        ingrediente4: "1/2 Taza de almendras, semillas de girasol o avena tostada",
-        ingrediente5: "1 Taza de coco rallado",
-        ingrediente6: "1 taza de semillas o frutos secos surtidos ",
     },
-    preparacion: {
-        paso1: "- En un bowl junta todos los ingredientes y mezcla hasta lograr unir completamente"+
-                ", formando una masa húmeda. Reserva.",
-        paso2: "- Sobre una lata de horno, con papel mantequilla espolvorea la mitad del coco rallado"+
-               " y dispone la masa esparciéndola formando un rectángulo, cubriendo con el resto del coco,"+
-               "lleva a horno pre-calentado durante 10 minutos a 200 °C. Hornea a 180°C durante 18 a 20 "+
-               "minutos, o bien hasta dorar levemente.",
-        paso3: "- Retira del horno y deja enfriar. Corta rectángulos de 10 cm x 3 cm. Guárdalo envueltos"+
-               "en papel metálico o plástico por unidades o bien en un frasco de vidrio con tapa. Recuerda"+
-               " que la porción sugerida es de una porción por persona."
-    }
-            
-    }
+    //SECCIÓN DE TOSTADAS**************************************************************************************************** */
+    {
+        /*M. Juárez*/
+        nombre: "TOSTADAS DE AGUACATE",
+        descripcion: "Una opción deliciosa y saludable para el desayuno con aguacate fresco",
+        img: "url",
+        ingredientes: {
+            pan: "2 rebanadas de pan integral",
+            aguacate: "1 aguacate maduro",
+            tomate: "1 tomate pequeño, cortado en rodajas",
+            sal: "Sal al gusto",
+            pimienta: "Pimienta negra al gusto"
+        },
+        preparacion: {
+            paso1: "Tuesta las rebanadas de pan hasta que estén crujientes.",
+            paso2: "Pela y corta el aguacate en rodajas.",
+            paso3: "Coloca las rodajas de aguacate sobre las tostadas.",
+            paso4: "Agrega las rodajas de tomate encima del aguacate.",
+            paso5: "Espolvorea sal y pimienta al gusto. ¡Listo para disfrutar!"
+        }
+    },
+    {//M Juárez
+        nombre: "TOSTADAS DE CREMA DE CACAHUETE Y PLÁTANO",
+        descripcion: "Una combinación clásica de crema de cacahuete y plátano sobre tostadas",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "2 rebanadas de pan",
+            ingrediente2: "2 cucharadas de crema de cacahuete",
+            ingrediente3: "1 plátano",
+            ingrediente4: "Miel o canela en polvo para decorar (opcional)"
+        },
+        preparacion: {
+            paso1: "- Tuesta las rebanadas de pan hasta que estén crujientes.",
+            paso2: "- Unta una cucharada de crema de cacahuete en cada tostada.",
+            paso3: "- Corta el plátano en rodajas y colócalo sobre la crema de cacahuete.",
+            paso4: "- Si deseas, añade un poco de miel o espolvorea canela en polvo para decorar.",
+            paso5: "- Disfruta de estas deliciosas tostadas de crema de cacahuete y plátano."
+        }
+    },    
+
+    //SECCIÓN DE BATIDOS*****************************************************************************************************************
+    {//M Juárez 10
+        nombre: "BATIDO DE PLÁTANO Y ESPINACAS",
+        descripcion: "Un batido verde cargado de nutrientes para un desayuno revitalizante",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "2 plátanos maduros",
+            ingrediente2: "1 taza de espinacas frescas",
+            ingrediente3: "1 taza de leche (puede ser vegetal)",
+            ingrediente4: "1 cucharadita de miel (opcional)",
+            ingrediente5: "Cubos de hielo al gusto"
+        },
+        preparacion: {
+            paso1: "En una licuadora, agrega los plátanos pelados y cortados en trozos.",
+            paso2: "Añade las espinacas, la leche y la miel.",
+            paso3: "Agrega algunos cubos de hielo para enfriar y espesar el batido.",
+            paso4: "Licua todos los ingredientes hasta obtener una mezcla suave y homogénea.",
+            paso5: "Sirve en un vaso y disfruta de este batido saludable y refrescante."
+        }
+    },
+    {
+        /*M. Juárez*/
+        nombre: "BATIDO DE FRUTAS TROPICALES",
+        descripcion: "Un batido refrescante con el sabor de las frutas tropicales",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "1 taza de piña en trozos",
+            ingrediente2: "1 taza de mango en trozos",
+            ingrediente3: "2 plátanos maduros",
+            ingrediente4: "1/2 taza de jugo de naranja",
+            ingrediente5: "Cubos de hielo al gusto"
+        },
+        preparacion: {
+            paso1: "- En una licuadora, agrega la piña, el mango, los plátanos y el jugo de naranja.",
+            paso2: "- Añade algunos cubos de hielo para enfriar y espesar el batido.",
+            paso3: "- Licua todos los ingredientes hasta obtener una mezcla suave y homogénea.",
+            paso4: "- Sirve en un vaso y disfruta de este batido tropical lleno de vitaminas."
+        }
+    },
+    {//M Juárez 12
+        nombre: "BATIDO DE AGUACATE Y PLÁTANO",
+        descripcion: "Un batido cremoso y nutritivo con aguacate y plátano",
+        img: "url",
+        ingredientes: {
+            ingrediente1: "1 aguacate maduro",
+            ingrediente2: "1 plátano maduro",
+            ingrediente3: "1 taza de leche (puede ser vegetal)",
+            ingrediente4: "1 cucharada de miel (opcional)",
+            ingrediente5: "Cubos de hielo al gusto"
+        },
+        preparacion: {
+            paso1: "- En una licuadora, coloca el aguacate pelado y sin hueso, el plátano y la leche.",
+            paso2: "- Añade la miel y algunos cubos de hielo si deseas.",
+            paso3: "- Licua hasta obtener una mezcla suave y cremosa.",
+            paso4: "- Sirve en un vaso y disfruta de este batido de aguacate y plátano lleno de nutrientes."
+        }
+    }    
+
 ]
