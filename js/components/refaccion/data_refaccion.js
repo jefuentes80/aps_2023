@@ -48,7 +48,7 @@
         },
     
         {
-            nombre: "ECLAIRS CON JAMON Y QUESO",
+            nombre: "eclaris con jamon y queso",
             descripcion: "Si prefieres una merienda salada y sana, también tienes muchas opciones. Una de ellas este sandwich hecho con pasta choux.",
             img: "https://www.elmueble.com/medio/2023/04/04/eclairs-con-jamon-y-queso_00000000_230404114029_893x1200.jpg",
             ingredientes: {
@@ -514,6 +514,148 @@
                 paso6: "Cocina las tortitas de patata durante unos 4-5 minutos por cada lado, o hasta que estén doradas y crujientes.",
                 paso7: "Retira las tortitas de patata de la sartén y colócalas sobre papel absorbente para eliminar el exceso de grasa.",
                 paso8: "Sirve las tortitas de patata como guarnición o como plato principal con salsa o crema agria.",
+            }
+    
+        },
+
+        
+        {
+            nombre: "Quesadillas de espinacas y queso",
+            descripcion: "Quesadillas sabrosas y nutritivas con espinacas y queso derretido.",
+            img: "https://images.cookforyourlife.org/wp-content/uploads/2021/12/Spinach-Quesadilla.jpg",
+            ingredientes: {
+                ingrediente1: "Tortillas de trigo o maíz",
+                ingrediente2: "Hojas de espinaca fresca",
+                ingrediente3: "Queso rallado (cheddar, mozzarella, o tu elección)",
+                ingrediente4: "Aceite de oliva",
+            },
+            preparacion: {
+                paso1: "Calienta una sartén grande a fuego medio.",
+                paso2: "Coloca una tortilla en la sartén y esparce una capa de queso rallado sobre ella.",
+                paso3: "Agrega las hojas de espinaca encima del queso.",
+                paso4: "Cubre con otra tortilla y presiona suavemente.",
+                paso5: "Cocina la quesadilla por unos minutos, hasta que el queso se derrita y las tortillas estén doradas.",
+                paso6: "Con cuidado, voltear la quesadilla y cocinar el otro lado.",
+                paso7: "Retira la quesadilla de la sartén, corta en triángulos y sirve caliente.",
+            }
+    
+        },
+
+        {
+            nombre: "Muffins de plátano y nueces",
+            descripcion: "Muffins suaves y sabrosos con el dulzor natural del plátano y el crujido de las nueces.",
+            img: "https://blog.pizcadesabor.com/wp-content/uploads/2022/07/Muffins-platano-1.jpg",
+            ingredientes: {
+                ingrediente1: "2 plátanos maduros, aplastados",
+                ingrediente2: "1/2 taza de azúcar",
+                ingrediente3: "1/4 taza de mantequilla derretida",
+                ingrediente4: "1 huevo",
+                ingrediente5: "1 cucharadita de esencia de vainilla",
+                ingrediente6: "1 1/2 tazas de harina",
+                ingrediente7: "1 cucharadita de polvo de hornear",
+                ingrediente8: "1/2 cucharadita de bicarbonato de sodio",
+                ingrediente9: "1/4 cucharadita de sal",
+                ingrediente10:"1/2 taza de nueces picadas",
+            },
+            preparacion: {
+                paso1: "Precalienta el horno a 180 °C y prepara los moldes para muffins con papelitos o engrasándolos.",
+                paso2: "En un tazón, mezcla los plátanos aplastados, el azúcar, la mantequilla derretida, el huevo y la esencia de vainilla.",
+                paso3: "En otro tazón, tamiza la harina, el polvo de hornear, el bicarbonato de sodio y la sal",
+                paso4: "Agrega los ingredientes secos a la mezcla de plátano y revuelve hasta que estén bien combinados.",
+                paso5: "Agrega las nueces picadas y mezcla suavemente.",
+                paso6: "Vierte la masa en los moldes para muffins, llenándolos aproximadamente 2/3 de su capacidad.",
+                paso7: "Hornea durante 18-20 minutos o hasta que los muffins estén dorados y al insertar un palillo en el centro, este salga limpio.",
+                paso8: "Deja enfriar en una rejilla y disfruta.",
+            }
+    
+        },
+
+        {
+            nombre: "Pizza Margherita",
+            descripcion: "La clásica pizza italiana con salsa de tomate, mozzarella y albahaca.",
+            img: "https://img.taste.com.au/DhThzPm9/taste/2016/11/eat-pray-love-39581-3.jpeg",
+            ingredientes: {
+                ingrediente1: "Masa de pizza (casera o comprada)",
+                ingrediente2: "Salsa de tomate",
+                ingrediente3: "Mozzarella fresca",
+                ingrediente4: "Hojas de albahaca fresca",
+                ingrediente5: "Aceite de oliva",
+                ingrediente6: "Sal y pimienta al gusto",
+            },
+            preparacion: {
+                paso1: "Precalienta el horno según las instrucciones de la masa de pizza.",
+                paso2: "Estira la masa de pizza en una bandeja para hornear o en una piedra de pizza.",
+                paso3: "Extiende una capa generosa de salsa de tomate sobre la masa.",
+                paso4: "Corta la mozzarella fresca en rodajas y colócala sobre la salsa de tomate.",
+                paso5: "Espolvorea las hojas de albahaca fresca sobre la mozzarella.",
+                paso6: "Rocía un poco de aceite de oliva sobre la pizza y sazona con sal y pimienta al gusto.",
+                paso7: "Hornea la pizza en el horno precalentado hasta que la masa esté dorada y crujiente y el queso esté burbujeante y ligeramente dorado.",
+                paso8: "Retira la pizza del horno y deja que se enfríe un poco antes de cortarla en porciones. ¡Disfruta de esta clásica y sabrosa pizza Margherita!",
+            }
+    
+        },
+
+        {
+            nombre: "Wrap de Pollo y Vegetales",
+            descripcion: "Un wrap rápido y sabroso lleno de pollo y vegetales frescos.",
+            img: "https://imag.bonviveur.com/presentacion-principal-del-wrap-de-pollo-y-verduras.jpg",
+            ingredientes: {
+                ingrediente1: "Tortillas de trigo o maíz",
+                ingrediente2: "Pechuga de pollo cocida y cortada en tiras",
+                ingrediente3: "Lechuga picada",
+                ingrediente4: "Tomates cherry cortados por la mitad",
+                ingrediente5: "Pepino en rodajas finas",
+                ingrediente6: "Zanahorias ralladas",
+                ingrediente7: "Salsa de yogur o aderezo de tu elección",
+            },
+            preparacion: {
+                paso1: "Calienta las tortillas en una sartén o en el microondas para que estén flexibles.",
+                paso2: "Coloca las tiras de pollo, la lechuga, los tomates cherry, el pepino y las zanahorias ralladas en el centro de cada tortilla.",
+                paso3: "Rocía con salsa de yogur o aderezo.",
+                paso4: "Dobla los lados de la tortilla hacia adentro y enrolla firmemente.",
+                paso5: "Corta los wraps por la mitad si lo deseas y sírvelos.",
+                paso6: "Disfruta de este wrap fresco y lleno de sabor.",
+            }
+    
+        },
+
+        {
+            nombre: "Ensalada de Espinacas con Fresas y Nueces",
+            descripcion: "Una ensalada fresca y ligera con espinacas, fresas y nueces.",
+            img: "https://s1.eestatic.com/2021/03/02/cocinillas/recetas/ensaladas/562955653_174333695_1024x576.jpg",
+            ingredientes: {
+                ingrediente1: "4 tazas de espinacas frescas",
+                ingrediente2: "1 taza de fresas, rebanadas",
+                ingrediente3: "1/2 taza de nueces picadas",
+                ingrediente4: "/4 taza de queso feta desmenuzado (opcional)",
+                ingrediente5: "Vinagreta de tu elección (por ejemplo, vinagreta balsámica o de miel y mostaza)",
+            },
+            preparacion: {
+                paso1: "En un tazón grande, combina las espinacas, las fresas, las nueces y el queso feta.",
+                paso2: "Rocía la vinagreta sobre la ensalada y mezcla suavemente para cubrir todos los ingredientes.",
+                paso3: "irve inmediatamente y disfruta de esta ensalada ligera y refrescante.",
+            }
+    
+        },
+
+        {
+            nombre: "Quesadillas de Queso:",
+            descripcion: "Un clásico mexicano simple y sabroso.",
+            img: "https://www.vvsupremo.com/wp-content/uploads/2015/11/900X570_Two-Cheese-Quesadillas.jpg",
+            ingredientes: {
+                ingrediente1: "Tortillas de maíz o trigo",
+                ingrediente2: "Queso rallado (cheddar, mozzarella, etc.)",
+                ingrediente3: "Opcionales: tomate en rodajas, cebolla en rodajas, jalapeños en rodajas, etc.",
+            },
+            preparacion: {
+                paso1: "Calienta una sartén a fuego medio.",
+                paso2: "Coloca una tortilla en la sartén caliente.",
+                paso3: "Espolvorea una capa generosa de queso rallado sobre la tortilla.",
+                paso4: "Agrega tus ingredientes opcionales como rodajas de tomate, cebolla, jalapeños, etc.",
+                paso5: "Cubre con otra tortilla.",
+                paso6: "Cocina la quesadilla durante unos minutos hasta que el queso se derrita y las tortillas estén doradas.",
+                paso7: "Dale la vuelta a la quesadilla y cocina por el otro lado hasta que esté dorada y crujiente.",
+                paso8: "Retira la quesadilla de la sartén, córtala en triángulos y sirve caliente. Disfruta",
             }
     
         },
