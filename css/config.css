@@ -9,3 +9,11 @@ body {
     font-size: 10px;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
