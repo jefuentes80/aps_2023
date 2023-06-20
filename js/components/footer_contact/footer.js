@@ -18,7 +18,7 @@ function llamar_footer() {
             <div class="div00">
                 <h1>APS_2023</h1>
                 <h2>≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡</h2>
-                <img class="image" src="https://static.wixstatic.com/media/d1b317_4fe70cb66f9447c3991ad4cb8d7294d3~mv2.png/v1/fit/w_2500,h_1330,al_c/d1b317_4fe70cb66f9447c3991ad4cb8d7294d3~mv2.png" alt="">
+                <img class="image" src="https://o.remove.bg/downloads/6f2373b1-542c-4cad-8bdb-6aa272fcaf50/imagen_2023-06-19_211710198-removebg-preview.png" alt="">
             </div>
         </div>
         <div class="names2">
