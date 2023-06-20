@@ -1,5 +1,5 @@
 // Juan Pablo López Talé
-    let refa= [
+    let refacciones= [
         
         {
             nombre: "Tortitas de arroz y queso",
@@ -22,7 +22,6 @@
                 paso4: "Las tortitas de arroz y queso se sirven al momento, bien calientes, con un ketchup casero o con una salsa de tomate casera.",
                 paso5: "Ten en cuenta que al estar hechas con arroz precocido ¡, las tortitas tienden a endurecerse con el paso del tiempo. "
             }
-    
         },
 
         {
@@ -42,7 +41,6 @@
                 paso4: "Coloca las frutas cortadas en cubos pequeños sobre la capa de gelatina parcialmente cuajada.",
                 paso5: "Vierte suavemente otra capa"
             }
-    
         },
     
         {
@@ -67,7 +65,6 @@
                 paso5: "Repite el proceso con las hojas de papel de arroz restantes y los ingredientes del relleno.",
                 paso6: "Sirve los rollitos de primavera con salsa de soja para mojar.",
             }
-    
         },
     
         {
@@ -90,7 +87,6 @@
                 paso5: "Coloca la mezcla de tomate y albahaca sobre las rebanadas de pan tostado.",
                 paso6: "Rocía un poco más de aceite de oliva por encima.",
             }
-    
         },
     
         {
@@ -112,7 +108,6 @@
                 paso3: "Exprime un poco de jugo de limón sobre el guacamole y sazona con sal y pimienta al gusto. Mezcla bien todos los ingredientes.",
                 paso4: "Sirve el guacamole en un plato y acompáñalo con chips de tortilla para sumergir y disfrutar.",
             }
-    
         },
 
         {
@@ -155,11 +150,10 @@
                 paso2: " Incorporarlas a la licuadora junto con la leche condensada, la leche y el azúcar.",
                 paso3: "Licuar hasta que quede una mezcla uniforme y servir.",
             }
-    
         },
 
         {
-            nombre: "Batido de frutas tropicales",
+            nombre: "Licuado de frutas tropicales",
             descripcion: "Un refrescante y sabroso batido hecho con frutas tropicales y yogur.",
             img: "https://images-gmi-pmc.edge-generalmills.com/419036f4-d7ab-475a-9faa-1283bb1a8cb2.jpg",
             ingredientes: {
@@ -178,7 +172,6 @@
                 paso4: "Prueba el batido y agrega miel si deseas un sabor más dulce.",
                 paso5: "Sirve el batido de frutas tropicales en vasos altos y disfrútalo de inmediato. Puedes decorar con rodajas de frutas adicionales, si lo deseas.",
             }
-    
         },
 
         {
@@ -219,7 +212,6 @@
                 paso5: "Mezcla suavemente todos los ingredientes para combinarlos.",
                 paso6: "Sirve la ensalada de sandía y queso feta en cuencos individuales y decora con algunas hojas de menta fresca.",
             }
-    
         },
 
         {
@@ -245,11 +237,10 @@
                 paso4: "Añade hojas de cilantro o perejil picado, si lo deseas, y revuelve nuevamente.",
                 paso5: "Sirve la ensalada de quinoa y vegetales como acompañamiento o como plato principal. Puedes refrigerar las sobras en un recipiente hermético para disfrutarlas más tarde.",
             }
-    
         },
 
         {
-            nombre: "Tortitas de patata (papas)",
+            nombre: "Tortitas de papas",
             descripcion: "Tortitas doradas y crujientes de patata, ideales como guarnición o como plato principal ligero.",
             img: "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/c6d64e5b6f38cccf2ca6888a3ba1a07f.jpg",
             ingredientes: {
@@ -270,10 +261,10 @@
                 paso7: "Retira las tortitas de patata de la sartén y colócalas sobre papel absorbente para eliminar el exceso de grasa.",
                 paso8: "Sirve las tortitas de patata como guarnición o como plato principal con salsa o crema agria.",
             }
-    
         },
+
         {
-            nombre: "Nachos de batata con frijoles y guacamole",
+            nombre: "Nachos de papa con frijoles y guacamole",
             descripcion: "Nachos saludables hechos con batata en lugar de tortillas de maíz, cubiertos con frijoles y guacamole.",
             img: "https://es.rc-cdn.community.thermomix.com/recipeimage/4jmlggcr-0edb7-145928-88c8b-syexr4r8/571e3df2-e4ba-4eda-96e8-39d148b928f6/main/nachos-con-frijoles-y-guacamole.jpg",
             ingredientes: {
@@ -294,7 +285,6 @@
                 paso8: "Colocar las rodajas de batata en un plato y cubrirlas con los frijoles negros y guacamole.",
                 paso9: "Servir los nachos de batata con frijoles y guacamole.",
             }
-    
         },
 
         {
@@ -389,7 +379,6 @@
                 paso5: "Corta los wraps por la mitad si lo deseas y sírvelos.",
                 paso6: "Disfruta de este wrap fresco y lleno de sabor.",
             }
-    
         },
 
         {
@@ -620,7 +609,7 @@
         },
 
         {
-            nombre: "eclaris con jamon y queso",
+            nombre: "Eclaris con jamon y queso",
             descripcion: "Si prefieres una merienda salada y sana, también tienes muchas opciones. Una de ellas este sandwich hecho con pasta choux.",
             img: "https://www.elmueble.com/medio/2023/04/04/eclairs-con-jamon-y-queso_00000000_230404114029_893x1200.jpg",
             ingredientes: {
@@ -635,6 +624,5 @@
                 paso2: "Mientras está la pasta choux en el horno, ve lavando las hojas de lechuga y sécalas bien con papel de cocina. Alíñalas ligeramente con aceite, sal y pimienta. Corta también el queso en cuñas finas.",
                 paso3: "Cuando estén fríos, parte los éclairs por la mitad en horizontal y rellénalos como si fueran bocadillos con una capa de queso, otra de jamón y, por último, otra de hojas de ensalada. ",
             }
-    
         },
     ]
