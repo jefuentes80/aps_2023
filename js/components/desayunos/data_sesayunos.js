@@ -107,7 +107,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "HUEVOS REVUELTOS CREMOSOS CON YOGUR",
     descripcion: "Los huevos son un gran alimento para empezar el día y con yogur elevan los beneficios de este alimento",
-    img: "url",
+    img: "https://buenprovecho.hn/wp-content/uploads/2020/06/1-11.png",
     ingredientes: {
         ingrediente1: "2 huevos grandes",
         ingrediente2: "2 cuch. de yogur griego",
@@ -126,7 +126,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "TORTILLA DE JAMÓN Y QUESO",
     descripcion: "Un fácil tortilla de jamon y queso ¡es el desayuno simple y satisfactorio perfecto para comenzar bien el día!",
-    img: "url",
+    img: "https://nuestragente.mx/wp-content/uploads/2022/08/huevos.jpg",
     ingredientes: {
         ingrediente1: "3 huevos grandes",
         ingrediente2: "Sal",
@@ -149,7 +149,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "CHORIZO Y HUEVOS (HUEVOS CON CHORIZO)",
     descripcion: "Esta receta es muy sencillo ¡y solo requiere 4 ingredientes! Si no tiene huevos medianos, los grandes o extra grandes funcionarán bien.",
-    img: "url",
+    img: "https://www.cardamomo.news/__export/1654534278547/sites/debate/img/2022/06/06/huevos_con_chorizo.png_423682103.png",
     ingredientes: {
         ingrediente1: "2 cucharaditas de aceite.",
         ingrediente2: "9 onzas de chorizo ​​chorizo.",
@@ -251,7 +251,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "HOT CAKES DE AVENA, MANZANA Y CANELA",
     descripcion: "Empieza tus mañanas con el desayuno más saludable, fácil y delirante: hot cakes de avena, manzana y canela.",
-    img: "url",
+    img: "https://www.cardamomo.news/__export/1680108159921/sites/debate/img/2023/03/29/hot_cakes_de_manzana_avena.png_242310155.png",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "½ taza de leche",
@@ -272,7 +272,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "TORTILLA DE AVENA Y VERDURA",
     descripcion: "Para los amantes de los desayunos salados, hay muchas alternativas a las clásicas de tostadas con aceite y tomate. Por ejemplo esta tortilla de avena con verdura, un desayuno completo con un buena proporción de proteínas, hidratos de carbono de absorción lenta y verdura, que nos asegura la energía necesaria para toda la mañana.",
-    img: "url",
+    img: "https://quaker.lat/app/uploads/sites/5/2021/12/omelet_1.1.1760x480.png",
     ingredientes: {
         ingrediente1: "4 cucharadas de copos de avena",
         ingrediente2: "3 huevos",
@@ -294,7 +294,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "PAN DE AVENA",
     descripcion: "La clave para que se trate de un desayuno realmente saludable es el pan, y lo ideal es elegir un buen pan 100% integral. Pero ¿y si probamos con esta receta de pan sin gluten?",
-    img: "url",
+    img: "https://www.pakote.com/sites/default/files/2020-07/pakote_pan_rustico_avena.jpg",
     ingredientes: {
         ingrediente1: "275 g de harina de avena (certificada sin gluten si es preciso)",
         ingrediente2: "350 ml de yogur natural",
@@ -313,7 +313,7 @@ let desayuno = [
     {/* K_telles*/
     nombre: "PIZZA DE AVENA",
     descripcion: "Es delicioso realizar una pizza de avena, saludable y crujiente.",
-    img: "url",
+    img: "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2022/07/pizzadeavena.jpg",
     ingredientes: {
         ingrediente1: "100 g de avena",
         ingrediente2: "100 ml de agua",
@@ -339,7 +339,7 @@ let desayuno = [
     { /* K_telles*/
         nombre: "YOGUR DE FRESA Y VAINILLA",
         descripcion: "Yogur de fresa y vainilla hecha para 4 personas, se puede acompañar de trocitos de manzana y plátano.",
-        img: "url",
+        img: "https://img.freepik.com/vector-premium/fresa-realista-leche-bienvenida-yogurt-fresa_190024-641.jpg",
         ingredientes: {
             ingrediente1: "Media taza de fresas.",
             ingrediente2: "Media taza de marañon.",
@@ -362,7 +362,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE AVENA CON PLÁTANO",
     descripcion: "Tortillas de avena con plátano para 4 personas. (Para evitar que los plátanos se oscurezcan en contacto con el aire, rocíalos con zumo de limón.)",
-    img: "url",
+    img: "https://img-global.cpcdn.com/recipes/0190f0a2271af598/680x482cq70/tortitas-de-avena-y-platano-foto-principal.jpg",
     ingredientes: {
         ingrediente1: "5 cucharadas de harina de avena",
         ingrediente2: "100 gramos de fresas",
@@ -389,7 +389,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "YOGUR CON QUINOA Y FRUTAS ROJAS",
     descripcion: "Esta es una opción válida para quienes no quieren consumir copos o cereales clásicos de desayuno. Además, es refrescante y deliciosa.",
-    img: "url",
+    img: "https://unareceta.com/wp-content/uploads/2016/08/receta-quinoa-con-yogurt.jpg",
     ingredientes: {
         ingrediente1: "1 taza de yogur natural",
         ingrediente2: "1 cucharadita de miel",
@@ -406,7 +406,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "PANQUEQUES DE YOGUR Y AVENA",
     descripcion: "Los panqueques son una preparación clásica, ideal para hacer desayunos saludables. Si bien hay diferentes recetas para elaborarlos, los que se hacen con yogur tienen una consistencia más densa que los tradicionales.",
-    img: "url",
+    img: "https://files.wapa.pe/Wapa/2020/04/27/panqueques-de-yogurt-y-avena-recetas-f-ciles-c-mo-preparar-1587947110.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "1/2 taza de yogur firme",
@@ -430,7 +430,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "TOSTADAS DE YOGUR Y FRUTOS ROJOS",
     descripcion: "Deliciosa receta de tostada francesa con yogur y frutos rojos.",
-    img: "url",
+    img: "https://www.centrallecheraasturiana.es/wp-content/uploads/2019/08/Foto-receta-1@2x.jpg",
     ingredientes: {
         ingrediente1: "2 rebanadas gruesas de pan tipo brioche, de trigo o de masa madre",
         ingrediente2: "1/4 taza de yogur",
@@ -452,7 +452,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE YOGUR",
     descripcion: "Estos pancakes de yogur o tortitas son súper fáciles de preparar y necesitan pocos ingredientes que muchos tenemos en nuestras despensas.",
-    img: "url",
+    img: "https://content-cocina.lecturas.com/medio/2023/03/06/tortitas-de-manzana-y-yogur_6107ebe4_1200x630.png",
     ingredientes: {
         ingrediente1: "1 taza de harina",
         ingrediente2: "1 y 2/3 taza de yogur",
@@ -470,7 +470,7 @@ let desayuno = [
     { /* K_telles*/
     nombre: "BANANA SPLITS DE YOGUT",
     descripcion: "Una banana splits de yogur para desayunar es un delicioso alimento para empezar el día.",
-    img: "url",
+    img: "https://cocinaconmichela.com/wp-content/uploads/2023/03/1-5.png",
     ingredientes: {
         ingrediente1: "1 plátano, cortado a lo largo",
         ingrediente2: "1 taza de yogur",
