@@ -2,7 +2,11 @@
 //KEILY BELÉN TELLES PÉREZ
 
 export function  sabias(){
+<<<<<<< HEAD
+    let pag = document.querySelector("#desayuno");
+=======
     let pag = document.querySelector(".caja");
+>>>>>>> 0a0a07ad342c645afe00fb869fc1c510f37d9d46
     
     let helou = document.createElement("div")
     helou.innerHTML= `
