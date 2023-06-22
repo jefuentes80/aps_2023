@@ -1,7 +1,7 @@
 // Objeto desayunos 
 // Base de datos - Melissa J.
 
-let desayuno = [
+export let desayuno = [
     //SECCION DE HUEVOS ****************************************************************************************
     {
         /*--- M. Juarez */
