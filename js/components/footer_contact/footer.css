@@ -1,11 +1,14 @@
+.footer {
+    display: block;
+    border-radius: 8rem;
+}
+ 
 .pie_de_pagina {
     background-color:#ef8e4c;
-    border-radius: 5px;
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    height: 30rem;
 }
 
 .pie_de_pagina > .Titulo > h1 {
@@ -16,6 +19,25 @@
 }
 
 
+/*Nombre del proyecto*/
+.centro {
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    display: block;
+}
+.div00 > img {
+    height: 8rem;
+    margin-top: 3rem;
+}
+.div00 > h1 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+
+/*Sección de listas*/
+.listas_
 .names1 > ul {
     margin: auto;
     display: inline-block;
@@ -29,22 +51,6 @@ ul > li > p {
 }
 
 
-.centro {
-    align-items: center;
-    text-align: center;
-    align-self: center;
-    display: block;
-}
-.div00 > img {
-    height: 8rem;
-}
-.div00 > h1 {
-    font-size: 4rem;
-    color: black;
-}
-
-
-
 .names2 > ul {
     display: inline-block;
 }
@@ -54,8 +60,12 @@ ul > li > p {
 }
 
 
+/*Sección de copyright*/
 .copy {
     color: white;
     background-color: black;
     display: flex;
+    height: 3rem;
+    align-items: center;
+    height: 4rem;
 }
