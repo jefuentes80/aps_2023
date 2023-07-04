@@ -105,27 +105,27 @@ export const evitar_no_comer = [
         dsescripcion : "Los productos de panadería y repostería, como pasteles, galletas, donas y magdalenas, suelen contener altas cantidades de azúcares agregados. Estos alimentos son ricos en calorías, grasas saturadas y azúcares refinados. Su consumo regular puede contribuir al aumento de peso, elevar los niveles de azúcar en la sangre, aumentar el riesgo de enfermedades cardíacas y provocar caries dentales.",
     },
     {
-        img : "",
+        img : "https://www.laurafuentes.soy/wp-content/uploads/2022/12/Strawberry-Overnight-Oats-post-1.jpg",
         titulo : "Yogures y postres lácteos azucarados",
         dsescripcion : "Muchos yogures y postres lácteos comercializados contienen azúcares agregados para mejorar su sabor. Estos productos pueden parecer opciones saludables debido a su contenido de calcio y probióticos, pero el exceso de azúcar puede anular sus beneficios. El consumo regular de yogures y postres lácteos azucarados puede contribuir al aumento de peso, elevar los niveles de azúcar en la sangre y aumentar el riesgo de caries dentales.",
     },
     {
-        img : "",
+        img : "https://noticiassaludables.com/wp-content/uploads/2017/12/aderezos.jpg",
         titulo : "Salsas y aderezos procesados",
         dsescripcion : "Las salsas y aderezos procesados, como la salsa de tomate, ketchup, aderezos para ensaladas y salsas para pasta, a menudo contienen azúcares agregados para mejorar el sabor. Estas salsas y aderezos pueden ser altos en calorías y azúcares, lo que puede contribuir al aumento de peso y elevar los niveles de azúcar en la sangre. Además, su consumo excesivo puede dificultar la elección de opciones más saludables y naturalmente sabrosas.",
     },
     {
-        img : "",
+        img : "https://noticiassaludables.com/wp-content/uploads/2017/12/aderezos.jpg",
         titulo : "Alimentos enlatados",
         dsescripcion : "Como sopas enlatadas, embutidos, snacks salados, salsas comerciales y alimentos precocinados, suelen contener altas cantidades de sal para mejorar el sabor y la conservación. El consumo excesivo de alimentos procesados puede contribuir al aumento de la presión arterial, el riesgo de enfermedades cardíacas y la retención de líquidos.",
     },
     {
-        img : "",
+        img : "https://i.blogs.es/7a1d74/encurtidos1/1366_2000.jpg",
         titulo : "Alimentos en conserva y encurtidos",
         dsescripcion : "Los alimentos en conserva y encurtidos, como pepinillos, aceitunas y vegetales enlatados, a menudo contienen altas cantidades de sal como parte del proceso de conservación. Estos alimentos pueden ser una fuente significativa de sodio en la dieta y su consumo excesivo puede contribuir a la hipertensión y otros problemas de salud relacionados.",
     },
     {
-        img : "",
+        img : "https://storage.googleapis.com/afs-prod/media/ce51dd2461a84464932908c58b89fe8d/800.jpeg",
         titulo : "Condimentos comerciales",
         dsescripcion : "condimentos comerciales, como la salsa de soja, salsa barbacoa, salsa teriyaki y aderezos para ensaladas, contienen altos niveles de sal. Estos condimentos pueden añadir sabor a las comidas, pero su consumo en exceso puede aumentar la ingesta de sodio y elevar la presión arterial.",
     }
