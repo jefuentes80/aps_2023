@@ -4,7 +4,7 @@
 }
  
 .pie_de_pagina {
-    background-color:#ef8e4c;
+    background-color:black;
     display: block;
     align-items: center;
     text-align: center;
@@ -12,7 +12,7 @@
 }
 
 .pie_de_pagina > .Titulo > h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     margin: 0.5rem 1rem;
     text-align: left;
@@ -32,12 +32,17 @@
 }
 .div00 > h1 {
     font-size: 3.5rem;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+.div00 > h2 {
+    color: white;
 }
 
 
 /*Sección de listas*/
-.listas_
+.listas_Names {
+    padding: 2rem 2rem;
+}
 .names1 > ul {
     margin: auto;
     display: inline-block;
@@ -48,6 +53,7 @@
 }
 ul > li > p {
     font-size: 1.5rem;
+    color: white;
 }
 
 
@@ -63,9 +69,8 @@ ul > li > p {
 /*Sección de copyright*/
 .copy {
     color: white;
-    background-color: black;
+    background-color: rgb(24, 22, 22);
     display: flex;
-    height: 3rem;
     align-items: center;
     height: 4rem;
 }
