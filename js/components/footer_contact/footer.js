@@ -12,7 +12,6 @@ function llamar_footer() {
                 <div class="div00">
                     <h1>Proyecto APS 2023</h1>
                     <h2>___________________________</h2>
-                    <img class="image" src="" alt="">
                 </div>
             </div>
 
@@ -34,6 +33,7 @@ function llamar_footer() {
                         <li><p>Juan Talé</p></li>
                     </ul>
                 </div>
+                <img class="image" src="./js/components/footer_contact/img/SCL logo.png" alt="">
             </div>
         </div>
 
