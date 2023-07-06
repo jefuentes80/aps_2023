@@ -1,12 +1,12 @@
 // Objeto desayunos
 /*Axel Daniel Alvarez López*/
-let cenas = [
+export let cenas = [
     //CENAS CON HUEVO
 /****************************************************************************************************************************************************************************************************************************************/
   {
       nombre: "Huevos rotos saludables",
       descripcion: "son uno de los platos estrella de nuestra gastronomía, pero no tienen porque ser poco saludables.",
-      img: "url",
+      img: "https://static01.nyt.com/images/2020/05/08/dining/as-huevos-rotos/merlin_150673095_5acc0941-eae4-4dda-b1f5-9ffe846c5fdc-articleLarge.jpg",
       ingredientes: {
           ingrediente1: "400g de Papas",
           ingrediente2: "3 ad de Huevos",
@@ -31,7 +31,7 @@ let cenas = [
       nombre: "Huevos tirados con frijol y alubias",
       tiempo: "15 minutos de preparación",
       descripcion: "Ingredientes (4 personas)",
-      img: "url",
+      img: "https://cdn7.kiwilimon.com/recetaimagen/38205/640x640/48857.jpg.webp",
       ingredientes: {
           ingrediente1: "6 huevos",
           img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
@@ -52,7 +52,7 @@ let cenas = [
   {
       nombre: "Huevo con salchicha",
       tiempo: "10 minutos de preparación",
-      img: "url",
+      img: "https://www.divinacocina.es/wp-content/uploads/revuelto-de-salchichas-queso.jpg",
       ingredientes: {
           ingrediente1: "8 huevos",
           img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
@@ -73,7 +73,7 @@ let cenas = [
       nombre: "Revuelto de pimientos de tres colores",
       tiempo: "Tiempo: 20 minutos /Fácil/Económico",
       descripcion: "La propuesta de hoy es muy colorista porque hemos utilizado pimientos verdes, rojos y amarillos, en tiras para hacer nuestro revuelto. Los huevos los batimos salpimentados con nata.",
-      img: "url",
+      img: "https://content-cocina.lecturas.com/medio/2018/07/19/revuelto-de-pimientos-de-tres-colores_00599be5_600x600.jpg",
       ingredientes: {
           ingrediente1: "1 pimiento rojo",
           ingrediente2: "1 pimiento verde",
@@ -97,7 +97,7 @@ let cenas = [
   {
           nombre: "Sándwich de huevos revueltos y Jamón",
           descripcion: "Para preparar este saludable sándwich vamos a usar pan de hamburguesa integral",
-          img: "url",
+          img: "https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/DT5IEVLSBBEQPGSK7OCRJG2R44.jpeg",
           ingredientes: {
               ingrediente1: "4 ud de Pan de hamburguesa integral",
               ingrediente2: "5 ud de Huevo",
@@ -122,7 +122,7 @@ let cenas = [
   {
       nombre: "Tostas de huevos revueltos con aguacate",
       descripcion: "Los huevos revueltos no son solo una opción de lo más socorrida para comidas o cenas rápidas, sino también para quienes, a la hora del desayuno, prefieren opciones saladas.",
-      img: "url",
+      img: "https://img-global.cpcdn.com/recipes/7167956f2eac5fc1/400x400cq70/photo.jpg",
       ingredientes: {
           ingrediente1: "2 Huevos medianos (cuanto más frescos, mejor)",
           img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
@@ -146,7 +146,7 @@ let cenas = [
 {
   nombre: "Tortilla de espinacas y queso",
   descripcion: "Una deliciosa y rápida opción para la cena, esta tortilla combina espinacas tiernas con queso derretido. Es sencilla de preparar y perfecta para una cena ligera y sabrosa.",
-  img: "url",
+  img: "https://www.miscosillasdecocina.com/wp-content/uploads/2022/07/tortilla-patata-espinacas-queso4.jpg",
   ingredientes: {
       ingrediente1: "3 huevos",
       img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
@@ -171,7 +171,7 @@ let cenas = [
 {
   nombre: "Quesadillas de huevo y vegetales",
   descripcion: "Las quesadillas son una opción versátil y rápida para la cena. En esta receta, rellenaremos tortillas de harina con huevos revueltos y una variedad de vegetales para obtener una cena deliciosa y nutritiva.",
-  img: "url",
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKmFqBbPiZ0LfhjAqSzAGBKAsranHWEtFsLQ&usqp=CAU",
   ingredientes: {
   ingrediente1: "4 tortillas de harina",
   ingrediente2: "4 huevos",
@@ -199,7 +199,7 @@ let cenas = [
 {
   nombre: "Tortilla de champiñones y espinacas",
   descripcion: "Una tortilla esponjosa y llena de sabor, perfecta para una cena rápida y deliciosa. En esta receta, combinaremos champiñones salteados, espinacas frescas y queso para crear una tortilla nutritiva y sabrosa.",
-  img: "url",
+  img: "https://mediacenter.bonduelle.com/cdn/202001/ESGP074_.jpg",
   ingredientes: {
   ingrediente1: "4 huevos",
   img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
@@ -230,7 +230,7 @@ let cenas = [
 
 {
     nombre: "Agua de platano con leche",
-    descripcion: "Para preparar este saludable sándwich vamos a usar pan de hamburguesa integral",
+    descripcion: "Una bebida liviana y rerfrescante",
     img: "url",
        ingredientes: {
        ingrediente1: "2 plátanos",
