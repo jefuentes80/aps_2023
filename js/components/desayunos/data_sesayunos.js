@@ -491,7 +491,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "TOSTADAS DE AGUACATE",
         descripcion: "Una opción deliciosa y saludable para el desayuno con aguacate fresco",
-        img: "url",
+        img: "https://www.divinacocina.es/wp-content/uploads/2022/02/tostada-aguacate-hummus.jpg",
         ingredientes: {
             pan: "2 rebanadas de pan integral",
             aguacate: "1 aguacate maduro",
