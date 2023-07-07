@@ -6,7 +6,7 @@
 /* Componente irem de la página */
 
 .caja{
-    height: 500vh;
+    height: 550rem;
     background-color: rgb(154, 206, 57);
 
     display: flex;
@@ -16,8 +16,8 @@
 .miniatura{
     
     
-    width: 70%;
-    height: 25rem;
+    width:80%;
+    height: 50rem;
     margin-top: 1rem;
     /*margin: 10px;*/
     background-color: #F9E9E2;
@@ -35,11 +35,23 @@
     justify-content: center;
 }
 
+.titulo_comida{
+    color: #000000;
+    font-size: 17px;
+}
+
+.descripcion_comida{
+    margin-top: 1rem;
+    color: #CD0000;
+    font-size: 15px;
+}
+
 .miniatura img{
     margin: 1rem;
+    margin-top: 1.5rem;
     border-radius: 1rem;
-    width: 11rem;
-    /*height: 12rem;*/
+    width: 15rem;
+    height: 15rem;
     background-color: aqua;
    
 }

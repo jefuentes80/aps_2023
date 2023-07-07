@@ -271,7 +271,7 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "TORTILLA DE AVENA Y VERDURA",
-    descripcion: "Para los amantes de los desayunos salados, hay muchas alternativas a las clásicas de tostadas con aceite y tomate. Por ejemplo esta tortilla de avena con verdura, un desayuno completo con un buena proporción de proteínas, hidratos de carbono de absorción lenta y verdura, que nos asegura la energía necesaria para toda la mañana.",
+    descripcion: "Para los amantes de los desayunos salados, hay muchas alternativas a las clásicas de tostadas con aceite y tomate. Por ejemplo esta tortilla de avena con verdura.",
     img: "https://quaker.lat/app/uploads/sites/5/2021/12/omelet_1.1.1760x480.png",
     ingredientes: {
         ingrediente1: "4 cucharadas de copos de avena",
@@ -405,7 +405,7 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "PANQUEQUES DE YOGUR Y AVENA",
-    descripcion: "Los panqueques son una preparación clásica, ideal para hacer desayunos saludables. Si bien hay diferentes recetas para elaborarlos, los que se hacen con yogur tienen una consistencia más densa que los tradicionales.",
+    descripcion: "Los panqueques son una preparación clásica, ideal para hacer desayunos saludables.",
     img: "https://files.wapa.pe/Wapa/2020/04/27/panqueques-de-yogurt-y-avena-recetas-f-ciles-c-mo-preparar-1587947110.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
@@ -430,7 +430,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TOSTADAS DE YOGUR Y FRUTOS ROJOS",
     descripcion: "Deliciosa receta de tostada francesa con yogur y frutos rojos.",
-    img: "https://www.centrallecheraasturiana.es/wp-content/uploads/2019/08/Foto-receta-1@2x.jpg",
+    img: "https://macabites.com/wp-content/uploads/2017/12/las-MEJORES-tostadas-francesas.jpg",
     ingredientes: {
         ingrediente1: "2 rebanadas gruesas de pan tipo brioche, de trigo o de masa madre",
         ingrediente2: "1/4 taza de yogur",
@@ -452,7 +452,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE YOGUR",
     descripcion: "Estos pancakes de yogur o tortitas son súper fáciles de preparar y necesitan pocos ingredientes que muchos tenemos en nuestras despensas.",
-    img: "https://content-cocina.lecturas.com/medio/2023/03/06/tortitas-de-manzana-y-yogur_6107ebe4_1200x630.png",
+    img: "https://todoespecias.com/blog/wp-content/uploads/vlcsnap-2022-07-29-14h21m06s530-e1659097852865.png",
     ingredientes: {
         ingrediente1: "1 taza de harina",
         ingrediente2: "1 y 2/3 taza de yogur",

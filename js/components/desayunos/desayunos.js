@@ -34,8 +34,8 @@ function vista(){
 
             <img src="${element["img"]}">
             <div class="solotexto">
-                <h3>${element["nombre"]}</h3>
-                <p>${element["descripcion"]}</p>
+                <h3 class="titulo_comida">${element["nombre"]}</h3>
+                <p class="descripcion_comida">${element["descripcion"]}</p>
             </div>  `;
 
         eldom.appendChild(nose)
