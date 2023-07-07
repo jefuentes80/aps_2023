@@ -5,6 +5,7 @@ export let cenas = [
 /****************************************************************************************************************************************************************************************************************************************/
   {
       nombre: "Huevos rotos saludables",
+      tiempo: "15 minutos de preparación",
       descripcion: "son uno de los platos estrella de nuestra gastronomía, pero no tienen porque ser poco saludables.",
       img: "https://static01.nyt.com/images/2020/05/08/dining/as-huevos-rotos/merlin_150673095_5acc0941-eae4-4dda-b1f5-9ffe846c5fdc-articleLarge.jpg",
       ingredientes: {
