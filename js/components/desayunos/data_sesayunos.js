@@ -8,7 +8,7 @@ export let desayuno = [
         nombre: "HUEVOS RANCHEROS",
         descripcion: "Los huevos rancheros son uno de los desayunos " +
         "más típicos y tradicionales de México.",
-        img: "url",
+        img: "https://www.maricruzavalos.com/wp-content/uploads/2021/06/huevos_rancheros_recipe.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz: dos piezas.",
             ingrediente2: "2 cucharadas soperas de Frijoles refritos",
@@ -37,7 +37,7 @@ export let desayuno = [
         /*M -- Juárez*/
         nombre: "HUEVOS CON SALCHICHA",
         descripcion: "Una receta fácil de preparar con ingredientes accesibles",
-        img: "url",
+        img: "https://www.ladanesa.com.ec/img/receta-huevo-revuelto.jpg",
         ingredientes: {
             ingrediente1: "8 huevos",
             ingrediente2: "3 salchichas de pavo",
@@ -60,7 +60,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "TORTILLA DE ESPINACA",
         descripcion: "Una tortilla saludable y nutritiva con espinacas frescas",
-        img: "url",
+        img: "https://imag.bonviveur.com/cuajar-la-tortilla-de-espinacas-por-el-otro-lado.jpg",
         ingredientes: {
             ingrediente1: "1 taza de espinacas frescas",
             ingrediente2: "2 huevos",
@@ -83,7 +83,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "BURRITO DE HUEVO CON TOCINO",
         descripcion: "Comienza tu día con un desayuno llenador, son fáciles de hacer y con un sabor que te encantará",
-        img: "url",
+        img: "https://www.daisybrand.com/wp-content/uploads/2019/12/BREAKFAST-BURRITOS-770x628.jpg",
         ingredientes: {
             ingrediente1: "3 huevos",
             ingrediente2: "1 aguacate",
@@ -167,7 +167,7 @@ export let desayuno = [
     {//M Juárez
         nombre: "HUEVOS AL HORNO CON ESPINACA Y QUESO",
         descripcion: "Un desayuno sabroso y nutritivo con huevos, espinacas y queso derretido",
-        img: "url",
+        img: "https://d36fw6y2wq3bat.cloudfront.net/recipes/revuelto-de-cebolla-y-queso/900/revuelto-de-cebolla-y-queso.jpg",
         ingredientes: {
             ingrediente1: "2 huevos",
             ingrediente2: "1 taza de espinacas frescas",
@@ -190,8 +190,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "AVENA CON MANTEQUILLA DE MANÍ",
-        descripcion: "Avena durante la noche con mantequilla de maní hecha con 5 ingredientes en 5 minutos.",
-        img: "url",
+        descripcion: " Avena overnight con mantequilla de maní hecha con 5 ingredientes en 5 minutos.",
+        img: "https://storage.googleapis.com/fitia-api-bucket/media/images/recipe_images/1001199.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de leche (Entera, descremada, vegetal a elección)",
             ingrediente2: "3/4 Tbsp semillas de chia",
@@ -212,7 +212,7 @@ export let desayuno = [
     {
         nombre: "AVENA CON FRUTAS",
         descripcion: "Una deliciosa combinación de avena y frutas para comenzar el día con energía",
-        img: "url",
+        img: "https://hispanaglobal.com/wp-content/uploads/2018/09/IMG_6564-1-768x1024-2.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de avena",
             ingrediente2: "1 taza de leche (puede ser vegetal)",
@@ -229,7 +229,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "PANQUEQUES DE AVENA Y PLÁTANO",
         descripcion: "Unos deliciosos panqueques sin harina perfectos para un desayuno nutritivo",
-        img: "url",
+        img: "https://www.infobae.com/new-resizer/RAc7ebFXp7PIaTTElZ33VIEC8jQ=/738x451/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/KHALIVHDV5GWTAU5P67DN66BMQ.JPG",
         ingredientes: {
             ingrediente1: "1 taza de avena",
             ingrediente2: "2 plátanos maduros",
