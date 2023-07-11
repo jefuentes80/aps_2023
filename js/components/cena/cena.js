@@ -5,7 +5,9 @@ function primera_parte(){
   let elementos =
   `
   <div class="container">
+  <div class="caja-busc">
   <input placeholder="Buscar por nombre" required="" id="buscador" class="input" name="text" type="text">
+  </div>
   <div class="icon">
       <svg viewBox="0 0 512 512" class="ionicon" xmlns="http://www.w3.org/2000/svg">
           <title>Search</title>
@@ -27,10 +29,8 @@ caja.innerHTML = elementos;
 primera_parte();
 
 
-/***********************************************************************/
 const cenaElement = document.getElementById("cena");
 const cenabuscador = document.getElementById("cena");
-const buscadorElement = document.getElementById("buscador");
 
 // Recorrer la matriz de cenas y mostrar las cartas de cada cena
 cenas.forEach(cena => {
@@ -113,6 +113,9 @@ function mostrarVentanaEmergente(cena) {
   overlay.addEventListener("click", () => overlay.remove());
 }
 
+/**********************************************************/
+const buscadorElement = document.getElementById("buscador");
+
 // Función para actualizar los resultados del buscador
 function actualizarResultados() {
   const filtro = buscadorElement.value.toLowerCase();
@@ -145,6 +148,7 @@ function actualizarResultados() {
 
     const imgElement = document.createElement("img");
     imgElement.src = cena.img;
+    imgElement.classList.add("photo");
 
     newCenaDiv.appendChild(nombreElement);
     newCenaDiv.appendChild(tiempoElement);
