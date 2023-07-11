@@ -8,4 +8,13 @@ html,
 body {
     font-size: 10px;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
 }
