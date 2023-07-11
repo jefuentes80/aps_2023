@@ -39,6 +39,7 @@ function llamar_footer() {
 
         <div class="information">
             <h2>En qué consiste este proyecto?</h2>
+            <p>Este proyecto está enfocado en poder proveer una herramienta para una mejor nutrición
         </div>
         
         <div class="copy">

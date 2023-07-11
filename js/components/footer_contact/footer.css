@@ -37,7 +37,8 @@
 }
 .listas_Names > img {
     height: 12rem;
-    margin-top: 2 rem;
+    margin-top: 2rem;
+    border-radius: 2rem ;
 }
 .names1 > ul {
     margin: auto;
