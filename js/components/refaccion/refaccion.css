@@ -1,4 +1,63 @@
 /* Diseño componente pricipal */
 
+.refaccion {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px; 
+    margin: 0 auto;
+  }
+  
+  .item {
+    width: 15rem;
+    height: 200px; 
+    margin: 10px;
+    margin-top: 2rem;
+    background-color: #ccc; 
+  }
 
 /* Componente irem de la página */
+
+.refaccion{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px; 
+}
+.titulo{
+  margin-left: 3rem;
+}
+.item {
+  width: 24rem;
+  height: 10rem; 
+  margin: 10px;
+  margin-top: 2rem;
+  background-color: rgba(249, 233, 226, 1); 
+  border-radius: 2.5rem;
+}
+.nombres{ /*NOMBRES DE CADA RECETA*/
+  font-size: 1rem;
+  margin-left: 2rem;
+  background-color: rgb(228, 132, 7);
+  margin-left: 10rem;
+  margin-top: -8rem;
+  text-align: center;
+}
+.descripcion{
+  font-size: 0.8rem;
+  margin-left: 10rem;
+  margin-right: 0.5rem;
+  margin-top: 2rem;
+  text-align: justify;
+
+}
+.imagenes_re{ /*imagen de cada receta*/
+  width: 7rem;
+  height: 7rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+}
+.circulo_arriba{ /*circulo flotante*/
+  width: 25.8rem;
+  height: 15rem;
+  margin:-2rem;
+}

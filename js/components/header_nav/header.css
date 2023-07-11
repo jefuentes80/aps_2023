@@ -1,1 +1,136 @@
-/* Diseño del header */
+/* Estilos generales del encabezado */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.logo {
+  display: block;
+  width: 70px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.menu-button-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.menu-button {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Mover al extremo derecho */
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  display: none;
+}
+
+.search-container.show .search-input {
+  display: inline-block;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 600px) {
+  .title {
+    display: none;
+  }
+
+  .logo {
+    width: 40px;
+    margin-bottom: 3px;
+  }
+
+  .menu-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+
+  .menu-button {
+    flex: 1;
+    font-size: 0;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .menu-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+  }
+
+  .search-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+  }
+
+  .search-input {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .search-input {
+    display: none;
+  }
+
+  .search-container.active .search-input {
+    display: block;
+  }
+}
