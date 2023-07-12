@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+ 
 // Componentes principal
 //Alejandra
-=======
+
 import {cenas} from "./data_cena.js";
 //Crea los elementos HTML utilizando el DOM
 /*Alejandra Zita*/
@@ -161,4 +161,4 @@ function actualizarResultados() {
 
 // Escuchar el evento 'input' del buscador
 buscadorElement.addEventListener("input", actualizarResultados);
->>>>>>> main
+ main
