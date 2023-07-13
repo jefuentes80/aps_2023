@@ -16,7 +16,7 @@ function sabias_q (){
         
     `
     sabiass.appendChild(gatito);
-    console.log(gatitooooo)
+    console.log(gatito)
 }
 
 
