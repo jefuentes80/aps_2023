@@ -62,6 +62,21 @@ function mostrar_seccion() {
 function secciones_de_la_aplicacion() {
     desayuno.classList.add("ocultar");
     refaccion.classList.add("ocultar")
+
+    // PROGRAMACIÓN DEL SCROLL
+    var divDestino = document.getElementById("footer");
+
+    window.addEventListener("wheel", function (event) {
+        // Obtén la dirección del scroll
+        var delta = event.deltaY || event.detail || event.wheelDelta;
+
+        // Verifica si el scroll es hacia abajo
+        if (delta > 0) {
+            // Hace scroll hacia el div destino
+            console.log("si funciona");
+            divDestino.scrollIntoView({ behavior: "smooth" });
+        }
+    });
     cena.classList.add("ocultar")
     no_consumir.classList.add("ocultar")
 

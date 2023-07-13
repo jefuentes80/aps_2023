@@ -65,17 +65,38 @@ ul > li > p {
 
 /*Sección de información*/
 .information {
-    padding: 2rem;
-    background-color: rgb(60, 57, 57);
     color: white;
 }
 
-.information > h2 {
+.information > .item1 {
+    background-color: rgb(60, 57, 57);
+}
+.information > .item1 > h2 {
     font-size: 3rem;
     font-weight: 200;
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
+}
+.information > .item1 > p {
+    margin: 1rem 0rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: oblique;
 }
 
+.information > .item2 {
+    background-color: blueviolet;
+}
+.information > .item2 > h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 3rem;
+}
+.information > .item2 > p {
+    margin: 1rem 0rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
 
 
 /*Sección de copyright*/
