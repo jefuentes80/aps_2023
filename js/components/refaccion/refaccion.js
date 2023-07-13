@@ -1,22 +1,15 @@
 import { recetas } from "./data_refaccion.js";
 
-
-
-
-
-
-
 function ola(){
-
     
-    let cajita = document.querySelector(".recetas")
+    let cajita = document.querySelector("#refaccion")
 
     let texto = document.querySelector()
     texto.innerHTML=
     `
     <h1 class="titulo">Recetas de cocina</h1>
-        <div class="recetas"></div>
     `
+    cajita.appendChild(texto)
     
     recetas.forEach(element => {
 
