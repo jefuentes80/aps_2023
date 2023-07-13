@@ -1,29 +1,12 @@
-/* Diseño componente pricipal */
-
-.refaccion {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px; 
-    margin: 0 auto;
-  }
-  
-  .item {
-    width: 15rem;
-    height: 200px; 
-    margin: 10px;
-    margin-top: 2rem;
-    background-color: #ccc; 
-  }
-
-/* Componente irem de la página */
-
-.refaccion{
+.recetas{
   display: flex;
   flex-wrap: wrap;
   max-width: 900px; 
 }
 .titulo{
-  margin-left: 3rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+
 }
 .item {
   width: 24rem;
@@ -57,7 +40,49 @@
   margin-top: 1.5rem;
 }
 .circulo_arriba{ /*circulo flotante*/
-  width: 25.8rem;
+  width: 24.9rem;
   height: 15rem;
   margin:-2rem;
+}
+/*buscador*/
+body {
+font-family: Arial, sans-serif;
+}
+
+h1 {
+text-align: center;
+margin-left: 1rem;
+font-size: 1rem;
+margin-top: 7rem;
+}
+
+.receta {
+margin-bottom: 20px;
+border: 1px solid #ccc;
+padding: 10px;
+border-radius: 5px;
+}
+#query{
+margin-left: 5rem;
+background-color: aqua;
+}
+.receta img {
+max-width: 100%;
+}
+
+.box_sabias{
+margin-top: -17rem;
+margin-bottom: 10rem;
+width: 100%;
+height: 5rem;
+
+}
+.titulo_sabias{
+background-color: blue;
+font-size: 1.5rem;
+}
+.cuerpo{
+font-size: 1rem;
+color: black;
+text-align: center;
 }

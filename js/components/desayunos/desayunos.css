@@ -1,13 +1,63 @@
 /* Diseño componente pricipal */
-.hola{
-    background-color: rgb(255, 238, 0);
+.hi{
+    font-size: 6rem;
+    color: black;
 }
 /* Componente irem de la página */
 
-.titulo{
-    height: 4rem;
+.caja{
+    height: 550rem;
     background-color: rgb(154, 206, 57);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.titulo h1{
-    font-size: 3rem;
+.miniatura{
+    
+    
+    width:80%;
+    height: 50rem;
+    margin-top: 1rem;
+    /*margin: 10px;*/
+    background-color: #F9E9E2;
+
+    border-radius: 2rem;
+
+    display: flex
+
+}
+.solotexto{
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo_comida{
+    color: #000000;
+    font-size: 17px;
+}
+
+.descripcion_comida{
+    margin-top: 1rem;
+    color: #CD0000;
+    font-size: 15px;
+}
+
+.miniatura img{
+    margin: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: aqua;
+   
+}
+.vistaP{
+    height: 4rem;
+    width: 5rem;
+    background-color: blueviolet;
+
 }
