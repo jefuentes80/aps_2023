@@ -185,4 +185,10 @@ function actualizarResultados() {
   });
 }
 
+
 buscadorElement.addEventListener("input", actualizarResultados);
+
+buscadorElement.addEventListener("input", actualizarResultados);
+
+buscadorElement.addEventListener("input", actualizarResultados);
+
