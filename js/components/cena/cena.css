@@ -1,3 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de la sección de la receta */
+#receta {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los ingredientes */
+#receta .ingredientes p {
+  margin-left: 20px;
+}
+
+/* Estilos para la preparación */
+#receta .preparacion p {
+  margin-left: 20px;
 .blog-card {
   background-color: palevioletred;
 }
@@ -12,6 +55,9 @@
     max-width: 700px;
   }
 }
+
+
+
 /*** BUSCADOR *************************************/
 /* Contenedor */
 .container {
