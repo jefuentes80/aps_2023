@@ -33,15 +33,34 @@ function llamar_footer() {
                         <li><p>Juan Talé</p></li>
                     </ul>
                 </div>
-                <img class="image" src="./js/components/footer_contact/img/SCL logo.png" alt="">
+                <img class="image" src="./js/components/footer_contact/img/Pic N°1.png" alt="">
             </div>
         </div>
 
+        <div class="information">
+            <div class="item1">
+                <h2>En qué consiste este proyecto?</h2>
+                <p>
+                    Este proyecto es un recetario de distintos platillos saludables 
+                </p>
+            </div>
+
+            <div class="item2">
+                <h2>¿Qué tecnologías se utilizaron en la creación de este proyecto?</h2>
+                <p>
+                   Este proyecto está enfocado dar a conocer platillos nutritivos y saludables
+                    para todos aquellos consumidores que desean comer alimentos más nutritivos en cada
+                    tiempo de comida y de manera rápida.
+                </p>
+            </div>
+        </div>
+        
         <div class="copy">
             <h2>Copyright</h2>
             <h3>|</h3>
             <p>Since 2023, politic privacy</p>
         </div>
+
     </section>
     `;
 }

@@ -8,16 +8,17 @@ import {cenas} from "./data_cena.js";
 function primera_parte(){
   let elementos =
   `
-  <div class="container">
-  <input placeholder="Buscar por nombre" required="" id="buscador" class="input" name="text" type="text">
-  <div class="icon">
-      <svg viewBox="0 0 512 512" class="ionicon" xmlns="http://www.w3.org/2000/svg">
-          <title>Search</title>
-          <path stroke-width="32" stroke-miterlimit="10" stroke="currentColor" fill="none" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
-          <path d="M338.29 338.29L448 448" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round" stroke="currentColor" fill="none"></path>
-      </svg>
+  <div class="caja-busc">
+  
+      <input type="text" name="text" class="input" id="buscador" type="text" placeholder="Buscando...">
+
   </div>
-</div>
+
+  <div class="container">
+  
+    
+
+  </div>
 
   <div class="blog-card"></div>
   `;
@@ -29,12 +30,10 @@ caja.innerHTML = elementos;
 
 }
 primera_parte();
+/******************************************************** */
 
-
-/***********************************************************************/
 const cenaElement = document.getElementById("cena");
 const cenabuscador = document.getElementById("cena");
-const buscadorElement = document.getElementById("buscador");
 
 // Recorrer la matriz de cenas y mostrar las cartas de cada cena
 cenas.forEach(cena => {
@@ -117,7 +116,14 @@ function mostrarVentanaEmergente(cena) {
   overlay.addEventListener("click", () => overlay.remove());
 }
 
-// Función para actualizar los resultados del buscador
+
+/**********************************************************/
+
+
+// La programación del buscador
+
+const buscadorElement = document.getElementById("buscador");
+
 function actualizarResultados() {
   const filtro = buscadorElement.value.toLowerCase();
 
@@ -149,6 +155,7 @@ function actualizarResultados() {
 
     const imgElement = document.createElement("img");
     imgElement.src = cena.img;
+    imgElement.classList.add("photob");
 
     newCenaDiv.appendChild(nombreElement);
     newCenaDiv.appendChild(tiempoElement);
@@ -158,7 +165,8 @@ function actualizarResultados() {
     blogCardElement.appendChild(newCenaDiv);
   });
 }
-
 // Escuchar el evento 'input' del buscador
 buscadorElement.addEventListener("input", actualizarResultados);
  main
+
+buscadorElement.addEventListener("input", actualizarResultados);

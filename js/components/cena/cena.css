@@ -41,60 +41,73 @@ h2 {
 /* Estilos para la preparación */
 #receta .preparacion p {
   margin-left: 20px;
+.blog-card {
+  background-color: palevioletred;
+}
+.photo{
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 640px) {
+  .blog-card {
+    flex-direction: row;
+    max-width: 700px;
+  }
 }
 
 
 
 /*** BUSCADOR *************************************/
+/* Contenedor */
 .container {
-    position: relative;
-    --size-button: 40px;
-  }
-  
-  .input {
-    padding-left: var(--size-button);
-    height: var(--size-button);
-    font-size: 15px;
-    border: none;
-    color: #fff;
-    outline: none;
-    width: var(--size-button);
-    transition: all ease 0.3s;
-    background-color: #191A1E;
-    box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  
-  .input:focus,
-  .input:not(:invalid) {
-    width: 200px;
-    cursor: text;
-    box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
-  }
-  
-  .input:focus + .icon,
-  .input:not(:invalid) + .icon {
-    pointer-events: all;
-    cursor: pointer;
-  }
-  
-  .container .icon {
-    position: absolute;
-    width: var(--size-button);
-    height: var(--size-button);
-    top: 0;
-    left: 0;
-    padding: 8px;
-    pointer-events: none;
-  }
-  
-  .container .icon svg {
-    width: 100%;
-    height: 100%;
+  position: relative;
+  --size-button: 40px;
 }
-/******VENTANA EMERGENTE***********************************************************/
-/* Estilos para la ventana emergente */
+
+/* buscador */
+
+.caja-busc{
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+.input {
+  background-color: #383838;
+  border: 1ex solid none;
+  border-top-width: 1.7em;
+  margin: 0;
+  padding: 0;
+  color: #383838;
+  word-wrap: break-word;
+  outline: 7px solid #383838;
+  height: 30px;
+  font-size: 17px;
+  text-align: center;
+  transition: all 1s;
+  max-width: 190px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .input:hover {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+ }
+ 
+ .input:focus {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+ }
+
+.photob{
+  width: 20rem;
+  height: 20rem;
+}
+
+/* Ventana emergente */
 .overlay {
   position: fixed;
   top: 0;
@@ -112,6 +125,7 @@ h2 {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
+  width: 90%;
   max-width: 500px;
   max-height: 80vh;
   overflow-y: auto;
