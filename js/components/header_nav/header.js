@@ -49,8 +49,6 @@ header.appendChild(menuButtonContainer);
 const searchContainer = document.createElement("div");
 searchContainer.className = "search-container";
 
-
-
 const searchInput = document.createElement("input");
 searchInput.className = "search-input";
 searchInput.type = "text";
