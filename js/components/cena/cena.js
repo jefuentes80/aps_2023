@@ -1,3 +1,7 @@
+ 
+// Componentes principal
+//Alejandra
+
 import {cenas} from "./data_cena.js";
 //Crea los elementos HTML utilizando el DOM
 /*Alejandra Zita*/
