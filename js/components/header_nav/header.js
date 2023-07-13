@@ -21,10 +21,10 @@ const menuButtonContainer = document.createElement("div");
 menuButtonContainer.className = "menu-button-container";
 
 const buttons = [
-  { icon: "https://cdn.icon-icons.com/icons2/3224/PNG/512/breakfast_toast_coffee_tea_meal_icon_196791.png", text: "Desayunos" },
-  { icon: "https://cdn.icon-icons.com/icons2/16/PNG/256/fruit_apple_food_1815.png", text: "Refacciones" },
-  { icon: "https://img.icons8.com/?size=512&id=0W25y0EGmKP4&format=png", text: "Cenas" },
-  { icon: "https://img.icons8.com/?size=512&id=wqMCXXwVnkX2&format=png", text: "Qué no comer" }
+  { icon: "https://cdn.icon-icons.com/icons2/3224/PNG/512/breakfast_toast_coffee_tea_meal_icon_196791.png", },
+  { icon: "https://cdn.icon-icons.com/icons2/16/PNG/256/fruit_apple_food_1815.png",  },
+  { icon: "https://img.icons8.com/?size=512&id=0W25y0EGmKP4&format=png", },
+  { icon: "https://img.icons8.com/?size=512&id=wqMCXXwVnkX2&format=png",  }
 ];
 
 buttons.forEach((buttonData) => {
@@ -49,10 +49,7 @@ header.appendChild(menuButtonContainer);
 const searchContainer = document.createElement("div");
 searchContainer.className = "search-container";
 
-const searchIcon = document.createElement("img");
-searchIcon.className = "search-icon";
-searchIcon.src = "https://img.icons8.com/?size=512&id=12773&format=png";
-searchIcon.alt = "Buscar";
+
 
 const searchInput = document.createElement("input");
 searchInput.className = "search-input";
