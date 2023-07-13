@@ -11,13 +11,6 @@
     justify-content: space-around;
 }
 
-.pie_de_pagina > .Titulo > h1 {
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    margin: 0.5rem 1rem;
-    text-align: left;
-}
-
 
 /*Nombre del proyecto*/
 .centro {
@@ -25,13 +18,13 @@
     text-align: center;
     align-self: center;
     display: block;
+    padding-top: 2rem;
 }
-.div00 > img {
 
-}
 .div00 > h1 {
     font-size: 3.5rem;
     color: rgb(255, 255, 255);
+    padding: 0rem 2rem;
 }
 .div00 > h2 {
     color: white;
@@ -41,6 +34,11 @@
 /*Sección de listas*/
 .listas_Names {
     padding: 2rem 2rem;
+}
+.listas_Names > img {
+    height: 12rem;
+    margin-top: 2rem;
+    border-radius: 2rem ;
 }
 .names1 > ul {
     margin: auto;
@@ -64,10 +62,21 @@ ul > li > p {
     padding: 1rem;
 }
 
-.listas_Names > img {
-    height: 10rem;
-    margin-top: 3rem;
+
+/*Sección de información*/
+.information {
+    padding: 2rem;
+    background-color: rgb(60, 57, 57);
+    color: white;
 }
+
+.information > h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 0rem 1rem;
+}
+
+
 
 /*Sección de copyright*/
 .copy {
