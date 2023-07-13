@@ -167,6 +167,3 @@ function actualizarResultados() {
 }
 // Escuchar el evento 'input' del buscador
 buscadorElement.addEventListener("input", actualizarResultados);
- main
-
-buscadorElement.addEventListener("input", actualizarResultados);
