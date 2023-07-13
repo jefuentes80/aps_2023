@@ -33,15 +33,21 @@ function llamar_footer() {
                         <li><p>Juan Talé</p></li>
                     </ul>
                 </div>
-                <img class="image" src="./js/components/footer_contact/img/SCL logo.png" alt="">
+                <img class="image" src="./js/components/footer_contact/img/Pic N°1.png" alt="">
             </div>
         </div>
 
+        <div class="information">
+            <h2>En qué consiste este proyecto?</h2>
+            <p>Este proyecto está enfocado en poder proveer una herramienta para una mejor nutrición
+        </div>
+        
         <div class="copy">
             <h2>Copyright</h2>
             <h3>|</h3>
             <p>Since 2023, politic privacy</p>
         </div>
+
     </section>
     `;
 }
