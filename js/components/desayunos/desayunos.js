@@ -1,6 +1,7 @@
 // Componentes principal
 import { sabias } from "./sabias_que.js";
 import { desayuno } from "./data_sesayunos.js";
+import { buscador } from "./buscador.js";
 
 
 function prueba(){
@@ -16,6 +17,7 @@ function prueba(){
 }
 
 prueba();
+buscador(); //llamando a el buscador
 sabias();
 
 function vista(){

@@ -1,24 +1,3 @@
-/* Diseño Sabias que*/
-.caja_sabias{
-    margin: 2rem;
-    background-color: rgb(175, 217, 217);
-    height: 18rem;
-    border-radius: 2rem;
-    padding: 1rem;
-
-}
-
-.sabias_titu{
-   color: black;
-    font-size: 2.5rem;
-}
-
-.Texto{
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-/********CSS DEL  BUSCADOR****************************/
 .buscadorr{
     width: 90%;
     height: 4rem;
