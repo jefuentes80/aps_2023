@@ -16,7 +16,7 @@ export function buscador(){
       
             if (e.key ==="Escape")e.target.value = ""
       
-            document.querySelectorAll(".item").forEach(item =>{
+            document.querySelectorAll(".item_refa").forEach(item =>{
       
                 item.textContent.toLowerCase().includes(e.target.value.toLowerCase())
                   ?item.classList.remove("filtro")
