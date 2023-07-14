@@ -15,7 +15,7 @@ export let home_items = [
         img: "https://e7.pngegg.com/pngimages/708/772/png-clipart-indian-cuisine-foodservice-eating-computer-icons-breakfast-food-recipe.png"
     },
     {
-        nombre: "no-consumir",
+        nombre: "No-consumir",
         descripcion: "texto",
         img: "https://e7.pngegg.com/pngimages/708/772/png-clipart-indian-cuisine-foodservice-eating-computer-icons-breakfast-food-recipe.png"
     }

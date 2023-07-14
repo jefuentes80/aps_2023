@@ -1,18 +1,87 @@
+.footer {
+    display: block;
+    border-radius: 8rem;
+}
+ 
 .pie_de_pagina {
-    background-color: rgb(7, 255, 7);
-    border: 2px solid black;
-    border-radius: 5px;
+    background-color:black;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .pie_de_pagina > .Titulo > h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
     margin: 0.5rem 1rem;
+    text-align: left;
 }
 
-.pie_de_pagina > .autores > ul {
-    display: inline-flex;
+
+/*Nombre del proyecto*/
+.centro {
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    display: block;
+}
+.div00 > img {
+
+}
+.div00 > h1 {
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+}
+.div00 > h2 {
+    color: white;
 }
 
-.pie_de_pagina > .autores > ul > li {
+
+/*Sección de listas*/
+.listas_Names {
+    padding: 2rem 2rem;
+}
+.names1 > ul {
+    margin: auto;
+    display: inline-block;
+}
+.names1 > ul > li {
     display: block;
     padding: 1rem;
+}
+ul > li > p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.names2 > ul {
+    display: inline-block;
+}
+.names2 > ul > li {
+    display: block;
+    padding: 1rem;
+}
+
+.listas_Names > img {
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+/*Sección de copyright*/
+.copy {
+    color: white;
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem 1rem;
+}
+.copy > h2 {
+    font-weight: 100;
+    padding: 1rem 0.5rem;
+}
+.copy > p {
+    padding: 1rem 0.5rem;
 }
