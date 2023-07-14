@@ -1,40 +1,45 @@
+#refaccion{
+  background-color: rgb(255, 232, 25);
+  padding-bottom: 3rem;
+}
 .recetas{
   display: flex;
   flex-wrap: wrap;
   max-width: 900px; 
 }
 .titulo{
-  margin-left: 1.5rem;
-  margin-top: 2rem;
+  text-align: center;
+  margin-left: 1rem;
+ 
+  font-size: 4rem;
 
 }
 .item {
-  width: 24rem;
-  height: 10rem; 
+  width: 36rem;
+  height: 15rem; 
   margin: 10px;
   margin-top: 2rem;
   background-color: rgba(249, 233, 226, 1); 
   border-radius: 2.5rem;
 }
 .nombres{ /*NOMBRES DE CADA RECETA*/
-  font-size: 1rem;
+  font-size: 2rem;
   margin-left: 2rem;
-  background-color: rgb(228, 132, 7);
-  margin-left: 10rem;
-  margin-top: -8rem;
+  margin-left: 15rem;
+  margin-top: -12rem;
   text-align: center;
 }
 .descripcion{
-  font-size: 0.8rem;
-  margin-left: 10rem;
+  font-size: 1.5rem;
+  margin-left: 15rem;
   margin-right: 0.5rem;
   margin-top: 2rem;
-  text-align: justify;
-
+  text-align: center;
+  color: #CD0000;
 }
 .imagenes_re{ /*imagen de cada receta*/
-  width: 7rem;
-  height: 7rem;
+  width: 12rem;
+  height: 12rem;
   margin-left: 2rem;
   border-radius: 1rem;
   margin-top: 1.5rem;
@@ -44,45 +49,43 @@
   height: 15rem;
   margin:-2rem;
 }
-/*buscador*/
-body {
-font-family: Arial, sans-serif;
-}
+/***/
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
 
-h1 {
-text-align: center;
-margin-left: 1rem;
-font-size: 1rem;
-margin-top: 7rem;
-}
+  .popup-content {
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
 
-.receta {
-margin-bottom: 20px;
-border: 1px solid #ccc;
-padding: 10px;
-border-radius: 5px;
-}
-#query{
-margin-left: 5rem;
-background-color: aqua;
-}
-.receta img {
-max-width: 100%;
-}
+  .popup.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
 
-.box_sabias{
-margin-top: -17rem;
-margin-bottom: 10rem;
-width: 100%;
-height: 5rem;
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
 
-}
-.titulo_sabias{
-background-color: blue;
-font-size: 1.5rem;
-}
-.cuerpo{
-font-size: 1rem;
-color: black;
-text-align: center;
-}
+
+
