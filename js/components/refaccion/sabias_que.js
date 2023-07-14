@@ -1,22 +1,20 @@
-function sabias_q (){
+export function oola(){
+    
+    let caajita = document.querySelector("#refaccion")
 
-    let sabiass = document.querySelector(".box_sabias");
-    let gatito = document.createElement("div")
+    caajita.innerHTML=
 
-    gatito.innerHTML= `
-    <div class="box_sabias">
-    <h1 class= "titulo_sabias">¿Sabias qué?</h1>
- <p class="cuerpo">
+    `
+    <h3 class="titulo"> <b>Refacciones</b></h3>
+    <div class="sabias_que">
+    <h2 class="titulo_sabias">¿Sabias qué?</h2>
+    <p class="cuerpo">
     Tomar una refacción adecuada durante el día puede aumentar
     la productividad y mejorar la concentración. Al proporcionar 
     energía y nutrientes a nuestro cuerpo, podemos mantenernos alerta 
     y enfocados en nuestras actividades.
- </p>
-</div>
-        
-    `
-    sabiass.appendChild(gatito);
-    console.log(gatito)
+    </p>
+    </div>
+    ` 
 }
-
-
+//oola();

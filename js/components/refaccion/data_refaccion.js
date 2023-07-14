@@ -2,7 +2,7 @@ export let recetas= [
         
     {
         nombre: "Tortitas de arroz y queso",
-        descripcion: "Esta receta se prepara en pocos minutos. Es perfecta como guarnición o para acompañar con salsas sencillas.",
+        descripcion: "Es perfecta como guarnición o para acompañar con salsas sencillas.",
         img: "https://www.divinacocina.es/wp-content/uploads/2020/04/tortitas-de-arroz-y-queso-C.jpg.webp",
         ingredientes: {
             ingrediente1: "1 vasito de arroz especial para microondas o 125g de arroz cocido",
@@ -25,7 +25,7 @@ export let recetas= [
 
     {
         nombre: "Gelatina de frutas",
-        descripcion: "Una colorida y refrescante gelatina de frutas que es perfecta para el verano.",
+        descripcion: "Refrescante gelatina de frutas que es perfecta para el verano.",
         img: "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2018/05/gelatina-mixta-de-frutas.jpg",
         ingredientes: {
             ingrediente1: "2 paquetes de gelatina de diferentes sabores",
@@ -69,8 +69,8 @@ export let recetas= [
     },
 
     {
-        nombre: " Pan con Aguacate y Huevo",
-        descripcion: "Esta receta simple y nutritiva combina la cremosidad del aguacate con la suavidad del huevo sobre una rebanada de pan tostado. ",
+        nombre: " Pan con aguacate y huevo",
+        descripcion: "Esta receta simple y nutritiva.",
         img: "https://mandolina.co/wp-content/uploads/2020/11/desayuno-saludable-sandwich-aguacate-y-huevo-1200x900.jpg",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan integral",
@@ -92,8 +92,8 @@ export let recetas= [
     },
 
     {
-        nombre: "Pan con Salchicha",
-        descripcion: " Esta receta clásica es perfecta para una comida rápida o una refacción satisfactoria.",
+        nombre: "Pan con salchicha",
+        descripcion: "Perfecta para una comida rápida o una refacción satisfactoria.",
         img: "https://placeralplato.com/files/2015/11/Pan-para-hot-dogs-640x480.jpg?width=1200&enable=upscale",
         ingredientes: {
             ingrediente1: "Salchichas (cantidad según prefieras)",
@@ -110,9 +110,9 @@ export let recetas= [
     },
 
     {
-        nombre: "Pan con Huevos Revueltos",
-        descripcion: "El pan con huevos revueltos es una receta clásica y versátil que combina la suavidad del pan con la cremosidad de los huevos revueltos.",
-        img: "https://storage.googleapis.com/fitia-api-bucket/media/images/recipe_images/1001926.jpg",
+        nombre: "Pan con huevos revueltos",
+        descripcion: "Una receta clásica y versátil.",
+        img: "https://static.vecteezy.com/system/resources/previews/007/442/413/large_2x/bread-toast-with-scramble-egg-photo.jpg",
         ingredientes: {
             ingrediente1: "Pan rebanado (puedes usar pan de molde o cualquier tipo de pan que prefieras)",
             ingrediente2: "Huevos",
@@ -132,8 +132,8 @@ export let recetas= [
     },
 
     {
-        nombre: "Platanitos Fritos",
-        descripcion: "Los platanitos fritos son una deliciosa y popular preparación que consiste en rebanadas de plátano maduro que se fríen hasta obtener una textura crujiente por fuera y suave por dentro.",
+        nombre: "Platanos fritos",
+        descripcion: "Deliciosa y popular receta con una textura increíble.",
         img: "https://assets.unileversolutions.com/recipes-v2/38473.jpg",
         ingredientes: {
             ingrediente1: "Plátanos maduros (preferiblemente plátanos machos)",
@@ -153,8 +153,8 @@ export let recetas= [
     },
 
     {
-        nombre: "Pan con Jamón y queso",
-        descripcion: "El pan con jamón y queso es una receta clásica y reconfortante que combina la suavidad del pan, la jugosidad del jamón y el delicioso sabor del queso derretido.",
+        nombre: "Pan con jamón y queso",
+        descripcion: "Una receta clásica y reconfortante.",
         img: "https://www.hogarmania.com/archivos/201105/sandwich-mixto-xl-848x477x80xX.jpg",
         ingredientes: {
             ingrediente1: "Pan de tu elección (preferiblemente pan de molde o baguette)",
@@ -176,8 +176,8 @@ export let recetas= [
 
     {
         nombre: "Cereal con leche ",
-        descripcion: "El cereal con leche es una receta clásica y popular que consiste en combinar cereales crujientes con leche.",
-        img: "https://www.eluniversal.com.mx/resizer/zKNoJO_5wN5hl4uvbESmd-Dkv64=/1100x666/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/MIWDWLNPMVDDBJFS5MQQCSOOFQ.jpg",
+        descripcion: "Receta clásica y popular que consiste en combinar cereales crujientes con leche.",
+        img: "https://www.cucinare.tv/wp-content/uploads/2019/08/Cereales-en-el-desayuno.jpg",
         ingredientes: {
             ingrediente1: "Cereal de tu elección (por ejemplo, copos de maíz, hojuelas de trigo, granola, etc.)",
             ingrediente2: "Leche (puede ser leche de vaca, leche vegetal como la de almendras, avena, soja, etc.)",
@@ -195,8 +195,8 @@ export let recetas= [
 
     {
         nombre: "Ensalada de sandía y queso blanco",
-        descripcion: "Una refrescante ensalada de verano con jugosa sandía, queso feta salado y un toque de menta fresca.",
-        img: "https://images.hola.com/imagenes/cocina/recetas/20190605143407/receta-ensalada-sandia-queso-feta/0-688-625/recetas-ligeras-frias-sandia-verano-galeria-t.jpg",
+        descripcion: "Una refrescante ensalada de verano.",
+        img: "https://cocina-casera.com/wp-content/uploads/2022/05/ensalada-sandia-queso-770x485.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de sandía cortada en cubos",
             ingrediente2: "100 g de queso feta desmenuzado",
@@ -217,8 +217,8 @@ export let recetas= [
 
     {
         nombre: "Tostada integral con crema de cacahuete y plátano",
-        descripcion: "¡Una elección perfecta para los amantes del plátano y la crema de cacahuete!",
-        img: "",
+        descripcion: "Una receta rica en grasas saludables",
+        img: "https://i.pinimg.com/originals/c3/9c/6d/c39c6dd934d39d3fbcefbf00e212dea8.jpg",
         ingredientes: {
             ingrediente1: "Tostada integral",
             ingrediente2: "crema de cacahuete al 100% ",
@@ -234,7 +234,7 @@ export let recetas= [
 
     {
         nombre: "Tortitas de papas",
-        descripcion: "Tortitas doradas y crujientes de patata, ideales como guarnición o como plato principal ligero.",
+        descripcion: "Ideales como guarnición o como plato principal ligero.",
         img: "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/c6d64e5b6f38cccf2ca6888a3ba1a07f.jpg",
         ingredientes: {
             ingrediente1: "4 patatas grandes, peladas y ralladas",
@@ -258,8 +258,8 @@ export let recetas= [
 
     {
         nombre: "Nachos de papa con frijoles y guacamole",
-        descripcion: "Nachos saludables hechos con batata en lugar de tortillas de maíz, cubiertos con frijoles y guacamole.",
-        img: "https://es.rc-cdn.community.thermomix.com/recipeimage/4jmlggcr-0edb7-145928-88c8b-syexr4r8/571e3df2-e4ba-4eda-96e8-39d148b928f6/main/nachos-con-frijoles-y-guacamole.jpg",
+        descripcion: "Nachos saludables hechos con papa.",
+        img: "https://imag.bonviveur.com/nachos-mexicanos-con-queso-guacamole-y-chili-con-carne.jpg",
         ingredientes: {
             ingrediente1: "2 papas grandes",
             ingrediente2: "Aceite de oliva",
@@ -282,8 +282,8 @@ export let recetas= [
 
     {
         nombre: "Pinchos de pollo teriyaki",
-        descripcion: "Deliciosos pinchos de pollo marinados en una salsa teriyaki dulce y sabrosa, perfectos como aperitivo o plato principal.",
-        img: "https://www.hogarmania.com/archivos/202002/karl6520-brochetas-de-pollo-teriyaki-xl-1280x720x80xX.jpg",
+        descripcion: "Perfectos como aperitivo o plato principal.",
+        img: "https://enterate24backup.s3.amazonaws.com/uploads/2021/02/5.jpg",
         ingredientes: {
             ingrediente1: "2 pechugas de pollo, cortadas en trozos pequeños",
             ingrediente2: "4 cucharadas de salsa teriyaki",
@@ -303,8 +303,8 @@ export let recetas= [
 
     {
         nombre: "Rollitos de lechuga con pollo y aguacate",
-        descripcion: "Refrescantes rollitos de lechuga rellenos de pollo y aguacate, perfectos como refacción saludable y baja en carbohidratos.",
-        img: "https://www.gastrolabweb.com/u/fotografias/m/2020/10/13/f1280x720-4222_135897_5050.jpg",
+        descripcion: "Perfectos como refacción saludable y baja en carbohidratos.",
+        img: "https://superpola.com//site/assets/files/23446/404.jpg",
         ingredientes: {
             ingrediente1: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
             ingrediente2: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
@@ -327,7 +327,7 @@ export let recetas= [
 
     {
         nombre: "Sándwich de pollo y aguacate",
-        descripcion: "Un sándwich delicioso y nutritivo con pollo tierno y aguacate cremoso.",
+        descripcion: "Un sándwich delicioso y nutritivo.",
         img: "https://storage.googleapis.com/avena-recipes/2019/10/1571780799455.jpeg",
         ingredientes: {
             ingrediente1: "Pan de sándwich",
@@ -376,8 +376,8 @@ export let recetas= [
 
     {
         nombre: "Mug cake de plátano.",
-        descripcion: "Un delicioso y esponjoso pastel en taza con sabores dulces de plátano maduro.",
-        img: "https://www.centrojuliafarre.es/wp-content/uploads/2017/12/mugcake.jpg",
+        descripcion: "Un delicioso y esponjoso pastel en taza.",
+        img: "https://delination.com/wp-content/uploads/2022/03/Mug-cake-platano-850x550.jpeg",
         ingredientes: {
             ingrediente1: "1 huevo",
             ingrediente2: "½ plátano maduro",
@@ -395,7 +395,7 @@ export let recetas= [
 
     {
         nombre: "Cupcakes de zanahoria",
-        descripcion: "Cupcakes húmedos y esponjosos con sabor a zanahoria, especias y un delicioso glaseado de queso crema.",
+        descripcion: "Cupcakes húmedos y esponjosos con sabor a zanahoria.",
         img: "https://assets.unileversolutions.com/recipes-v2/242050.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de zanahorias ralladas",
@@ -422,7 +422,7 @@ export let recetas= [
 
     {
         nombre: "Pastel de chocolate",
-        descripcion: "Un delicioso pastel de chocolate esponjoso con un rico glaseado de chocolate.",
+        descripcion: "Un delicioso pastel de chocolate esponjoso.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWBHal3aYtX6H1SpJHtJRQqUv4V1iA-SP6fjilkEq2SPbCVanX17nqkSkEyUHEIdhcL8w&usqp=CAU",
         ingredientes: {
             ingrediente1: "2 tazas de harina",
@@ -447,8 +447,8 @@ export let recetas= [
 
     {
         nombre: "Muffins de plátano y nueces",
-        descripcion: "Muffins suaves y sabrosos con el dulzor natural del plátano y el crujido de las nueces.",
-        img: "https://blog.pizcadesabor.com/wp-content/uploads/2022/07/Muffins-platano-1.jpg",
+        descripcion: "Muffins suaves y deliciosos.",
+        img: "https://saltandspoon.co/wp-content/uploads/2022/09/4-ingredient-banana-bread-muffins-21.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros, aplastados",
             ingrediente2: "1/2 taza de azúcar",
@@ -476,8 +476,8 @@ export let recetas= [
 
     {
         nombre: "Quesadillas de espinacas y queso",
-        descripcion: "Quesadillas sabrosas y nutritivas con espinacas y queso derretido.",
-        img: "https://images.cookforyourlife.org/wp-content/uploads/2021/12/Spinach-Quesadilla.jpg",
+        descripcion: "Quesadillas sabrosas y nutritivas.",
+        img: "https://img-global.cpcdn.com/recipes/c09584352bd22bf1/400x400cq70/photo.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
             ingrediente2: "Hojas de espinaca fresca",
@@ -496,8 +496,8 @@ export let recetas= [
     },
 
     {
-        nombre: "Quesadillas de Queso:",
-        descripcion: "Un clásico mexicano simple y sabroso.",
+        nombre: "Quesadillas de Queso",
+        descripcion: "Un clásico simple y sabroso.",
         img: "https://www.vvsupremo.com/wp-content/uploads/2015/11/900X570_Two-Cheese-Quesadillas.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o trigo",
@@ -518,7 +518,7 @@ export let recetas= [
 
     {
         nombre: "Barras de Cereal",
-        descripcion: "Aprende a preparar unas ricas Barras de Cereal Sin Gluten, Saludables y muy fáciles con 10 porciones.",
+        descripcion: "Barras de cereal sin gluten y saludables.",
         img: "https://assets.unileversolutions.com/recipes-v2/214840.jpg",
         ingredientes: {
             ingrediente1: "2 Tazas de pipocas de quínoa o arroz inflado",
@@ -537,8 +537,8 @@ export let recetas= [
 
     {
         nombre: "Barritas de avena y frutos secos",
-        descripcion: "Barritas energéticas y saludables hechas con avena, frutos secos y miel.",
-        img: "https://frutossecoshernandez.es/wp-content/uploads/2019/07/blog_16.jpg",
+        descripcion: "Barritas energéticas y saludables.",
+        img: "https://www.cardamomo.news/__export/1625604752980/sites/debate/img/2021/07/06/barras_de_granola_saludables_sin_horno_crop1625604674451.jpeg_1187729725.jpeg",
         ingredientes: {
             ingrediente1: "2 tazas de avena",
             ingrediente2: "1 taza de frutos secos picados (almendras, nueces, pistachos, etc.)",
@@ -558,30 +558,9 @@ export let recetas= [
     },
 
     {
-        nombre: "Pan con aguacate y huevo",
-        descripcion: "Una combinación sencilla pero deliciosa de pan tostado con aguacate cremoso y huevo escalfado.",
-        img: "https://images.cookforyourlife.org/wp-content/uploads/2021/12/AvocadoToastWithEgg.jpg",
-        ingredientes: {
-            ingrediente1: "2 rebanadas de pan de tu elección",
-            ingrediente2: "1 aguacate maduro",
-            ingrediente3: "2 huevos",
-            ingrediente4: "Sal y pimienta al gusto",
-        },
-        preparacion: {
-            paso1: "Tuesta las rebanadas de pan hasta que estén doradas y crujientes.",
-            paso2: "Mientras tanto, pela y aplasta el aguacate en un tazón. Sazona con sal y pimienta al gusto.",
-            paso3: "Hierve agua en una cacerola pequeña y agrega un chorrito de vinagre blanco.",
-            paso4: "Rompe los huevos y añádelos suavemente al agua hirviendo. Cocina durante unos 3-4 minutos para obtener huevos escalfados con la yema líquida.",
-            paso5: "Unta una generosa capa de aguacate aplastado sobre cada rebanada de pan tostado.",
-            paso6: "Retira los huevos escalfados con una espumadera y colócalos sobre el aguacate en cada rebanada de pan.",
-            paso7: "Espolvorea con sal y pimienta adicional si lo deseas. ¡Sirve y disfruta!",
-        }
-    },
-
-    {
         nombre: "Quesadillas de pollo",
-        descripcion: " Deliciosas quesadillas rellenas de pollo y queso derretido.",
-        img: "https://",
+        descripcion: "Deliciosas quesadillas rellenas de pollo y queso derretido.",
+        img: "https://www.recetasdejusticia.com/wp-content/uploads/2021/01/Receta_de_quesadillas_de_pollo.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o harina",
             ingrediente2: "Pollo cocido desmenuzado",
@@ -601,7 +580,7 @@ export let recetas= [
 
     {
         nombre: "Eclaris con jamon y queso",
-        descripcion: "Si prefieres una merienda salada y sana, también tienes muchas opciones. Una de ellas este sandwich hecho con pasta choux.",
+        descripcion: "Sandwich hecho con pasta choux.",
         img: "https://www.elmueble.com/medio/2023/04/04/eclairs-con-jamon-y-queso_00000000_230404114029_893x1200.jpg",
         ingredientes: {
             ingrediente1: "Pasta choux según la receta base",
@@ -617,100 +596,3 @@ export let recetas= [
         }
     },
 ]
-/*buscador*/
-/*
-function buscarRecetas() {
-    const query = document.getElementById("query").value.toLowerCase();
-    const resultados = recetas.filter((receta) => {
-      const nombre = receta.nombre.toLowerCase();
-      const descripcion = receta.descripcion.toLowerCase();
-      return nombre.includes(query) || descripcion.includes(query);
-    });
-    
-    mostrarResultados(resultados);
-  }
-  
-  function mostrarResultados(resultados) {
-    const resultadosDiv = document.getElementById("resultados");
-    resultadosDiv.innerHTML = "";
-    
-    if (resultados.length === 0) {
-      resultadosDiv.innerHTML = "<p>No se encontraron recetas.</p>";
-      return;
-    }
-    
-    resultados.forEach((receta) => {
-      const recetaDiv = document.createElement("div");
-      recetaDiv.classList.add("receta");
-      
-      const imagen = document.createElement("img");
-      imagen.src = receta.img;
-      
-      const nombre = document.createElement("h3");
-      nombre.textContent = receta.nombre;
-      
-      const descripcion = document.createElement("p");
-      descripcion.textContent = receta.descripcion;
-      
-      recetaDiv.appendChild(imagen);
-      recetaDiv.appendChild(nombre);
-      recetaDiv.appendChild(descripcion);
-      
-      resultadosDiv.appendChild(recetaDiv);
-    });
-  }
-*/
-
-window.onload = function() {
-    const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('keyup', function(event) {
-        if (event.key === 'Enter') {
-            buscar();
-        }
-    });
-};
-  
-function buscar() {
-    const query = document.getElementById('search-input').value;
-    const resultsContainer = document.getElementById('results-container');
-    
-    // Borrar historial de búsqueda anterior
-    while (resultsContainer.firstChild) {
-        resultsContainer.firstChild.remove();
-    }
-
-    const resultadosNombre = buscarPorNombre(query);
-    if (resultadosNombre.length > 0) {
-        resultadosNombre.forEach(function(resultado) {
-            const resultItem = document.createElement('div');
-            resultItem.classList.add('result-item');
-
-            const img = document.createElement('img');
-            img.textContent = resultado.img;
-            resultItem.appendChild(img);
-
-            const nombre = document.createElement('h3');
-            nombre.textContent = resultado.nombre;
-            resultItem.appendChild(nombre);
-
-
-            const ingrediente = document.createElement('p');
-            ingrediente .textContent = resultado.ingrediente ;
-            resultItem.appendChild(ingrediente );
-
-            const descripcion = document.createElement('p');
-            descripcion.textContent = resultado.descripcion;
-            resultItem.appendChild(descripcion);
-
-            const marca = document.createElement('p');
-            marca.textContent = resultado.marca;
-            resultItem.appendChild(marca);
-
-            resultsContainer.appendChild(resultItem);
-        });
-    } else {
-        const noResults = document.createElement('p');
-        noResults.textContent = 'No se encontraron resultados.';
-        resultsContainer.appendChild(noResults);
-    }
-}
