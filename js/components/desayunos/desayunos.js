@@ -1,5 +1,6 @@
 import { sabias } from "./sabias_que.js";
 import { desayuno } from "./data_sesayunos.js";
+import { buscador } from "./buscador.js";
 
 function prueba() {
   let caja = document.querySelector("#desayuno");
@@ -13,6 +14,7 @@ function prueba() {
 }
 
 prueba();
+buscador(); //llamando a el buscador
 sabias();
 
 function vista() {
