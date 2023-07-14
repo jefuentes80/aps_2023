@@ -7,14 +7,14 @@
   flex-wrap: wrap;
   max-width: 900px; 
 }
-.titulo{
+.titulo_refa{
   text-align: center;
   margin-left: 1rem;
  
   font-size: 4rem;
 
 }
-.item {
+.item_refa {
   width: 90%;
   height: 15rem; 
   margin: 10px;

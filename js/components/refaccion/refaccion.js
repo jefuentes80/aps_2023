@@ -10,7 +10,7 @@ function ola() {
     recetas.forEach(element => {
 
         let gio = document.createElement("div")
-        gio.classList.add("item")
+        gio.classList.add("item_refa")
         gio.innerHTML = `
         
         <img src= "${element["img"]}" class="imagenes_re">
@@ -77,7 +77,7 @@ function createPopup(receta) {
   }
   
   function initializePopups() {
-    const items = document.querySelectorAll(".item");
+    const items = document.querySelectorAll(".item_refa");
   
     items.forEach((item, index) => {
       item.addEventListener("click", () => {
