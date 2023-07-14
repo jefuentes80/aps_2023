@@ -33,7 +33,7 @@ function llamar_footer() {
                         <li><p>Juan Talé</p></li>
                     </ul>
                 </div>
-                <img class="image" src="./js/components/footer_contact/img/Pic N°1.png" alt="">
+                <img class="image" src="./js/components/footer_contact/img/teamwork.png" alt="">
             </div>
         </div>
 
@@ -70,6 +70,7 @@ function llamar_footer() {
             </div>
 
             <div class="item4">
+                <h2>Redes</h2>
                 <div class="logos">
                     <a href="http://instagram.com/school_scl/"><img src="https://s.widget-club.com/samples/0GbysnQNNCfFuz9JwUk4i6kdJgx1/DRMH2OSVT9ojTa2y3T2P/25603244-47FD-4D1A-A1B4-97B72696ED7B.jpg?q=70"></a>
                     <a href="https://wa.me/50232150777"><img src="https://s.widget-club.com/samples/tFag1IrqmkbYT4YcoN26yXx6h472/4OCvVtglu58tak2mn5LX/5AD9E895-7A78-48AB-9853-AD07C57F7EF4.jpg?q=70"></a>
@@ -77,11 +78,16 @@ function llamar_footer() {
                 </div>
             </div>
         </div>
-        
+
+        <div class="logo_final">
+            <img src="./js/components/footer_contact/img/SCL logo.png" alt="">
+        </div>
         <div class="copy">
-            <h2>Copyright</h2>
-            <h3>|</h3>
-            <p>Since 2023, politic privacy</p>
+            <div class="txt">                
+                <h2>©Copyright</h2>
+                <h3>|</h3>
+                <p>Since 2023, politic privacy</p>
+            </div>
         </div>
 
     </section>
