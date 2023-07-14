@@ -5,7 +5,7 @@ export function buscador(){
     businput.classList.add("caja_buscador")
     businput.innerHTML=
     `
-    <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+    <input class="buscador_refa" type="text" name="buscador" id="buscador" placeholder="Buscar...">
      `
      caajita.appendChild(businput); 
 
