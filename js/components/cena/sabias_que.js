@@ -3,9 +3,7 @@
 /*Alejandra Zita*/
 // Crea un elemento div para encapsular tu aplicación
 
-let cenas = [
-  // Datos de las recetas de cenas...
-];
+import {cenas} from "./data_cena.js";
 
 // Función para mostrar una receta de cena específica
 function mostrarReceta(index) {
