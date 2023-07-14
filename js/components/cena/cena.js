@@ -1,6 +1,5 @@
- 
-// Componentes principal
-//Alejandra
+ // Componentes principal
+//Axel Alvarez
 
 import {cenas} from "./data_cena.js";
 //Crea los elementos HTML utilizando el DOM
