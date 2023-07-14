@@ -69,35 +69,67 @@ ul > li > p {
 }
 
 .information > .item1 {
-    background-color: rgb(60, 57, 57);
+    background-color: rgb(52, 49, 49);
 }
 .information > .item1 > h2 {
     font-size: 3rem;
     font-weight: 200;
-    padding: 0rem 0rem;
+    padding: 1rem 1rem;
 }
-.information > .item1 > p {
-    margin: 1rem 0rem;
+.information > .item1 > .element > p {
+    padding: 1rem 1rem;
     font-weight: 200;
     font-size: 1.5rem;
     font-style: oblique;
 }
 
 .information > .item2 {
-    background-color: blueviolet;
+    background-color: rgb(42, 43, 41);
+    align-items: end;
+    text-align: end;
 }
 .information > .item2 > h2 {
     font-size: 3rem;
     font-weight: 200;
-    padding-top: 3rem;
+    padding: 1rem 1rem;
 }
-.information > .item2 > p {
-    margin: 1rem 0rem;
+.information > .item2 > .element > p {
+    padding: 1rem 1rem;
     font-weight: 200;
     font-size: 1.5rem;
     font-style: oblique;
 }
 
+.information > .item3 {
+    background-color: rgb(35, 38, 38);
+}
+.information > .item3 > h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 1rem 1rem;
+}
+.information > .item3 > .element > p {
+    padding: 1rem 1rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+/* Sección de imágenes*/
+.item4 {
+    align-items: center;
+}
+.item4 > .logos {
+    display: block;
+    background-color: aquamarine;
+}
+.logos > a > img {
+    justify-content: space-around;
+    height: 6rem;
+    border-radius: 2rem;
+    margin: 2rem 0.5rem;
+    
+}
 
 /*Sección de copyright*/
 .copy {
