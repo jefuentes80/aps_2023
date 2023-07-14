@@ -1,29 +1,21 @@
 // Componente sabias que
-/*Axel Daniel Alvarez López*/
-/*Alejandra Zita*/
-// Crea un elemento div para encapsular tu aplicación
+//KEILY BELÉN TELLES PÉREZ
 
-let cenas = [
-  // Datos de las recetas de cenas...
-];
+export function  sabias(){
 
-// Función para mostrar una receta de cena específica
-function mostrarReceta(index) {
-  const cena = cenas[index];
 
-  // Código JavaScript para generar los elementos HTML de la receta
-  // y agregarlos al elemento con el ID "receta"
-  // ...
-
-  // Ejemplo de código para agregar un título h1 con el nombre de la receta
-  const nombreElement = document.createElement("h1");
-  nombreElement.textContent = cena.nombre;
-  document.getElementById("receta").appendChild(nombreElement);
-  
-  
-
+  let pag = document.querySelector(".caja");
+  let helou = document.createElement("div")
+  helou.innerHTML= `
+  <div class="caja_sabias">
+  <h1 class="sabias_titu">¿Sabías qué?</h1>
+  <p class="Texto">  Esto se debe a que es la comida previa al sueño y es
+   muy importante que sea equilibrada para un buen descanso.</p>
+  </div>
+  `;
+  pag.appendChild(helou);
+  console.log(helou)
   }
-  mostrarReceta(0);
   
 
 
