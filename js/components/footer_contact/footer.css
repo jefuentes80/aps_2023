@@ -65,32 +65,121 @@ ul > li > p {
 
 /*Sección de información*/
 .information {
-    padding: 2rem;
-    background-color: rgb(60, 57, 57);
     color: white;
+    background-color: black;
 }
 
-.information > h2 {
+.information > .item1 {
+    background-color: rgb(52, 49, 49);
+    height: auto;
+    margin: 0rem 1rem;
+    padding: 2rem;
+}
+.information > .item1 > h2 {
     font-size: 3rem;
     font-weight: 200;
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
+}
+.information > .item1 > .element > p {
+    padding: 1rem 1rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: oblique;
+    margin-bottom: 0px;
 }
 
+.information > .item2 {
+    background-color: rgb(42, 43, 41);
+    align-items: end;
+    text-align: end;
+    margin: 1rem 1rem;
+    padding: 2rem;
+}
+.information > .item2 > h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 1rem 1rem;
+}
+.information > .item2 > .element > p {
+    padding: 1rem 1rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: oblique;
+    margin-bottom: 0px;
+}
 
+.information > .item3 {
+    background-color: rgb(35, 38, 38);
+    padding: 2rem;
+    margin: 1rem 1rem;
+}
+.information > .item3 > h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 1rem 1rem;
+}
+.information > .item3 > .element > p {
+    padding: 1rem 1rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: oblique;
+    margin-bottom: 0px;
+}
+
+/* Sección de imágenes*/
+.item4 {
+    text-align: center;
+    align-items: center;
+    display: block;
+    background-color: black;
+}
+.item4 > .logos {
+    align-self: center;
+}
+.item4 > h2 {
+    color: white;
+    padding-top: 4rem;
+    font-size: 3rem;
+}
+.logos > a > img {
+    justify-content: space-between;
+    height: auto;
+    max-height: 15rem;
+    border-radius: 2rem;
+    margin: 2rem 0.5rem;
+    border: 2px dotted red;
+}
+
+/*Sección de logo colegio*/
+.footer > .logo_final {
+    display: block;
+    max-height: 28rem;
+    text-align: center;
+    height: 100%;
+    background-color: black;
+}
+.logo_final > img {
+    margin: auto;
+    height: auto;
+    max-height: 20rem;
+}
 
 /*Sección de copyright*/
 .copy {
     color: white;
     background-color: rgb(24, 22, 22);
-    display: flex;
     align-items: center;
-    height: 4rem;
-    padding: 1rem 1rem;
 }
-.copy > h2 {
+.copy > .txt {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.txt > h2 {
     font-weight: 100;
     padding: 1rem 0.5rem;
 }
-.copy > p {
+.txt > p {
     padding: 1rem 0.5rem;
 }
