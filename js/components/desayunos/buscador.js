@@ -12,7 +12,7 @@ export function buscador(){
         if (e.target.matches("#buscador")) {
             if (e.key === "Escape") e.target.value = "";
 
-            const miniaturas = document.querySelectorAll(".miniatura");
+            let miniaturas = document.querySelectorAll(".miniatura");
 
             miniaturas.forEach(Element => {
                 if (Element.textContent.toLowerCase().includes(e.target.value.toLowerCase())) {
