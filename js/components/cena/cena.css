@@ -1,11 +1,12 @@
 #cena{
-  background-color: rgb(255, 232, 25);
+  background-color: rgb(78, 54, 167);
   padding-bottom: 3rem;
 }
 .recetas{
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px; 
+  max-width: 900px;
+  margin: 0 auto; /* Centra el contenido horizontalmente */
 }
 .titulo_cena{
   text-align: center;
@@ -16,22 +17,22 @@
 }
 .item_cena {
   width: 90%;
-  height: 15rem; 
-  margin: 10px;
+  height: 15rem;
+  margin: 10px auto;
   margin-top: 2rem;
-  background-color: rgba(249, 233, 226, 1); 
+  background-color: rgba(249, 233, 226, 1);
   border-radius: 2.5rem;
 }
 .nombres{ /*NOMBRES DE CADA RECETA*/
   font-size: 2rem;
   margin-left: 2rem;
   margin-left: 15rem;
-  margin-top: -12rem;
+  margin-top: -10rem;
   text-align: center;
 }
 .descripcion{
   font-size: 0.5rem;
-  margin-left: 15rem;
+  margin-left: 9rem;
   margin-right: 0.5rem;
   margin-top: 2rem;
   text-align: center;
