@@ -1,10 +1,11 @@
 /* Diseño Sabias que*/
 .sabias_que{
-    width: 80%;
+    width: 90%;
     height: 28rem; 
     margin: 10px;
     margin-top: 2rem;
     padding-top: 2rem;
+    margin-left: 1.5rem;
     background-color: rgb(187, 248, 106); 
     border-radius: 2.5rem;
 }
