@@ -10,7 +10,6 @@ export let recetas = [
     "ingredientes": {
     "ingredientes1": "400g de Papas",
     "ingredientes2": "3 ad de Huevos",
-    "img2": "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
     "ingredientes3": "40g de Jamón",
     "ingredientes4": "5 g de Cebollin",
     "ingredientes5": "0.5 cucharadita de Cilanntro",
@@ -34,7 +33,6 @@ export let recetas = [
       img: "https://cdn0.recetasgratis.net/es/posts/1/9/2/huevos_tirados_76291_paso_5_600.jpg",
       ingredientes: {
           ingrediente1: "6 huevos",
-          img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
           ingrediente2: "1/4 de taza de crema",
           ingrediente3: "2 cucharadas de caldo de frijol",
           ingrediente4: "1 taza de frijoles negros enteros",
@@ -82,7 +80,6 @@ export let recetas = [
           ingrediente2: "1 pimiento verde",
           ingrediente3: "1 pimiento amarillo",
           ingrediente4: "4 huevos",
-          img4: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
           ingrediente5: "2 dientes de ajo",
           ingrediente6: "50 mililitros de nata líquida",
           ingrediente7: "1 ramita de perejil",
@@ -105,7 +102,6 @@ export let recetas = [
           ingredientes: {
               ingrediente1: "4 ud de Pan de hamburguesa integral",
               ingrediente2: "5 ud de Huevo",
-              img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
               ingrediente3: "8 Revanadas de Jamón de su preferencia",
               ingrediente4: "150g de queso rallado",
               ingrediente5: "8 rodajas de Queso",
@@ -459,7 +455,6 @@ export let recetas = [
             ingrediente1: "Arroz al gusto",
             
             ingrediente2: "Caldo de verduras",
-            img2: "https://static.vecteezy.com/system/resources/previews/003/190/846/non_2x/line-icon-for-chowder-vector.jpg",
             ingrediente3: "Espinacas",
                        
             ingrediente4: "Aceitunas",
