@@ -1,0 +1,26 @@
+.buscadorr{
+    width: 90%;
+    height: 4rem;
+
+    margin-top: 2rem;
+    padding: 10px;
+
+    outline: none;
+    border-style: none;
+    border-radius: 2rem;
+    border: 2px solid #FE9569;
+    
+    font-weight: 600;
+   
+}
+.search{
+    
+    width: 100%;
+    display: flex;   
+    justify-content: center;
+    
+}
+
+.fifi{
+    display: none;
+}
