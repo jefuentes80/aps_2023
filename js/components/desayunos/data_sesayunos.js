@@ -7,7 +7,7 @@ export let desayuno = [
         /*--- M. Juarez */
         nombre: "HUEVOS RANCHEROS",
         descripcion: "Desayuno típico y tradicional.",
-        img: "https://www.maricruzavalos.com/wp-content/uploads/2021/06/huevos_rancheros_recipe.jpg",
+        img: "./js/components/desayunos/imagenes/1m.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz: dos piezas.",
             ingrediente2: "2 cucharadas soperas de Frijoles refritos",
@@ -36,7 +36,7 @@ export let desayuno = [
         /*M -- Juárez*/
         nombre: "HUEVOS CON SALCHICHA",
         descripcion: "Una receta fácil de preparar con ingredientes accesibles.",
-        img: "https://inmamamaggieskitchen.com/wp-content/uploads/2022/12/Huevos-con-Salchichas-768x1088.png",
+        img: "./js/components/desayunos/imagenes/2m.png",
         ingredientes: {
             ingrediente1: "8 huevos",
             ingrediente2: "3 salchichas de pavo",
@@ -59,7 +59,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "TORTILLA DE ESPINACA",
         descripcion: "Tortilla saludable y nutritiva.",
-        img: "https://www.dietfarma.com/sites/default/files/tortilla_de_espinacas.png",
+        img: "./js/components/desayunos/imagenes/6m.jpg",
         ingredientes: {
             ingrediente1: "1 taza de espinacas frescas",
             ingrediente2: "2 huevos",
@@ -82,7 +82,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "BURRITO DE HUEVO CON TOCINO",
         descripcion: "Comienza tu día con un desayuno llenador.",
-        img: "https://www.daisybrand.com/wp-content/uploads/2019/12/BREAKFAST-BURRITOS-770x628.jpg",
+        img: "./js/components/desayunos/imagenes/4m.jpg",
         ingredientes: {
             ingrediente1: "3 huevos",
             ingrediente2: "1 aguacate",
@@ -106,7 +106,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "HUEVOS REVUELTOS CREMOSOS CON YOGUR",
     descripcion: "Los huevos son un gran alimento para empezar el día.",
-    img: "https://img-global.cpcdn.com/recipes/5813ef5ce138ad6e/400x400cq70/photo.jpg",
+    img: "./js/components/desayunos/imagenes/1k.jpg",
     ingredientes: {
         ingrediente1: "2 huevos grandes",
         ingrediente2: "2 cuch. de yogur griego",
@@ -125,7 +125,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTILLA DE JAMÓN Y QUESO",
     descripcion: "Desayuno simple y satisfactorio para comenzar bien el día.",
-    img: "https://static.guiainfantil.com/pictures/recetas/3940-4-tortilla-francesa-rapida-con-jamon-y-queso.jpg",
+    img: "./js/components/desayunos/imagenes/2.jpg",
     ingredientes: {
         ingrediente1: "3 huevos grandes",
         ingrediente2: "Sal",
@@ -148,7 +148,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "CHORIZO Y HUEVOS (HUEVOS CON CHORIZO)",
     descripcion: "Receta sencilla ¡y solo requiere 4 ingredientes!.",
-    img: "https://www.cardamomo.news/__export/1654534278547/sites/debate/img/2022/06/06/huevos_con_chorizo.png_423682103.png",
+    img: "./js/components/desayunos/imagenes/3.jpeg",
     ingredientes: {
         ingrediente1: "2 cucharaditas de aceite.",
         ingrediente2: "9 onzas de chorizo ​​chorizo.",
@@ -166,7 +166,7 @@ export let desayuno = [
     {//M Juárez
         nombre: "HUEVOS AL HORNO CON ESPINACA Y QUESO",
         descripcion: "Desayuno sabroso y nutritivo.",
-        img: "https://www.cardamomo.news/__export/1636404819866/sites/debate/img/2021/11/08/huevos_con_espinacas.png_423682103.png",
+        img: "./js/components/desayunos/imagenes/6m.jpg",
         ingredientes: {
             ingrediente1: "2 huevos",
             ingrediente2: "1 taza de espinacas frescas",
@@ -190,7 +190,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "AVENA CON MANTEQUILLA DE MANÍ",
         descripcion: "Receta hecha con 5 ingredientes en 5 minutos.",
-        img: "https://desayunando.com/wp-content/uploads/Avena-facil-con-mantequilla-de-mani-y-platano-scaled.jpg",
+        img: "./js/components/desayunos/imagenes/7m.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de leche (Entera, descremada, vegetal a elección)",
             ingrediente2: "3/4 Tbsp semillas de chia",
@@ -211,7 +211,7 @@ export let desayuno = [
     {
         nombre: "AVENA CON FRUTAS",
         descripcion: "Una deliciosa combinación para comenzar el día con energía.",
-        img: "https://www.dieta-saludable.com/wp-content/uploads/2020/01/PORRIGDE-DE-AVENA-Y-FRUTA.png",
+        img: "./js/components/desayunos/imagenes/9m.png",
         ingredientes: {
             ingrediente1: "1/2 taza de avena",
             ingrediente2: "1 taza de leche (puede ser vegetal)",
@@ -228,7 +228,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "PANQUEQUES DE AVENA Y PLÁTANO",
         descripcion: "Panqueques sin harina perfectos para un desayuno nutritivo.",
-        img: "https://nutricionistarociosuarez.cl/wp-content/uploads/2018/10/Captura-de-pantalla-2018-10-17-a-las-14.35.28.png",
+        img: "./js/components/desayunos/imagenes/10m.jpg",
         ingredientes: {
             ingrediente1: "1 taza de avena",
             ingrediente2: "2 plátanos maduros",
@@ -250,7 +250,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "HOT CAKES DE AVENA, MANZANA Y CANELA",
     descripcion: "Empieza tus mañanas con el desayuno más saludable, fácil y delirante.",
-    img: "https://img-global.cpcdn.com/recipes/2b296a53566c497f/400x400cq70/photo.jpg",
+    img: "./js/components/desayunos/imagenes/4.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "½ taza de leche",
@@ -271,7 +271,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTILLA DE AVENA Y VERDURA",
     descripcion: "Perfecto para los amantes de los desayunos salados.",
-    img: "https://www.recetas360.com/wp-content/uploads/2023/04/receta-tortilla-de-espinacas--360x360.jpeg",
+    img: "./js/components/desayunos/imagenes/5.jpeg",
     ingredientes: {
         ingrediente1: "4 cucharadas de copos de avena",
         ingrediente2: "3 huevos",
@@ -293,7 +293,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "PAN DE AVENA",
     descripcion: "¿Y si probamos esta receta de pan sin gluten?",
-    img: "https://pandeavena.com/wp-content/uploads/2023/03/Diseno-sin-titulo.png",
+    img: "./js/components/desayunos/imagenes/6.png",
     ingredientes: {
         ingrediente1: "275 g de harina de avena (certificada sin gluten si es preciso)",
         ingrediente2: "350 ml de yogur natural",
@@ -312,7 +312,7 @@ export let desayuno = [
     {/* K_telles*/
     nombre: "PIZZA DE AVENA",
     descripcion: "Es delicioso realizar una pizza de avena, saludable y crujiente.",
-    img: "https://cdn0.recetasgratis.net/es/posts/9/9/7/pizza_de_avena_74799_600_square.jpg",
+    img: "./js/components/desayunos/imagenes/7.jpg",
     ingredientes: {
         ingrediente1: "100 g de avena",
         ingrediente2: "100 ml de agua",
@@ -338,7 +338,7 @@ export let desayuno = [
     { /* K_telles*/
         nombre: "YOGUR DE FRESA Y VAINILLA",
         descripcion: "Yogur de fresa y vainilla hecha para 4 personas.",
-        img: "https://img.freepik.com/vector-premium/fresa-realista-leche-bienvenida-yogurt-fresa_190024-641.jpg",
+        img: "./js/components/desayunos/imagenes/8.jpeg",
         ingredientes: {
             ingrediente1: "Media taza de fresas.",
             ingrediente2: "Media taza de marañon.",
@@ -361,7 +361,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE AVENA CON PLÁTANO",
     descripcion: "Receta para 4 personas.",
-    img: "https://img-global.cpcdn.com/recipes/0190f0a2271af598/680x482cq70/tortitas-de-avena-y-platano-foto-principal.jpg",
+    img: "./js/components/desayunos/imagenes/9.jpg",
     ingredientes: {
         ingrediente1: "5 cucharadas de harina de avena",
         ingrediente2: "100 gramos de fresas",
@@ -388,7 +388,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "YOGUR CON QUINOA Y FRUTAS ROJAS",
     descripcion: "Receta para quienes no quieren consumir cereales clásicos de desayuno.",
-    img: "https://unareceta.com/wp-content/uploads/2016/08/receta-quinoa-con-yogurt.jpg",
+    img: "./js/components/desayunos/imagenes/10.jpg",
     ingredientes: {
         ingrediente1: "1 taza de yogur natural",
         ingrediente2: "1 cucharadita de miel",
@@ -405,7 +405,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "PANQUEQUES DE YOGUR Y AVENA",
     descripcion: "Receta ideal para hacer tu desayuno saludable.",
-    img: "https://files.wapa.pe/Wapa/2020/04/27/panqueques-de-yogurt-y-avena-recetas-f-ciles-c-mo-preparar-1587947110.jpg",
+    img: "./js/components/desayunos/imagenes/11.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "1/2 taza de yogur firme",
@@ -429,7 +429,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TOSTADAS DE YOGUR Y FRUTOS ROJOS",
     descripcion: "Deliciosa receta hecha en 10 minutos",
-    img: "https://macabites.com/wp-content/uploads/2017/12/las-MEJORES-tostadas-francesas.jpg",
+    img: "./js/components/desayunos/imagenes/12.jpg",
     ingredientes: {
         ingrediente1: "2 rebanadas gruesas de pan tipo brioche, de trigo o de masa madre",
         ingrediente2: "1/4 taza de yogur",
@@ -451,7 +451,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE YOGUR",
     descripcion: "Receta súper fácil de preparar.",
-    img: "https://todoespecias.com/blog/wp-content/uploads/vlcsnap-2022-07-29-14h21m06s530-e1659097852865.png",
+    img: "./js/components/desayunos/imagenes/13.png",
     ingredientes: {
         ingrediente1: "1 taza de harina",
         ingrediente2: "1 y 2/3 taza de yogur",
@@ -469,7 +469,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "BANANA SPLITS DE YOGUT",
     descripcion: "Delicioso alimento para empezar el día.",
-    img: "https://cocinaconmichela.com/wp-content/uploads/2023/03/1-5.png",
+    img: "./js/components/desayunos/imagenes/14.png",
     ingredientes: {
         ingrediente1: "1 plátano, cortado a lo largo",
         ingrediente2: "1 taza de yogur",
@@ -490,7 +490,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "TOSTADAS DE AGUACATE",
         descripcion: "Una opción deliciosa y saludable para el desayuno.",
-        img: "https://cocinaconlupita.com/images/news/447bd0ebe1f3.png",
+        img: "./js/components/desayunos/imagenes/12m.png",
         ingredientes: {
             pan: "2 rebanadas de pan integral",
             aguacate: "1 aguacate maduro",
@@ -509,7 +509,7 @@ export let desayuno = [
     {//M Juárez
         nombre: "TOSTADAS DE CREMA DE CACAHUETE Y PLÁTANO",
         descripcion: "Una combinación clásica.",
-        img: "https://fabsgoodfood.com/wp-content/uploads/2019/02/Galletas-con-chispas-de-chocolate-y-pla%CC%81tano-y-avellanas-vegano-saludable-natural_5.png",
+        img: "./js/components/desayunos/imagenes/11m.png",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan",
             ingrediente2: "2 cucharadas de crema de cacahuete",
@@ -529,7 +529,7 @@ export let desayuno = [
     {//M Juárez 10
         nombre: "BATIDO DE PLÁTANO Y ESPINACAS",
         descripcion: "Receta cargada de nutrientes para un desayuno revitalizante.",
-        img: "https://nomadasgourmet.com/wp-content/uploads/2023/04/batido-pina-leche-verde-adelgazar-7409469.jpg",
+        img: "./js/components/desayunos/imagenes/13m.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros",
             ingrediente2: "1 taza de espinacas frescas",
@@ -549,7 +549,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "BATIDO DE FRUTAS TROPICALES",
         descripcion: "Un batido refrescante.",
-        img: "https://s2.abcstatics.com/huelva24/www/multimedia/periodico/img_179236.jpg",
+        img: "./js/components/desayunos/imagenes/14m.jpg",
         ingredientes: {
             ingrediente1: "1 taza de piña en trozos",
             ingrediente2: "1 taza de mango en trozos",
@@ -567,7 +567,7 @@ export let desayuno = [
     {//M Juárez 12
         nombre: "BATIDO DE AGUACATE Y PLÁTANO",
         descripcion: "Un batido cremoso y nutritivo.",
-        img: "https://okdiario.com/img/recetas/2016/10/18/smothiee-de-aguacate-y-platano.jpg",
+        img: "./js/components/desayunos/imagenes/15m.jpg",
         ingredientes: {
             ingrediente1: "1 aguacate maduro",
             ingrediente2: "1 plátano maduro",

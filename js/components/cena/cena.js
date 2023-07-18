@@ -1,193 +1,99 @@
- // Componentes principal
-//Axel Alvarez
+import { recetas } from "./data_cena.js";
+import { tata } from "./sabias_que.js";
+import { buscador } from "./buscador.js";
 
-import {cenas} from "./data_cena.js";
-//Crea los elementos HTML utilizando el DOM
-/*Alejandra Zita*/
-function primera_parte(){
-  let elementos =
-  `
-  <div class="caja-busc">
-  
-      <input type="text" name="text" class="input" id="buscador" type="text" placeholder="Buscando...">
-
-  </div>
-
-  <div class="container">
-  
-    
-
-  </div>
-
-  <div class="blog-card"></div>
-  `;
-
-    let caja = document.getElementById("cena")
+function yes() {
 
 
-caja.innerHTML = elementos;
+    let cajita = document.querySelector("#cena")
 
+
+
+    recetas.forEach(element => {
+
+        let gio = document.createElement("div")
+        gio.classList.add("item_cena")
+        gio.innerHTML = `
+        
+        <img src= "${element["img"]}" class="imagenes_cena">
+            <p class="nombres"> <b>${element["nombre"]} </b></p>
+            <p class="descripcion">${element["descripcion"]} </p>
+
+          
+        `
+        cajita.appendChild(gio)
+    });
 }
-primera_parte();
-/******************************************************** */
 
-const cenaElement = document.getElementById("cena");
-const cenabuscador = document.getElementById("cena");
+tata();
+buscador();
+yes();
 
-// Recorrer la matriz de cenas y mostrar las cartas de cada cena
-cenas.forEach((cena, index) => {
-  const newCenaDiv = document.createElement("div");
-  const className = `bc-${index}`; // Nombre de clase único y corto
-  newCenaDiv.classList.add(className);
 
-  
+//******** */
+function createCoco(receta) {
+  const coco = document.createElement("div");
+  coco.classList.add("coco");
 
-  const imgElement = document.createElement("img");
-  imgElement.src = cena.img;
-  imgElement.classList.add("photo");
+  const cocoContent = document.createElement("div");
+  cocoContent.classList.add("coco-content");
 
-  const contentContainer = document.createElement("div");
-  contentContainer.classList.add("content-container");
-
-  const nombreElement = document.createElement("h2");
-  nombreElement.textContent = cena.nombre;
-
-  const descripcionElement = document.createElement("h3");
-  descripcionElement.textContent = cena.descripcion;
-
-  const tiempoElement = document.createElement("h3");
-  tiempoElement.textContent = cena.tiempo;
-
-  newCenaDiv.appendChild(imgElement);
-  newCenaDiv.appendChild(contentContainer);
-  contentContainer.appendChild(nombreElement);
-  contentContainer.appendChild(descripcionElement);
-  contentContainer.appendChild(tiempoElement);
-
-  // Agregar evento clic para mostrar la ventana emergente
-  nombreElement.addEventListener("click", () => mostrarVentanaEmergente(cena, className));
-
-  cenaElement.appendChild(newCenaDiv);
-});
-
-// Función para mostrar la ventana emergente
-function mostrarVentanaEmergente(cena, className) {
-  const overlay = document.createElement("div");
-  overlay.classList.add("overlay");
-
-  const popup = document.createElement("div");
-  popup.classList.add("popup");
-  popup.classList.add(className);
-
-  const closeButton = document.createElement("button");
-  closeButton.textContent = "Cerrar";
-  closeButton.classList.add("btn");
-
+  const closeButton = document.createElement("span");
+  closeButton.classList.add("coco-close");
+  closeButton.textContent = "X";
   closeButton.addEventListener("click", () => {
-    overlay.remove();
+    coco.classList.remove("active");
   });
 
-  const imgElement = document.createElement("img");
-  imgElement.src = cena.img;
+  const nombre = document.createElement("p");
+  nombre.innerHTML = `<strong>${receta.nombre}</strong>`;
 
-  const nombreElement = document.createElement("h2");
-  nombreElement.textContent = cena.nombre;
+  const img = document.createElement("img");
+  img.src = receta.img;
+  img.alt = receta.nombre;
 
-  const ingredientesElement = document.createElement("ul");
-  for (const ingrediente in cena.ingredientes) {
-    if (ingrediente.startsWith("ingrediente")) {
-      const liElement = document.createElement("li");
-      liElement.textContent = cena.ingredientes[ingrediente];
-      ingredientesElement.appendChild(liElement);
-    }
+
+  img.classList.add("img-modal");
+
+
+  const ingredientes = document.createElement("ul");
+  for (let ingrediente in receta.ingredientes) {
+    const li = document.createElement("li");
+    li.textContent = receta.ingredientes[ingrediente];
+    ingredientes.appendChild(li);
   }
 
-  const preparacionElement = document.createElement("ol");
-  for (const paso in cena.preparacion) {
-    if (paso.startsWith("paso")) {
-      const liElement = document.createElement("li");
-      liElement.textContent = cena.preparacion[paso];
-      preparacionElement.appendChild(liElement);
-    }
+  const preparacion = document.createElement("ol");
+  for (let paso in receta.preparacion) {
+    const li = document.createElement("li");
+    li.textContent = receta.preparacion[paso];
+    preparacion.appendChild(li);
   }
 
-  popup.appendChild(closeButton);
-  popup.appendChild(imgElement);
-  popup.appendChild(nombreElement);
-  popup.appendChild(ingredientesElement);
-  popup.appendChild(preparacionElement);
+  cocoContent.appendChild(closeButton);
+  cocoContent.appendChild(nombre);
+  cocoContent.appendChild(img);
+  cocoContent.appendChild(document.createElement("hr"));
+  cocoContent.appendChild(document.createElement("h3")).textContent = "Ingredientes";
+  cocoContent.appendChild(ingredientes);
+  cocoContent.appendChild(document.createElement("h3")).textContent = "Preparación";
+  cocoContent.appendChild(preparacion);
 
-  overlay.appendChild(popup);
-  document.body.appendChild(overlay);
+  coco.appendChild(cocoContent);
 
-  // Cerrar ventana emergente al hacer clic fuera de ella
-  overlay.addEventListener("click", (event) => {
-    if (event.target === overlay) {
-      overlay.remove();
-    }
+  return coco;
+}
+
+function initializeCoco() {
+  const items = document.querySelectorAll(".item_cena");
+
+  items.forEach((item, index) => {
+    item.addEventListener("click", () => {
+      const coco = createCoco(recetas[index]);
+      coco.classList.add("active");
+      document.body.appendChild(coco);
+    });
   });
 }
 
-
-
-/**********************************************************/
-const buscadorElement = document.getElementById("buscador");
-
-function actualizarResultados() {
-  const filtro = buscadorElement.value.toLowerCase();
-
-  // Eliminar los resultados anteriores si el filtro está vacío
-  if (filtro === "") {
-    const blogCardElement = cenabuscador.querySelector(".blog-card");
-    while (blogCardElement.firstChild) {
-      blogCardElement.firstChild.remove();
-    }
-    return; // Salir de la función si el filtro está vacío
-  }
-
-  // Eliminar los resultados anteriores
-  const blogCardElement = cenabuscador.querySelector(".blog-card");
-  while (blogCardElement.firstChild) {
-    blogCardElement.firstChild.remove();
-  }
-
-  // Filtrar las cenas que coincidan con el texto del buscador
-  const cenasFiltradas = cenas.filter(cena => cena.nombre.toLowerCase().includes(filtro));
-
-  // Mostrar los resultados en el DOM
-  cenasFiltradas.forEach(cena => {
-    const newCenaDiv = document.createElement("div");
-    newCenaDiv.classList.add("blog-card");
-
-    const nombreElement = document.createElement("h2");
-    nombreElement.textContent = cena.nombre;
-
-    // Agregar evento clic para mostrar la ventana emergente
-    nombreElement.addEventListener("click", () => mostrarVentanaEmergente(cena));
-
-    const tiempoElement = document.createElement("p");
-    tiempoElement.textContent = cena.tiempo;
-
-    const descripcionElement = document.createElement("p");
-    descripcionElement.textContent = cena.descripcion;
-
-    const imgElement = document.createElement("img");
-    imgElement.src = cena.img;
-    imgElement.classList.add("photob");
-
-    newCenaDiv.appendChild(nombreElement);
-    newCenaDiv.appendChild(tiempoElement);
-    newCenaDiv.appendChild(descripcionElement);
-    newCenaDiv.appendChild(imgElement);
-
-    blogCardElement.appendChild(newCenaDiv);
-  });
-}
-
-
-buscadorElement.addEventListener("input", actualizarResultados);
-
-buscadorElement.addEventListener("input", actualizarResultados);
-
-buscadorElement.addEventListener("input", actualizarResultados);
-
+initializeCoco();

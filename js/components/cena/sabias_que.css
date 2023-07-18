@@ -1,1 +1,44 @@
 /* Diseño Sabias que*/
+.sabias_que{
+    width: 90%;
+    height: 28rem; 
+    margin: 10px;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: rgb(187, 248, 106); 
+    border-radius: 2.5rem;
+}
+.titulo_sabias{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    }
+.cuerpo{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+.cajota{
+    background-color: aquamarine;
+    width: 10rem;
+}
+/*buscador*/
+.buscador_cena{
+    width:90%;
+    height: 4rem;
+    margin-top: 2rem;
+    padding: 10px;
+    outline: none;
+    border-style: none;
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-weight: 600;
+}
+.caja_buscador{
+    margin-left: 4rem;
+}
+.fifi{
+    display: none;
+
+}
+  
