@@ -60,11 +60,6 @@ export const evitar_no_comer = [
         dsescripcion : "Las empanadas y otros alimentos fritos rellenos, como las croquetas, suelen contener una masa frita y un relleno rico en grasas y calorías, como carne, queso o vegetales fritos. Estos alimentos son altos en grasas saturadas, grasas trans y calorías. Su consumo regular puede contribuir al aumento de peso, elevar los niveles de colesterol y aumentar el riesgo de enfermedades cardíacas."
     },
     {
-        img : "https://buenprovecho.hn/wp-content/uploads/2020/02/Mariscos-fritos.jpg",
-        titulo : "Mariscos fritos",
-        dsescripcion : "Los mariscos fritos, como los camarones o el pescado, se recubren con una masa y se fríen en aceite caliente. Este proceso de fritura puede agregar un alto contenido de grasas saturadas y calorías. Además, algunos aceites utilizados para freír pueden volverse rancios y generar compuestos dañinos para la salud. El consumo regular de mariscos fritos puede contribuir al aumento de peso y elevar los niveles de colesterol."
-    },
-    {
         img : "https://www.consumer.es/wp-content/uploads/2020/06/bebidas-isotonicas-ejemplos.jpg",
         titulo : "Bebidas deportivas y energéticas.",
         dsescripcion : "Muchas de estas bebidas tienen gran cantidad de azúcar y calorías. Las bebidas energéticas también tienen mucha cafeína. A menos que haga ejercicio suficientemente intenso como para sudar por una hora o más, es preferible tomar agua. También puede elegir las versiones bajas en calorías de estas bebidas."
@@ -115,7 +110,7 @@ export const evitar_no_comer = [
         dsescripcion : "Las salsas y aderezos procesados, como la salsa de tomate, ketchup, aderezos para ensaladas y salsas para pasta, a menudo contienen azúcares agregados para mejorar el sabor. Estas salsas y aderezos pueden ser altos en calorías y azúcares, lo que puede contribuir al aumento de peso y elevar los niveles de azúcar en la sangre. Además, su consumo excesivo puede dificultar la elección de opciones más saludables y naturalmente sabrosas.",
     },
     {
-        img : "https://noticiassaludables.com/wp-content/uploads/2017/12/aderezos.jpg",
+        img : "https://movidasana.com/wp-content/uploads/2015/09/Enlatados.jpg",
         titulo : "Alimentos enlatados",
         dsescripcion : "Como sopas enlatadas, embutidos, snacks salados, salsas comerciales y alimentos precocinados, suelen contener altas cantidades de sal para mejorar el sabor y la conservación. El consumo excesivo de alimentos procesados puede contribuir al aumento de la presión arterial, el riesgo de enfermedades cardíacas y la retención de líquidos.",
     },
@@ -129,6 +124,4 @@ export const evitar_no_comer = [
         titulo : "Condimentos comerciales",
         dsescripcion : "condimentos comerciales, como la salsa de soja, salsa barbacoa, salsa teriyaki y aderezos para ensaladas, contienen altos niveles de sal. Estos condimentos pueden añadir sabor a las comidas, pero su consumo en exceso puede aumentar la ingesta de sodio y elevar la presión arterial.",
     }
-
-    
 ]
