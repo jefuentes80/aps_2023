@@ -1,78 +1,95 @@
-import { sabias } from "./sabias_que.js";
-import { cenas } from "./data_cenas.js"; 
-import { buscador } from "/js/components/cena/buscador.js";
+import { recetas } from "./data_cena.js";
+import { tata } from "./sabias_que.js";
+import { buscador } from "./buscador.js";
 
-function prueba() {
-  let caja = document.querySelector("#cenas"); 
+function yes() {
 
-  let div = document.createElement("div");
-  div.innerHTML = `
 
-    <h1 class="hi">Cenas</h1>`;
-  div.classList.add("caja");
-  caja.appendChild(div);
+    let cajita = document.querySelector("#cena")
+
+
+
+    recetas.forEach(element => {
+
+        let gio = document.createElement("div")
+        gio.classList.add("item_cena")
+        gio.innerHTML = `
+        
+        <img src= "${element["img"]}" class="imagenes_cena">
+            <p class="nombres"> <b>${element["nombre"]} </b></p>
+            <p class="descripcion">${element["descripcion"]} </p>
+
+          
+        `
+        cajita.appendChild(gio)
+    });
 }
 
-prueba();
-buscador(); 
-sabias();
+tata();
+buscador();
+yes();
 
-function vista() {
-  let eldom = document.querySelector(".caja");
-  eldom.addEventListener("click", mostrarDatos);
 
-  cenas.forEach((element) => { 
-    let miniatura = document.createElement("div");
-    miniatura.classList.add("miniatura");
-    miniatura.innerHTML = `
-      <img src="${element.img}">
-      <div class="solotexto">
-        <h3 class="titulo_comida">${element.nombre}</h3>
-        <p class="descripcion_comida">${element.descripcion}</p>
-      </div>
-    `;
-    eldom.appendChild(miniatura);
+//******** */
+function createCoco(receta) {
+  const coco = document.createElement("div");
+  coco.classList.add("coco");
+
+  const cocoContent = document.createElement("div");
+  cocoContent.classList.add("coco-content");
+
+  const closeButton = document.createElement("span");
+  closeButton.classList.add("coco-close");
+  closeButton.textContent = "X";
+  closeButton.addEventListener("click", () => {
+    coco.classList.remove("active");
+  });
+
+  const nombre = document.createElement("p");
+  nombre.innerHTML = `<strong>${receta.nombre}</strong>`;
+
+  const img = document.createElement("img");
+  img.src = receta.img;
+  img.alt = receta.nombre;
+
+  const ingredientes = document.createElement("ul");
+  for (let ingrediente in receta.ingredientes) {
+    const li = document.createElement("li");
+    li.textContent = receta.ingredientes[ingrediente];
+    ingredientes.appendChild(li);
+  }
+
+  const preparacion = document.createElement("ol");
+  for (let paso in receta.preparacion) {
+    const li = document.createElement("li");
+    li.textContent = receta.preparacion[paso];
+    preparacion.appendChild(li);
+  }
+
+  cocoContent.appendChild(closeButton);
+  cocoContent.appendChild(nombre);
+  cocoContent.appendChild(img);
+  cocoContent.appendChild(document.createElement("hr"));
+  cocoContent.appendChild(document.createElement("h3")).textContent = "Ingredientes";
+  cocoContent.appendChild(ingredientes);
+  cocoContent.appendChild(document.createElement("h3")).textContent = "Preparación";
+  cocoContent.appendChild(preparacion);
+
+  coco.appendChild(cocoContent);
+
+  return coco;
+}
+
+function initializeCoco() {
+  const items = document.querySelectorAll(".item_cena");
+
+  items.forEach((item, index) => {
+    item.addEventListener("click", () => {
+      const coco = createCoco(recetas[index]);
+      coco.classList.add("active");
+      document.body.appendChild(coco);
+    });
   });
 }
 
-function mostrarDatos(event) {
-    let titulo = event.target.closest(".miniatura").querySelector(".titulo_comida").textContent;
-    let cenaSeleccionada = cenas.find((cena) => cena.nombre === titulo); // 
-  
-    let divFlotante = document.createElement("div");
-    divFlotante.classList.add("flotante");
-  
-    let ingredientesHTML = '';
-    for (const ingrediente in cenaSeleccionada.ingredientes) {
-      ingredientesHTML += `<li>${cenaSeleccionada.ingredientes[ingrediente]}</li>`;
-    }
-  
-    let preparacionHTML = '';
-    for (const paso in cenaSeleccionada.preparacion) {
-      preparacionHTML += `<li>${cenaSeleccionada.preparacion[paso]}</li>`;
-    }
-  
-    divFlotante.innerHTML = `
-      <button class="cerrar">&times;</button>
-      <h2 class="flot_titulo">${cenaSeleccionada.nombre}</h2>
-      <div style="text-align: center;">
-        <img class="flot_img" src="${cenaSeleccionada.img}" alt="${cenaSeleccionada.nombre}">
-      </div>
-      <h3 class="flot_titingred">Ingredientes:</h3>
-      <ul class="ingred">${ingredientesHTML}</ul>
-      <h3 class="flot_prep">Preparación:</h3>
-      <ol class="prep">${preparacionHTML}</ol>
-    `;
-  
-    let caja = document.querySelector("#cenas");
-    caja.appendChild(divFlotante);
-  
-    let botonCerrar = divFlotante.querySelector(".cerrar");
-    botonCerrar.addEventListener("click", () => {
-      caja.removeChild(divFlotante);
-    });
-  }
-  
-vista();
-
-
+initializeCoco();

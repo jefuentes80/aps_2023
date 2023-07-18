@@ -1,6 +1,6 @@
-// Objeto desayunos
+
 /*Axel Daniel Alvarez López*/
-export let cenas = [
+export let recetas = [
 
 {
 nombre: "Tortitas de arroz y queso",
@@ -890,9 +890,4 @@ paso7: "Disfruta de tu pizza casera personalizada como una cena divertida y deli
             paso8: "Sirve los burritos vegetarianos con salsa de yogur y guacamole por encima."
           }
         },
-      
-      
-    
-      
-
 ]
