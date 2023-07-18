@@ -66,9 +66,9 @@ function createPopup(receta) {
     popupContent.appendChild(nombre);
     popupContent.appendChild(img);
     popupContent.appendChild(document.createElement("hr"));
-    popupContent.appendChild(document.createElement("h3")).textContent = "Ingredientes";
+    popupContent.appendChild(document.createElement("h1")).textContent = "Ingredientes";
     popupContent.appendChild(ingredientes);
-    popupContent.appendChild(document.createElement("h3")).textContent = "Preparación";
+    popupContent.appendChild(document.createElement("h1")).textContent = "Preparación";
     popupContent.appendChild(preparacion);
   
     popup.appendChild(popupContent);
@@ -89,5 +89,5 @@ function createPopup(receta) {
   }
   
   initializePopups();
-
+  
 
