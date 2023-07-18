@@ -1,0 +1,92 @@
+#cena{
+  background-color: rgb(255, 232, 25);
+  padding-bottom: 3rem;
+}
+.recetas{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px; 
+}
+.titulo_cena{
+  text-align: center;
+  margin-left: 1rem;
+ 
+  font-size: 4rem;
+
+}
+.item_cena {
+  width: 90%;
+  height: 15rem; 
+  margin: 10px;
+  margin-top: 2rem;
+  background-color: rgba(249, 233, 226, 1); 
+  border-radius: 2.5rem;
+}
+.nombres{ /*NOMBRES DE CADA RECETA*/
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-left: 15rem;
+  margin-top: -12rem;
+  text-align: center;
+}
+.descripcion{
+  font-size: 1.5rem;
+  margin-left: 15rem;
+  margin-right: 0.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #CD0000;
+}
+.imagenes_cena{ /*imagen de cada receta*/
+  width: 12rem;
+  height: 12rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+}
+.circulo_arriba{ /*circulo flotante*/
+  width: 24.9rem;
+  height: 15rem;
+  margin:-2rem;
+}
+/***/
+  .coco {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .coco-content {
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .coco.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .coco-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.img-modal{
+  width: 100%;
+  height: auto;
+}
