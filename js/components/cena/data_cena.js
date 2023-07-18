@@ -1,5 +1,5 @@
 /*Axel Daniel Alvarez López*/
-export let recetas = [
+export let cena = [
 
   {
 
@@ -674,24 +674,5 @@ export let recetas = [
     }
   
   },
-  {
-    nombre: "Arepitas con Pollo Jugoso",
-    tiempo:"30 minutos ",
-    descripcion: "¡Que Rico! Unas arepitas  una receta llena de sabor.",
-    img: "https://i.ytimg.com/vi/1lmtwcTFTfw/maxresdefault.jpg",
-    ingredientes: {
-        ingrediente1: "2 tazas de agua tibia",
-        ingrediente2: "2 tazas de harina de maíz",
-        ingrediente3: "1 sobre de Jugoso al Sartén MAGGI® Ajo & Cebolla",
-        ingrediente4: "2 pechugas de pollo deshuesadas y cortadas a la mitad",
-        ingrediente5: "1 aguacates medianos majados",
-        ingrediente6: "1 taza de queso tipo cheddar rallado"
-    },
-    preparacion: {
-        paso1: "- Para las arepas, vierte el agua en un tazón y agrega la sal, revuelve hasta disolverla. Agrega la harina de maíz poco a poco y revolviendo continuamente, hasta conseguir una masa compacta de textura bien ligera (no debe quedar seca) cubre la masa con un paño húmedo y deja reposar durante 3 a 5 minutos.",
-        paso2: "- Una vez lista, separa la masa en 12 porciones aproximadas, dale forma levemente aplanado con tus manos obteniendo círculos de unos 6 cm de diámetro y unos 0,5 cm de grosor. Cuando estén listos cocina sobre una sartén idealmente de teflón a fuego medio durante 4 a 5 minutos por lado. Puedes dar otro toque de cocción en el horno para que la superficie quede levemente crocante.",
-        paso3: "- Aparte, prepara el pollo usando el Jugoso al Sartén MAGGI® Ajo & Cebolla según las indicaciones del envase. Una vez listo, córtalo en delgadas tiritas, rellena las arepas con el pollo, el aguacate molido y el queso. Repite el procedimiento con el resto de las arepas y guarda en una vasija con tapa dentro de la lonchera."
-    }
   
-  }
 ]

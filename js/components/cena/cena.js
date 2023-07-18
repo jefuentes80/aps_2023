@@ -1,99 +1,79 @@
-import { recetas } from "./data_cena.js";
-import { tata } from "./sabias_que.js";
+import { sabias } from "./sabias_que.js";
+import { cena } from "./data_cena.js";
 import { buscador } from "./buscador.js";
 
-function yes() {
 
+function prueba() {
+  let box = document.querySelector("#cena");
 
-    let cajita = document.querySelector("#cena")
-
-
-
-    recetas.forEach(element => {
-
-        let gio = document.createElement("div")
-        gio.classList.add("item_cena")
-        gio.innerHTML = `
-        
-        <img src= "${element["img"]}" class="imagenes_cena">
-            <p class="nombres"> <b>${element["nombre"]} </b></p>
-            <p class="descripcion">${element["descripcion"]} </p>
-
-          
-        `
-        cajita.appendChild(gio)
-    });
+  let div = document.createElement("div");
+  div.innerHTML = `
+    <img class="koya" src="https://thesensorylab.es/wp-content/uploads/2021/05/semi-circulo-naranja.png" alt="">
+    <h1 class="sol">Cenas</h1>`;
+  div.classList.add("box");
+  box.appendChild(div);
 }
 
-tata();
-buscador();
-yes();
+prueba();
+buscador(); 
+sabias();
 
+function vista() {
+  let eldom = document.querySelector(".box");
+  eldom.addEventListener("click", mostrarDatos);
 
-//******** */
-function createCoco(receta) {
-  const coco = document.createElement("div");
-  coco.classList.add("coco");
-
-  const cocoContent = document.createElement("div");
-  cocoContent.classList.add("coco-content");
-
-  const closeButton = document.createElement("span");
-  closeButton.classList.add("coco-close");
-  closeButton.textContent = "X";
-  closeButton.addEventListener("click", () => {
-    coco.classList.remove("active");
-  });
-
-  const nombre = document.createElement("p");
-  nombre.innerHTML = `<strong>${receta.nombre}</strong>`;
-
-  const img = document.createElement("img");
-  img.src = receta.img;
-  img.alt = receta.nombre;
-
-
-  img.classList.add("img-modal");
-
-
-  const ingredientes = document.createElement("ul");
-  for (let ingrediente in receta.ingredientes) {
-    const li = document.createElement("li");
-    li.textContent = receta.ingredientes[ingrediente];
-    ingredientes.appendChild(li);
-  }
-
-  const preparacion = document.createElement("ol");
-  for (let paso in receta.preparacion) {
-    const li = document.createElement("li");
-    li.textContent = receta.preparacion[paso];
-    preparacion.appendChild(li);
-  }
-
-  cocoContent.appendChild(closeButton);
-  cocoContent.appendChild(nombre);
-  cocoContent.appendChild(img);
-  cocoContent.appendChild(document.createElement("hr"));
-  cocoContent.appendChild(document.createElement("h3")).textContent = "Ingredientes";
-  cocoContent.appendChild(ingredientes);
-  cocoContent.appendChild(document.createElement("h3")).textContent = "Preparación";
-  cocoContent.appendChild(preparacion);
-
-  coco.appendChild(cocoContent);
-
-  return coco;
-}
-
-function initializeCoco() {
-  const items = document.querySelectorAll(".item_cena");
-
-  items.forEach((item, index) => {
-    item.addEventListener("click", () => {
-      const coco = createCoco(recetas[index]);
-      coco.classList.add("active");
-      document.body.appendChild(coco);
-    });
+  cena.forEach((element) => {
+    let bt21 = document.createElement("div");
+    bt21.classList.add("bt21");
+    bt21.innerHTML = `
+      <img src="${element.img}">
+      <div class="solotexto">
+        <h3 class="titu_comida">${element.nombre}</h3>
+        <p class="descripcion_comida">${element.descripcion}</p>
+      </div>
+    `;
+    eldom.appendChild(bt21);
   });
 }
 
-initializeCoco();
+function mostrarDatos(event) {
+    let titulo = event.target.closest(".bt21").querySelector(".titu_comida").textContent;
+    let cenaSeleccionado = cena.find((des) => des.nombre === titulo);
+  
+    let divFlores = document.createElement("div");
+    divFlores.classList.add("flores");
+  
+    let ingredientesHTML = '';
+    for (const ingrediente in cenaSeleccionado.ingredientes) {
+      ingredientesHTML += `<li>${cenaSeleccionado.ingredientes[ingrediente]}</li>`;
+    }
+  
+    let preparacionHTML = '';
+    for (const paso in cenaSeleccionado.preparacion) {
+      preparacionHTML += `<li>${cenaSeleccionado.preparacion[paso]}</li>`;
+    }
+  
+    divFlores.innerHTML = `
+      <button class="cerrar">&times;</button>
+      <h2 class="flor_titulo">${cenaSeleccionado.nombre}</h2>
+      <div style="text-align: center;">
+      <img class="flor_img" src="${cenaSeleccionado.img}" alt="${cenaSeleccionado.nombre}">
+      </div>
+      <!-- <p>${cenaSeleccionado.descripcion}</p> -->
+      <h3 class="flor_titingred">Ingredientes:</h3>
+      <ul class="fonts">${ingredientesHTML}</ul>
+      <h3 class="flor_prep">Preparación:</h3>
+      <ol class="prep">${preparacionHTML}</ol>
+    `;
+  
+    let box = document.querySelector("#cena");
+    box.appendChild(divFlores);
+  
+    let botonCerrar = divFlores.querySelector(".cerrar");
+    botonCerrar.addEventListener("click", () => {
+      box.removeChild(divFlores);
+    });
+  }
+  
+vista();
+
