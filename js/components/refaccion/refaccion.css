@@ -26,14 +26,14 @@
   font-size: 2rem;
   margin-left: 2rem;
   margin-left: 15rem;
-  margin-top: -12rem;
+  margin-top: -14rem;
   text-align: center;
 }
 .descripcion{
   font-size: 1.5rem;
   margin-left: 15rem;
   margin-right: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   color: #CD0000;
 }
@@ -50,7 +50,7 @@
   margin:-2rem;
 }
 /***/
-  .popup {
+  .popup/*fondo transparrente*/ {
     position: fixed;
     top: 0;
     left: 0;
@@ -66,8 +66,8 @@
     transition: opacity 0.3s ease;
   }
 
-  .popup-content {
-    background-color: #fff;
+  .popup-content /*fondo de la receta*/ {
+    background-color: #ffffff;
     padding: 2rem;
     max-width: 600px;
     border-radius: 5px;
@@ -77,6 +77,7 @@
   .popup.active {
     opacity: 1;
     pointer-events: auto;
+    background-color: #CD0000;
   }
 
   .popup-close {
@@ -86,6 +87,6 @@
     cursor: pointer;
     font-weight: bold;
   }
-
+  
 
 

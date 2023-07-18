@@ -89,5 +89,5 @@ function createPopup(receta) {
   }
   
   initializePopups();
-
+  
 
