@@ -5,7 +5,7 @@ export function oola(){
     caajita.innerHTML=
 
     `
-    <h3 class="titulo"> <b>Refacciones</b></h3>
+    <h3 class="titulo_refa"> <b>Refacciones</b></h3>
     <div class="sabias_que">
     <h2 class="titulo_sabias">¿Sabias qué?</h2>
     <p class="cuerpo">
