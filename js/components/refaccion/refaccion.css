@@ -48,8 +48,9 @@
   margin-top: 1.5rem;
 }
 .circulo_arriba{ /*circulo flotante*/
-  width:39.3rem;
+  width: 90%;
   height: 15rem;
+  margin-left: 2rem;
   margin-top: 2rem;
   
 }
