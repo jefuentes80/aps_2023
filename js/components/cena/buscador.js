@@ -1,34 +1,37 @@
+
 export function buscador(){
+ 
+  let lapag = document.querySelector(".box");
 
-    let cajota = document.querySelector("#cena")
-    let businput = document.createElement("div")
-    businput.classList.add("caja_buscador")
-    businput.innerHTML=
-    `
-    <input class="buscador_cena" type="text" name="buscador" id="buscador" placeholder="Buscar...">
-     `
-     cajota.appendChild(businput); 
+  let div = document.createElement("div")
+  div.innerHTML= `
+      <input type="text" name="buscador" class= "buscadorr" id="buscador" placeholder="Buscardor"> `;
+  div.classList.add("search")
+  lapag.appendChild(div);
 
 
-       document.addEventListener("keyup", e=>{
+  document.addEventListener("keyup", e=>{
 
-        if (e.target.matches("#buscador")){
-      
-            if (e.key ==="Escape")e.target.value = ""
-      
-            document.querySelectorAll(".item_cena").forEach(item =>{
-      
-                item.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-                  ?item.classList.remove("fifi")
-                  :item.classList.add("fifi")
-            })
-      
-        }
-        
-      
-      
-      })
+      if (e.target.matches("#buscador")){
+    
+          if (e.key ==="Escape")e.target.value = ""
+    
+          document.querySelectorAll(".bt21").forEach(Element =>{
+    
+              Element.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?Element.classList.remove("fifi")
+                :Element.classList.add("fifi")
+          })
+    
+      }
+    
+    
+    })
+ 
 }
+
+
+
 
 
   

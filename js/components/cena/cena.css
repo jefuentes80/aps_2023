@@ -1,93 +1,127 @@
-#cena{
-  background-color: rgb(78, 54, 167);
-  padding-bottom: 3rem;
-}
-.recetas{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 900px;
-  margin: 0 auto; /* Centra el contenido horizontalmente */
-}
-.titulo_cena{
-  text-align: center;
-  margin-left: 1rem;
- 
-  font-size: 4rem;
-
-}
-.item_cena {
-  width: 90%;
-  height: 15rem;
-  margin: 10px auto;
-  margin-top: 2rem;
-  background-color: rgba(249, 233, 226, 1);
-  border-radius: 2.5rem;
-}
-.nombres{ /*NOMBRES DE CADA RECETA*/
-  font-size: 2rem;
-  margin-left: 2rem;
-  margin-left: 15rem;
-  margin-top: -10rem;
-  text-align: center;
-}
-.descripcion{
-  font-size: 0.5rem;
-  margin-left: 9rem;
-  margin-right: 0.5rem;
-  margin-top: 2rem;
-  text-align: center;
-  color: #CD0000;
-}
-.imagenes_cena{ /*imagen de cada receta*/
-  width: 12rem;
-  height: 12rem;
-  margin-left: 2rem;
-  border-radius: 1rem;
-  margin-top: 1.5rem;
-}
-.circulo_arriba{ /*circulo flotante*/
-  width: 24.9rem;
-  height: 15rem;
-  margin:-2rem;
-}
-/***/
-  .coco {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-  }
-
-  .coco-content {
-    background-color: #fff;
-    padding: 2rem;
-    max-width: 600px;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
-
-  .coco.active {
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  .coco-close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-weight: bold;
-}
-.img-modal{
+.koya{
   width: 100%;
+}
+
+.sol{
+  font-size: 6rem;
+  color: #000000;
+  margin-top: -18rem;
+  margin-bottom: 12rem;
+}
+/* Componente de la pagina */
+
+.box{
+  height: 550rem;
+  background-color:#fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  list-style: none;
+
+}
+.bt21 {
+  width: 90%;
+  height: 19rem;
+  margin-top: 1.5rem;
+  background-color: rgb(204, 251, 255);
+  border-radius: 2rem;
+  display: flex;
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.solotexto{
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.titu_comida{
+  color: #000000;
+  font-size: 18px;
+}
+
+.descripcion_comida {
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bt21 img{
+  margin: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  width: 15rem;
+  height: 15rem;   
+}
+.vistaP{
+  height: 4rem;
+  width: 5rem;
+  background-color: blueviolet;
+
+}
+
+
+.flores {
+  max-height: 70vh; /* Esn este 60 vh es para la modificacion de la la segunda ventana que se habre  */
+  width: 90%;
   height: auto;
+  background-color: #e8c9d7;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+
+.cerrar{
+  border: none; 
+  background: none; 
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.flor_titulo{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.flor_img{
+  margin-top: 1.5rem;
+  width: 26rem;
+  height: 26rem;
+}
+
+.flor_titingred{
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.fonts{
+  font-size: 1.5rem;
+  margin-left: 1.3rem;
+}
+
+.flor_prep{
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.prep{
+  font-size: 1.5rem;
+  margin-left: 1.3rem; 
 }
