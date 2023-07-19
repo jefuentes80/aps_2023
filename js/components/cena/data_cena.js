@@ -1,5 +1,5 @@
 /*Axel Daniel Alvarez López*/
-export let recetas = [
+export let cena = [
 
   {
 
@@ -10,7 +10,6 @@ export let recetas = [
     "ingredientes": {
     "ingredientes1": "400g de Papas",
     "ingredientes2": "3 ad de Huevos",
-    "img2": "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
     "ingredientes3": "40g de Jamón",
     "ingredientes4": "5 g de Cebollin",
     "ingredientes5": "0.5 cucharadita de Cilanntro",
@@ -34,7 +33,6 @@ export let recetas = [
       img: "https://cdn0.recetasgratis.net/es/posts/1/9/2/huevos_tirados_76291_paso_5_600.jpg",
       ingredientes: {
           ingrediente1: "6 huevos",
-          img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
           ingrediente2: "1/4 de taza de crema",
           ingrediente3: "2 cucharadas de caldo de frijol",
           ingrediente4: "1 taza de frijoles negros enteros",
@@ -82,7 +80,6 @@ export let recetas = [
           ingrediente2: "1 pimiento verde",
           ingrediente3: "1 pimiento amarillo",
           ingrediente4: "4 huevos",
-          img4: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
           ingrediente5: "2 dientes de ajo",
           ingrediente6: "50 mililitros de nata líquida",
           ingrediente7: "1 ramita de perejil",
@@ -105,7 +102,6 @@ export let recetas = [
           ingredientes: {
               ingrediente1: "4 ud de Pan de hamburguesa integral",
               ingrediente2: "5 ud de Huevo",
-              img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
               ingrediente3: "8 Revanadas de Jamón de su preferencia",
               ingrediente4: "150g de queso rallado",
               ingrediente5: "8 rodajas de Queso",
@@ -459,7 +455,6 @@ export let recetas = [
             ingrediente1: "Arroz al gusto",
             
             ingrediente2: "Caldo de verduras",
-            img2: "https://static.vecteezy.com/system/resources/previews/003/190/846/non_2x/line-icon-for-chowder-vector.jpg",
             ingrediente3: "Espinacas",
                        
             ingrediente4: "Aceitunas",
@@ -679,24 +674,5 @@ export let recetas = [
     }
   
   },
-  {
-    nombre: "Arepitas con Pollo Jugoso",
-    tiempo:"30 minutos ",
-    descripcion: "¡Que Rico! Unas arepitas  una receta llena de sabor.",
-    img: "https://i.ytimg.com/vi/1lmtwcTFTfw/maxresdefault.jpg",
-    ingredientes: {
-        ingrediente1: "2 tazas de agua tibia",
-        ingrediente2: "2 tazas de harina de maíz",
-        ingrediente3: "1 sobre de Jugoso al Sartén MAGGI® Ajo & Cebolla",
-        ingrediente4: "2 pechugas de pollo deshuesadas y cortadas a la mitad",
-        ingrediente5: "1 aguacates medianos majados",
-        ingrediente6: "1 taza de queso tipo cheddar rallado"
-    },
-    preparacion: {
-        paso1: "- Para las arepas, vierte el agua en un tazón y agrega la sal, revuelve hasta disolverla. Agrega la harina de maíz poco a poco y revolviendo continuamente, hasta conseguir una masa compacta de textura bien ligera (no debe quedar seca) cubre la masa con un paño húmedo y deja reposar durante 3 a 5 minutos.",
-        paso2: "- Una vez lista, separa la masa en 12 porciones aproximadas, dale forma levemente aplanado con tus manos obteniendo círculos de unos 6 cm de diámetro y unos 0,5 cm de grosor. Cuando estén listos cocina sobre una sartén idealmente de teflón a fuego medio durante 4 a 5 minutos por lado. Puedes dar otro toque de cocción en el horno para que la superficie quede levemente crocante.",
-        paso3: "- Aparte, prepara el pollo usando el Jugoso al Sartén MAGGI® Ajo & Cebolla según las indicaciones del envase. Una vez listo, córtalo en delgadas tiritas, rellena las arepas con el pollo, el aguacate molido y el queso. Repite el procedimiento con el resto de las arepas y guarda en una vasija con tapa dentro de la lonchera."
-    }
   
-  }
 ]

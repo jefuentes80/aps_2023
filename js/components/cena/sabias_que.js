@@ -1,18 +1,17 @@
-export function tata(){
-    
-  let cajota = document.querySelector("#cena")
+export function  sabias(){
 
-  cajota.innerHTML=
 
-  `
-  <h3 class="titulo_cena"> <b>Cena</b></h3>
-  <div class="sabias_que">
-  <h2 class="titulo_sabias">¿Sabias qué?</h2>
-  <p class="cuerpo">
-  Esto se debe a que es la comida previa al sueño y es muy 
-  importante que sea equilibrada para un buen descanso.
-  </p>
+  let plaga = document.querySelector(".box");
+  let oso = document.createElement("div")
+  oso.innerHTML= `
+  <div class="caja_sabias">
+  <h1 class="sabias_titu">¿Sabías qué?</h1>
+  <p class="Texto"> Esto se debe a que es la comida
+   previa al sueño y es muy importante que sea equilibrada para un buen descanso.</p>
   </div>
-  ` 
-}
-//tata();
+  `;
+  plaga.appendChild(oso);
+  console.log(oso)
+  }
+  ///
+  
