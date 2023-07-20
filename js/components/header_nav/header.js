@@ -52,38 +52,8 @@ buttons.forEach((buttonData) => {
 header.appendChild(titleContainer);
 header.appendChild(menuButtonContainer);
 
-// Event listener para el logo
-logo.addEventListener("click", () => {
-  hideSections();
-  showHome();
-});
-
-// Event listener para la sección de Desayuno
-menuButtonContainer.children[0].addEventListener("click", () => {
-  hideSections();
-  showDesayuno();
-});
-
-// Event listener para la sección de Refacción
-menuButtonContainer.children[1].addEventListener("click", () => {
-  hideSections();
-  showRefaccion();
-});
-
-// Event listener para la sección de Cena
-menuButtonContainer.children[2].addEventListener("click", () => {
-  hideSections();
-  showCena();
-});
-
-// Event listener para la sección de Qué no comer
-menuButtonContainer.children[3].addEventListener("click", () => {
-  hideSections();
-  showNoConsumir();
-});
-
-// Función para ocultar todas las secciones
-function hideSections() {
+// Función para ocultar todas las secciones y el banner
+function hideSectionsAndBanner() {
   homeSection.classList.add("ocultar");
   desayunoSection.classList.add("ocultar");
   refaccionSection.classList.add("ocultar");
@@ -94,29 +64,59 @@ function hideSections() {
 
 // Función para mostrar la sección de Inicio
 function showHome() {
+  hideSectionsAndBanner(); // Ocultar todas las secciones y el banner
   homeSection.classList.remove("ocultar");
   banner.classList.remove("ocultar");
 }
 
 // Función para mostrar la sección de Desayuno
 function showDesayuno() {
+  hideSectionsAndBanner(); // Ocultar todas las secciones y el banner
   desayunoSection.classList.remove("ocultar");
 }
 
 // Función para mostrar la sección de Refacción
 function showRefaccion() {
+  hideSectionsAndBanner(); // Ocultar todas las secciones y el banner
   refaccionSection.classList.remove("ocultar");
 }
 
 // Función para mostrar la sección de Cena
 function showCena() {
+  hideSectionsAndBanner(); // Ocultar todas las secciones y el banner
   cenaSection.classList.remove("ocultar");
 }
 
 // Función para mostrar la sección de Qué no comer
 function showNoConsumir() {
+  hideSectionsAndBanner(); // Ocultar todas las secciones y el banner
   noConsumirSection.classList.remove("ocultar");
 }
+
+// Event listener para el logo
+logo.addEventListener("click", () => {
+  showHome();
+});
+
+// Event listener para la sección de Desayuno
+menuButtonContainer.children[0].addEventListener("click", () => {
+  showDesayuno();
+});
+
+// Event listener para la sección de Refacción
+menuButtonContainer.children[1].addEventListener("click", () => {
+  showRefaccion();
+});
+
+// Event listener para la sección de Cena
+menuButtonContainer.children[2].addEventListener("click", () => {
+  showCena();
+});
+
+// Event listener para la sección de Qué no comer
+menuButtonContainer.children[3].addEventListener("click", () => {
+  showNoConsumir();
+});
 
 // Obtener referencia al campo de búsqueda
 const buscadorInput = document.querySelector(".buscador");
