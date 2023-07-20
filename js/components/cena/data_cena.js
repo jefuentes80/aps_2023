@@ -1,21 +1,15 @@
-// Objeto desayunos
 /*Axel Daniel Alvarez López*/
-export let cenas = [
-    //CENAS CON HUEVO
-/****************************************************************************************************************************************************************************************************************************************/
-{
-    "subtitulos": {
-    "ingredientes": "Ingredientes:",
-    "preparacion": "Preparación:"
-    },
+export let cena = [
+
+  {
+
     "nombre": "Huevos rotos saludables",
     "tiempo": "15 minutos de preparación",
-    "descripcion": "Son uno de los platos estrella de nuestra gastronomía, pero no tienen por qué ser poco saludables.",
+    "descripcion": "Son uno de los platos estrella de nuestra gastronomía.",
     img :"https://valentinacocina.com/wp-content/uploads/2020/07/IMG_2007.jpg",
     "ingredientes": {
     "ingredientes1": "400g de Papas",
     "ingredientes2": "3 ad de Huevos",
-    "img2": "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
     "ingredientes3": "40g de Jamón",
     "ingredientes4": "5 g de Cebollin",
     "ingredientes5": "0.5 cucharadita de Cilanntro",
@@ -33,13 +27,12 @@ export let cenas = [
     },
     },
   {
-      nombre: "Huevos tirados con frijol y alubias",
+      nombre: "Huevos tirados con frijol ",
       "tiempo": "20 minutos de preparación",
-      "descripcion": "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. La combinación de huevos revueltos con frijoles y alubias crea una mezcla de sabores y texturas que te encantará. Además, este plato es fácil de preparar y puede ser una opción nutritiva para el desayuno o la cena.",
+      "descripcion": "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
       img: "https://cdn0.recetasgratis.net/es/posts/1/9/2/huevos_tirados_76291_paso_5_600.jpg",
       ingredientes: {
           ingrediente1: "6 huevos",
-          img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
           ingrediente2: "1/4 de taza de crema",
           ingrediente3: "2 cucharadas de caldo de frijol",
           ingrediente4: "1 taza de frijoles negros enteros",
@@ -55,13 +48,10 @@ export let cenas = [
   
   },
   {
-    "subtitulos": {
-    ingredientes: "Ingredientes:",
-    preparacion: "Preparación:"
-    },
+
     "nombre": "Huevo con salchicha",
     "tiempo": "10 minutos de preparación",
-    "descripcion": "El huevo con salchicha es un clásico desayuno que combina la suavidad y cremosidad de los huevos con el sabor y la textura jugosa de las salchichas. Es una opción rápida y fácil para comenzar el día con energía. Puedes disfrutarlo solo o acompañado de pan tostado, tortillas o incluso como relleno de un delicioso sándwich.",
+    "descripcion": "Puedes disfrutarlo solo o acompañado de pan tostado.",
     img: "https://cdn.colombia.com/gastronomia/2018/09/17/tortilla-de-salchicha-y-queso-2859.jpg",
     "ingredientes": {
     "ingrediente1": "2 huevos",
@@ -81,16 +71,15 @@ export let cenas = [
     }
     },
   {
-      nombre: "Revuelto de pimientos de tres colores",
+      nombre: "Pimiento de 3 colores",
       tiempo: "Tiempo: 20 minutos /Fácil/Económico",
-      descripcion: "La propuesta de hoy es muy colorista porque hemos utilizado pimientos verdes, rojos y amarillos, en tiras para hacer nuestro revuelto. Los huevos los batimos salpimentados con nata.",
+      descripcion: "La propuesta de hoy que no te fallara este dilicioso platillo.",
       img: "https://canalcocina.es/medias/_cache/zoom-297cc2fceb1fe3c6fa43c4213369b5a3-920-518.jpg",
       ingredientes: {
           ingrediente1: "1 pimiento rojo",
           ingrediente2: "1 pimiento verde",
           ingrediente3: "1 pimiento amarillo",
           ingrediente4: "4 huevos",
-          img4: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
           ingrediente5: "2 dientes de ajo",
           ingrediente6: "50 mililitros de nata líquida",
           ingrediente7: "1 ramita de perejil",
@@ -106,14 +95,13 @@ export let cenas = [
 
 },
   {
-          nombre: "Sándwich de huevos revueltos y Jamón",
+          nombre: "Sándwich de huevos revueltos",
           tiempo: "10 minutos de preparación",
-          descripcion: "Para preparar este saludable sándwich vamos a usar pan de hamburguesa integral",
+          descripcion: "Para preparar este saludable sándwich.",
           img: "    https://saludableamimanera.com/wp-content/uploads/2019/01/1200x630-recetas19-R-Sandwich-abierto-huevo-jamon-serrano.jpg  ",
           ingredientes: {
               ingrediente1: "4 ud de Pan de hamburguesa integral",
               ingrediente2: "5 ud de Huevo",
-              img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
               ingrediente3: "8 Revanadas de Jamón de su preferencia",
               ingrediente4: "150g de queso rallado",
               ingrediente5: "8 rodajas de Queso",
@@ -132,13 +120,12 @@ export let cenas = [
   
   },
   {
-      nombre: "Tostas de huevos revueltos con aguacate",
+      nombre: "Tostadas con huevo y aguacate",
       tiempo: "15 minutos de preparación",
-      descripcion: "Los huevos revueltos no son solo una opción de lo más socorrida para comidas o cenas rápidas, sino también para quienes, a la hora del desayuno, prefieren opciones saladas.",
-      img: "",
+      descripcion: "Los huevos revueltos no son solo una opción de lo más socorrida",
+      img: "https://sazonsula.com/wp-content/uploads/2019/01/receta-tostada-de-aguacate-y-huevo-sazon-sula.jpg",
       ingredientes: {
           ingrediente1: "2 Huevos medianos (cuanto más frescos, mejor)",
-          img1: "https://img-global.cpcdn.com/recipes/7167956f2eac5fc1/400x400cq70/photo.jpg",
           ingrediente2: "1 Aguacate",
           ingrediente3: "Cebollino",
           ingrediente4: "Sal",
@@ -159,7 +146,7 @@ export let cenas = [
 {
   nombre: "Tortilla de espinacas y queso",
   tiempo: "20 minutos de preparación",
-  descripcion: "Una deliciosa y rápida opción para la cena, esta tortilla combina espinacas tiernas con queso derretido. Es sencilla de preparar y perfecta para una cena ligera y sabrosa.",
+  descripcion: " Es sencilla de preparar y perfecta para una cena ligera y sabrosa.",
   img: "https://cdn0.recetasgratis.net/es/posts/1/4/1/tortilla_de_espinacas_35141_orig.jpg",
   ingredientes: {
       ingrediente1: "3 huevos",
@@ -183,14 +170,13 @@ export let cenas = [
   }
 },
 {
-  nombre: "Quesadillas de huevo y vegetales",
+  nombre: "Quesadilla de huevo y vegetals",
   tiempo: "20 minutos de preparación",
-  descripcion: "Las quesadillas son una opción versátil y rápida para la cena. En esta receta, rellenaremos tortillas de harina con huevos revueltos y una variedad de vegetales para obtener una cena deliciosa y nutritiva.",
+  descripcion: "Deliciosa receta para cena!.",
   img: "https://www.vvsupremo.com/wp-content/uploads/2018/02/Egg-White-Breakfast-Quesadilla.jpg",
   ingredientes: {
   ingrediente1: "4 tortillas de harina",
   ingrediente2: "4 huevos",
-  img2: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
   ingrediente3: "1 pimiento rojo, cortado en juliana",
   ingrediente4: "1 calabacín, cortado en rodajas finas",
   ingrediente5: "1 cebolla, cortada en juliana",
@@ -212,13 +198,13 @@ export let cenas = [
   }
 },
 {
-  nombre: "Tortilla de champiñones y espinacas",
+  nombre: "Tortilla de espinaca y champiñon",
   tiempo: "25 minutos de preparación",
-  descripcion: "Una tortilla esponjosa y llena de sabor, perfecta para una cena rápida y deliciosa. En esta receta, combinaremos champiñones salteados, espinacas frescas y queso para crear una tortilla nutritiva y sabrosa.",
+  descripcion: "Una tortilla esponjosa y llena de sabor.",
   img: "https://2.bp.blogspot.com/-ogfXiBH7YLE/VVIAfHBAM9I/AAAAAAAALdo/-J3Vv_EVkRc/s1600/tortilla%2Bde%2Bespinacas%2By%2Bchampi%C3%B1ones%2B1.jpg",
   ingredientes: {
   ingrediente1: "4 huevos",
-  img1: "blob:https://lordicon.com/74752e32-00f5-4a05-8014-4964b1e58038",
+
   ingrediente2: "1 taza de champiñones, cortados en rodajas",
   ingrediente3: "2 tazas de espinacas frescas",
   ingrediente4: "1/4 de taza de queso rallado (como queso cheddar o mozzarella)",
@@ -265,7 +251,7 @@ export let cenas = [
    {
            nombre: "Atole de arroz y canela",
            tiempo: "30 minutos de preparación",
-           descripcion: "Tu combinación favorita en una deliciosa bebida. No dejes pasar este atole de arroz y canela. ",
+           descripcion: "Tu combinación favorita en una deliciosa bebida. ",
            img: "https://images.cookforyourlife.org/wp-content/uploads/2018/08/Rice-and-Cinnamon-Atole.jpg",
            ingredientes: {
                ingrediente1: "3 tazas de agua",
@@ -286,7 +272,7 @@ export let cenas = [
    {
        nombre: "Atole de Reyes",
        tiempo: "40 minutos de preparación",
-       descripcion: " Este delicioso atole está hecho con ingredientes como masa de maíz, piloncillo (panela) y especias como canela y anís. Es una opción reconfortante y dulce que se sirve caliente.",
+       descripcion: " Este delicioso atole está hecho con ingredientes como masa de maíz,panela.",
        img: "https://cdn.sanity.io/images/jsdrzfkj/production-esmx/4f65d38950f7fc365202c7cd9012e11b7e758964-546x360.png",
        ingredientes: {
            ingrediente1: "2 tazas de puré de camote",
@@ -303,7 +289,7 @@ export let cenas = [
  {
    nombre: "Atole de masa",
    tiempo: "30 minutos de preparación",
-   descripcion: "Puedes endulzarlo con azúcar, piloncillo (panela) o miel, y agregarle especias como canela o vainilla. Prepara este delicioso atole y disfruta de su sabor tradicional.",
+   descripcion: "Puedes endulzarlo con azúcar, piloncillo (panela) o miel, y agregarle especias como canela.",
    img: "https://lasoleta.com/wp-content/uploads/elementor/thumbs/Copia-de-1-8-oymea2zt25rk4cinaa31l2ve5v99xvs46mtm1i0rx4.png",
    ingredientes: {
        ingrediente1: "1/2 taza de masa de maíz",
@@ -322,7 +308,7 @@ export let cenas = [
  {
    nombre: "Atole de pinole",
    tiempo: "20 minutos de preparación",
-   descripcion: "El atole de pinole es una bebida tradicional mexicana hecha a base de pinole, que es una harina de maíz tostado y molido",
+   descripcion: "El atole de pinole es una bebida tradicional mexicana hecha a base de pinole.",
    img: "https://www.maricruzavalos.com/wp-content/uploads/2022/12/atole-de-pinole-recipe.jpg",
    ingredientes: {
        ingrediente1: "2 tazas de pinole",
@@ -340,7 +326,7 @@ export let cenas = [
  {
    nombre: "atole de avena y canela",
    tiempo: "20 minutos de preparación",
-   descripcion: "El atole de avena y canela es una bebida reconfortante y nutritiva que combina la suavidad de la avena con el aroma y sabor de la canela",
+   descripcion: "El atole de avena y canela es una bebida reconfortante.",
    img: "https://quaker.lat/app/uploads/sites/2/2019/06/Qk19_Imagenes_Receta_Mobile_Atole.jpg",
    ingredientes: {
        ingrediente1: "1 litro de leche",
@@ -365,9 +351,9 @@ export let cenas = [
 /*************************************************************************************************************************************************************************************/
 
  {
-    nombre: "Burritos de frijoles con queso parmesano",
+    nombre: "Burritos de frijoles con queso ",
     tiempo: "20 minutos de preparación",
-    descripcion: "Prepárate un clásico, fácil y muy delicioso burrito de frijoles y queso parmesano, la receta ideal para consentir a la familia y comer algo diferente.",
+    descripcion: "La receta ideal para consentir a la familia y comer algo diferente.",
     img: "https://www.gastrolabweb.com/u/fotografias/m/2021/7/16/f1280x720-16333_148008_5050.jpg",
     ingredientes: {
         ingrediente1: "1/3 taza Queso Parmesano , rallado",
@@ -389,15 +375,10 @@ export let cenas = [
     }
 },
 {
-    "subtitulos": {
-    "ingredientes": "Ingredientes:",
-    "preparacion": "Preparación:",
-    "ingredientesSalsa": "Ingredientes para la salsa:",
-    "preparacionSalsa": "Preparación de la salsa:"
-    },
-    "nombre": "Mini tamales de frijol con salsa roja",
+
+    nombre: "Mini tamales de frijol con salsa roja",
     tiempo: "60 minutos de preparación",
-    "descripcion": "Estos tamalitos se te van a ir como agua y puedes comer uno tras otro y saborear esa deliciosa combinación de frijoles y salsa roja.",
+    "descripcion": "Saborea esa deliciosa combinación de frijoles y salsa roja.",
     "img": "https://i.blogs.es/901ac6/tamales-camaron-nayarit-receta-facil-cocina-mexicana-15-septiembre-grito/1366_521.jpg",
     "ingredientes": {
     "ingrediente1": "1 kg de Masa de maíz",
@@ -434,8 +415,8 @@ export let cenas = [
 {
     nombre: "Gorditas de frijol",
     tiempo: "40 minutos de preparación",
-    descripcion: "Si tienes antojo de gorditas, que mejor que unas de frijol negro veracruzanas. Prepáralas, ¡es súper sencillo! Seguro tienes todos los ingredientes en casa.",
-    img: "https://cdn0.recetasgratis.net/es/posts/2/6/7/gorditas_de_frijol_75762_orig.jpg",
+    descripcion: "Prepáralas, ¡es súper sencillo! Seguro tienes todos los ingredientes en casa.",
+    img: "https://cdn7.kiwilimon.com/recetaimagen/33711/960x640/39174.jpg.jpg",
     ingredientes: {
         ingrediente1: " 2 tazas Frijoles negros , cocidos con hoja de aguacate",
         ingrediente2: "1 cucharada Cebolla picada",
@@ -468,31 +449,30 @@ export let cenas = [
     {
         nombre: "Ensalada de arroz",
         tiempo: "30 minutos de preparación",
-        descripcion: "La comida rápida también puede ser saludable. Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
+        descripcion: "Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
         img: "https://cdn0.recetasgratis.net/es/posts/2/6/7/gorditas_de_frijol_75762_orig.jpg",
         ingredientes: {
             ingrediente1: "Arroz al gusto",
-            img1: "https://cdn-icons-png.flaticon.com/512/1357/1357237.png",
+            
             ingrediente2: "Caldo de verduras",
-            img2: "https://static.vecteezy.com/system/resources/previews/003/190/846/non_2x/line-icon-for-chowder-vector.jpg",
             ingrediente3: "Espinacas",
-            img3: "https://cdn-icons-png.flaticon.com/512/1135/1135403.png",            
+                       
             ingrediente4: "Aceitunas",
-            img4: "https://cdn-icons-png.flaticon.com/512/766/766130.png",
+            
             ingrediente5: "Tomates",
-            img5: "https://cdn.icon-icons.com/icons2/38/PNG/512/tomato_food_4610.png",
+            
             ingrediente6: "Achoas",
-            img6: "https://cdn-icons-png.flaticon.com/512/2055/2055575.png",
+            
             ingrediente7: "Ajo",
-            img7: "https://cdn-icons-png.flaticon.com/512/2909/2909824.png",
+            
             ingrediente8: "1 cebolla",
-            img8: "https://cdn-icons-png.flaticon.com/512/3823/3823172.png",
+            
             ingrediente9: "Sal",
-            img9: "https://cdn-icons-png.flaticon.com/512/581/581661.png",
+          
             ingrediente10: "Aceite",
-            img10: "https://cdn-icons-png.flaticon.com/512/123/123308.png",
+            
             ingrediente11: "Vinagre balsámico",
-            img11: "https://cdn-icons-png.flaticon.com/512/1919/1919676.png",
+          
         },
         preparacion: {
             paso1: "- Pica el ajo y la cebolla muy finos. En una sartén con un par de cucharadas de aceite, sofríelo todo hasta que la cebolla esté transparente. Tendrás que hacerlo a fuego lento. ",
@@ -505,27 +485,27 @@ export let cenas = [
     {
             nombre: "Pizza expres de pan de molde",
             tiempo: "15 minutos de preparación",
-            descripcion: "La pizza exprés de pan de molde es una opción rápida y fácil para disfrutar de una deliciosa pizza casera en poco tiempo",
+            descripcion: "La pizza exprés fácil para disfrutar de una deliciosa pizza casera.",
             img: "https://800noticias.com/cms/wp-content/uploads/2022/07/FotoJet-2022-07-30T150916.588-700x352.jpg",
             ingredientes: {
                 ingrediente1: "8 rebanadas de pan de molde sin corteza",
-                img1: "https://cdn-icons-png.flaticon.com/512/2371/2371995.png",
+                
                 ingrediente2: "250g de tomate frito casero",
-                img2: "https://cdn.icon-icons.com/icons2/38/PNG/512/tomato_food_4610.png",
+                
                 ingrediente3: "150g de beicon, jamon o tocino",
-                img3: "",
+                
                 ingrediente4: "150g de queso rallado",
-                img4: "",
+                
                 ingrediente5: "8 rodajas de mozzarella",
-                img5: "",
+                
                 ingrediente6: "1/2 calabacín",
-                img6: "",
+                
                 ingrediente7: "Unas hojas de albahaca",
-                img7: "",
+                
                 ingrediente8: "Orégano",
-                img8: "",
+                
                 ingrediente9: "Aceíte de oliva extra virgen",
-                img9: "https://cdn-icons-png.flaticon.com/512/123/123308.png",
+                
             },
             preparacion: {
                 paso1: "- Pica el beicon. Lava el calabacín y córtalo en láminas finas con una mandolina. ",
@@ -537,7 +517,7 @@ export let cenas = [
     {
         nombre: "Rollos de lechuga romana",
         tiempo: "20 minutos de preparación",
-        descripcion: "Para esta receta de rollitos de lechuga rellenos utilizamos la variedad de lechuga romana, porque sus grandes hojas son las más indicadas para poder envolver los rollitos.",
+        descripcion: "Para esta receta de rollitos de lechuga rellenos.",
         img: "https://www.gastrolabweb.com/u/fotografias/m/2021/1/3/f768x1-6703_6830_5050.jpg",
         ingredientes: {
             ingrediente1: "Hojas de lechuga romana (La mas grande posuble)",
@@ -570,7 +550,7 @@ export let cenas = [
   {
     nombre: "Pollo a la plancha con lima",
     tiempo: "25 minutos de preparación",
-    descripcion: "El pollo a la plancha con lima es una opción saludable y sabrosa para una comida ligera. El jugo de lima le agrega un toque cítrico y refrescante al pollo, mientras que la cocción a la plancha lo mantiene jugoso y tierno. Es una receta fácil de preparar y perfecta para una cena rápida entre semana. ",
+    descripcion: "El pollo a la plancha con lima es una opción saludable. ",
     img: "https://i0.wp.com/notiespartano.com/wp-content/uploads/2023/03/FotoJet-2023-03-19T174419.123-700x352-1.jpg?fit=700%2C352&ssl=1",
     ingredientes: {
         ingrediente1: "4 filetes de pechuga de pollo",
@@ -594,7 +574,7 @@ export let cenas = [
   {
     nombre: "Parrillada de verduras",
     tiempo: "30 minutos de preparación",
-    descripcion: "La parrillada de verduras es una opción saludable y deliciosa para disfrutar en una comida al aire libre",
+    descripcion: "La parrillada de verduras es una opción saludable.",
     img: "https://i.blogs.es/0b605a/parrillada/450_1000.jpg",
     ingredientes: {
         ingrediente1: "1 berenjena",
@@ -619,9 +599,9 @@ export let cenas = [
   
   },
   {
-    nombre: "Pechuga de pollo con verduras al pesto",
+    nombre: "Pechuga de pollo ",
     tiempo: "40 minutos de preparación",
-    descripcion: ". Es una receta fácil de preparar y una excelente manera de disfrutar de una comida nutritiva y sabrosa.",
+    descripcion: ". Es una receta fácil de preparar y una excelente manera de disfrutar.",
     img: "https://canalcocina.es/medias/_cache/zoom-8c77bca42464bf452f9a14580ddc2231-920-518.jpg",
     ingredientes: {
         ingrediente1: "600 g de filetes de pechuga de pollo",
@@ -647,9 +627,9 @@ export let cenas = [
   
   },
   {
-    nombre: "Frijoles Negros con Pollo",
+    nombre: "Frijol Negros con Pollo",
     tiempo: "2 horas y 30 minuto",
-    descripcion: " Una mezcla tan deliciosa como nutritiva, perfecta para consentir a la familia. Tiempo: 25 minutos /Fácil/Económico",
+    descripcion: " Una mezcla tan deliciosa como nutritiva, perfecta para consentir a la familia.",
     img: "https://images-gmi-pmc.edge-generalmills.com/e7c5bddf-fa86-4993-8dc9-bcf9997798ea.jpg",
     ingredientes: {
         ingrediente1: "(454 g) 1 Libra Pechuga De Pollo sin hueso",
@@ -670,9 +650,9 @@ export let cenas = [
   
   },
   {
-    nombre: "Receta de Enfrijoladas veganas",
+    nombre: "Enfrijoladas veganas",
     tiempo:"30 minutos ",
-    descripcion: " Si de recetas económicas se trata, las enfrijoladas son una muy buena opción para el día a día.",
+    descripcion: " Las enfrijoladas son una muy buena opción para el día a día.",
     img: "https://cdn0.recetasgratis.net/es/posts/6/0/7/enfrijoladas_veganas_75706_orig.jpg",
     ingredientes: {
         ingrediente1: "1 taza de frijoles cocidos",
@@ -694,24 +674,5 @@ export let cenas = [
     }
   
   },
-  {
-    nombre: "Arepitas con Pollo Jugoso",
-    tiempo:"30 minutos ",
-    descripcion: "¡Que Rico! Unas arepitas para la lonchera de los niños con Pollo Jugoso, una receta llena de sabor.",
-    img: "https://i.ytimg.com/vi/1lmtwcTFTfw/maxresdefault.jpg",
-    ingredientes: {
-        ingrediente1: "2 tazas de agua tibia",
-        ingrediente2: "2 tazas de harina de maíz",
-        ingrediente3: "1 sobre de Jugoso al Sartén MAGGI® Ajo & Cebolla",
-        ingrediente4: "2 pechugas de pollo deshuesadas y cortadas a la mitad",
-        ingrediente5: "1 aguacates medianos majados",
-        ingrediente6: "1 taza de queso tipo cheddar rallado"
-    },
-    preparacion: {
-        paso1: "- Para las arepas, vierte el agua en un tazón y agrega la sal, revuelve hasta disolverla. Agrega la harina de maíz poco a poco y revolviendo continuamente, hasta conseguir una masa compacta de textura bien ligera (no debe quedar seca) cubre la masa con un paño húmedo y deja reposar durante 3 a 5 minutos.",
-        paso2: "- Una vez lista, separa la masa en 12 porciones aproximadas, dale forma levemente aplanado con tus manos obteniendo círculos de unos 6 cm de diámetro y unos 0,5 cm de grosor. Cuando estén listos cocina sobre una sartén idealmente de teflón a fuego medio durante 4 a 5 minutos por lado. Puedes dar otro toque de cocción en el horno para que la superficie quede levemente crocante.",
-        paso3: "- Aparte, prepara el pollo usando el Jugoso al Sartén MAGGI® Ajo & Cebolla según las indicaciones del envase. Una vez listo, córtalo en delgadas tiritas, rellena las arepas con el pollo, el aguacate molido y el queso. Repite el procedimiento con el resto de las arepas y guarda en una vasija con tapa dentro de la lonchera."
-    }
   
-  }
 ]

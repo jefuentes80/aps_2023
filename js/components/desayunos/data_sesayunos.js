@@ -1,14 +1,13 @@
 // Objeto desayunos 
-// Base de datos - Melissa J.
+// Base de datos - 
 
 export let desayuno = [
     //SECCION DE HUEVOS ****************************************************************************************
     {
         /*--- M. Juarez */
         nombre: "HUEVOS RANCHEROS",
-        descripcion: "Los huevos rancheros son uno de los desayunos " +
-        "más típicos y tradicionales de México.",
-        img: "https://www.maricruzavalos.com/wp-content/uploads/2021/06/huevos_rancheros_recipe.jpg",
+        descripcion: "Desayuno típico y tradicional.",
+        img: "./js/components/desayunos/imagenes/1m.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz: dos piezas.",
             ingrediente2: "2 cucharadas soperas de Frijoles refritos",
@@ -36,8 +35,8 @@ export let desayuno = [
     {
         /*M -- Juárez*/
         nombre: "HUEVOS CON SALCHICHA",
-        descripcion: "Una receta fácil de preparar con ingredientes accesibles",
-        img: "https://www.ladanesa.com.ec/img/receta-huevo-revuelto.jpg",
+        descripcion: "Una receta fácil de preparar con ingredientes accesibles.",
+        img: "./js/components/desayunos/imagenes/2m.png",
         ingredientes: {
             ingrediente1: "8 huevos",
             ingrediente2: "3 salchichas de pavo",
@@ -59,8 +58,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "TORTILLA DE ESPINACA",
-        descripcion: "Una tortilla saludable y nutritiva con espinacas frescas",
-        img: "https://imag.bonviveur.com/cuajar-la-tortilla-de-espinacas-por-el-otro-lado.jpg",
+        descripcion: "Tortilla saludable y nutritiva.",
+        img: "./js/components/desayunos/imagenes/6m.jpg",
         ingredientes: {
             ingrediente1: "1 taza de espinacas frescas",
             ingrediente2: "2 huevos",
@@ -82,8 +81,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "BURRITO DE HUEVO CON TOCINO",
-        descripcion: "Comienza tu día con un desayuno llenador, son fáciles de hacer y con un sabor que te encantará",
-        img: "https://www.daisybrand.com/wp-content/uploads/2019/12/BREAKFAST-BURRITOS-770x628.jpg",
+        descripcion: "Comienza tu día con un desayuno llenador.",
+        img: "./js/components/desayunos/imagenes/4m.jpg",
         ingredientes: {
             ingrediente1: "3 huevos",
             ingrediente2: "1 aguacate",
@@ -106,8 +105,8 @@ export let desayuno = [
     },
     { /* K_telles*/
     nombre: "HUEVOS REVUELTOS CREMOSOS CON YOGUR",
-    descripcion: "Los huevos son un gran alimento para empezar el día y con yogur elevan los beneficios de este alimento",
-    img: "https://buenprovecho.hn/wp-content/uploads/2020/06/1-11.png",
+    descripcion: "Los huevos son un gran alimento para empezar el día.",
+    img: "./js/components/desayunos/imagenes/1k.jpg",
     ingredientes: {
         ingrediente1: "2 huevos grandes",
         ingrediente2: "2 cuch. de yogur griego",
@@ -125,8 +124,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "TORTILLA DE JAMÓN Y QUESO",
-    descripcion: "Un fácil tortilla de jamon y queso ¡es el desayuno simple y satisfactorio perfecto para comenzar bien el día!",
-    img: "https://nuestragente.mx/wp-content/uploads/2022/08/huevos.jpg",
+    descripcion: "Desayuno simple y satisfactorio para comenzar bien el día.",
+    img: "./js/components/desayunos/imagenes/2.jpg",
     ingredientes: {
         ingrediente1: "3 huevos grandes",
         ingrediente2: "Sal",
@@ -148,8 +147,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "CHORIZO Y HUEVOS (HUEVOS CON CHORIZO)",
-    descripcion: "Esta receta es muy sencillo ¡y solo requiere 4 ingredientes! Si no tiene huevos medianos, los grandes o extra grandes funcionarán bien.",
-    img: "https://www.cardamomo.news/__export/1654534278547/sites/debate/img/2022/06/06/huevos_con_chorizo.png_423682103.png",
+    descripcion: "Receta sencilla ¡y solo requiere 4 ingredientes!.",
+    img: "./js/components/desayunos/imagenes/3.jpeg",
     ingredientes: {
         ingrediente1: "2 cucharaditas de aceite.",
         ingrediente2: "9 onzas de chorizo ​​chorizo.",
@@ -166,8 +165,8 @@ export let desayuno = [
 
     {//M Juárez
         nombre: "HUEVOS AL HORNO CON ESPINACA Y QUESO",
-        descripcion: "Un desayuno sabroso y nutritivo con huevos, espinacas y queso derretido",
-        img: "https://d36fw6y2wq3bat.cloudfront.net/recipes/revuelto-de-cebolla-y-queso/900/revuelto-de-cebolla-y-queso.jpg",
+        descripcion: "Desayuno sabroso y nutritivo.",
+        img: "./js/components/desayunos/imagenes/6m.jpg",
         ingredientes: {
             ingrediente1: "2 huevos",
             ingrediente2: "1 taza de espinacas frescas",
@@ -190,8 +189,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "AVENA CON MANTEQUILLA DE MANÍ",
-        descripcion: " Avena overnight con mantequilla de maní hecha con 5 ingredientes en 5 minutos.",
-        img: "https://storage.googleapis.com/fitia-api-bucket/media/images/recipe_images/1001199.jpg",
+        descripcion: "Receta hecha con 5 ingredientes en 5 minutos.",
+        img: "./js/components/desayunos/imagenes/7m.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de leche (Entera, descremada, vegetal a elección)",
             ingrediente2: "3/4 Tbsp semillas de chia",
@@ -211,8 +210,8 @@ export let desayuno = [
     /*M. Juárez*/
     {
         nombre: "AVENA CON FRUTAS",
-        descripcion: "Una deliciosa combinación de avena y frutas para comenzar el día con energía",
-        img: "https://hispanaglobal.com/wp-content/uploads/2018/09/IMG_6564-1-768x1024-2.jpg",
+        descripcion: "Una deliciosa combinación para comenzar el día con energía.",
+        img: "./js/components/desayunos/imagenes/9m.png",
         ingredientes: {
             ingrediente1: "1/2 taza de avena",
             ingrediente2: "1 taza de leche (puede ser vegetal)",
@@ -228,8 +227,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "PANQUEQUES DE AVENA Y PLÁTANO",
-        descripcion: "Unos deliciosos panqueques sin harina perfectos para un desayuno nutritivo",
-        img: "https://www.infobae.com/new-resizer/RAc7ebFXp7PIaTTElZ33VIEC8jQ=/738x451/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/KHALIVHDV5GWTAU5P67DN66BMQ.JPG",
+        descripcion: "Panqueques sin harina perfectos para un desayuno nutritivo.",
+        img: "./js/components/desayunos/imagenes/10m.jpg",
         ingredientes: {
             ingrediente1: "1 taza de avena",
             ingrediente2: "2 plátanos maduros",
@@ -250,8 +249,8 @@ export let desayuno = [
     },    
     { /* K_telles*/
     nombre: "HOT CAKES DE AVENA, MANZANA Y CANELA",
-    descripcion: "Empieza tus mañanas con el desayuno más saludable, fácil y delirante: hot cakes de avena, manzana y canela.",
-    img: "https://www.cardamomo.news/__export/1680108159921/sites/debate/img/2023/03/29/hot_cakes_de_manzana_avena.png_242310155.png",
+    descripcion: "Empieza tus mañanas con el desayuno más saludable, fácil y delirante.",
+    img: "./js/components/desayunos/imagenes/4.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "½ taza de leche",
@@ -271,8 +270,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "TORTILLA DE AVENA Y VERDURA",
-    descripcion: "Para los amantes de los desayunos salados, hay muchas alternativas a las clásicas de tostadas con aceite y tomate. Por ejemplo esta tortilla de avena con verdura.",
-    img: "https://quaker.lat/app/uploads/sites/5/2021/12/omelet_1.1.1760x480.png",
+    descripcion: "Perfecto para los amantes de los desayunos salados.",
+    img: "./js/components/desayunos/imagenes/5.jpeg",
     ingredientes: {
         ingrediente1: "4 cucharadas de copos de avena",
         ingrediente2: "3 huevos",
@@ -293,8 +292,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "PAN DE AVENA",
-    descripcion: "La clave para que se trate de un desayuno realmente saludable es el pan, y lo ideal es elegir un buen pan 100% integral. Pero ¿y si probamos con esta receta de pan sin gluten?",
-    img: "https://www.pakote.com/sites/default/files/2020-07/pakote_pan_rustico_avena.jpg",
+    descripcion: "¿Y si probamos esta receta de pan sin gluten?",
+    img: "./js/components/desayunos/imagenes/6.png",
     ingredientes: {
         ingrediente1: "275 g de harina de avena (certificada sin gluten si es preciso)",
         ingrediente2: "350 ml de yogur natural",
@@ -313,7 +312,7 @@ export let desayuno = [
     {/* K_telles*/
     nombre: "PIZZA DE AVENA",
     descripcion: "Es delicioso realizar una pizza de avena, saludable y crujiente.",
-    img: "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2022/07/pizzadeavena.jpg",
+    img: "./js/components/desayunos/imagenes/7.jpg",
     ingredientes: {
         ingrediente1: "100 g de avena",
         ingrediente2: "100 ml de agua",
@@ -338,8 +337,8 @@ export let desayuno = [
 
     { /* K_telles*/
         nombre: "YOGUR DE FRESA Y VAINILLA",
-        descripcion: "Yogur de fresa y vainilla hecha para 4 personas, se puede acompañar de trocitos de manzana y plátano.",
-        img: "https://img.freepik.com/vector-premium/fresa-realista-leche-bienvenida-yogurt-fresa_190024-641.jpg",
+        descripcion: "Yogur de fresa y vainilla hecha para 4 personas.",
+        img: "./js/components/desayunos/imagenes/8.jpeg",
         ingredientes: {
             ingrediente1: "Media taza de fresas.",
             ingrediente2: "Media taza de marañon.",
@@ -361,8 +360,8 @@ export let desayuno = [
     },
     { /* K_telles*/
     nombre: "TORTITAS DE AVENA CON PLÁTANO",
-    descripcion: "Tortillas de avena con plátano para 4 personas. (Para evitar que los plátanos se oscurezcan en contacto con el aire, rocíalos con zumo de limón.)",
-    img: "https://img-global.cpcdn.com/recipes/0190f0a2271af598/680x482cq70/tortitas-de-avena-y-platano-foto-principal.jpg",
+    descripcion: "Receta para 4 personas.",
+    img: "./js/components/desayunos/imagenes/9.jpg",
     ingredientes: {
         ingrediente1: "5 cucharadas de harina de avena",
         ingrediente2: "100 gramos de fresas",
@@ -388,8 +387,8 @@ export let desayuno = [
     },
     { /* K_telles*/
     nombre: "YOGUR CON QUINOA Y FRUTAS ROJAS",
-    descripcion: "Esta es una opción válida para quienes no quieren consumir copos o cereales clásicos de desayuno. Además, es refrescante y deliciosa.",
-    img: "https://unareceta.com/wp-content/uploads/2016/08/receta-quinoa-con-yogurt.jpg",
+    descripcion: "Receta para quienes no quieren consumir cereales clásicos de desayuno.",
+    img: "./js/components/desayunos/imagenes/10.jpg",
     ingredientes: {
         ingrediente1: "1 taza de yogur natural",
         ingrediente2: "1 cucharadita de miel",
@@ -405,8 +404,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "PANQUEQUES DE YOGUR Y AVENA",
-    descripcion: "Los panqueques son una preparación clásica, ideal para hacer desayunos saludables.",
-    img: "https://files.wapa.pe/Wapa/2020/04/27/panqueques-de-yogurt-y-avena-recetas-f-ciles-c-mo-preparar-1587947110.jpg",
+    descripcion: "Receta ideal para hacer tu desayuno saludable.",
+    img: "./js/components/desayunos/imagenes/11.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "1/2 taza de yogur firme",
@@ -429,8 +428,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "TOSTADAS DE YOGUR Y FRUTOS ROJOS",
-    descripcion: "Deliciosa receta de tostada francesa con yogur y frutos rojos.",
-    img: "https://macabites.com/wp-content/uploads/2017/12/las-MEJORES-tostadas-francesas.jpg",
+    descripcion: "Deliciosa receta hecha en 10 minutos",
+    img: "./js/components/desayunos/imagenes/12.jpg",
     ingredientes: {
         ingrediente1: "2 rebanadas gruesas de pan tipo brioche, de trigo o de masa madre",
         ingrediente2: "1/4 taza de yogur",
@@ -451,8 +450,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "TORTITAS DE YOGUR",
-    descripcion: "Estos pancakes de yogur o tortitas son súper fáciles de preparar y necesitan pocos ingredientes que muchos tenemos en nuestras despensas.",
-    img: "https://todoespecias.com/blog/wp-content/uploads/vlcsnap-2022-07-29-14h21m06s530-e1659097852865.png",
+    descripcion: "Receta súper fácil de preparar.",
+    img: "./js/components/desayunos/imagenes/13.png",
     ingredientes: {
         ingrediente1: "1 taza de harina",
         ingrediente2: "1 y 2/3 taza de yogur",
@@ -469,8 +468,8 @@ export let desayuno = [
 
     { /* K_telles*/
     nombre: "BANANA SPLITS DE YOGUT",
-    descripcion: "Una banana splits de yogur para desayunar es un delicioso alimento para empezar el día.",
-    img: "https://cocinaconmichela.com/wp-content/uploads/2023/03/1-5.png",
+    descripcion: "Delicioso alimento para empezar el día.",
+    img: "./js/components/desayunos/imagenes/14.png",
     ingredientes: {
         ingrediente1: "1 plátano, cortado a lo largo",
         ingrediente2: "1 taza de yogur",
@@ -490,8 +489,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "TOSTADAS DE AGUACATE",
-        descripcion: "Una opción deliciosa y saludable para el desayuno con aguacate fresco",
-        img: "https://www.divinacocina.es/wp-content/uploads/2022/02/tostada-aguacate-hummus.jpg",
+        descripcion: "Una opción deliciosa y saludable para el desayuno.",
+        img: "./js/components/desayunos/imagenes/12m.png",
         ingredientes: {
             pan: "2 rebanadas de pan integral",
             aguacate: "1 aguacate maduro",
@@ -509,8 +508,8 @@ export let desayuno = [
     },
     {//M Juárez
         nombre: "TOSTADAS DE CREMA DE CACAHUETE Y PLÁTANO",
-        descripcion: "Una combinación clásica de crema de cacahuete y plátano sobre tostadas",
-        img: "url",
+        descripcion: "Una combinación clásica.",
+        img: "./js/components/desayunos/imagenes/11m.png",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan",
             ingrediente2: "2 cucharadas de crema de cacahuete",
@@ -529,8 +528,8 @@ export let desayuno = [
     //SECCIÓN DE BATIDOS*****************************************************************************************************************
     {//M Juárez 10
         nombre: "BATIDO DE PLÁTANO Y ESPINACAS",
-        descripcion: "Un batido verde cargado de nutrientes para un desayuno revitalizante",
-        img: "url",
+        descripcion: "Receta cargada de nutrientes para un desayuno revitalizante.",
+        img: "./js/components/desayunos/imagenes/13m.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros",
             ingrediente2: "1 taza de espinacas frescas",
@@ -549,8 +548,8 @@ export let desayuno = [
     {
         /*M. Juárez*/
         nombre: "BATIDO DE FRUTAS TROPICALES",
-        descripcion: "Un batido refrescante con el sabor de las frutas tropicales",
-        img: "url",
+        descripcion: "Un batido refrescante.",
+        img: "./js/components/desayunos/imagenes/14m.jpg",
         ingredientes: {
             ingrediente1: "1 taza de piña en trozos",
             ingrediente2: "1 taza de mango en trozos",
@@ -567,8 +566,8 @@ export let desayuno = [
     },
     {//M Juárez 12
         nombre: "BATIDO DE AGUACATE Y PLÁTANO",
-        descripcion: "Un batido cremoso y nutritivo con aguacate y plátano",
-        img: "url",
+        descripcion: "Un batido cremoso y nutritivo.",
+        img: "./js/components/desayunos/imagenes/15m.jpg",
         ingredientes: {
             ingrediente1: "1 aguacate maduro",
             ingrediente2: "1 plátano maduro",

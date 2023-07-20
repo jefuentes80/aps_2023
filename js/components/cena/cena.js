@@ -1,172 +1,79 @@
- 
-// Componentes principal
-//Alejandra
-
-import {cenas} from "./data_cena.js";
-//Crea los elementos HTML utilizando el DOM
-/*Alejandra Zita*/
-function primera_parte(){
-  let elementos =
-  `
-  <div class="caja-busc">
-  
-      <input type="text" name="text" class="input" id="buscador" type="text" placeholder="Buscando...">
-
-  </div>
-
-  <div class="container">
-  
-    
-
-  </div>
-
-  <div class="blog-card"></div>
-  `;
-
-    let caja = document.getElementById("cena")
+import { sabias } from "./sabias_que.js";
+import { cena } from "./data_cena.js";
+import { buscador } from "./buscador.js";
 
 
-caja.innerHTML = elementos;
+function prueba() {
+  let box = document.querySelector("#cena");
 
-}
-primera_parte();
-/******************************************************** */
-
-const cenaElement = document.getElementById("cena");
-const cenabuscador = document.getElementById("cena");
-
-// Recorrer la matriz de cenas y mostrar las cartas de cada cena
-cenas.forEach(cena => {
-  const newCenaDiv = document.createElement("div");
-  newCenaDiv.classList.add("blog-card");
-
-  const nombreElement = document.createElement("h2");
-  nombreElement.textContent = cena.nombre;
-
-  // Agregar evento clic para mostrar la ventana emergente
-  nombreElement.addEventListener("click", () => mostrarVentanaEmergente(cena));
-
-  const descripcionElement = document.createElement("h3");
-  descripcionElement.textContent = cena.descripcion;
-
-  const tiempoElement = document.createElement("h3");
-  tiempoElement.textContent = cena.tiempo;
-
-  const imgElement = document.createElement("img");
-  imgElement.src = cena.img;
-  imgElement.classList.add("photo");
-
-  newCenaDiv.appendChild(nombreElement);
-  newCenaDiv.appendChild(descripcionElement);
-  newCenaDiv.appendChild(tiempoElement);
-  newCenaDiv.appendChild(imgElement);
-
-  cenaElement.appendChild(newCenaDiv);
-});
-
-// Función para mostrar la ventana emergente
-function mostrarVentanaEmergente(cena) {
-  const overlay = document.createElement("div");
-  overlay.classList.add("overlay");
-
-  const popup = document.createElement("div");
-  popup.classList.add("popup");
-
-  const imgElement = document.createElement("img");
-  imgElement.src = cena.img;
-
-  const nombreElement = document.createElement("h2");
-  nombreElement.textContent = cena.nombre;
-
-  const tiempoElement = document.createElement("h3");
-  tiempoElement.textContent = cena.tiempo;
-
-  const descripcionElement = document.createElement("p");
-  descripcionElement.textContent = cena.descripcion;
-
-  const ingredientesElement = document.createElement("ul");
-  for (const ingrediente in cena.ingredientes) {
-    if (ingrediente.startsWith("ingrediente")) {
-      const liElement = document.createElement("li");
-      liElement.textContent = cena.ingredientes[ingrediente];
-      ingredientesElement.appendChild(liElement);
-    }
-  }
-
-  const preparacionElement = document.createElement("ol");
-  for (const paso in cena.preparacion) {
-    if (paso.startsWith("paso")) {
-      const liElement = document.createElement("li");
-      liElement.textContent = cena.preparacion[paso];
-      preparacionElement.appendChild(liElement);
-    }
-  }
-
-  popup.appendChild(imgElement);
-  popup.appendChild(nombreElement);
-  popup.appendChild(tiempoElement);
-  popup.appendChild(descripcionElement);
-  popup.appendChild(ingredientesElement);
-  popup.appendChild(preparacionElement);
-
-  overlay.appendChild(popup);
-  document.body.appendChild(overlay);
-
-  // Cerrar ventana emergente al hacer clic fuera de ella
-  overlay.addEventListener("click", () => overlay.remove());
+  let div = document.createElement("div");
+  div.innerHTML = `
+    <img class="koya" src="https://thesensorylab.es/wp-content/uploads/2021/05/semi-circulo-naranja.png" alt="">
+    <h1 class="sol">Cenas</h1>`;
+  div.classList.add("box");
+  box.appendChild(div);
 }
 
+prueba();
+buscador(); 
+sabias();
 
-/**********************************************************/
+function vista() {
+  let eldom = document.querySelector(".box");
+  eldom.addEventListener("click", mostrarDatos);
 
-
-// La programación del buscador
-
-const buscadorElement = document.getElementById("buscador");
-
-function actualizarResultados() {
-  const filtro = buscadorElement.value.toLowerCase();
-
-  // Eliminar los resultados anteriores
-  const blogCardElement = cenabuscador.querySelector(".blog-card");
-  while (blogCardElement.firstChild) {
-    blogCardElement.firstChild.remove();
-  }
-
-  // Filtrar las cenas que coincidan con el texto del buscador
-  const cenasFiltradas = cenas.filter(cena => cena.nombre.toLowerCase().includes(filtro));
-
-  // Mostrar los resultados en el DOM
-  cenasFiltradas.forEach(cena => {
-    const newCenaDiv = document.createElement("div");
-    newCenaDiv.classList.add("blog-card");
-
-    const nombreElement = document.createElement("h2");
-    nombreElement.textContent = cena.nombre;
-
-    // Agregar evento clic para mostrar la ventana emergente
-    nombreElement.addEventListener("click", () => mostrarVentanaEmergente(cena));
-
-    const tiempoElement = document.createElement("p");
-    tiempoElement.textContent = cena.tiempo;
-
-    const descripcionElement = document.createElement("p");
-    descripcionElement.textContent = cena.descripcion;
-
-    const imgElement = document.createElement("img");
-    imgElement.src = cena.img;
-    imgElement.classList.add("photob");
-
-    newCenaDiv.appendChild(nombreElement);
-    newCenaDiv.appendChild(tiempoElement);
-    newCenaDiv.appendChild(descripcionElement);
-    newCenaDiv.appendChild(imgElement);
-
-    blogCardElement.appendChild(newCenaDiv);
+  cena.forEach((element) => {
+    let bt21 = document.createElement("div");
+    bt21.classList.add("bt21");
+    bt21.innerHTML = `
+      <img src="${element.img}">
+      <div class="solotexto">
+        <h3 class="titu_comida">${element.nombre}</h3>
+        <p class="descripcion_comida">${element.descripcion}</p>
+      </div>
+    `;
+    eldom.appendChild(bt21);
   });
 }
-// Escuchar el evento 'input' del buscador
-buscadorElement.addEventListener("input", actualizarResultados);
- main
 
-buscadorElement.addEventListener("input", actualizarResultados);
+function mostrarDatos(event) {
+    let titulo = event.target.closest(".bt21").querySelector(".titu_comida").textContent;
+    let cenaSeleccionado = cena.find((des) => des.nombre === titulo);
+  
+    let divFlores = document.createElement("div");
+    divFlores.classList.add("flores");
+  
+    let ingredientesHTML = '';
+    for (const ingrediente in cenaSeleccionado.ingredientes) {
+      ingredientesHTML += `<li>${cenaSeleccionado.ingredientes[ingrediente]}</li>`;
+    }
+  
+    let preparacionHTML = '';
+    for (const paso in cenaSeleccionado.preparacion) {
+      preparacionHTML += `<li>${cenaSeleccionado.preparacion[paso]}</li>`;
+    }
+  
+    divFlores.innerHTML = `
+      <button class="cerrar">&times;</button>
+      <h2 class="flor_titulo">${cenaSeleccionado.nombre}</h2>
+      <div style="text-align: center;">
+      <img class="flor_img" src="${cenaSeleccionado.img}" alt="${cenaSeleccionado.nombre}">
+      </div>
+      <!-- <p>${cenaSeleccionado.descripcion}</p> -->
+      <h3 class="flor_titingred">Ingredientes:</h3>
+      <ul class="fonts">${ingredientesHTML}</ul>
+      <h3 class="flor_prep">Preparación:</h3>
+      <ol class="prep">${preparacionHTML}</ol>
+    `;
+  
+    let box = document.querySelector("#cena");
+    box.appendChild(divFlores);
+  
+    let botonCerrar = divFlores.querySelector(".cerrar");
+    botonCerrar.addEventListener("click", () => {
+      box.removeChild(divFlores);
+    });
+  }
+  
+vista();
+
