@@ -1,6 +1,16 @@
 // Obtener una referencia al elemento de encabezado en el DOM
 const header = document.getElementById("header");
 
+// Obtener referencias a las secciones en el DOM
+const homeSection = document.getElementById("home");
+const desayunoSection = document.getElementById("desayuno");
+const refaccionSection = document.getElementById("refaccion");
+const cenaSection = document.getElementById("cena");
+const noConsumirSection = document.getElementById("no-consumir");
+
+// Obtener referencia al banner
+const banner = document.querySelector(".banner");
+
 // Crear elementos para el encabezado
 const titleContainer = document.createElement("div");
 titleContainer.className = "title-container";
@@ -21,10 +31,10 @@ const menuButtonContainer = document.createElement("div");
 menuButtonContainer.className = "menu-button-container";
 
 const buttons = [
-  { icon: "https://cdn.icon-icons.com/icons2/3224/PNG/512/breakfast_toast_coffee_tea_meal_icon_196791.png", text: "Desayunos" },
-  { icon: "https://cdn.icon-icons.com/icons2/16/PNG/256/fruit_apple_food_1815.png", text: "Refacciones" },
-  { icon: "https://img.icons8.com/?size=512&id=0W25y0EGmKP4&format=png", text: "Cenas" },
-  { icon: "https://img.icons8.com/?size=512&id=wqMCXXwVnkX2&format=png", text: "Qué no comer" }
+  { icon: "https://cdn.icon-icons.com/icons2/3224/PNG/512/breakfast_toast_coffee_tea_meal_icon_196791.png" },
+  { icon: "https://cdn.icon-icons.com/icons2/16/PNG/256/fruit_apple_food_1815.png" },
+  { icon: "https://img.icons8.com/?size=512&id=0W25y0EGmKP4&format=png" },
+  { icon: "https://img.icons8.com/?size=512&id=wqMCXXwVnkX2&format=png" }
 ];
 
 buttons.forEach((buttonData) => {
@@ -36,42 +46,80 @@ buttons.forEach((buttonData) => {
   icon.alt = buttonData.text;
   button.appendChild(icon);
 
-  const buttonText = document.createElement("span");
-  buttonText.textContent = buttonData.text;
-  button.appendChild(buttonText);
-
   menuButtonContainer.appendChild(button);
 });
 
 header.appendChild(titleContainer);
 header.appendChild(menuButtonContainer);
 
-const searchContainer = document.createElement("div");
-searchContainer.className = "search-container";
-
-const searchIcon = document.createElement("img");
-searchIcon.className = "search-icon";
-searchIcon.src = "https://img.icons8.com/?size=512&id=12773&format=png";
-searchIcon.alt = "Buscar";
-
-const searchInput = document.createElement("input");
-searchInput.className = "search-input";
-searchInput.type = "text";
-searchInput.placeholder = "Buscar recetas";
-
-searchContainer.appendChild(searchIcon);
-searchContainer.appendChild(searchInput);
-
-searchIcon.addEventListener("click", () => {
-  searchInput.classList.toggle("show");
+// Event listener para el logo
+logo.addEventListener("click", () => {
+  hideSections();
+  showHome();
 });
 
-header.appendChild(searchContainer);
+// Event listener para la sección de Desayuno
+menuButtonContainer.children[0].addEventListener("click", () => {
+  hideSections();
+  showDesayuno();
+});
 
-// Insertar el contenedor del buscador entre los íconos de Home y Desayunos
-const homeButton = menuButtonContainer.querySelector('button.menu-button:nth-child(1)');
-const desayunosButton = menuButtonContainer.querySelector('button.menu-button:nth-child(3)');
-menuButtonContainer.insertBefore(searchContainer, desayunosButton);
+// Event listener para la sección de Refacción
+menuButtonContainer.children[1].addEventListener("click", () => {
+  hideSections();
+  showRefaccion();
+});
 
-// Adjuntar el encabezado al documento
-document.body.insertBefore(header, document.body.firstChild);
+// Event listener para la sección de Cena
+menuButtonContainer.children[2].addEventListener("click", () => {
+  hideSections();
+  showCena();
+});
+
+// Event listener para la sección de Qué no comer
+menuButtonContainer.children[3].addEventListener("click", () => {
+  hideSections();
+  showNoConsumir();
+});
+
+// Función para ocultar todas las secciones
+function hideSections() {
+  homeSection.classList.add("ocultar");
+  desayunoSection.classList.add("ocultar");
+  refaccionSection.classList.add("ocultar");
+  cenaSection.classList.add("ocultar");
+  noConsumirSection.classList.add("ocultar");
+  banner.classList.add("ocultar");
+}
+
+// Función para mostrar la sección de Inicio
+function showHome() {
+  homeSection.classList.remove("ocultar");
+  banner.classList.remove("ocultar");
+}
+
+// Función para mostrar la sección de Desayuno
+function showDesayuno() {
+  desayunoSection.classList.remove("ocultar");
+}
+
+// Función para mostrar la sección de Refacción
+function showRefaccion() {
+  refaccionSection.classList.remove("ocultar");
+}
+
+// Función para mostrar la sección de Cena
+function showCena() {
+  cenaSection.classList.remove("ocultar");
+}
+
+// Función para mostrar la sección de Qué no comer
+function showNoConsumir() {
+  noConsumirSection.classList.remove("ocultar");
+}
+
+// Obtener referencia al campo de búsqueda
+const buscadorInput = document.querySelector(".buscador");
+
+// Agregar marca de agua al campo de búsqueda
+buscadorInput.placeholder = " Buscar recetas...";
