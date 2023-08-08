@@ -3,7 +3,7 @@ export let recetas= [
     {
         nombre: "Tortitas de arroz y queso",
         descripcion: "Es perfecta como guarnición o para acompañar con salsas sencillas.",
-        img: "https://www.divinacocina.es/wp-content/uploads/2020/04/tortitas-de-arroz-y-queso-C.jpg.webp",
+        img: "./js/components/refaccion/imgrefa/tortitas-de-arroz-y-queso-C.jpg",
         ingredientes: {
             ingrediente1: "1 vasito de arroz especial para microondas o 125g de arroz cocido",
             ingrediente2: "1 Huevo",
@@ -26,7 +26,7 @@ export let recetas= [
     {
         nombre: "Gelatina de frutas",
         descripcion: "Refrescante gelatina de frutas que es perfecta para el verano.",
-        img: "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2018/05/gelatina-mixta-de-frutas.jpg",
+        img:  "./js/components/refaccion/imgrefa/gelatina-mixta-de-frutas.png",
         ingredientes: {
             ingrediente1: "2 paquetes de gelatina de diferentes sabores",
             ingrediente2: "2 tazas de agua caliente",
@@ -45,7 +45,7 @@ export let recetas= [
     {
         nombre: "Tostadas Francesas",
         descripcion: "Las tostadas francesas son una opción deliciosa para la refacción.",
-        img: "https://www.recetasderechupete.com/wp-content/uploads/2014/07/rollitos_primavera.jpg",
+        img:  "./js/components/refaccion/imgrefa/tostadas.jpg-editada.jpg",
         ingredientes: {
             ingrediente1: "4 rebanadas de pan",
             ingrediente2: "2 huevos",
@@ -71,7 +71,7 @@ export let recetas= [
     {
         nombre: " Pan con aguacate y huevo",
         descripcion: "Esta receta simple y nutritiva.",
-        img: "https://mandolina.co/wp-content/uploads/2020/11/desayuno-saludable-sandwich-aguacate-y-huevo-1200x900.jpg",
+        img: "./js/components/refaccion/imgrefa/desayuno-saludable-sandwich-aguacate-y-huevo-1200x900.png",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan integral",
             ingrediente2: "1 aguacate maduro",
@@ -94,7 +94,7 @@ export let recetas= [
     {
         nombre: "Pan con salchicha",
         descripcion: "Perfecta para una comida rápida o una refacción satisfactoria.",
-        img: "https://placeralplato.com/files/2015/11/Pan-para-hot-dogs-640x480.jpg?width=1200&enable=upscale",
+        img: "./js/components/refaccion/imgrefa/Pan-para-hot-dogs-640x480.png",
         ingredientes: {
             ingrediente1: "Salchichas (cantidad según prefieras)",
             ingrediente2: "Panecillos de hot dog o pan de hamburguesa",
@@ -112,7 +112,7 @@ export let recetas= [
     {
         nombre: "Pan con huevos revueltos",
         descripcion: "Una receta clásica y versátil.",
-        img: "https://static.vecteezy.com/system/resources/previews/007/442/413/large_2x/bread-toast-with-scramble-egg-photo.jpg",
+        img: "./js/components/refaccion/imgrefa/bread-toast-with-scramble-egg-photo.png",
         ingredientes: {
             ingrediente1: "Pan rebanado (puedes usar pan de molde o cualquier tipo de pan que prefieras)",
             ingrediente2: "Huevos",
@@ -134,7 +134,7 @@ export let recetas= [
     {
         nombre: "Platanos fritos",
         descripcion: "Deliciosa y popular receta con una textura increíble.",
-        img: "https://assets.unileversolutions.com/recipes-v2/38473.jpg",
+        img: "./js/components/refaccion/imgrefa/GettyImages-1163022179-1.jpg",
         ingredientes: {
             ingrediente1: "Plátanos maduros (preferiblemente plátanos machos)",
             ingrediente2: "Aceite vegetal o de girasol para freír",
@@ -155,7 +155,7 @@ export let recetas= [
     {
         nombre: "Pan con jamón y queso",
         descripcion: "Una receta clásica y reconfortante.",
-        img: "https://www.hogarmania.com/archivos/201105/sandwich-mixto-xl-848x477x80xX.jpg",
+        img:  "./js/components/refaccion/imgrefa/sandwich-mixto-xl-848x477x80xX.png",
         ingredientes: {
             ingrediente1: "Pan de tu elección (preferiblemente pan de molde o baguette)",
             ingrediente2: "Lonchas de jamón (puedes usar jamón cocido, jamón serrano u otro tipo de jamón)",
@@ -177,7 +177,7 @@ export let recetas= [
     {
         nombre: "Cereal con leche ",
         descripcion: "Receta clásica y popular que consiste en combinar cereales crujientes con leche.",
-        img: "https://www.cucinare.tv/wp-content/uploads/2019/08/Cereales-en-el-desayuno.jpg",
+        img:  "./js/components/refaccion/imgrefa/Cereales-en-el-desayuno.jpg",
         ingredientes: {
             ingrediente1: "Cereal de tu elección (por ejemplo, copos de maíz, hojuelas de trigo, granola, etc.)",
             ingrediente2: "Leche (puede ser leche de vaca, leche vegetal como la de almendras, avena, soja, etc.)",
@@ -196,7 +196,7 @@ export let recetas= [
     {
         nombre: "Ensalada de sandía y queso blanco",
         descripcion: "Una refrescante ensalada de verano.",
-        img: "https://cocina-casera.com/wp-content/uploads/2022/05/ensalada-sandia-queso-770x485.jpg",
+        img: "./js/components/refaccion/imgrefa/ensalada-sandia-queso-770x485.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de sandía cortada en cubos",
             ingrediente2: "100 g de queso feta desmenuzado",
@@ -218,7 +218,7 @@ export let recetas= [
     {
         nombre: "Tostada integral con crema de cacahuete y plátano",
         descripcion: "Una receta rica en grasas saludables",
-        img: "https://i.pinimg.com/originals/c3/9c/6d/c39c6dd934d39d3fbcefbf00e212dea8.jpg",
+        img: "./js/components/refaccion/imgrefa/c39c6dd934d39d3fbcefbf00e212dea8.jpg",
         ingredientes: {
             ingrediente1: "Tostada integral",
             ingrediente2: "crema de cacahuete al 100% ",
@@ -235,7 +235,7 @@ export let recetas= [
     {
         nombre: "Tortitas de papas",
         descripcion: "Ideales como guarnición o como plato principal ligero.",
-        img: "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/c6d64e5b6f38cccf2ca6888a3ba1a07f.jpg",
+        img: "./js/components/refaccion/imgrefa/tortitas.jpg",
         ingredientes: {
             ingrediente1: "4 patatas grandes, peladas y ralladas",
             ingrediente2: "1 cebolla pequeña, finamente picada",
@@ -259,7 +259,7 @@ export let recetas= [
     {
         nombre: "Nachos de papa con frijoles y guacamole",
         descripcion: "Nachos saludables hechos con papa.",
-        img: "https://imag.bonviveur.com/nachos-mexicanos-con-queso-guacamole-y-chili-con-carne.jpg",
+        img: "./js/components/refaccion/imgrefa/nachos-mexicanos-con-queso-guacamole-y-chili-con-carne.jpg",
         ingredientes: {
             ingrediente1: "2 papas grandes",
             ingrediente2: "Aceite de oliva",
@@ -283,7 +283,7 @@ export let recetas= [
     {
         nombre: "Pinchos de pollo teriyaki",
         descripcion: "Perfectos como aperitivo o plato principal.",
-        img: "https://enterate24backup.s3.amazonaws.com/uploads/2021/02/5.jpg",
+        img: "./js/components/refaccion/imgrefa/5.jpg",
         ingredientes: {
             ingrediente1: "2 pechugas de pollo, cortadas en trozos pequeños",
             ingrediente2: "4 cucharadas de salsa teriyaki",
@@ -304,7 +304,7 @@ export let recetas= [
     {
         nombre: "Rollitos de lechuga con pollo y aguacate",
         descripcion: "Perfectos como refacción saludable y baja en carbohidratos.",
-        img: "https://superpola.com//site/assets/files/23446/404.jpg",
+        img: "./js/components/refaccion/imgrefa/404.jpg",
         ingredientes: {
             ingrediente1: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
             ingrediente2: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
@@ -328,7 +328,7 @@ export let recetas= [
     {
         nombre: "Sándwich de pollo y aguacate",
         descripcion: "Un sándwich delicioso y nutritivo.",
-        img: "https://storage.googleapis.com/avena-recipes/2019/10/1571780799455.jpeg",
+        img: "./js/components/refaccion/imgrefa/Sándwich de pollo y aguacate.jpg",
         ingredientes: {
             ingrediente1: "Pan de sándwich",
             ingrediente2: "Pechuga de pollo cocida y desmenuzada",
@@ -354,7 +354,7 @@ export let recetas= [
     {
         nombre: "Wrap de Pollo y Vegetales",
         descripcion: "Un wrap rápido y sabroso lleno de pollo y vegetales frescos.",
-        img: "https://imag.bonviveur.com/presentacion-principal-del-wrap-de-pollo-y-verduras.jpg",
+        img: "./js/components/refaccion/imgrefa/presentacion-principal-del-wrap-de-pollo-y-verduras.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
             ingrediente2: "Pechuga de pollo cocida y cortada en tiras",
@@ -377,7 +377,7 @@ export let recetas= [
     {
         nombre: "Mug cake de plátano.",
         descripcion: "Un delicioso y esponjoso pastel en taza.",
-        img: "https://delination.com/wp-content/uploads/2022/03/Mug-cake-platano-850x550.jpeg",
+        img: "./js/components/refaccion/imgrefa/Mug-cake-platano-850x550.jpg",
         ingredientes: {
             ingrediente1: "1 huevo",
             ingrediente2: "½ plátano maduro",
@@ -396,7 +396,7 @@ export let recetas= [
     {
         nombre: "Cupcakes de zanahoria",
         descripcion: "Cupcakes húmedos y esponjosos con sabor a zanahoria.",
-        img: "https://assets.unileversolutions.com/recipes-v2/242050.jpg",
+        img: "./js/components/refaccion/imgrefa/cupcakes-zanahoria-harina-hotcakes.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de zanahorias ralladas",
             ingrediente2: "1 1/2 tazas de harina",
@@ -423,7 +423,7 @@ export let recetas= [
     {
         nombre: "Pastel de chocolate",
         descripcion: "Un delicioso pastel de chocolate esponjoso.",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWBHal3aYtX6H1SpJHtJRQqUv4V1iA-SP6fjilkEq2SPbCVanX17nqkSkEyUHEIdhcL8w&usqp=CAU",
+        img: "./js/components/refaccion/imgrefa/images.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de harina",
             ingrediente2: "1 3/4 tazas de azúcar",
@@ -448,7 +448,7 @@ export let recetas= [
     {
         nombre: "Muffins de plátano y nueces",
         descripcion: "Muffins suaves y deliciosos.",
-        img: "https://saltandspoon.co/wp-content/uploads/2022/09/4-ingredient-banana-bread-muffins-21.jpg",
+        img: "./js/components/refaccion/imgrefa/4-ingredient-banana-bread-muffins-21.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros, aplastados",
             ingrediente2: "1/2 taza de azúcar",
@@ -477,7 +477,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de espinacas y queso",
         descripcion: "Quesadillas sabrosas y nutritivas.",
-        img: "https://img-global.cpcdn.com/recipes/c09584352bd22bf1/400x400cq70/photo.jpg",
+        img: "./js/components/refaccion/imgrefa/photo.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
             ingrediente2: "Hojas de espinaca fresca",
@@ -498,7 +498,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de Queso",
         descripcion: "Un clásico simple y sabroso.",
-        img: "https://www.vvsupremo.com/wp-content/uploads/2015/11/900X570_Two-Cheese-Quesadillas.jpg",
+        img: "./js/components/refaccion/imgrefa/900X570_Two-Cheese-Quesadillas.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o trigo",
             ingrediente2: "Queso rallado (cheddar, mozzarella, etc.)",
@@ -519,7 +519,7 @@ export let recetas= [
     {
         nombre: "Barras de Cereal",
         descripcion: "Barras de cereal sin gluten y saludables.",
-        img: "https://assets.unileversolutions.com/recipes-v2/214840.jpg",
+        img: "./js/components/refaccion/imgrefa/prefieren-frutas-y-barras-de-cereal.jpg",
         ingredientes: {
             ingrediente1: "2 Tazas de pipocas de quínoa o arroz inflado",
             ingrediente2: "1 Taza de manjar",
@@ -538,7 +538,7 @@ export let recetas= [
     {
         nombre: "Barritas de avena y frutos secos",
         descripcion: "Barritas energéticas y saludables.",
-        img: "https://www.cardamomo.news/__export/1625604752980/sites/debate/img/2021/07/06/barras_de_granola_saludables_sin_horno_crop1625604674451.jpeg_1187729725.jpeg",
+        img: "./js/components/refaccion/imgrefa/cuadritos-de-avena.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de avena",
             ingrediente2: "1 taza de frutos secos picados (almendras, nueces, pistachos, etc.)",
@@ -560,7 +560,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de pollo",
         descripcion: "Deliciosas quesadillas rellenas de pollo y queso derretido.",
-        img: "https://www.recetasdejusticia.com/wp-content/uploads/2021/01/Receta_de_quesadillas_de_pollo.jpg",
+        img: "./js/components/refaccion/imgrefa/chicken-and-avocado-quesadillas.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o harina",
             ingrediente2: "Pollo cocido desmenuzado",
@@ -578,21 +578,4 @@ export let recetas= [
         }
     },
 
-    {
-        nombre: "Eclaris con jamon y queso",
-        descripcion: "Sandwich hecho con pasta choux.",
-        img: "https://www.elmueble.com/medio/2023/04/04/eclairs-con-jamon-y-queso_00000000_230404114029_893x1200.jpg",
-        ingredientes: {
-            ingrediente1: "Pasta choux según la receta base",
-            ingrediente2: "150 g de lonchas de jamón cocido",
-            ingrediente3: "100 g de queso manchego semicurado",
-            ingrediente4: "Hojas de ensalada variadas (rúcula, canónigos...)",
-            ingrediente5: "Aceite, sal, pimienta",
-        },
-        preparacion: {
-            paso1: "Pon un papel de horno sobre la bandeja. Con la pasta choux, haz trazos de unos 10 cm en zigzag. Mete la bandeja en el horno precalentado a 210 °C durante 10 minutos. Después baja la temperatura a 160 °C y deja la bandeja en el horno durante otros 15-18 minutos más, hasta que estén dorados. Saca la bandeja del horno y deja que se enfríen.",
-            paso2: "Mientras está la pasta choux en el horno, ve lavando las hojas de lechuga y sécalas bien con papel de cocina. Alíñalas ligeramente con aceite, sal y pimienta. Corta también el queso en cuñas finas.",
-            paso3: "Cuando estén fríos, parte los éclairs por la mitad en horizontal y rellénalos como si fueran bocadillos con una capa de queso, otra de jamón y, por último, otra de hojas de ensalada. ",
-        }
-    },
 ]
