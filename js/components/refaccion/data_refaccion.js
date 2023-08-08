@@ -3,7 +3,7 @@ export let recetas= [
     {
         nombre: "Tortitas de arroz y queso",
         descripcion: "Es perfecta como guarnición o para acompañar con salsas sencillas.",
-        img: "./js/components/refaccion/imgrefa/tortitas-de-arroz-y-queso-C.jpg",
+        img: "./js/components/refaccion/imgrefa/tortitas1.jpg",
         ingredientes: {
             ingrediente1: "1 vasito de arroz especial para microondas o 125g de arroz cocido",
             ingrediente2: "1 Huevo",
@@ -26,7 +26,7 @@ export let recetas= [
     {
         nombre: "Gelatina de frutas",
         descripcion: "Refrescante gelatina de frutas que es perfecta para el verano.",
-        img:  "./js/components/refaccion/imgrefa/gelatina-mixta-de-frutas.png",
+        img:  "./js/components/refaccion/imgrefa/gelatina2.png",
         ingredientes: {
             ingrediente1: "2 paquetes de gelatina de diferentes sabores",
             ingrediente2: "2 tazas de agua caliente",
@@ -45,7 +45,7 @@ export let recetas= [
     {
         nombre: "Tostadas Francesas",
         descripcion: "Las tostadas francesas son una opción deliciosa para la refacción.",
-        img:  "./js/components/refaccion/imgrefa/tostadas.jpg-editada.jpg",
+        img:  "./js/components/refaccion/imgrefa/tostadas3.jpg",
         ingredientes: {
             ingrediente1: "4 rebanadas de pan",
             ingrediente2: "2 huevos",
@@ -71,7 +71,7 @@ export let recetas= [
     {
         nombre: " Pan con aguacate y huevo",
         descripcion: "Esta receta simple y nutritiva.",
-        img: "./js/components/refaccion/imgrefa/desayuno-saludable-sandwich-aguacate-y-huevo-1200x900.png",
+        img: "./js/components/refaccion/imgrefa/panah4.png",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan integral",
             ingrediente2: "1 aguacate maduro",
@@ -94,7 +94,7 @@ export let recetas= [
     {
         nombre: "Pan con salchicha",
         descripcion: "Perfecta para una comida rápida o una refacción satisfactoria.",
-        img: "./js/components/refaccion/imgrefa/Pan-para-hot-dogs-640x480.png",
+        img: "./js/components/refaccion/imgrefa/pancsalchicha5.png",
         ingredientes: {
             ingrediente1: "Salchichas (cantidad según prefieras)",
             ingrediente2: "Panecillos de hot dog o pan de hamburguesa",
@@ -112,7 +112,7 @@ export let recetas= [
     {
         nombre: "Pan con huevos revueltos",
         descripcion: "Una receta clásica y versátil.",
-        img: "./js/components/refaccion/imgrefa/bread-toast-with-scramble-egg-photo.png",
+        img: "./js/components/refaccion/imgrefa/panchuevo6.png",
         ingredientes: {
             ingrediente1: "Pan rebanado (puedes usar pan de molde o cualquier tipo de pan que prefieras)",
             ingrediente2: "Huevos",
@@ -134,7 +134,7 @@ export let recetas= [
     {
         nombre: "Platanos fritos",
         descripcion: "Deliciosa y popular receta con una textura increíble.",
-        img: "./js/components/refaccion/imgrefa/GettyImages-1163022179-1.jpg",
+        img: "./js/components/refaccion/imgrefa/platanos7.jpg",
         ingredientes: {
             ingrediente1: "Plátanos maduros (preferiblemente plátanos machos)",
             ingrediente2: "Aceite vegetal o de girasol para freír",
@@ -155,7 +155,7 @@ export let recetas= [
     {
         nombre: "Pan con jamón y queso",
         descripcion: "Una receta clásica y reconfortante.",
-        img:  "./js/components/refaccion/imgrefa/sandwich-mixto-xl-848x477x80xX.png",
+        img:  "./js/components/refaccion/imgrefa/pancjamon8.png",
         ingredientes: {
             ingrediente1: "Pan de tu elección (preferiblemente pan de molde o baguette)",
             ingrediente2: "Lonchas de jamón (puedes usar jamón cocido, jamón serrano u otro tipo de jamón)",
@@ -177,7 +177,7 @@ export let recetas= [
     {
         nombre: "Cereal con leche ",
         descripcion: "Receta clásica y popular que consiste en combinar cereales crujientes con leche.",
-        img:  "./js/components/refaccion/imgrefa/Cereales-en-el-desayuno.jpg",
+        img:  "./js/components/refaccion/imgrefa/cereal9.jpg",
         ingredientes: {
             ingrediente1: "Cereal de tu elección (por ejemplo, copos de maíz, hojuelas de trigo, granola, etc.)",
             ingrediente2: "Leche (puede ser leche de vaca, leche vegetal como la de almendras, avena, soja, etc.)",
@@ -196,7 +196,7 @@ export let recetas= [
     {
         nombre: "Ensalada de sandía y queso blanco",
         descripcion: "Una refrescante ensalada de verano.",
-        img: "./js/components/refaccion/imgrefa/ensalada-sandia-queso-770x485.jpg",
+        img: "./js/components/refaccion/imgrefa/ensalada10.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de sandía cortada en cubos",
             ingrediente2: "100 g de queso feta desmenuzado",
@@ -218,7 +218,7 @@ export let recetas= [
     {
         nombre: "Tostada integral con crema de cacahuete y plátano",
         descripcion: "Una receta rica en grasas saludables",
-        img: "./js/components/refaccion/imgrefa/c39c6dd934d39d3fbcefbf00e212dea8.jpg",
+        img: "./js/components/refaccion/imgrefa/integral11.jpg",
         ingredientes: {
             ingrediente1: "Tostada integral",
             ingrediente2: "crema de cacahuete al 100% ",
@@ -235,7 +235,7 @@ export let recetas= [
     {
         nombre: "Tortitas de papas",
         descripcion: "Ideales como guarnición o como plato principal ligero.",
-        img: "./js/components/refaccion/imgrefa/tortitas.jpg",
+        img: "./js/components/refaccion/imgrefa/tpapa12.jpg",
         ingredientes: {
             ingrediente1: "4 patatas grandes, peladas y ralladas",
             ingrediente2: "1 cebolla pequeña, finamente picada",
@@ -259,7 +259,7 @@ export let recetas= [
     {
         nombre: "Nachos de papa con frijoles y guacamole",
         descripcion: "Nachos saludables hechos con papa.",
-        img: "./js/components/refaccion/imgrefa/nachos-mexicanos-con-queso-guacamole-y-chili-con-carne.jpg",
+        img: "./js/components/refaccion/imgrefa/nchos13.jpg",
         ingredientes: {
             ingrediente1: "2 papas grandes",
             ingrediente2: "Aceite de oliva",
@@ -283,7 +283,7 @@ export let recetas= [
     {
         nombre: "Pinchos de pollo teriyaki",
         descripcion: "Perfectos como aperitivo o plato principal.",
-        img: "./js/components/refaccion/imgrefa/5.jpg",
+        img: "./js/components/refaccion/imgrefa/pinchos14.jpg",
         ingredientes: {
             ingrediente1: "2 pechugas de pollo, cortadas en trozos pequeños",
             ingrediente2: "4 cucharadas de salsa teriyaki",
@@ -304,7 +304,7 @@ export let recetas= [
     {
         nombre: "Rollitos de lechuga con pollo y aguacate",
         descripcion: "Perfectos como refacción saludable y baja en carbohidratos.",
-        img: "./js/components/refaccion/imgrefa/404.jpg",
+        img: "./js/components/refaccion/imgrefa/rollos15.jpg",
         ingredientes: {
             ingrediente1: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
             ingrediente2: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
@@ -328,7 +328,7 @@ export let recetas= [
     {
         nombre: "Sándwich de pollo y aguacate",
         descripcion: "Un sándwich delicioso y nutritivo.",
-        img: "./js/components/refaccion/imgrefa/Sándwich de pollo y aguacate.jpg",
+        img: "./js/components/refaccion/imgrefa/sanwich16.jpg",
         ingredientes: {
             ingrediente1: "Pan de sándwich",
             ingrediente2: "Pechuga de pollo cocida y desmenuzada",
@@ -354,7 +354,7 @@ export let recetas= [
     {
         nombre: "Wrap de Pollo y Vegetales",
         descripcion: "Un wrap rápido y sabroso lleno de pollo y vegetales frescos.",
-        img: "./js/components/refaccion/imgrefa/presentacion-principal-del-wrap-de-pollo-y-verduras.jpg",
+        img: "./js/components/refaccion/imgrefa/wrap17.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
             ingrediente2: "Pechuga de pollo cocida y cortada en tiras",
@@ -377,7 +377,7 @@ export let recetas= [
     {
         nombre: "Mug cake de plátano.",
         descripcion: "Un delicioso y esponjoso pastel en taza.",
-        img: "./js/components/refaccion/imgrefa/Mug-cake-platano-850x550.jpg",
+        img: "./js/components/refaccion/imgrefa/mug18.jpg",
         ingredientes: {
             ingrediente1: "1 huevo",
             ingrediente2: "½ plátano maduro",
@@ -396,7 +396,7 @@ export let recetas= [
     {
         nombre: "Cupcakes de zanahoria",
         descripcion: "Cupcakes húmedos y esponjosos con sabor a zanahoria.",
-        img: "./js/components/refaccion/imgrefa/cupcakes-zanahoria-harina-hotcakes.jpg",
+        img: "./js/components/refaccion/imgrefa/zanahoria19.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de zanahorias ralladas",
             ingrediente2: "1 1/2 tazas de harina",
@@ -423,7 +423,7 @@ export let recetas= [
     {
         nombre: "Pastel de chocolate",
         descripcion: "Un delicioso pastel de chocolate esponjoso.",
-        img: "./js/components/refaccion/imgrefa/images.jpg",
+        img: "./js/components/refaccion/imgrefa/pastel20.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de harina",
             ingrediente2: "1 3/4 tazas de azúcar",
@@ -448,7 +448,7 @@ export let recetas= [
     {
         nombre: "Muffins de plátano y nueces",
         descripcion: "Muffins suaves y deliciosos.",
-        img: "./js/components/refaccion/imgrefa/4-ingredient-banana-bread-muffins-21.jpg",
+        img: "./js/components/refaccion/imgrefa/platano21.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros, aplastados",
             ingrediente2: "1/2 taza de azúcar",
@@ -477,7 +477,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de espinacas y queso",
         descripcion: "Quesadillas sabrosas y nutritivas.",
-        img: "./js/components/refaccion/imgrefa/photo.jpg",
+        img: "./js/components/refaccion/imgrefa/quesadilla22.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
             ingrediente2: "Hojas de espinaca fresca",
@@ -498,7 +498,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de Queso",
         descripcion: "Un clásico simple y sabroso.",
-        img: "./js/components/refaccion/imgrefa/900X570_Two-Cheese-Quesadillas.jpg",
+        img: "./js/components/refaccion/imgrefa/quesadillaq23.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o trigo",
             ingrediente2: "Queso rallado (cheddar, mozzarella, etc.)",
@@ -519,7 +519,7 @@ export let recetas= [
     {
         nombre: "Barras de Cereal",
         descripcion: "Barras de cereal sin gluten y saludables.",
-        img: "./js/components/refaccion/imgrefa/prefieren-frutas-y-barras-de-cereal.jpg",
+        img: "./js/components/refaccion/imgrefa/barras24.jpg",
         ingredientes: {
             ingrediente1: "2 Tazas de pipocas de quínoa o arroz inflado",
             ingrediente2: "1 Taza de manjar",
@@ -538,7 +538,7 @@ export let recetas= [
     {
         nombre: "Barritas de avena y frutos secos",
         descripcion: "Barritas energéticas y saludables.",
-        img: "./js/components/refaccion/imgrefa/cuadritos-de-avena.jpg",
+        img: "./js/components/refaccion/imgrefa/avena25.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de avena",
             ingrediente2: "1 taza de frutos secos picados (almendras, nueces, pistachos, etc.)",
@@ -560,7 +560,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de pollo",
         descripcion: "Deliciosas quesadillas rellenas de pollo y queso derretido.",
-        img: "./js/components/refaccion/imgrefa/chicken-and-avocado-quesadillas.jpg",
+        img: "./js/components/refaccion/imgrefa/pollo26.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o harina",
             ingrediente2: "Pollo cocido desmenuzado",

@@ -46,6 +46,7 @@
   margin-left: 2rem;
   border-radius: 1rem;
   margin-top: 1.5rem;
+  object-fit: contain;
 }
 .circulo_arriba{ /*circulo flotante*/
   width: 90%;
@@ -133,6 +134,7 @@ strong {
   margin-top: 1rem;
   width: 25rem;
   height: 25rem;
+  object-fit: contain;
 }
 
 
