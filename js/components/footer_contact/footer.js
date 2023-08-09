@@ -53,7 +53,7 @@ function llamar_footer() {
                 <h2>¿Qué tecnologías se utilizaron en la creación de este proyecto?</h2>
                 <div class="element">
                     <p>
-                        Para este pryecto se trabajo con las tecnologías de HTML, CSS y Javascript.
+                        Para este proyecto se trabajo con las tecnologías de HTML, CSS y Javascript.
                     </p>
                 </div>
             </div>
@@ -62,9 +62,9 @@ function llamar_footer() {
                 <h2>¿Cuál es el propósito de este proyecto?</h2>
                 <div class="element">
                     <p>
-                        Este proyecto está enfocado dar a conocer platillos nutritivos y saludables
-                        para todos aquellos consumidores que desean comer alimentos más nutritivos en cada
-                        tiempo de comida y de manera rápida.
+                        Este proyecto está enfocado en dar a conocer platillos nutritivos y saludables
+                        para todos aquellos consumidores que deseen comer alimentos más nutritivos en cada
+                        tiempo de comida y en un tiempo de preparación corto.
                     </p>
                 </div>
             </div>
