@@ -2,7 +2,6 @@
 export let cena = [
 
   {
-
     "nombre": "Huevos rotos saludables",
     "tiempo": "15 minutos de preparación",
     "descripcion": "Son uno de los platos estrella de nuestra gastronomía.",
