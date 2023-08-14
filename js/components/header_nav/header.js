@@ -89,7 +89,6 @@ function showNoConsumir() {
   noConsumirSection.classList.remove("ocultar");
   noConsumirSection.scrollIntoView({ behavior: "smooth" });
 }
-
 function showSection(section) {
   if (section === "home") {
     showHome();
