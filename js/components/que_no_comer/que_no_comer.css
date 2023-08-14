@@ -1,49 +1,91 @@
-.principal{
-  position: absolute;
-  height: 519px;
-  left: -47.7px;
-  right: -57.3px;
-  top: -282px;
+.caja{
+  margin: -1rem;
+}
 
-  background: rgba(255, 132, 80, 0.83);
+.elip{
+  width: 100%;
+}
+
+.principal{
+    position: absolute;
+    height: 519px;
+    left: -47.7px;
+    right: -57.3px;
+    top: -282px;
+
+    background: rgba(255, 132, 80, 0.83);
 }
 
 .titulo1{
-  align-content: center;
-  font-family: 'Kaushan Script';
+  font-size: 2.5rem;
+  color: #CD0000;
+  margin-top: -11rem;
+  margin-bottom: 12rem;
   display: flex;
   text-align: center;
-  font-size: 3rem;
-
-  color: #CD0000;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Ubuntu', sans-serif;
 }
 .cuadro{
-width: 100%;
-max-width: 600px;
-border: 1px solid #ccc;
-border-radius: 8px;
-padding: 16px;
-text-align: center;
-box-sizing: border-box;
-margin: 0 auto;
-background: white;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: #F9E9E2;
+  margin-top: 7px;
 
 }
 .img {
-width: 190%;
-max-width: 325px;
-height: auto;
-border-radius: 8px;
-margin-bottom: 12px;
+  width: 190%;
+  max-width: 325px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 .titulo{
-font-size: 24px;
-margin-bottom: 8px;
-font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-family: 'Ubuntu', sans-serif;
 }
 .descrip{
-font-size: 18px;
-color: #666;
+  font-size: 18px;
+  color: #666;
+}
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-consumir{
+  margin: 0%;
+}
+
+#buscador.no-consumir{
+  width: 70vw;
+  padding: 10px;
+  outline: none;
+  border: 3px solid #ffce3b;
+  border-radius: 7%;
+  font-weight: 600;
+  margin: 0%;
+  
+}
+.caja_buscador{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.li{
+  margin: 5px 0;
+}
+
+.filtro{
+  display: none;
 }
