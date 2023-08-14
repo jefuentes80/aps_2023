@@ -3,6 +3,7 @@ export let recetas= [
     {
         nombre: "Tortitas de arroz y queso",
         descripcion: "Es perfecta como guarnición o para acompañar con salsas sencillas.",
+        tiempo: "30 minutos",
         img: "./js/components/refaccion/imgrefa/tortitas1.jpg",
         ingredientes: {
             ingrediente1: "1 vasito de arroz especial para microondas o 125g de arroz cocido",
@@ -26,6 +27,7 @@ export let recetas= [
     {
         nombre: "Gelatina de frutas",
         descripcion: "Refrescante gelatina de frutas que es perfecta para el verano.",
+        tiempo: "15 minutos",
         img:  "./js/components/refaccion/imgrefa/gelatina2.png",
         ingredientes: {
             ingrediente1: "2 paquetes de gelatina de diferentes sabores",
@@ -45,6 +47,7 @@ export let recetas= [
     {
         nombre: "Tostadas Francesas",
         descripcion: "Las tostadas francesas son una opción deliciosa para la refacción.",
+        tiempo: "20 minutos",
         img:  "./js/components/refaccion/imgrefa/tostadas3.jpg",
         ingredientes: {
             ingrediente1: "4 rebanadas de pan",
@@ -71,6 +74,7 @@ export let recetas= [
     {
         nombre: " Pan con aguacate y huevo",
         descripcion: "Esta receta simple y nutritiva.",
+        tiempo: "10-15 minutos",
         img: "./js/components/refaccion/imgrefa/panah4.png",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan integral",
@@ -94,6 +98,7 @@ export let recetas= [
     {
         nombre: "Pan con salchicha",
         descripcion: "Perfecta para una comida rápida o una refacción satisfactoria.",
+        tiempo: "10-15 minutos",
         img: "./js/components/refaccion/imgrefa/pancsalchicha5.png",
         ingredientes: {
             ingrediente1: "Salchichas (cantidad según prefieras)",
@@ -112,6 +117,7 @@ export let recetas= [
     {
         nombre: "Pan con huevos revueltos",
         descripcion: "Una receta clásica y versátil.",
+        tiempo: "10-15 minutos",
         img: "./js/components/refaccion/imgrefa/panchuevo6.png",
         ingredientes: {
             ingrediente1: "Pan rebanado (puedes usar pan de molde o cualquier tipo de pan que prefieras)",
@@ -134,6 +140,7 @@ export let recetas= [
     {
         nombre: "Platanos fritos",
         descripcion: "Deliciosa y popular receta con una textura increíble.",
+        tiempo: "15-25 minutos",
         img: "./js/components/refaccion/imgrefa/platanos7.jpg",
         ingredientes: {
             ingrediente1: "Plátanos maduros (preferiblemente plátanos machos)",
@@ -155,6 +162,7 @@ export let recetas= [
     {
         nombre: "Pan con jamón y queso",
         descripcion: "Una receta clásica y reconfortante.",
+        tiempo: "5-10 minutos",
         img:  "./js/components/refaccion/imgrefa/pancjamon8.png",
         ingredientes: {
             ingrediente1: "Pan de tu elección (preferiblemente pan de molde o baguette)",
@@ -177,6 +185,7 @@ export let recetas= [
     {
         nombre: "Cereal con leche ",
         descripcion: "Receta clásica y popular que consiste en combinar cereales crujientes con leche.",
+        tiempo: "5-10 minutos",
         img:  "./js/components/refaccion/imgrefa/cereal9.jpg",
         ingredientes: {
             ingrediente1: "Cereal de tu elección (por ejemplo, copos de maíz, hojuelas de trigo, granola, etc.)",
@@ -196,6 +205,7 @@ export let recetas= [
     {
         nombre: "Ensalada de sandía y queso blanco",
         descripcion: "Una refrescante ensalada de verano.",
+        tiempo: "15-20 minutos",
         img: "./js/components/refaccion/imgrefa/ensalada10.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de sandía cortada en cubos",
@@ -218,6 +228,7 @@ export let recetas= [
     {
         nombre: "Tostada integral con crema de cacahuete y plátano",
         descripcion: "Una receta rica en grasas saludables",
+        tiempo: "5-10 minutos",
         img: "./js/components/refaccion/imgrefa/integral11.jpg",
         ingredientes: {
             ingrediente1: "Tostada integral",
@@ -235,6 +246,7 @@ export let recetas= [
     {
         nombre: "Tortitas de papas",
         descripcion: "Ideales como guarnición o como plato principal ligero.",
+        tiempo: "30-50 minutos",
         img: "./js/components/refaccion/imgrefa/tpapa12.jpg",
         ingredientes: {
             ingrediente1: "4 patatas grandes, peladas y ralladas",
@@ -257,8 +269,9 @@ export let recetas= [
     },
 
     {
-        nombre: "Nachos de papa con frijoles y guacamole",
+        nombre: "Nachos de papa con frijoles y aguacate",
         descripcion: "Nachos saludables hechos con papa.",
+        tiempo: "15-25 minutos",
         img: "./js/components/refaccion/imgrefa/nchos13.jpg",
         ingredientes: {
             ingrediente1: "2 papas grandes",
@@ -283,6 +296,7 @@ export let recetas= [
     {
         nombre: "Pinchos de pollo teriyaki",
         descripcion: "Perfectos como aperitivo o plato principal.",
+        tiempo: "30-45 minutos",
         img: "./js/components/refaccion/imgrefa/pinchos14.jpg",
         ingredientes: {
             ingrediente1: "2 pechugas de pollo, cortadas en trozos pequeños",
@@ -304,6 +318,7 @@ export let recetas= [
     {
         nombre: "Rollitos de lechuga con pollo y aguacate",
         descripcion: "Perfectos como refacción saludable y baja en carbohidratos.",
+        tiempo: "20-30 minutos",
         img: "./js/components/refaccion/imgrefa/rollos15.jpg",
         ingredientes: {
             ingrediente1: "Hojas grandes de lechuga tipo iceberg o lechuga romana",
@@ -328,6 +343,7 @@ export let recetas= [
     {
         nombre: "Sándwich de pollo y aguacate",
         descripcion: "Un sándwich delicioso y nutritivo.",
+        tiempo: "10-15 minutos",
         img: "./js/components/refaccion/imgrefa/sanwich16.jpg",
         ingredientes: {
             ingrediente1: "Pan de sándwich",
@@ -354,6 +370,7 @@ export let recetas= [
     {
         nombre: "Wrap de Pollo y Vegetales",
         descripcion: "Un wrap rápido y sabroso lleno de pollo y vegetales frescos.",
+        tiempo: "10-15 minutos",
         img: "./js/components/refaccion/imgrefa/wrap17.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
@@ -377,6 +394,7 @@ export let recetas= [
     {
         nombre: "Mug cake de plátano.",
         descripcion: "Un delicioso y esponjoso pastel en taza.",
+        tiempo: "5-10 minutos",
         img: "./js/components/refaccion/imgrefa/mug18.jpg",
         ingredientes: {
             ingrediente1: "1 huevo",
@@ -396,6 +414,7 @@ export let recetas= [
     {
         nombre: "Cupcakes de zanahoria",
         descripcion: "Cupcakes húmedos y esponjosos con sabor a zanahoria.",
+        tiempo: "15-20 minutos",
         img: "./js/components/refaccion/imgrefa/zanahoria19.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de zanahorias ralladas",
@@ -423,6 +442,7 @@ export let recetas= [
     {
         nombre: "Pastel de chocolate",
         descripcion: "Un delicioso pastel de chocolate esponjoso.",
+        tiempo: "1 hora",
         img: "./js/components/refaccion/imgrefa/pastel20.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de harina",
@@ -448,6 +468,7 @@ export let recetas= [
     {
         nombre: "Muffins de plátano y nueces",
         descripcion: "Muffins suaves y deliciosos.",
+        tiempo: "15-20 minutos",
         img: "./js/components/refaccion/imgrefa/platano21.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros, aplastados",
@@ -477,6 +498,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de espinacas y queso",
         descripcion: "Quesadillas sabrosas y nutritivas.",
+        tiempo: "15-25 minutos",
         img: "./js/components/refaccion/imgrefa/quesadilla22.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de trigo o maíz",
@@ -498,6 +520,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de Queso",
         descripcion: "Un clásico simple y sabroso.",
+        tiempo: "15-25 minutos",
         img: "./js/components/refaccion/imgrefa/quesadillaq23.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o trigo",
@@ -519,6 +542,7 @@ export let recetas= [
     {
         nombre: "Barras de Cereal",
         descripcion: "Barras de cereal sin gluten y saludables.",
+        tiempo: "30-40 minutos",
         img: "./js/components/refaccion/imgrefa/barras24.jpg",
         ingredientes: {
             ingrediente1: "2 Tazas de pipocas de quínoa o arroz inflado",
@@ -538,6 +562,7 @@ export let recetas= [
     {
         nombre: "Barritas de avena y frutos secos",
         descripcion: "Barritas energéticas y saludables.",
+        tiempo: "30-40 minutos",
         img: "./js/components/refaccion/imgrefa/avena25.jpg",
         ingredientes: {
             ingrediente1: "2 tazas de avena",
@@ -560,6 +585,7 @@ export let recetas= [
     {
         nombre: "Quesadillas de pollo",
         descripcion: "Deliciosas quesadillas rellenas de pollo y queso derretido.",
+        tiempo: "15-25 minutos",
         img: "./js/components/refaccion/imgrefa/pollo26.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz o harina",
