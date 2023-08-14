@@ -26,7 +26,9 @@ function vista() {
     let bt21 = document.createElement("div");
     bt21.classList.add("bt21");
     bt21.innerHTML = `
-      <img src="${element.img}">
+      <div class="box_img">
+        <img src="${element.img}">
+      </div>
       <div class="solotexto">
         <h3 class="titu_comida">${element.nombre}</h3>
         <p class="descripcion_comida">${element.descripcion}</p>

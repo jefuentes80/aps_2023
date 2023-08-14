@@ -5,7 +5,7 @@ export let cena = [
     nombre: "Huevos rotos saludables",
     tiempo: "15 minutos de preparación",
     descripcion: "Son uno de los platos estrella de nuestra gastronomía.",
-    img :"https://canalcocina.es/medias/_cache/zoom-ce2dc95fd5d8cc134220da1eaeb0ad51-920-518.jpg",
+    img :"https://newluxbrand.com/wp-content/uploads/2023/04/Abril23_V55_huevosrotosconjamon_01-optimized.jpg",
     ingredientes: {
     ingredientes1: "400g de Papas",
     ingredientes2: "3 ad de Huevos",
@@ -26,10 +26,10 @@ export let cena = [
     },
     },
   {
-      nombre: "Huevos tirados con frijol ",
+      nombre: "Huevos revueltos  con frijol ",
       tiempo: "20 minutos de preparación",
       descripcion: "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
-      img: "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2013/06/huevos-tirados-con-frijol.jpg",
+      img: "https://us.123rf.com/450wm/arkadijschell/arkadijschell2210/arkadijschell221001548/192691829-desayuno-mexicano-huevos-revueltos-con-frijoles-negros-en-zicatela-puerto-escondido-oaxaca-mexico.jpg?ver=6",
       ingredientes: {
           ingrediente1: "6 huevos",
           ingrediente2: "1/4 de taza de crema",
@@ -73,7 +73,7 @@ export let cena = [
       nombre: "Pimiento de 3 colores",
       tiempo: "Tiempo: 20 minutos /Fácil/Económico",
       descripcion: "La propuesta de hoy que no te fallara este dilicioso platillo.",
-      img: "https://images.hola.com/imagenes/cocina/recetas/20200421166248/pimientos-rellenos-huevos-corral/0-814-225/pimientos-rellenos-t.jpg?tx=w_680",
+      img: "https://www.rebanando.com/media/huevos-al-microondas_crop.jpg/rh/huevos-al-microondas-con-tomate-y-pimientos.jpg",
       ingredientes: {
           ingrediente1: "1 pimiento rojo",
           ingrediente2: "1 pimiento verde",
@@ -143,7 +143,7 @@ export let cena = [
 
 },
 {
-  nombre: "Tortilla de espinacas y queso",
+  nombre: "Tortilla de espinaca y queso",
   tiempo: "20 minutos de preparación",
   descripcion: " Es sencilla de preparar y perfecta para una cena ligera y sabrosa.",
   img: "https://cdn0.recetasgratis.net/es/posts/1/4/1/tortilla_de_espinacas_35141_orig.jpg",
@@ -169,7 +169,7 @@ export let cena = [
   }
 },
 {
-  nombre: "Quesadilla de huevo y vegetals",
+  nombre: "Quesadilla de huevo y vegetales",
   tiempo: "20 minutos de preparación",
   descripcion: "Deliciosa receta para cena!.",
   img: "https://www.vvsupremo.com/wp-content/uploads/2018/02/Egg-White-Breakfast-Quesadilla.jpg",
@@ -251,7 +251,7 @@ export let cena = [
            nombre: "Atol de arroz y canela",
            tiempo: "30 minutos de preparación",
            descripcion: "Tu combinación favorita en una deliciosa bebida. ",
-           img: "https://images.cookforyourlife.org/wp-content/uploads/2018/08/Rice-and-Cinnamon-Atole.jpg",
+           img: "https://m.media-amazon.com/images/I/81JKtWNUY+L._UC256,256_CACC,256,256_.jpg",
            ingredientes: {
                ingrediente1: "3 tazas de agua",
                ingrediente2: "3 tazas de leche",
@@ -272,7 +272,7 @@ export let cena = [
        nombre: "Atol de Reyes",
        tiempo: "40 minutos de preparación",
        descripcion: " Este delicioso atole está hecho con ingredientes como masa de maíz,panela.",
-       img: "https://cdn.sanity.io/images/jsdrzfkj/production-esmx/4f65d38950f7fc365202c7cd9012e11b7e758964-546x360.png",
+       img: "https://nuestra-voz.org/wp-content/uploads/2017/12/20150202-mexican-atoles-drinks-vicky-wasik-23-e1514413399142.jpg",
        ingredientes: {
            ingrediente1: "2 tazas de puré de camote",
            ingrediente2: "1 taza de piloncillo",
@@ -323,10 +323,10 @@ export let cena = [
  
  },
  {
-   nombre: "atol de avena y canela",
+   nombre: "Atol de avena y canela",
    tiempo: "20 minutos de preparación",
    descripcion: "El atole de avena y canela es una bebida reconfortante.",
-   img: "https://quaker.lat/app/uploads/sites/2/2019/06/Qk19_Imagenes_Receta_Mobile_Atole.jpg",
+   img: "https://cdn2.cocinadelirante.com/sites/default/files/images/2021/07/como-hacer-atole-de-avena-con-leche.jpg",
    ingredientes: {
        ingrediente1: "1 litro de leche",
        ingrediente2: "1 taza de avena",
@@ -378,7 +378,7 @@ export let cena = [
     nombre: "Mini tamales de frijol con salsa roja",
     tiempo: "60 minutos de preparación",
     descripcion: "Saborea esa deliciosa combinación de frijoles y salsa roja.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfk7c4HWdEYUZiQNY_CY21MhFHpJDElKasA&usqp=CAU",
+    img: "https://media02.stockfood.com/largepreviews/MzA2NzkyNDM=/00989653-Mini-Beef-Tamales-in-Corn-Husks-Black-Beans.jpg",
     ingredientes: {
     ingrediente1: "1 kg de Masa de maíz",
     ingrediente2: "100 gr de Manteca de Cerdo",
@@ -485,7 +485,7 @@ export let cena = [
             nombre: "Pizza expres de pan sandwich",
             tiempo: "30 minutos de preparación",
             descripcion: "La pizza exprés fácil para disfrutar de una deliciosa pizza casera.",
-            img: "https://www.scrappingparados.com/wp-content/uploads/2014/05/Pizzas-Rapidas-con-Pan-de-Molde.jpg",
+            img: "https://content-cocina.lecturas.com/medio/2018/07/19/pizzetas-expres_fc2375b3_800x800.jpg",
             ingredientes: {
                 ingrediente1: "8 rebanadas de pan de molde sin corteza",
                 
@@ -549,7 +549,7 @@ export let cena = [
     nombre: "Pollo a la plancha con lima",
     tiempo: "25 minutos de preparación",
     descripcion: "El pollo a la plancha con lima es una opción saludable. ",
-    img: "https://img.freepik.com/fotos-premium/pollo-plancha-salsa-lima-limon_1339-118973.jpg",
+    img: "https://content-cocina.lecturas.com/medio/2018/07/19/pollo-a-la-plancha-marinado-con-lima_d7ecc664_800x800.jpg",
     ingredientes: {
         ingrediente1: "4 filetes de pechuga de pollo",
         ingrediente2: "2 dientes de ajo",
@@ -600,7 +600,7 @@ export let cena = [
     nombre: "Pechuga de pollo ",
     tiempo: "40 minutos de preparación",
     descripcion: ". Es una receta fácil de preparar y una excelente manera de disfrutar.",
-    img: "https://canalcocina.es/medias/_cache/zoom-8c77bca42464bf452f9a14580ddc2231-920-518.jpg",
+    img: "https://content-cocina.lecturas.com/medio/2020/11/16/pollo_caprese_al_pesto_1b80ce4b_600x600.jpg",
     ingredientes: {
         ingrediente1: "600 g de filetes de pechuga de pollo",
         ingrediente2: "1 cebolla",
@@ -648,10 +648,10 @@ export let cena = [
   
   },
   {
-    nombre: "Enfri joladas veganas",
+    nombre: "Frijoles veganas",
     tiempo:"30 minutos ",
     descripcion: " Las enfrijoladas son una muy buena opción para el día a día.",
-    img: "https://cdn0.recetasgratis.net/es/posts/6/0/7/enfrijoladas_veganas_75706_orig.jpg",
+    img: "https://polacocina.com/wp-content/uploads/2021/09/IMG_0812_500x750-256x256.jpeg",
     ingredientes: {
         ingrediente1: "1 taza de frijoles cocidos",
         ingrediente2: "1 cucharadita de aceite de oliva",

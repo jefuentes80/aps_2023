@@ -53,13 +53,21 @@
   font-weight: 400;
 }
 
-.bt21 img{
+.bt21 .box_img{
   margin: 1rem;
   margin-top: 1.5rem;
   border-radius: 1rem;
   width: 15rem;
-  height: 15rem;   
+  height: 15rem;  
 }
+.bt21 .box_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.6rem;
+}
+
 .vistaP{
   height: 4rem;
   width: 5rem;
@@ -69,19 +77,15 @@
 
 
 .flores {
-  max-height: 70vh; /* Esn este 60 vh es para la modificacion de la la segunda ventana que se habre  */
-  width: 90%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background-color: #e8c9d7;
   position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
+  top: 0;
+  left: 0;
   z-index: 9999;
   overflow-y: auto;
 }
-
 
 .cerrar{
   border: none; 
@@ -97,9 +101,19 @@
 }
 
 .flor_img{
+  margin: 1rem;
   margin-top: 1.5rem;
-  width: 26rem;
-  height: 26rem;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 25rem;  
+
+}
+.flor_img_caja{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.6rem;
 }
 
 .flor_titingred{
@@ -111,17 +125,17 @@
 
 .fonts{
   font-size: 1.5rem;
-  margin-left: 1.3rem;
+  margin-left: 1.1rem;
 }
 
 .flor_prep{
   margin-top: 2rem;
   font-size: 1.8rem;
-  margin-left: 1.3rem;
+  margin-left: 1.1rem;
   margin-bottom: 1rem;
 }
 
 .prep{
   font-size: 1.5rem;
-  margin-left: 1.3rem; 
+  margin-left: 1.7rem; 
 }
