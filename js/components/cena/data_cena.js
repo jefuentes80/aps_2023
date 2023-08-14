@@ -2,34 +2,33 @@
 export let cena = [
 
   {
-
-    "nombre": "Huevos rotos saludables",
-    "tiempo": "15 minutos de preparación",
-    "descripcion": "Son uno de los platos estrella de nuestra gastronomía.",
+    nombre: "Huevos rotos saludables",
+    tiempo: "15 minutos de preparación",
+    descripcion: "Son uno de los platos estrella de nuestra gastronomía.",
     img :"https://canalcocina.es/medias/_cache/zoom-ce2dc95fd5d8cc134220da1eaeb0ad51-920-518.jpg",
-    "ingredientes": {
-    "ingredientes1": "400g de Papas",
-    "ingredientes2": "3 ad de Huevos",
-    "ingredientes3": "40g de Jamón",
-    "ingredientes4": "5 g de Cebollin",
-    "ingredientes5": "0.5 cucharadita de Cilanntro",
-    "ingredientes6": "0.5 cucharadita de Pimienta negra",
-    "ingredientes7": "10 g de Aceite de oliva",
-    "ingredientes8": "Sal al gusto"
+    ingredientes: {
+    ingredientes1: "400g de Papas",
+    ingredientes2: "3 ad de Huevos",
+    ingredientes3: "40g de Jamón",
+    ingredientes4: "5 g de Cebollin",
+    ingredientes5: "0.5 cucharadita de Cilanntro",
+    ingredientes6: "0.5 cucharadita de Pimienta negra",
+    ingredientes7: "10 g de Aceite de oliva",
+    ingredientes8: "Sal al gusto"
     },
-    "preparacion": {
-    "paso1": "Lava y pela las papas. Córtalas en rodajas finas o en forma de bastones.",
-    "paso2": "Calienta el aceite de oliva en una sartén grande a fuego medio-alto. Agrega las papas y cocina hasta que estén doradas y crujientes, revolviendo ocasionalmente. Esto tomará aproximadamente 10 minutos.",
-    "paso3": "Mientras las papas se cocinan, bate los huevos en un tazón aparte. Agrega el jamón, el cebollín, el cilantro y la pimienta negra. Mezcla bien.",
-    "paso4": "Una vez que las papas estén listas, reduce el fuego a medio-bajo y vierte la mezcla de huevos sobre las papas en la sartén. Cocina durante unos 2-3 minutos, revolviendo suavemente, hasta que los huevos estén cocidos pero aún jugosos.",
-    "paso5": "Retira la sartén del fuego y sazona con sal al gusto.",
-    "paso6": "Sirve los huevos rotos saludables de inmediato. Puedes acompañarlos con una ensalada fresca o pan tostado."
+    preparacion: {
+    paso1: "Lava y pela las papas. Córtalas en rodajas finas o en forma de bastones.",
+    paso2: "Calienta el aceite de oliva en una sartén grande a fuego medio-alto. Agrega las papas y cocina hasta que estén doradas y crujientes, revolviendo ocasionalmente. Esto tomará aproximadamente 10 minutos.",
+    paso3: "Mientras las papas se cocinan, bate los huevos en un tazón aparte. Agrega el jamón, el cebollín, el cilantro y la pimienta negra. Mezcla bien.",
+    paso4: "Una vez que las papas estén listas, reduce el fuego a medio-bajo y vierte la mezcla de huevos sobre las papas en la sartén. Cocina durante unos 2-3 minutos, revolviendo suavemente, hasta que los huevos estén cocidos pero aún jugosos.",
+    paso5: "Retira la sartén del fuego y sazona con sal al gusto.",
+    paso6: "Sirve los huevos rotos saludables de inmediato. Puedes acompañarlos con una ensalada fresca o pan tostado."
     },
     },
   {
       nombre: "Huevos tirados con frijol ",
-      "tiempo": "20 minutos de preparación",
-      "descripcion": "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
+      tiempo: "20 minutos de preparación",
+      descripcion: "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
       img: "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2013/06/huevos-tirados-con-frijol.jpg",
       ingredientes: {
           ingrediente1: "6 huevos",
@@ -49,25 +48,25 @@ export let cena = [
   },
   {
 
-    "nombre": "Huevo con salchicha",
-    "tiempo": "10 minutos de preparación",
-    "descripcion": "Puedes disfrutarlo solo o acompañado de pan tostado.",
+    nombre: "Huevo con salchicha",
+    tiempo: "10 minutos de preparación",
+    descripcion: "Puedes disfrutarlo solo o acompañado de pan tostado.",
     img: "https://cdn7.kiwilimon.com/recetaimagen/15487/960x640/7532.jpg.jpg",
-    "ingredientes": {
-    "ingrediente1": "2 huevos",
-    "ingrediente2": "2 salchichas",
-    "ingrediente3": "1 cucharada de aceite vegetal",
-    "ingrediente4": "Sal y pimienta al gusto",
-    "ingrediente5": "Opcional: cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección"
+    ingredientes: {
+    ingrediente1: "2 huevos",
+    ingrediente2: "2 salchichas",
+    ingrediente3: "1 cucharada de aceite vegetal",
+    ingrediente4: "Sal y pimienta al gusto",
+    ingrediente5: "Opcional: cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección"
     },
-    "preparacion": {
-    "paso1": "En una sartén, calienta el aceite vegetal a fuego medio.",
-    "paso2": "Agrega las salchichas a la sartén y cocínalas hasta que estén doradas y cocidas por todos los lados. Retíralas de la sartén y resérvalas.",
-    "paso3": "En la misma sartén, rompe los huevos y agrégalos. Cocina los huevos revueltos o al gusto deseado, revolviéndolos suavemente con una espátula.",
-    "paso4": "Condimenta los huevos con sal y pimienta al gusto.",
-    "paso5": "Si deseas, puedes agregar cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección a los huevos mientras se cocinan.",
-    "paso6": "Una vez que los huevos estén cocidos, sirve el huevo con salchicha en un plato y coloca las salchichas cocidas al lado.",
-    "paso7": "Disfruta de este sabroso desayuno acompañado de tus acompañamientos favoritos."
+    preparacion: {
+    paso1: "En una sartén, calienta el aceite vegetal a fuego medio.",
+    paso2: "Agrega las salchichas a la sartén y cocínalas hasta que estén doradas y cocidas por todos los lados. Retíralas de la sartén y resérvalas.",
+    paso3: "En la misma sartén, rompe los huevos y agrégalos. Cocina los huevos revueltos o al gusto deseado, revolviéndolos suavemente con una espátula.",
+    paso4: "Condimenta los huevos con sal y pimienta al gusto.",
+    paso5: "Si deseas, puedes agregar cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección a los huevos mientras se cocinan.",
+    paso6: "Una vez que los huevos estén cocidos, sirve el huevo con salchicha en un plato y coloca las salchichas cocidas al lado.",
+    paso7: "Disfruta de este sabroso desayuno acompañado de tus acompañamientos favoritos."
     }
     },
   {
@@ -378,38 +377,38 @@ export let cena = [
 
     nombre: "Mini tamales de frijol con salsa roja",
     tiempo: "60 minutos de preparación",
-    "descripcion": "Saborea esa deliciosa combinación de frijoles y salsa roja.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfk7c4HWdEYUZiQNY_CY21MhFHpJDElKasA&usqp=CAU",
-    "ingredientes": {
-    "ingrediente1": "1 kg de Masa de maíz",
-    "ingrediente2": "100 gr de Manteca de Cerdo",
-    "ingrediente3": "200 gr de Manteca Vegetal",
-    "ingrediente4": "1 pizca de Polvo para hornear",
-    "ingrediente5": "2 tazas Caldo de pollo",
-    "ingrediente6": "1 1/2 tazas de Frijoles refritos",
-    "ingrediente7": "12 cuadros de Hojas de plátano asados"
+    descripcion: "Saborea esa deliciosa combinación de frijoles y salsa roja.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfk7c4HWdEYUZiQNY_CY21MhFHpJDElKasA&usqp=CAU",
+    ingredientes: {
+    ingrediente1: "1 kg de Masa de maíz",
+    ingrediente2: "100 gr de Manteca de Cerdo",
+    ingrediente3: "200 gr de Manteca Vegetal",
+    ingrediente4: "1 pizca de Polvo para hornear",
+    ingrediente5: "2 tazas Caldo de pollo",
+    ingrediente6: "1 1/2 tazas de Frijoles refritos",
+    ingrediente7: "12 cuadros de Hojas de plátano asados"
     },
-    "ingredientesSalsa": {
-    "ingrediente1": "4 jitomates",
-    "ingrediente2": "1/4 de Cebolla",
-    "ingrediente3": "1 diente de Ajo",
-    "ingrediente4": "2 Chiles morita asados",
-    "ingrediente5": "150 gr de Queso Fresco",
-    "ingrediente6": "Sal al gusto",
-    "ingrediente7": "Pimienta al gusto"
+    ingredientesSalsa: {
+    ingrediente1: "4 jitomates",
+    ingrediente2: "1/4 de Cebolla",
+    ingrediente3: "1 diente de Ajo",
+    ingrediente4: "2 Chiles morita asados",
+    ingrediente5: "150 gr de Queso Fresco",
+    ingrediente6: "Sal al gusto",
+    ingrediente7: "Pimienta al gusto"
     },
-    "preparacion": {
-    "paso1": "ACREMA las mantecas hasta que estén esponjosas y suaves.",
-    "paso2": "AÑADE poco a poco la masa.",
-    "paso3": "AÑADE el polvo para hornear y la sal. Mezcla.",
-    "paso4": "VIERTE el caldo poco a poco hasta que tome una consistencia ligeramente aguada.",
-    "paso5": "EXTIENDE ligeramente un poco de la mezcla al centro de cada hoja de plátano.",
-    "paso6": "CIERRA y forma un pequeño rectángulo.",
-    "paso7": "CUECE en baño María por 1 hora 15 minutos."
+    preparacion: {
+    paso1: "ACREMA las mantecas hasta que estén esponjosas y suaves.",
+    paso2: "AÑADE poco a poco la masa.",
+    paso3: "AÑADE el polvo para hornear y la sal. Mezcla.",
+    paso4: "VIERTE el caldo poco a poco hasta que tome una consistencia ligeramente aguada.",
+    paso5: "EXTIENDE ligeramente un poco de la mezcla al centro de cada hoja de plátano.",
+    paso6: "CIERRA y forma un pequeño rectángulo.",
+    paso7: "CUECE en baño María por 1 hora 15 minutos."
     },
-    "preparacionSalsa": {
-    "paso1": "ASA los ingredientes y licúa. Salpimienta.",
-    "paso2": "SIRVE los tamales y acompaña con la salsa y el queso desmenuzado."
+    preparacionSalsa: {
+    paso1: "ASA los ingredientes y licúa. Salpimienta.",
+    paso2: "SIRVE los tamales y acompaña con la salsa y el queso desmenuzado."
     }
     },
 {

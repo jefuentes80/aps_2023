@@ -2,22 +2,22 @@ export let home_items = [
     {
         nombre: "Desayuno",
         descripcion: "texto",
-        img: "https://e7.pngegg.com/pngimages/708/772/png-clipart-indian-cuisine-foodservice-eating-computer-icons-breakfast-food-recipe.png"
+        img: "./js/img_main/img1.png"
     },
     {
         nombre: "Refaccion",
         descripcion: "texto",
-        img: "https://e7.pngegg.com/pngimages/708/772/png-clipart-indian-cuisine-foodservice-eating-computer-icons-breakfast-food-recipe.png"
+        img: "./js/img_main/img4.png"
     },
     {
         nombre: "Cena",
         descripcion: "texto",
-        img: "https://e7.pngegg.com/pngimages/708/772/png-clipart-indian-cuisine-foodservice-eating-computer-icons-breakfast-food-recipe.png"
+        img: "./js/img_main/img2.png"
     },
     {
         nombre: "No-consumir",
         descripcion: "texto",
-        img: "https://e7.pngegg.com/pngimages/708/772/png-clipart-indian-cuisine-foodservice-eating-computer-icons-breakfast-food-recipe.png"
+        img: "./js/img_main/img3.png"
     }
 
 ];

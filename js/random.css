@@ -1,0 +1,110 @@
+.random {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    background-color: orangered;
+
+    position: fixed;
+    bottom: 8rem;
+    right: 1rem;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.random_activo {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    background-color: #fff;
+
+    transition: 0.5s;
+}
+
+.icono_random{
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cj_categoria {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    
+}
+.iconos_acciones_random {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.opciones_de_random {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cj_categoria h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.btn_categoria {
+    width: 100%;
+    background-color: #e9e9e9;
+    color: #000000;
+    border-radius: 3px;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+
+/* Sección de alimento seleccionado */
+.hoy_comeremos {
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hoy_comeremos h2 {
+    font-size: 2.5rem;
+}
+.hoy_comeremos img {
+    width: 100%;
+}
+.hoy_comeremos p {
+    font-size: 2rem;
+}
+
+
+
+.hoy_comeremos .ico_carga{
+    font-size: 5rem;
+}
+
+.ocultar {
+    display: none;
+    transition: 0.3s;
+}
+.mostrar_categorias {
+    display: flex;
+}
+.mostrar_en_grid {
+    display: grid;
+}
