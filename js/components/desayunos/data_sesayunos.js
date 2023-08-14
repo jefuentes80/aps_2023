@@ -211,7 +211,7 @@ export let desayuno = [
     {
         nombre: "AVENA CON FRUTAS",
         descripcion: "Una deliciosa combinación para comenzar el día con energía.",
-        img: "./js/components/desayunos/imagenes/Nuevem.png",
+        img: "./js/components/desayunos/imagenes/Dieciseism.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de avena",
             ingrediente2: "1 taza de leche (puede ser vegetal)",
