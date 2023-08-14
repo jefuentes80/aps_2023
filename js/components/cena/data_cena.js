@@ -248,7 +248,7 @@ export let cena = [
        }
    },
    {
-           nombre: "Atole de arroz y canela",
+           nombre: "Atol de arroz y canela",
            tiempo: "30 minutos de preparación",
            descripcion: "Tu combinación favorita en una deliciosa bebida. ",
            img: "https://images.cookforyourlife.org/wp-content/uploads/2018/08/Rice-and-Cinnamon-Atole.jpg",
@@ -269,7 +269,7 @@ export let cena = [
    
    },
    {
-       nombre: "Atole de Reyes",
+       nombre: "Atol de Reyes",
        tiempo: "40 minutos de preparación",
        descripcion: " Este delicioso atole está hecho con ingredientes como masa de maíz,panela.",
        img: "https://cdn.sanity.io/images/jsdrzfkj/production-esmx/4f65d38950f7fc365202c7cd9012e11b7e758964-546x360.png",
@@ -286,7 +286,7 @@ export let cena = [
  
  },
  {
-   nombre: "Atole de masa",
+   nombre: "Atol de masa",
    tiempo: "30 minutos de preparación",
    descripcion: "Puedes endulzarlo con azúcar, piloncillo (panela) o miel, y agregarle especias como canela.",
    img: "https://lasoleta.com/wp-content/uploads/elementor/thumbs/Copia-de-1-8-oymea2zt25rk4cinaa31l2ve5v99xvs46mtm1i0rx4.png",
@@ -305,7 +305,7 @@ export let cena = [
  
  },
  {
-   nombre: "Atole de pinole",
+   nombre: "Atol de pinole",
    tiempo: "20 minutos de preparación",
    descripcion: "El atole de pinole es una bebida tradicional mexicana hecha a base de pinole.",
    img: "https://www.maricruzavalos.com/wp-content/uploads/2022/12/atole-de-pinole-recipe.jpg",
@@ -323,7 +323,7 @@ export let cena = [
  
  },
  {
-   nombre: "atole de avena y canela",
+   nombre: "atol de avena y canela",
    tiempo: "20 minutos de preparación",
    descripcion: "El atole de avena y canela es una bebida reconfortante.",
    img: "https://quaker.lat/app/uploads/sites/2/2019/06/Qk19_Imagenes_Receta_Mobile_Atole.jpg",
@@ -649,7 +649,7 @@ export let cena = [
   
   },
   {
-    nombre: "Enfrijoladas veganas",
+    nombre: "Enfri joladas veganas",
     tiempo:"30 minutos ",
     descripcion: " Las enfrijoladas son una muy buena opción para el día a día.",
     img: "https://cdn0.recetasgratis.net/es/posts/6/0/7/enfrijoladas_veganas_75706_orig.jpg",
