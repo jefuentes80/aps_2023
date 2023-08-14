@@ -35,9 +35,11 @@
   width: 19rem;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left; /* Para alinear el contenido del texto a la izquierda dentro de su contenedor */
   justify-content: center;
+  align-items: flex-start; /* Para alinear el contenido a la izquierda en el eje transversal */
 }
+
 
 .titu_comida{
   color: #000000;
