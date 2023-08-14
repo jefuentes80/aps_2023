@@ -482,7 +482,7 @@ export let cena = [
         }
     },
     {
-            nombre: "Pizza expres de pan de molde",
+            nombre: "Pizza expres de pan de sandwich",
             tiempo: "15 minutos de preparación",
             descripcion: "La pizza exprés fácil para disfrutar de una deliciosa pizza casera.",
             img: "https://www.scrappingparados.com/wp-content/uploads/2014/05/Pizzas-Rapidas-con-Pan-de-Molde.jpg",
