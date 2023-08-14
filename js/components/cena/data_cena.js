@@ -99,20 +99,20 @@ export let cena = [
           descripcion: "Para preparar este saludable sándwich.",
           img: "https://www.comedera.com/wp-content/uploads/2023/05/sandwich-de-huevo-revuelto-con-jamon-y-queso.jpg ",
           ingredientes: {
-              ingrediente1: "4 ud de Pan de hamburguesa integral",
+              ingrediente1: "4 ud de Pan de pan sandwich",
               ingrediente2: "5 ud de Huevo",
               ingrediente3: "8 Revanadas de Jamón de su preferencia",
               ingrediente4: "150g de queso rallado",
               ingrediente5: "8 rodajas de Queso",
               ingrediente6: "1 puñado de Hojas de lechuga",
-              ingrediente7: "4cs de Mahonesa ligera",
+              ingrediente7: "4cs de Mayonesa ligera",
               ingrediente8: "Sal",
-              ingrediente9: "Pimienta blanca"
+              ingrediente9: "Pimienta"
           },
           preparacion: {
               paso1: "- Bate los huevos y salpimiente",
               paso2: "- Echa una gota de aceite en una sartén y prepara los huevos en revuelto dejándolos muy cremosos y no pasándote con la cocción.",
-              paso3: "- Tuesta los panes de hamburguesa y unta las partes de abajo con 1 cucharada de mahonesa ligera.",
+              paso3: "- Tuesta los panes y unte las partes de abajo con 1 cucharada de mahonesa ligera.",
               paso4: "- Coloca 2 lonchas de pavo en cada mitad, un poco del revuelto, una loncha de queso y unas tiras de lechuga.",
               paso5: "- Pon las tapas de pan ¡y a comer!"
           }
@@ -482,8 +482,8 @@ export let cena = [
         }
     },
     {
-            nombre: "Pizza expres de pan de sandwich",
-            tiempo: "15 minutos de preparación",
+            nombre: "Pizza expres de pan sandwich",
+            tiempo: "30 minutos de preparación",
             descripcion: "La pizza exprés fácil para disfrutar de una deliciosa pizza casera.",
             img: "https://www.scrappingparados.com/wp-content/uploads/2014/05/Pizzas-Rapidas-con-Pan-de-Molde.jpg",
             ingredientes: {
@@ -497,7 +497,6 @@ export let cena = [
                 
                 ingrediente5: "8 rodajas de mozzarella",
                 
-                ingrediente6: "1/2 calabacín",
                 
                 ingrediente7: "Unas hojas de albahaca",
                 
@@ -508,7 +507,7 @@ export let cena = [
             },
             preparacion: {
                 paso1: "- Pica el beicon. Lava el calabacín y córtalo en láminas finas con una mandolina. ",
-                paso2: "- Forra la placa del horno con papel sulfurizado y reparte encima las rebanadas. Úntalas con el tomate y espolvoréalas con orégano. Reparte encima el queso rallado, el beicon, el calabacín y la mozzarella.",
+                paso2: "- Forra la placa del horno con papel sulfurizado y reparte encima las rebanadas. Úntalas con el tomate y espolvoréalas con orégano. Reparte encima el queso rallado y la mozzarella.",
                 paso3: "- Hornéalas 7 minutos en el horno precalentado a 180° C, hasta que el queso se funda. Sirve con la albahaca y un hilo de aceite.",
             }
     
