@@ -6,7 +6,7 @@ export let cena = [
     "nombre": "Huevos rotos saludables",
     "tiempo": "15 minutos de preparación",
     "descripcion": "Son uno de los platos estrella de nuestra gastronomía.",
-    img :"https://valentinacocina.com/wp-content/uploads/2020/07/IMG_2007.jpg",
+    img :"https://canalcocina.es/medias/_cache/zoom-ce2dc95fd5d8cc134220da1eaeb0ad51-920-518.jpg",
     "ingredientes": {
     "ingredientes1": "400g de Papas",
     "ingredientes2": "3 ad de Huevos",
@@ -30,7 +30,7 @@ export let cena = [
       nombre: "Huevos tirados con frijol ",
       "tiempo": "20 minutos de preparación",
       "descripcion": "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
-      img: "https://cdn0.recetasgratis.net/es/posts/1/9/2/huevos_tirados_76291_paso_5_600.jpg",
+      img: "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2013/06/huevos-tirados-con-frijol.jpg",
       ingredientes: {
           ingrediente1: "6 huevos",
           ingrediente2: "1/4 de taza de crema",
@@ -52,7 +52,7 @@ export let cena = [
     "nombre": "Huevo con salchicha",
     "tiempo": "10 minutos de preparación",
     "descripcion": "Puedes disfrutarlo solo o acompañado de pan tostado.",
-    img: "https://cdn.colombia.com/gastronomia/2018/09/17/tortilla-de-salchicha-y-queso-2859.jpg",
+    img: "https://cdn7.kiwilimon.com/recetaimagen/15487/960x640/7532.jpg.jpg",
     "ingredientes": {
     "ingrediente1": "2 huevos",
     "ingrediente2": "2 salchichas",
@@ -74,7 +74,7 @@ export let cena = [
       nombre: "Pimiento de 3 colores",
       tiempo: "Tiempo: 20 minutos /Fácil/Económico",
       descripcion: "La propuesta de hoy que no te fallara este dilicioso platillo.",
-      img: "https://canalcocina.es/medias/_cache/zoom-297cc2fceb1fe3c6fa43c4213369b5a3-920-518.jpg",
+      img: "https://images.hola.com/imagenes/cocina/recetas/20200421166248/pimientos-rellenos-huevos-corral/0-814-225/pimientos-rellenos-t.jpg?tx=w_680",
       ingredientes: {
           ingrediente1: "1 pimiento rojo",
           ingrediente2: "1 pimiento verde",
@@ -98,7 +98,7 @@ export let cena = [
           nombre: "Sándwich de huevos revueltos",
           tiempo: "10 minutos de preparación",
           descripcion: "Para preparar este saludable sándwich.",
-          img: "    https://saludableamimanera.com/wp-content/uploads/2019/01/1200x630-recetas19-R-Sandwich-abierto-huevo-jamon-serrano.jpg  ",
+          img: "https://www.comedera.com/wp-content/uploads/2023/05/sandwich-de-huevo-revuelto-con-jamon-y-queso.jpg ",
           ingredientes: {
               ingrediente1: "4 ud de Pan de hamburguesa integral",
               ingrediente2: "5 ud de Huevo",
@@ -354,7 +354,7 @@ export let cena = [
     nombre: "Burritos de frijoles con queso ",
     tiempo: "20 minutos de preparación",
     descripcion: "La receta ideal para consentir a la familia y comer algo diferente.",
-    img: "https://www.gastrolabweb.com/u/fotografias/m/2021/7/16/f1280x720-16333_148008_5050.jpg",
+    img: "https://recetasdecocina.elmundo.es/wp-content/uploads/2021/01/burritos-mexicanos-receta.jpg",
     ingredientes: {
         ingrediente1: "1/3 taza Queso Parmesano , rallado",
         ingrediente2: "1/2 taza Frijol Bayo cocido",
@@ -379,7 +379,7 @@ export let cena = [
     nombre: "Mini tamales de frijol con salsa roja",
     tiempo: "60 minutos de preparación",
     "descripcion": "Saborea esa deliciosa combinación de frijoles y salsa roja.",
-    "img": "https://i.blogs.es/901ac6/tamales-camaron-nayarit-receta-facil-cocina-mexicana-15-septiembre-grito/1366_521.jpg",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfk7c4HWdEYUZiQNY_CY21MhFHpJDElKasA&usqp=CAU",
     "ingredientes": {
     "ingrediente1": "1 kg de Masa de maíz",
     "ingrediente2": "100 gr de Manteca de Cerdo",
@@ -450,7 +450,7 @@ export let cena = [
         nombre: "Ensalada de arroz",
         tiempo: "30 minutos de preparación",
         descripcion: "Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
-        img: "https://cdn0.recetasgratis.net/es/posts/2/6/7/gorditas_de_frijol_75762_orig.jpg",
+        img: "https://okdiario.com/img/2018/02/19/arroz-aguacate.jpg",
         ingredientes: {
             ingrediente1: "Arroz al gusto",
             
@@ -486,7 +486,7 @@ export let cena = [
             nombre: "Pizza expres de pan de molde",
             tiempo: "15 minutos de preparación",
             descripcion: "La pizza exprés fácil para disfrutar de una deliciosa pizza casera.",
-            img: "https://800noticias.com/cms/wp-content/uploads/2022/07/FotoJet-2022-07-30T150916.588-700x352.jpg",
+            img: "https://www.scrappingparados.com/wp-content/uploads/2014/05/Pizzas-Rapidas-con-Pan-de-Molde.jpg",
             ingredientes: {
                 ingrediente1: "8 rebanadas de pan de molde sin corteza",
                 
@@ -518,7 +518,7 @@ export let cena = [
         nombre: "Rollos de lechuga romana",
         tiempo: "20 minutos de preparación",
         descripcion: "Para esta receta de rollitos de lechuga rellenos.",
-        img: "https://www.gastrolabweb.com/u/fotografias/m/2021/1/3/f768x1-6703_6830_5050.jpg",
+        img: "https://i.pinimg.com/564x/23/61/21/236121f3152b39bbd9bd035068a1a09e.jpg",
         ingredientes: {
             ingrediente1: "Hojas de lechuga romana (La mas grande posuble)",
             img1: "",
@@ -551,7 +551,7 @@ export let cena = [
     nombre: "Pollo a la plancha con lima",
     tiempo: "25 minutos de preparación",
     descripcion: "El pollo a la plancha con lima es una opción saludable. ",
-    img: "https://i0.wp.com/notiespartano.com/wp-content/uploads/2023/03/FotoJet-2023-03-19T174419.123-700x352-1.jpg?fit=700%2C352&ssl=1",
+    img: "https://img.freepik.com/fotos-premium/pollo-plancha-salsa-lima-limon_1339-118973.jpg",
     ingredientes: {
         ingrediente1: "4 filetes de pechuga de pollo",
         ingrediente2: "2 dientes de ajo",
