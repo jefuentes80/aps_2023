@@ -106,7 +106,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "HUEVOS REVUELTOS CREMOSOS CON YOGUR",
     descripcion: "Los huevos son un gran alimento para empezar el día.",
-    img: "./js/components/desayunos/imagenes/1k.jpg",
+    img: "./js/components/desayunos/imagenes/keione.jpg",
     ingredientes: {
         ingrediente1: "2 huevos grandes",
         ingrediente2: "2 cuch. de yogur griego",
@@ -125,7 +125,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTILLA DE JAMÓN Y QUESO",
     descripcion: "Desayuno simple y satisfactorio para comenzar bien el día.",
-    img: "./js/components/desayunos/imagenes/2.jpg",
+    img: "./js/components/desayunos/imagenes/keidos.jpg",
     ingredientes: {
         ingrediente1: "3 huevos grandes",
         ingrediente2: "Sal",
@@ -148,7 +148,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "CHORIZO Y HUEVOS (HUEVOS CON CHORIZO)",
     descripcion: "Receta sencilla ¡y solo requiere 4 ingredientes!.",
-    img: "./js/components/desayunos/imagenes/3.jpeg",
+    img: "./js/components/desayunos/imagenes/keitres.jpeg",
     ingredientes: {
         ingrediente1: "2 cucharaditas de aceite.",
         ingrediente2: "9 onzas de chorizo ​​chorizo.",
@@ -250,7 +250,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "HOT CAKES DE AVENA, MANZANA Y CANELA",
     descripcion: "Empieza tus mañanas con el desayuno más saludable, fácil y delirante.",
-    img: "./js/components/desayunos/imagenes/4.jpg",
+    img: "./js/components/desayunos/imagenes/keifour.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "½ taza de leche",
@@ -271,7 +271,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTILLA DE AVENA Y VERDURA",
     descripcion: "Perfecto para los amantes de los desayunos salados.",
-    img: "./js/components/desayunos/imagenes/5.jpeg",
+    img: "./js/components/desayunos/imagenes/keicinco.jpeg",
     ingredientes: {
         ingrediente1: "4 cucharadas de copos de avena",
         ingrediente2: "3 huevos",
@@ -293,7 +293,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "PAN DE AVENA",
     descripcion: "¿Y si probamos esta receta de pan sin gluten?",
-    img: "./js/components/desayunos/imagenes/6.png",
+    img: "./js/components/desayunos/imagenes/keiseis.png",
     ingredientes: {
         ingrediente1: "275 g de harina de avena (certificada sin gluten si es preciso)",
         ingrediente2: "350 ml de yogur natural",
@@ -312,7 +312,7 @@ export let desayuno = [
     {/* K_telles*/
     nombre: "PIZZA DE AVENA",
     descripcion: "Es delicioso realizar una pizza de avena, saludable y crujiente.",
-    img: "./js/components/desayunos/imagenes/7.jpg",
+    img: "./js/components/desayunos/imagenes/keisiete.jpg",
     ingredientes: {
         ingrediente1: "100 g de avena",
         ingrediente2: "100 ml de agua",
@@ -338,7 +338,7 @@ export let desayuno = [
     { /* K_telles*/
         nombre: "YOGUR DE FRESA Y VAINILLA",
         descripcion: "Yogur de fresa y vainilla hecha para 4 personas.",
-        img: "./js/components/desayunos/imagenes/8.jpeg",
+        img: "./js/components/desayunos/imagenes/keiocho.jpeg",
         ingredientes: {
             ingrediente1: "Media taza de fresas.",
             ingrediente2: "Media taza de marañon.",
@@ -361,7 +361,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE AVENA CON PLÁTANO",
     descripcion: "Receta para 4 personas.",
-    img: "./js/components/desayunos/imagenes/9.jpg",
+    img: "./js/components/desayunos/imagenes/keinueve.jpg",
     ingredientes: {
         ingrediente1: "5 cucharadas de harina de avena",
         ingrediente2: "100 gramos de fresas",
@@ -388,7 +388,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "YOGUR CON QUINOA Y FRUTAS ROJAS",
     descripcion: "Receta para quienes no quieren consumir cereales clásicos de desayuno.",
-    img: "./js/components/desayunos/imagenes/10.jpg",
+    img: "./js/components/desayunos/imagenes/keidiez.jpg",
     ingredientes: {
         ingrediente1: "1 taza de yogur natural",
         ingrediente2: "1 cucharadita de miel",
@@ -405,7 +405,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "PANQUEQUES DE YOGUR Y AVENA",
     descripcion: "Receta ideal para hacer tu desayuno saludable.",
-    img: "./js/components/desayunos/imagenes/11.jpg",
+    img: "./js/components/desayunos/imagenes/keionce.jpg",
     ingredientes: {
         ingrediente1: "1 taza de avena",
         ingrediente2: "1/2 taza de yogur firme",
@@ -429,7 +429,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TOSTADAS DE YOGUR Y FRUTOS ROJOS",
     descripcion: "Deliciosa receta hecha en 10 minutos",
-    img: "./js/components/desayunos/imagenes/12.jpg",
+    img: "./js/components/desayunos/imagenes/keidoce.jpg",
     ingredientes: {
         ingrediente1: "2 rebanadas gruesas de pan tipo brioche, de trigo o de masa madre",
         ingrediente2: "1/4 taza de yogur",
@@ -451,7 +451,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "TORTITAS DE YOGUR",
     descripcion: "Receta súper fácil de preparar.",
-    img: "./js/components/desayunos/imagenes/13.png",
+    img: "./js/components/desayunos/imagenes/keitrece.png",
     ingredientes: {
         ingrediente1: "1 taza de harina",
         ingrediente2: "1 y 2/3 taza de yogur",
@@ -469,7 +469,7 @@ export let desayuno = [
     { /* K_telles*/
     nombre: "BANANA SPLITS DE YOGUT",
     descripcion: "Delicioso alimento para empezar el día.",
-    img: "./js/components/desayunos/imagenes/14.png",
+    img: "./js/components/desayunos/imagenes/keicatorce.png",
     ingredientes: {
         ingrediente1: "1 plátano, cortado a lo largo",
         ingrediente2: "1 taza de yogur",
