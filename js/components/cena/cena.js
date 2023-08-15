@@ -15,7 +15,7 @@ function prueba() {
 }
 
 prueba();
-buscador(); 
+buscador();  
 sabias();
 
 function vista() {
@@ -36,7 +36,7 @@ function vista() {
     `;
     eldom.appendChild(bt21);
   });
-}
+} 
 
 function mostrarDatos(event) {
     let titulo = event.target.closest(".bt21").querySelector(".titu_comida").textContent;
@@ -56,11 +56,12 @@ function mostrarDatos(event) {
     }
   
     divFlores.innerHTML = `
-      <button class="cerrar">&times;</button>
-      <h2 class="flor_titulo">${cenaSeleccionado.nombre}</h2>
-      <div style="text-align: center;">
-      <img class="flor_img" src="${cenaSeleccionado.img}" alt="${cenaSeleccionado.nombre}">
-      </div>
+    <button class="cerrar">&times;</button>
+<h2 class="flor_titulo">${cenaSeleccionado.nombre}</h2>
+<div class="flor_img_imi">
+  <img class="flor_img" src="${cenaSeleccionado.img}" alt="${cenaSeleccionado.nombre}">
+</div>
+
       <!-- <p>${cenaSeleccionado.descripcion}</p> -->
       <h3 class="flor_titingred">Ingredientes:</h3>
       <ul class="fonts">${ingredientesHTML}</ul>

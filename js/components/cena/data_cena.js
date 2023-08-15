@@ -73,7 +73,7 @@ export let cena = [
       nombre: "Pimiento de 3 colores",
       tiempo: "Tiempo: 20 minutos /Fácil/Económico",
       descripcion: "La propuesta de hoy que no te fallara este dilicioso platillo.",
-      img: "https://www.rebanando.com/media/huevos-al-microondas_crop.jpg/rh/huevos-al-microondas-con-tomate-y-pimientos.jpg",
+      img: "https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/receta-de-bacalao-con-pimientos-2330268.jpg",
       ingredientes: {
           ingrediente1: "1 pimiento rojo",
           ingrediente2: "1 pimiento verde",
@@ -449,7 +449,7 @@ export let cena = [
         nombre: "Ensalada de arroz",
         tiempo: "30 minutos de preparación",
         descripcion: "Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
-        img: "https://okdiario.com/img/2018/02/19/arroz-aguacate.jpg",
+        img: "https://www.pequerecetas.com/wp-content/uploads/2018/06/ensalada-arroz-receta-1.jpg",
         ingredientes: {
             ingrediente1: "Arroz al gusto",
             
