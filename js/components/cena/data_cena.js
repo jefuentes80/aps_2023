@@ -2,35 +2,34 @@
 export let cena = [
 
   {
-
-    "nombre": "Huevos rotos saludables",
-    "tiempo": "15 minutos de preparación",
-    "descripcion": "Son uno de los platos estrella de nuestra gastronomía.",
-    img :"https://valentinacocina.com/wp-content/uploads/2020/07/IMG_2007.jpg",
-    "ingredientes": {
-    "ingredientes1": "400g de Papas",
-    "ingredientes2": "3 ad de Huevos",
-    "ingredientes3": "40g de Jamón",
-    "ingredientes4": "5 g de Cebollin",
-    "ingredientes5": "0.5 cucharadita de Cilanntro",
-    "ingredientes6": "0.5 cucharadita de Pimienta negra",
-    "ingredientes7": "10 g de Aceite de oliva",
-    "ingredientes8": "Sal al gusto"
+    nombre: "Huevos rotos saludables",
+    tiempo: "15 minutos de preparación",
+    descripcion: "Son uno de los platos estrella de nuestra gastronomía.",
+    img :"https://canalcocina.es/medias/_cache/zoom-ce2dc95fd5d8cc134220da1eaeb0ad51-920-518.jpg",
+    ingredientes: {
+    ingredientes1: "400g de Papas",
+    ingredientes2: "3 ad de Huevos",
+    ingredientes3: "40g de Jamón",
+    ingredientes4: "5 g de Cebollin",
+    ingredientes5: "0.5 cucharadita de Cilanntro",
+    ingredientes6: "0.5 cucharadita de Pimienta negra",
+    ingredientes7: "10 g de Aceite de oliva",
+    ingredientes8: "Sal al gusto"
     },
-    "preparacion": {
-    "paso1": "Lava y pela las papas. Córtalas en rodajas finas o en forma de bastones.",
-    "paso2": "Calienta el aceite de oliva en una sartén grande a fuego medio-alto. Agrega las papas y cocina hasta que estén doradas y crujientes, revolviendo ocasionalmente. Esto tomará aproximadamente 10 minutos.",
-    "paso3": "Mientras las papas se cocinan, bate los huevos en un tazón aparte. Agrega el jamón, el cebollín, el cilantro y la pimienta negra. Mezcla bien.",
-    "paso4": "Una vez que las papas estén listas, reduce el fuego a medio-bajo y vierte la mezcla de huevos sobre las papas en la sartén. Cocina durante unos 2-3 minutos, revolviendo suavemente, hasta que los huevos estén cocidos pero aún jugosos.",
-    "paso5": "Retira la sartén del fuego y sazona con sal al gusto.",
-    "paso6": "Sirve los huevos rotos saludables de inmediato. Puedes acompañarlos con una ensalada fresca o pan tostado."
+    preparacion: {
+    paso1: "Lava y pela las papas. Córtalas en rodajas finas o en forma de bastones.",
+    paso2: "Calienta el aceite de oliva en una sartén grande a fuego medio-alto. Agrega las papas y cocina hasta que estén doradas y crujientes, revolviendo ocasionalmente. Esto tomará aproximadamente 10 minutos.",
+    paso3: "Mientras las papas se cocinan, bate los huevos en un tazón aparte. Agrega el jamón, el cebollín, el cilantro y la pimienta negra. Mezcla bien.",
+    paso4: "Una vez que las papas estén listas, reduce el fuego a medio-bajo y vierte la mezcla de huevos sobre las papas en la sartén. Cocina durante unos 2-3 minutos, revolviendo suavemente, hasta que los huevos estén cocidos pero aún jugosos.",
+    paso5: "Retira la sartén del fuego y sazona con sal al gusto.",
+    paso6: "Sirve los huevos rotos saludables de inmediato. Puedes acompañarlos con una ensalada fresca o pan tostado."
     },
     },
   {
       nombre: "Huevos tirados con frijol ",
-      "tiempo": "20 minutos de preparación",
-      "descripcion": "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
-      img: "https://cdn0.recetasgratis.net/es/posts/1/9/2/huevos_tirados_76291_paso_5_600.jpg",
+      tiempo: "20 minutos de preparación",
+      descripcion: "Los huevos tirados con frijol y alubias son un plato delicioso y reconfortante. ",
+      img: "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2013/06/huevos-tirados-con-frijol.jpg",
       ingredientes: {
           ingrediente1: "6 huevos",
           ingrediente2: "1/4 de taza de crema",
@@ -49,32 +48,32 @@ export let cena = [
   },
   {
 
-    "nombre": "Huevo con salchicha",
-    "tiempo": "10 minutos de preparación",
-    "descripcion": "Puedes disfrutarlo solo o acompañado de pan tostado.",
-    img: "https://cdn.colombia.com/gastronomia/2018/09/17/tortilla-de-salchicha-y-queso-2859.jpg",
-    "ingredientes": {
-    "ingrediente1": "2 huevos",
-    "ingrediente2": "2 salchichas",
-    "ingrediente3": "1 cucharada de aceite vegetal",
-    "ingrediente4": "Sal y pimienta al gusto",
-    "ingrediente5": "Opcional: cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección"
+    nombre: "Huevo con salchicha",
+    tiempo: "10 minutos de preparación",
+    descripcion: "Puedes disfrutarlo solo o acompañado de pan tostado.",
+    img: "https://cdn7.kiwilimon.com/recetaimagen/15487/960x640/7532.jpg.jpg",
+    ingredientes: {
+    ingrediente1: "2 huevos",
+    ingrediente2: "2 salchichas",
+    ingrediente3: "1 cucharada de aceite vegetal",
+    ingrediente4: "Sal y pimienta al gusto",
+    ingrediente5: "Opcional: cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección"
     },
-    "preparacion": {
-    "paso1": "En una sartén, calienta el aceite vegetal a fuego medio.",
-    "paso2": "Agrega las salchichas a la sartén y cocínalas hasta que estén doradas y cocidas por todos los lados. Retíralas de la sartén y resérvalas.",
-    "paso3": "En la misma sartén, rompe los huevos y agrégalos. Cocina los huevos revueltos o al gusto deseado, revolviéndolos suavemente con una espátula.",
-    "paso4": "Condimenta los huevos con sal y pimienta al gusto.",
-    "paso5": "Si deseas, puedes agregar cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección a los huevos mientras se cocinan.",
-    "paso6": "Una vez que los huevos estén cocidos, sirve el huevo con salchicha en un plato y coloca las salchichas cocidas al lado.",
-    "paso7": "Disfruta de este sabroso desayuno acompañado de tus acompañamientos favoritos."
+    preparacion: {
+    paso1: "En una sartén, calienta el aceite vegetal a fuego medio.",
+    paso2: "Agrega las salchichas a la sartén y cocínalas hasta que estén doradas y cocidas por todos los lados. Retíralas de la sartén y resérvalas.",
+    paso3: "En la misma sartén, rompe los huevos y agrégalos. Cocina los huevos revueltos o al gusto deseado, revolviéndolos suavemente con una espátula.",
+    paso4: "Condimenta los huevos con sal y pimienta al gusto.",
+    paso5: "Si deseas, puedes agregar cebolla picada, pimientos, tomate, queso rallado u otros ingredientes de tu elección a los huevos mientras se cocinan.",
+    paso6: "Una vez que los huevos estén cocidos, sirve el huevo con salchicha en un plato y coloca las salchichas cocidas al lado.",
+    paso7: "Disfruta de este sabroso desayuno acompañado de tus acompañamientos favoritos."
     }
     },
   {
       nombre: "Pimiento de 3 colores",
       tiempo: "Tiempo: 20 minutos /Fácil/Económico",
       descripcion: "La propuesta de hoy que no te fallara este dilicioso platillo.",
-      img: "https://canalcocina.es/medias/_cache/zoom-297cc2fceb1fe3c6fa43c4213369b5a3-920-518.jpg",
+      img: "https://images.hola.com/imagenes/cocina/recetas/20200421166248/pimientos-rellenos-huevos-corral/0-814-225/pimientos-rellenos-t.jpg?tx=w_680",
       ingredientes: {
           ingrediente1: "1 pimiento rojo",
           ingrediente2: "1 pimiento verde",
@@ -98,22 +97,22 @@ export let cena = [
           nombre: "Sándwich de huevos revueltos",
           tiempo: "10 minutos de preparación",
           descripcion: "Para preparar este saludable sándwich.",
-          img: "    https://saludableamimanera.com/wp-content/uploads/2019/01/1200x630-recetas19-R-Sandwich-abierto-huevo-jamon-serrano.jpg  ",
+          img: "https://www.comedera.com/wp-content/uploads/2023/05/sandwich-de-huevo-revuelto-con-jamon-y-queso.jpg ",
           ingredientes: {
-              ingrediente1: "4 ud de Pan de hamburguesa integral",
+              ingrediente1: "4 ud de Pan de pan sandwich",
               ingrediente2: "5 ud de Huevo",
               ingrediente3: "8 Revanadas de Jamón de su preferencia",
               ingrediente4: "150g de queso rallado",
               ingrediente5: "8 rodajas de Queso",
               ingrediente6: "1 puñado de Hojas de lechuga",
-              ingrediente7: "4cs de Mahonesa ligera",
+              ingrediente7: "4cs de Mayonesa ligera",
               ingrediente8: "Sal",
-              ingrediente9: "Pimienta blanca"
+              ingrediente9: "Pimienta"
           },
           preparacion: {
               paso1: "- Bate los huevos y salpimiente",
               paso2: "- Echa una gota de aceite en una sartén y prepara los huevos en revuelto dejándolos muy cremosos y no pasándote con la cocción.",
-              paso3: "- Tuesta los panes de hamburguesa y unta las partes de abajo con 1 cucharada de mahonesa ligera.",
+              paso3: "- Tuesta los panes y unte las partes de abajo con 1 cucharada de mahonesa ligera.",
               paso4: "- Coloca 2 lonchas de pavo en cada mitad, un poco del revuelto, una loncha de queso y unas tiras de lechuga.",
               paso5: "- Pon las tapas de pan ¡y a comer!"
           }
@@ -249,7 +248,7 @@ export let cena = [
        }
    },
    {
-           nombre: "Atole de arroz y canela",
+           nombre: "Atol de arroz y canela",
            tiempo: "30 minutos de preparación",
            descripcion: "Tu combinación favorita en una deliciosa bebida. ",
            img: "https://images.cookforyourlife.org/wp-content/uploads/2018/08/Rice-and-Cinnamon-Atole.jpg",
@@ -270,7 +269,7 @@ export let cena = [
    
    },
    {
-       nombre: "Atole de Reyes",
+       nombre: "Atol de Reyes",
        tiempo: "40 minutos de preparación",
        descripcion: " Este delicioso atole está hecho con ingredientes como masa de maíz,panela.",
        img: "https://cdn.sanity.io/images/jsdrzfkj/production-esmx/4f65d38950f7fc365202c7cd9012e11b7e758964-546x360.png",
@@ -287,7 +286,7 @@ export let cena = [
  
  },
  {
-   nombre: "Atole de masa",
+   nombre: "Atol de masa",
    tiempo: "30 minutos de preparación",
    descripcion: "Puedes endulzarlo con azúcar, piloncillo (panela) o miel, y agregarle especias como canela.",
    img: "https://lasoleta.com/wp-content/uploads/elementor/thumbs/Copia-de-1-8-oymea2zt25rk4cinaa31l2ve5v99xvs46mtm1i0rx4.png",
@@ -306,7 +305,7 @@ export let cena = [
  
  },
  {
-   nombre: "Atole de pinole",
+   nombre: "Atol de pinole",
    tiempo: "20 minutos de preparación",
    descripcion: "El atole de pinole es una bebida tradicional mexicana hecha a base de pinole.",
    img: "https://www.maricruzavalos.com/wp-content/uploads/2022/12/atole-de-pinole-recipe.jpg",
@@ -324,7 +323,7 @@ export let cena = [
  
  },
  {
-   nombre: "atole de avena y canela",
+   nombre: "atol de avena y canela",
    tiempo: "20 minutos de preparación",
    descripcion: "El atole de avena y canela es una bebida reconfortante.",
    img: "https://quaker.lat/app/uploads/sites/2/2019/06/Qk19_Imagenes_Receta_Mobile_Atole.jpg",
@@ -354,7 +353,7 @@ export let cena = [
     nombre: "Burritos de frijoles con queso ",
     tiempo: "20 minutos de preparación",
     descripcion: "La receta ideal para consentir a la familia y comer algo diferente.",
-    img: "https://www.gastrolabweb.com/u/fotografias/m/2021/7/16/f1280x720-16333_148008_5050.jpg",
+    img: "https://recetasdecocina.elmundo.es/wp-content/uploads/2021/01/burritos-mexicanos-receta.jpg",
     ingredientes: {
         ingrediente1: "1/3 taza Queso Parmesano , rallado",
         ingrediente2: "1/2 taza Frijol Bayo cocido",
@@ -378,38 +377,38 @@ export let cena = [
 
     nombre: "Mini tamales de frijol con salsa roja",
     tiempo: "60 minutos de preparación",
-    "descripcion": "Saborea esa deliciosa combinación de frijoles y salsa roja.",
-    "img": "https://i.blogs.es/901ac6/tamales-camaron-nayarit-receta-facil-cocina-mexicana-15-septiembre-grito/1366_521.jpg",
-    "ingredientes": {
-    "ingrediente1": "1 kg de Masa de maíz",
-    "ingrediente2": "100 gr de Manteca de Cerdo",
-    "ingrediente3": "200 gr de Manteca Vegetal",
-    "ingrediente4": "1 pizca de Polvo para hornear",
-    "ingrediente5": "2 tazas Caldo de pollo",
-    "ingrediente6": "1 1/2 tazas de Frijoles refritos",
-    "ingrediente7": "12 cuadros de Hojas de plátano asados"
+    descripcion: "Saborea esa deliciosa combinación de frijoles y salsa roja.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfk7c4HWdEYUZiQNY_CY21MhFHpJDElKasA&usqp=CAU",
+    ingredientes: {
+    ingrediente1: "1 kg de Masa de maíz",
+    ingrediente2: "100 gr de Manteca de Cerdo",
+    ingrediente3: "200 gr de Manteca Vegetal",
+    ingrediente4: "1 pizca de Polvo para hornear",
+    ingrediente5: "2 tazas Caldo de pollo",
+    ingrediente6: "1 1/2 tazas de Frijoles refritos",
+    ingrediente7: "12 cuadros de Hojas de plátano asados"
     },
-    "ingredientesSalsa": {
-    "ingrediente1": "4 jitomates",
-    "ingrediente2": "1/4 de Cebolla",
-    "ingrediente3": "1 diente de Ajo",
-    "ingrediente4": "2 Chiles morita asados",
-    "ingrediente5": "150 gr de Queso Fresco",
-    "ingrediente6": "Sal al gusto",
-    "ingrediente7": "Pimienta al gusto"
+    ingredientesSalsa: {
+    ingrediente1: "4 jitomates",
+    ingrediente2: "1/4 de Cebolla",
+    ingrediente3: "1 diente de Ajo",
+    ingrediente4: "2 Chiles morita asados",
+    ingrediente5: "150 gr de Queso Fresco",
+    ingrediente6: "Sal al gusto",
+    ingrediente7: "Pimienta al gusto"
     },
-    "preparacion": {
-    "paso1": "ACREMA las mantecas hasta que estén esponjosas y suaves.",
-    "paso2": "AÑADE poco a poco la masa.",
-    "paso3": "AÑADE el polvo para hornear y la sal. Mezcla.",
-    "paso4": "VIERTE el caldo poco a poco hasta que tome una consistencia ligeramente aguada.",
-    "paso5": "EXTIENDE ligeramente un poco de la mezcla al centro de cada hoja de plátano.",
-    "paso6": "CIERRA y forma un pequeño rectángulo.",
-    "paso7": "CUECE en baño María por 1 hora 15 minutos."
+    preparacion: {
+    paso1: "ACREMA las mantecas hasta que estén esponjosas y suaves.",
+    paso2: "AÑADE poco a poco la masa.",
+    paso3: "AÑADE el polvo para hornear y la sal. Mezcla.",
+    paso4: "VIERTE el caldo poco a poco hasta que tome una consistencia ligeramente aguada.",
+    paso5: "EXTIENDE ligeramente un poco de la mezcla al centro de cada hoja de plátano.",
+    paso6: "CIERRA y forma un pequeño rectángulo.",
+    paso7: "CUECE en baño María por 1 hora 15 minutos."
     },
-    "preparacionSalsa": {
-    "paso1": "ASA los ingredientes y licúa. Salpimienta.",
-    "paso2": "SIRVE los tamales y acompaña con la salsa y el queso desmenuzado."
+    preparacionSalsa: {
+    paso1: "ASA los ingredientes y licúa. Salpimienta.",
+    paso2: "SIRVE los tamales y acompaña con la salsa y el queso desmenuzado."
     }
     },
 {
@@ -450,7 +449,7 @@ export let cena = [
         nombre: "Ensalada de arroz",
         tiempo: "30 minutos de preparación",
         descripcion: "Mira esta deliciosa ensalada combinada con arroz. Tiempo de elaboración: 30 minutos",
-        img: "https://cdn0.recetasgratis.net/es/posts/2/6/7/gorditas_de_frijol_75762_orig.jpg",
+        img: "https://okdiario.com/img/2018/02/19/arroz-aguacate.jpg",
         ingredientes: {
             ingrediente1: "Arroz al gusto",
             
@@ -483,10 +482,10 @@ export let cena = [
         }
     },
     {
-            nombre: "Pizza expres de pan de molde",
-            tiempo: "15 minutos de preparación",
+            nombre: "Pizza expres de pan sandwich",
+            tiempo: "30 minutos de preparación",
             descripcion: "La pizza exprés fácil para disfrutar de una deliciosa pizza casera.",
-            img: "https://800noticias.com/cms/wp-content/uploads/2022/07/FotoJet-2022-07-30T150916.588-700x352.jpg",
+            img: "https://www.scrappingparados.com/wp-content/uploads/2014/05/Pizzas-Rapidas-con-Pan-de-Molde.jpg",
             ingredientes: {
                 ingrediente1: "8 rebanadas de pan de molde sin corteza",
                 
@@ -498,7 +497,6 @@ export let cena = [
                 
                 ingrediente5: "8 rodajas de mozzarella",
                 
-                ingrediente6: "1/2 calabacín",
                 
                 ingrediente7: "Unas hojas de albahaca",
                 
@@ -509,7 +507,7 @@ export let cena = [
             },
             preparacion: {
                 paso1: "- Pica el beicon. Lava el calabacín y córtalo en láminas finas con una mandolina. ",
-                paso2: "- Forra la placa del horno con papel sulfurizado y reparte encima las rebanadas. Úntalas con el tomate y espolvoréalas con orégano. Reparte encima el queso rallado, el beicon, el calabacín y la mozzarella.",
+                paso2: "- Forra la placa del horno con papel sulfurizado y reparte encima las rebanadas. Úntalas con el tomate y espolvoréalas con orégano. Reparte encima el queso rallado y la mozzarella.",
                 paso3: "- Hornéalas 7 minutos en el horno precalentado a 180° C, hasta que el queso se funda. Sirve con la albahaca y un hilo de aceite.",
             }
     
@@ -518,7 +516,7 @@ export let cena = [
         nombre: "Rollos de lechuga romana",
         tiempo: "20 minutos de preparación",
         descripcion: "Para esta receta de rollitos de lechuga rellenos.",
-        img: "https://www.gastrolabweb.com/u/fotografias/m/2021/1/3/f768x1-6703_6830_5050.jpg",
+        img: "https://i.pinimg.com/564x/23/61/21/236121f3152b39bbd9bd035068a1a09e.jpg",
         ingredientes: {
             ingrediente1: "Hojas de lechuga romana (La mas grande posuble)",
             img1: "",
@@ -551,7 +549,7 @@ export let cena = [
     nombre: "Pollo a la plancha con lima",
     tiempo: "25 minutos de preparación",
     descripcion: "El pollo a la plancha con lima es una opción saludable. ",
-    img: "https://i0.wp.com/notiespartano.com/wp-content/uploads/2023/03/FotoJet-2023-03-19T174419.123-700x352-1.jpg?fit=700%2C352&ssl=1",
+    img: "https://img.freepik.com/fotos-premium/pollo-plancha-salsa-lima-limon_1339-118973.jpg",
     ingredientes: {
         ingrediente1: "4 filetes de pechuga de pollo",
         ingrediente2: "2 dientes de ajo",
@@ -650,7 +648,7 @@ export let cena = [
   
   },
   {
-    nombre: "Enfrijoladas veganas",
+    nombre: "Enfri joladas veganas",
     tiempo:"30 minutos ",
     descripcion: " Las enfrijoladas son una muy buena opción para el día a día.",
     img: "https://cdn0.recetasgratis.net/es/posts/6/0/7/enfrijoladas_veganas_75706_orig.jpg",

@@ -5,7 +5,6 @@ function evitarcomer() {
     let comer_al_dom = document.querySelector("#no-consumir");
     let variable = document.createElement("div");
     variable.innerHTML = `
-    
     <div class="circulo">
     <img class="elip" src="./js/components/que_no_comer/Ellipse1.png" alt="">
     <h1 class="titulo1">¡¡Evita estas comidas!!</h1>
