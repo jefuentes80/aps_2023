@@ -7,6 +7,7 @@
   color: #000000;
   margin-top: -18rem;
   margin-bottom: 12rem;
+  text-align: center;
 }
 /* Componente de la pagina */
 
@@ -35,9 +36,11 @@
   width: 19rem;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left; /* Para alinear el contenido del texto a la izquierda dentro de su contenedor */
   justify-content: center;
+  align-items: flex-start; /* Para alinear el contenido a la izquierda en el eje transversal */
 }
+
 
 .titu_comida{
   color: #000000;
@@ -52,14 +55,35 @@
   font-size: 15px;
   font-weight: 400;
 }
-
-.bt21 img{
+.bt21 .box_img {
   margin: 1rem;
   margin-top: 1.5rem;
-  border-radius: 1rem;
-  width: 15rem;
-  height: 15rem;   
+  border-radius: 2rem;
+  width: 20rem; /* Ancho inicial */
+  height: 15.5rem;
+  overflow: hidden;
 }
+
+.bt21 .box_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .bt21 .box_img {
+    width: calc(100% - 2rem); /* Ancho ajustado para móviles */
+    margin: 1rem;
+  }
+}
+
+
+
+
+
+
 .vistaP{
   height: 4rem;
   width: 5rem;
@@ -69,19 +93,15 @@
 
 
 .flores {
-  max-height: 70vh; /* Esn este 60 vh es para la modificacion de la la segunda ventana que se habre  */
-  width: 90%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background-color: #e8c9d7;
   position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
+  top: 0;
+  left: 0;
   z-index: 9999;
   overflow-y: auto;
 }
-
 
 .cerrar{
   border: none; 
@@ -95,12 +115,27 @@
   font-size: 25px;
   font-weight: 600;
 }
-
-.flor_img{
-  margin-top: 1.5rem;
-  width: 26rem;
-  height: 26rem;
+.flor_img {
+  width: 80%; /* Cambiamos el ancho al 80% para hacerlo un poco más pequeño */
+  height: auto; /* Permitimos que la altura se ajuste automáticamente para mantener la proporción */
+  display: block; /* Esto ayuda a centrar horizontalmente la imagen dentro de su contenedor */
+  margin: 0 auto; /* Centramos horizontalmente la imagen */
+  border-radius: 0.6rem;
 }
+
+.flor_img_imi {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.6rem;
+}
+
+
+
+
+
+
 
 .flor_titingred{
   margin-top: 1.5rem;
@@ -111,17 +146,17 @@
 
 .fonts{
   font-size: 1.5rem;
-  margin-left: 1.3rem;
+  margin-left: 1.1rem;
 }
 
 .flor_prep{
   margin-top: 2rem;
   font-size: 1.8rem;
-  margin-left: 1.3rem;
+  margin-left: 1.1rem;
   margin-bottom: 1rem;
 }
 
 .prep{
   font-size: 1.5rem;
-  margin-left: 1.3rem; 
+  margin-left: 1.7rem; 
 }
