@@ -7,6 +7,7 @@ export let desayuno = [
         /*--- M. Juarez */
         nombre: "HUEVOS RANCHEROS",
         descripcion: "Desayuno típico y tradicional.",
+        tiempo:"20 minutos",
         img: "./js/components/desayunos/imagenes/Unom.jpg",
         ingredientes: {
             ingrediente1: "Tortillas de maíz: dos piezas.",
@@ -36,6 +37,7 @@ export let desayuno = [
         /*M -- Juárez*/
         nombre: "HUEVOS CON SALCHICHA",
         descripcion: "Una receta fácil de preparar con ingredientes accesibles.",
+        tiempo:"15 - 20 minutos",
         img: "./js/components/desayunos/imagenes/Dosm.png",
         ingredientes: {
             ingrediente1: "8 huevos",
@@ -59,6 +61,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "TORTILLA DE ESPINACA",
         descripcion: "Tortilla saludable y nutritiva.",
+        tiempo:"15 - 20 minutos",
         img: "./js/components/desayunos/imagenes/Seism.jpg",
         ingredientes: {
             ingrediente1: "1 taza de espinacas frescas",
@@ -82,6 +85,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "BURRITO DE HUEVO CON TOCINO",
         descripcion: "Comienza tu día con un desayuno llenador.",
+        tiempo:"20 - 25 minutos",
         img: "./js/components/desayunos/imagenes/Cuatrom.jpg",
         ingredientes: {
             ingrediente1: "3 huevos",
@@ -169,6 +173,7 @@ export let desayuno = [
     {//M Juárez
         nombre: "HUEVOS AL HORNO CON ESPINACA Y QUESO",
         descripcion: "Desayuno sabroso y nutritivo.",
+        tiempo:"20 - 25 minutos",
         img: "./js/components/desayunos/imagenes/Seism.jpg",
         ingredientes: {
             ingrediente1: "2 huevos",
@@ -193,6 +198,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "AVENA CON MANTEQUILLA DE MANÍ",
         descripcion: "Receta hecha con 5 ingredientes en 5 minutos.",
+        tiempo:"5 - 10 minutos",
         img: "./js/components/desayunos/imagenes/Sietem.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de leche (Entera, descremada, vegetal a elección)",
@@ -214,6 +220,7 @@ export let desayuno = [
     {
         nombre: "AVENA CON FRUTAS",
         descripcion: "Una deliciosa combinación para comenzar el día con energía.",
+        tiempo:"5 - 10 minutos",
         img: "./js/components/desayunos/imagenes/Dieciseism.jpg",
         ingredientes: {
             ingrediente1: "1/2 taza de avena",
@@ -231,6 +238,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "PANQUEQUES DE AVENA Y PLÁTANO",
         descripcion: "Panqueques sin harina perfectos para un desayuno nutritivo.",
+        tiempo:"25 - 30 minutos",
         img: "./js/components/desayunos/imagenes/Diezm.jpg",
         ingredientes: {
             ingrediente1: "1 taza de avena",
@@ -504,6 +512,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "TOSTADAS DE AGUACATE",
         descripcion: "Una opción deliciosa y saludable para el desayuno.",
+        tiempo:"5 - 10 minutos",
         img: "./js/components/desayunos/imagenes/Docem.png",
         ingredientes: {
             pan: "2 rebanadas de pan integral",
@@ -523,6 +532,7 @@ export let desayuno = [
     {//M Juárez
         nombre: "TOSTADAS DE CREMA DE CACAHUETE Y PLÁTANO",
         descripcion: "Una combinación clásica.",
+        tiempo:"5 - 10 minutos",
         img: "./js/components/desayunos/imagenes/Oncem.png",
         ingredientes: {
             ingrediente1: "2 rebanadas de pan",
@@ -543,6 +553,7 @@ export let desayuno = [
     {//M Juárez 10
         nombre: "BATIDO DE PLÁTANO Y ESPINACAS",
         descripcion: "Receta cargada de nutrientes para un desayuno revitalizante.",
+        tiempo:"10 - 15 minutos",
         img: "./js/components/desayunos/imagenes/Trecem.jpg",
         ingredientes: {
             ingrediente1: "2 plátanos maduros",
@@ -563,6 +574,7 @@ export let desayuno = [
         /*M. Juárez*/
         nombre: "BATIDO DE FRUTAS TROPICALES",
         descripcion: "Un batido refrescante.",
+        tiempo:"10 - 15 minutos",
         img: "./js/components/desayunos/imagenes/Catorcem.jpg",
         ingredientes: {
             ingrediente1: "1 taza de piña en trozos",
@@ -581,6 +593,7 @@ export let desayuno = [
     {//M Juárez 12
         nombre: "BATIDO DE AGUACATE Y PLÁTANO",
         descripcion: "Un batido cremoso y nutritivo.",
+        tiempo:"10 - 15 minutos",
         img: "./js/components/desayunos/imagenes/Quincem.jpg",
         ingredientes: {
             ingrediente1: "1 aguacate maduro",
