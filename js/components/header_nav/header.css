@@ -95,6 +95,11 @@
   display: inline-block;
 }
 
+.ocultar {
+  display: none !important;
+}
+
+
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 600px) {
   .title {
