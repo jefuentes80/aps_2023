@@ -116,3 +116,6 @@ homeSection.querySelectorAll(".js-seccion").forEach((section) => {
 
 const buscadorInput = document.querySelector(".buscador");
 buscadorInput.placeholder = " Buscar recetas...";
+
+
+// Comentario
