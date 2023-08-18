@@ -149,7 +149,6 @@ export let cena = [
   img: "https://cdn0.recetasgratis.net/es/posts/1/4/1/tortilla_de_espinacas_35141_orig.jpg",
   ingredientes: {
       ingrediente1: "3 huevos",
-      img1: "",
       ingrediente2: "1 taza de espinacas frescas",
       ingrediente3: "1/2 taza de queso rallado (preferiblemente queso cheddar)",
       ingrediente4: "Sal",
@@ -313,7 +312,7 @@ export let cena = [
        ingrediente1: "2 tazas de pinole",
        ingrediente2: "1 liter 1/2 de leche",
        ingrediente3: "1 raja de canela",
-       ingrediente4: "1 taza de azúcar (o al gusto"
+       ingrediente4: "1 taza de azúcar o al gusto"
    },
    preparacion: {
        paso1: "- En una olla vacía 1/2 litro de leche, incorpora el pinole y mueve para disolverlo; reserva.",
@@ -648,7 +647,7 @@ export let cena = [
   
   },
   {
-    nombre: "Frijoles veganas",
+    nombre: "Frijoles veganos",
     tiempo:"30 minutos ",
     descripcion: " Las enfrijoladas son una muy buena opción para el día a día.",
     img: "https://polacocina.com/wp-content/uploads/2021/09/IMG_0812_500x750-256x256.jpeg",
